@@ -5,11 +5,13 @@ body {
     margin: 0px;
 }
 #cabecalho {
-    text-align: center;
     padding-top: 0px;
     background-color: #bc6c25;
     position: fixed;
     width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 12%;
 }
 main {
     /* para poder acompanhar o #cabecalho que está fixado, botei uma padding-top do mesmo tamanho */
@@ -28,4 +30,26 @@ main {
     border: #606C38;
     border-width: 10px;
     border-style: solid;
+}
+.media-links {
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.media-link {
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    color: #fefae0;
+}
+.media-link:hover {
+    text-decoration: none;
+    color: #283618;
+}
+#titulo {
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+    padding-left: 35%;
 }
