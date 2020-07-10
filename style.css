@@ -27,21 +27,23 @@ table, th, td {
   text-align: center;
   padding: 5px;
 }
-table {
-  float: left;
-  width: 60%;
-}
 article.artigo-principal {
-  float: left;
-  width: 60%;
-  margin-top: 220px;
   line-height: 1.5;
 }
 .todas-as-licoes {
-  float: right;
-  width: 30%;
   font-size: 0.7em;
 }
 .balancada {
   clear: both;
+}
+.lado-esquerdo {
+  float: left;
+  width: 60%;
+}
+.lado-direito {
+  float: right;
+  width: 30%;
+}
+.lado-esquerdo, .lado-direito {
+  margin-top: 220px;
 }
