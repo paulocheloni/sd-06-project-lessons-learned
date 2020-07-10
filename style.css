@@ -17,3 +17,15 @@ header{
     border: 5px;
     border-radius:100%;
 }
+.licoes{
+    background-color: #3C0581;
+    text-align: center;
+    margin:auto 40% auto 40%;
+    padding:2%;
+    border:10px;
+    border-radius: 10%;
+    color:white;
+}
+.licoes li{
+    text-align: left;
+}
