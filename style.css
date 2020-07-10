@@ -7,3 +7,11 @@ header {
     top: 0px;
     position: fixed;
 }
+
+article {
+    padding: 10px;
+}
+
+img {
+    margin: 10px;
+}
