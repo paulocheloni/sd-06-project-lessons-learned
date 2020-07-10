@@ -49,6 +49,7 @@ p{
     text-align: justify;
     line-height: 25px;
     font-size: 16px;
+    font-size: 20px;
 }
 aside{
     background-color: rgb(38, 97, 46);
@@ -69,13 +70,28 @@ main{
 
 .listas{
     clear: both;
-    margin: 20px;
+    margin: 10px;
 }
 .autor{
 
-    float: right;
+
     line-height: 25px;
     font-size: 16px;
+    margin: 80px;
 }
 
+td {
+    border: solid 1px rgb(124, 253, 124);
+    padding: 10px;
+}
+th {
+    background-color: rgb(38, 97, 46);
+    color: white;
+    padding: 10px;
+}
+.button {
+    padding: 15px;
+    background-color: rgb(38, 97, 46);
+    text-align: center;
+}
 
