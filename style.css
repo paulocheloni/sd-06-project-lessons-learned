@@ -23,3 +23,7 @@ header ul {
     text-decoration: none;
 }
 
+/*Conteúdo principal*/
+main {
+    margin-top: 110px
+}
