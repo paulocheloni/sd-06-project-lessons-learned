@@ -2,10 +2,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.header {
-  
-}
-
 .cabecalho {
   background-color: chartreuse;
 }
@@ -14,4 +10,3 @@ body {
   width: auto;
   height: auto;
 }
-
