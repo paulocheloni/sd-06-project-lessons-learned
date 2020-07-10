@@ -14,7 +14,7 @@ body{
 }
 
 #minha_foto{
-    width: 250px;
+    width: 200px;
     padding: 40px;
     border-radius: 50%;
 }
@@ -30,6 +30,18 @@ body{
 }
 
 .artigo h2{
+    text-align: center;
+}
+
+.causos{
+    width: 80%;
+    padding: 10px 10px;
+    border: 1px groove;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.causos h2{
     text-align: center;
 }
 
