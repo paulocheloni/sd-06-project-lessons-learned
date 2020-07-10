@@ -1,0 +1,10 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+  margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #B5926D;
+}
+
+#cabecalho {
+	top: 0px;
+}
