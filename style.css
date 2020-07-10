@@ -2,26 +2,29 @@ body {
   background-color: rgb(253, 251, 251);
   font-size: 1.2em;
 }
-.cabecalho, .nav, .foto{
-  position: fixed;
-  background-color: rgb(186, 199, 190);
-}
-.cabeçalho {
+.cabecalho {
   position: fixed;
   top: 0px;
+  background-color: rgb(186, 199, 190);
 }
 .foto {
+  position: fixed;
   top: 30px;
   right: 30px;
 }
 .nav {
+  position: fixed;
   top: 100px;
+  background-color: rgb(186, 199, 190);
 }
-.tabela, th, td {
+table, th, td {
   margin: 10px;
   border: 2px solid rgb(119, 132, 114);
   text-align: center;
 }
  th, td {
 padding: 5px;
+}
+article.artigo-principal {
+  margin-top: 220px;
 }
