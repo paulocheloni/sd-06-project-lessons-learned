@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  font-family: Helvetica, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: #6d9789;
+  width: 100%;
+  height: 96px;
+}
+
+#titulo {
+  text-align: center;
+  padding: 30px;
+  color: #222321;
+}
+
+.content {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#minha-foto {
+  margin-top: 128px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, .7);
+}
+
+.container-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
