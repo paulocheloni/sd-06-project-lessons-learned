@@ -4,16 +4,26 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header#cabecalho {
+#cabecalho {
     position: fixed;
     top: 0px;
     height: 100px;
 }
 
-section.container {
+.container {
    margin-top: 100px;
 }
 
 #minha_foto {
     width: 200px;
+}
+
+#rodape {
+    border-top: 1px solid black;
+    padding-bottom: 2px;
+    
+}
+#rodape p {
+    margin: auto 10px;
+    text-align: center;   
 }
