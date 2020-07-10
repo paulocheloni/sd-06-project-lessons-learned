@@ -1,13 +1,24 @@
-body {
-  background-color: rgb(253, 251, 251);
-  background-image: radial-gradient(ellipse at top right, rgb(2, 2, 6) 0%, rgb(11, 11, 17) 100%);
-  background-repeat: no-repeat;
-  min-height: 100vh;
+html, body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  background-image: radial-gradient(ellipse at top right, rgb(2, 2, 6) 7%, rgb(11, 11, 17) 100%);
+  background-repeat: no-repeat;
+  height: 100%;
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
   color: rgb(200, 230, 251);
+}
+
+header.header-bar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: rgba(2, 2, 7, 89%);
+  padding: 0 18px 17px;
 }
 
 header h1, header h2 {
@@ -19,7 +30,7 @@ header h1, header h2 {
 header h1 {
   font-weight: 900;
   font-size: 3.5em;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   margin: 0 0 -10px;
 }
 
@@ -31,23 +42,17 @@ header h2 {
   margin: 0;
 }
 
-header.header-bar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background-color: rgba(9, 9, 13, 80%);
-  padding: 0 18px 17px;
-}
+
 
 main.container {
-  width: 89%;
+  width: 92%;
   padding: 0;
   margin: 160px auto 0;
 }
 
 section.list-box-container {
-  background-image: url(foto.png);
-  background-position: 45% 100%;
+  background-image: url(foto_v2.png);
+  background-position: 46% 100%;
   background-repeat: no-repeat;
   background-size: auto 100%;
   vertical-align: top;
@@ -70,16 +75,65 @@ section.list-box-container {
   font-size: 1.3em;
 }
 
-.list-box ol li {
+.list-box ol li, .list-box ul li {
   padding: 3px 0 0 5px;
   font-size: 1.1em;
 }
+
+div.learning-container {
+  width: 94%;
+  margin-top: 40px;
+  background-color: rgba(217, 217, 222, 25%);
+  padding: 20px 32px 34px;
+  border-radius: 40px;
+}
+
+article.learning {
+  display: inline-block;
+  width: 65%;
+}
+
+article.learning p {
+  margin: 0 0 0 10px;
+  line-height: 1.5em;
+  font-size: 1.15em;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  color: rgb(201, 235, 255);
+}
+
+article.learning h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+aside.quote {
+  width: 29%;
+  margin: 35px 10px 0;
+  float: right;
+  font-size: 1.75em;
+  float: right;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 25px 20px;
+  background-color: rgba(1, 1, 4, 45%);
+  border-radius: 12px;
+}
+
+aside .quote.big {
+  float: left;
+  font-size: 8em;
+  padding: 0;
+  margin: -75px 3px -150px -15px;
+}
+
 
 section.foto_link {
   width: 50%;
   margin: 40px auto 0;
   padding: 2px 0;
-  background-color: rgba(1, 1, 4, 85%);
+  background-color: rgb(0, 0, 0);
   border-radius: 75px;
 }
 
@@ -90,15 +144,22 @@ section .link {
 }
 
 section .link a {
-  color: rgb(201, 201, 245);
+  color: rgb(181, 201, 245);
 }
 
 section .link a:visited {
-  color: rgb(183, 181, 241);
+  color: rgb(153, 181, 241);
 }
 
 img.foto {
   vertical-align: middle;
   border-radius: 50%;
   height: 150px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 65%);
+  margin: 45px 0 0;
+  padding: 12px 10px 6px;
+  font-size: 0.9em;
 }
