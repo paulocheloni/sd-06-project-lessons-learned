@@ -20,7 +20,7 @@ body {
 }
 
 #minha_foto {
-    display: block;
+    display: inline-block;
     margin-left: 40%;
     margin-top: 130px;
     border-radius: 100%;
@@ -61,4 +61,11 @@ body {
     max-width: 600px;
     margin-left: 30px;
     font-weight: 200;
+}
+
+.adicional {
+    max-width: 200px;
+    background-color: gray;
+    float: right;
+    padding: 20px;
 }
