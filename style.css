@@ -1,0 +1,28 @@
+@charset "utf-8";
+body {
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho { 
+    background-color: rgb(104, 128, 184);
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    padding: 50px 300px;
+}
+#minha_foto {
+    margin-top:;
+    width: 200px;
+    padding-top: 170px;
+}
+nav {
+    text-align: left;
+    padding-left: 0px;
+}
+footer {
+    background-color:  rgb(104, 128, 184);
+    text-align: center;
+    padding: px;
+    margin: px;
+  
+
+}
