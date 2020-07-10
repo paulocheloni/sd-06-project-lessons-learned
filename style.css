@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,300&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 body {
     background-color: rgb(253 , 251 , 251);
 }
@@ -19,4 +20,23 @@ img {
     border-radius: 100%;
     border: 5px solid #222c30;
     padding: 3px;
+}
+p {
+    text-align: justify;    
+}
+p, li {
+   font-size: 20px;
+   color: #222c30;
+   font-family: 'Muli', sans-serif;
+   line-height: 1.5; 
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+    color: #222c30;
+}
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
 }
