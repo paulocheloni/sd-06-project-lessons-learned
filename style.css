@@ -1,4 +1,4 @@
-body , h1 , h2 , ul , il {
+body , h1 , h2 , ul , li {
   margin: 0;
   font-family: Roboto, sans-serif;
 }
@@ -8,7 +8,6 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
   background-color: rgb(222 , 207 , 172);
   padding: 0 15px;
   height: 40px;
@@ -32,6 +31,9 @@ body {
   padding: 20px;
 }
 
+#div-foto h2 {
+  font-size: 18px;
+}
 #minha_foto {
   height: 280px;
   border-radius: 50%;
@@ -41,10 +43,6 @@ body {
   background-color: rgb(222 , 207 , 172);
 }
 
-#div-foto h2 {
-  font-size: 18px;
-}
-
 #section-licoes {
   margin-top: 10px;
   width: 60%;
@@ -52,7 +50,7 @@ body {
   margin-left: auto;
 }
 
-#section-licoes , h2 , ul , li {
+#section-licoes h2 , ul , li {
   background-color: rgb(222 , 207 , 172);
   color: rgb(181 , 146 , 109);
 }
@@ -60,7 +58,6 @@ body {
 #section-licoes h2 {
   text-align: center;
   font-size: 18px;
-  font-weight: bold;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
