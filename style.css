@@ -1,3 +1,6 @@
 /*CSS geral - body, h1, h2 (..), p, etc*/
+body {
+    background-color: rgb(253, 251, 251);
+}
 
 /*Para classes especificadas*/
