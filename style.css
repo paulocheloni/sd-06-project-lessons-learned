@@ -1,0 +1,7 @@
+body {
+    background-color: blue;
+}
+#cabecalho {
+    position: fixed;
+    top: 0px;
+}
