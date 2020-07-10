@@ -1,3 +1,13 @@
 body {
-    background-color: rgb(250, 243, 221);
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    margin-top: 0;
+}
+
+#titulo {
+    color: rgb(255 , 166 , 158);
+    font-family: Calibri, sans-serif;
+    font-size: 40px;
 }
