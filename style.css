@@ -21,3 +21,10 @@ body {
 #rodape {
     background-color: #183042;
 }
+.listas {
+    display: flex;
+}
+#licoes_aprendidas {
+    margin-right: 100px;
+}
+
