@@ -27,3 +27,9 @@ header ul {
 main {
     margin-top: 110px
 }
+main h2, h3 {
+    background-color: #6D597A;
+    margin-top: 10px;
+    padding: 10px;
+    color: white
+}
