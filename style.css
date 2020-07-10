@@ -1,3 +1,19 @@
 body{
     background-color:rgb(253, 251, 251);
+    margin-left: 0;
+    margin-right: 0;
+}
+header{
+    background-color: #EC942C;
+    position:fixed;
+    text-align: center;
+    top:0px;
+    width: 100%;
+    padding:2%;
+    color: white;
+    clear:both;
+}
+.me img{
+    border: 5px;
+    border-radius:100%;
 }
