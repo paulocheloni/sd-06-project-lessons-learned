@@ -1,16 +1,33 @@
+* {
+    margin-left: 0px;
+}
 body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    background-color: rgb(58, 182, 27);
+    width: 100%;
+    height: 18%;
+    background-color: rgb(7, 9, 31);
     position: fixed;
     top: 0px;
+    margin-bottom: 0px;
+}
+#cabecalho h1 {
+    color: ivory;
+    text-align: center;
+    font-size: 48px;
 }
 .buttom a {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 12px;
     padding: 10px 15px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.buttom a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 9, 31);
 }
