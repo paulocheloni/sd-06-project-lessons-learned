@@ -5,3 +5,22 @@
     body {
     background-color: rgb(253, 251, 251);
 }
+    #cabecalho{
+     background:rgb(185, 201, 65);
+     border-bottom: 1px solid rgb(216, 216, 216);
+     height: 150px;
+     width: 100%;     
+     padding: 16px 16px 16px 16px;
+     margin-top: 0px;
+     margin-bottom: 12px;
+     position: fixed;
+    }
+    #titulo{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .links-header {
+      width: 720px;
+      padding: 16px 16px 16px 16px;
+      margin-bottom: 12px;
+      line-height: 1.5em;
+   }
