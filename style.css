@@ -6,6 +6,7 @@ body{
 
 }
 #cabecalho{   
+    top: 0px;
     margin-bottom: 20px;
     background-color: seagreen;
     height: 60px;
