@@ -2,15 +2,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    position: relative;
-    top:0px;
+    top: 0px;
+    padding: 25px;
     font-family: monospace , sans-serif;
     text-align: center;
-    width: 100%;
-    padding: 25px;
-    color: #fff;
+    color:white;
     background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
-}
-#minha_foto{
-    
 }
