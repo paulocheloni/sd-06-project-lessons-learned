@@ -1,29 +1,34 @@
 body {
-    background-color: azure;
+    background-color: rgb(253, 251, 251);
 }
 
-h1 {
-    text-align: center;
+header {
+    position: fixed;
+    top: 0px;
+}
+
+#titulo {
+    text-align:  center;
 }
 
 nav {
-    margin: 15px;
-    padding: 15px;
-    border: 15px;
+    margin:  15px;
+    padding:  15px;
+    border:  15px;
 }
 
 #minha-foto {
-    width: 250px
+    width:  250px;
 }
 
 aside {
-    float: right;
+    float:  right;
 }
 
 .licoes {
-    display: inline-block;
+    display:  inline-block;
 }
 
 #rodape {
-    text-align: center;
+    text-align:  center;
 }
