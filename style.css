@@ -1,18 +1,18 @@
-body {
-        background-color:rgb(253, 251, 251);
+body{
+    background-color: rgb(253,251,251);
 }
 
-#cabecalho {
+#cabecalho{
         position: fixed;
         top: 0;
         width: 100%;
 }
 
-#minha_foto {
+#minha_foto{
         border-radius: 50%;
         width: 130px;
 }
 
-section {
+section{
         margin: 5% 1%;
 }
