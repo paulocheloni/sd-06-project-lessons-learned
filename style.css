@@ -2,3 +2,9 @@ body {
 	background-color: #ffe4c4af;
 }
 
+#cabecalho {
+	position: fixed;
+	top: 0px;
+	background-color: rgb(95, 138, 107);
+}
+
