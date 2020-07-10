@@ -18,21 +18,26 @@ body {
 
 #logo {
 	padding-top: 80px;
+	padding-left: 30px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	
 }
+
 #menu {
 	padding: 10px;
 }
-/***** Formatação do menu *****/
+
 a {
 	text-decoration: none;	
 }
+
 #rodape {
 	width: 100%;
 	clear: both;
 	text-align: center;
 	padding: 15px;
 	background: #66b9bf;
+	color: #4e4e4e;
 }
 
 a:link, a:visited {
@@ -56,17 +61,6 @@ a:hover {
 	border-radius: 150px;
 	padding-top: 60px;
 }
-#container {
-	width: 50%;
-	margin-top: 10px;
-	margin-left: 10px;
-	padding: 20px;
-	background: blue;
-	border: 1px solid gray;
-	width: 1366px;
-	clear: right;
-}
-
 
 h1 {
 	color: #4e4e4e;
@@ -77,16 +71,35 @@ ol {
 	float: left;
 	padding-top: 50px;
 	padding-left: 40px;
-
 }
+
 ul {
 	float: right;
 	padding-top: 50px;
 	padding-right: 150px;
 }
+
 article {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 40px;
+	padding-right: 50px;
 	clear: left;
 }
+
+aside {
+	padding-left: 40px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+th, td {
+	padding: 10px;
+	text-align: center;
+	border-style: dotted;
+	border-color: green;
+	font-size: 2em;
+  }
+
+  p{
+	 line-height: 30px; 
+  }
