@@ -1,0 +1,13 @@
+body { 
+  background-color: rgb(253, 251, 251);
+}
+
+.my-header {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(4, 189, 250);
+}
+
+.my-photo {
+  padding-top: 80px;
+}
