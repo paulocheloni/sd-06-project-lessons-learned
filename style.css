@@ -2,18 +2,15 @@ body {
     max-width: 90%;
     margin: auto auto;
     font-family: 'Ubuntu Condensed', sans-serif;
-    background: #000;
+    background: linear-gradient(to right, gray, lightgray);
 }
 
 .header {
-    width: 30%;
-    height: 90%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     color: white;
     padding-right: 8%;
     padding-left: 10%;
-    font-size: 120%;
 }
 
 #cabecalho {
@@ -25,7 +22,7 @@ body {
     background-color: yellow;
 }
 
-#titulo {
+#titulo a {
     padding: 3%;
     color: black;
     font-weight: bold;
@@ -38,64 +35,26 @@ body {
     color: white;
 }
 
-#minha_foto {
-    text-align: center;
-    background: radial-gradient(circle, black 5%, gray 5%, black 75%);
-}
-
-#simbol img {
-    width: 50%;
-    padding: 5%;
-}
-
-#who-am-i {
-    background-color: black;
-    font-size: 300%;
-    color: white;
-    margin: none;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    align-items: center;
 }
 
 .grid-item {
-    padding: 0;
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 180%;
 }
 
-.wai {
-    background-color: yellow;
-    color: black;
-    text-align: left;
-    font-size: 170%;
-    padding-left: 1%;
-    align-items: center;
-}
-
-.photogit img {
-    border-radius: 500%;
-    width: 60%;
-    text-align: center;
-}
-
-#accomplishments {
-    margin: 3% auto;
-    padding: 1%;
-    text-align: left;
-    font-size: 190%;
-    background-color: yellow;
-    color: black;
-}
-
-.student-container {
+#minha_foto img {
+    border-radius: 100%;
     width: 30%;
-    height: 90%;
     text-align: center;
+    padding: 2%;
+}
+
+.art-container {
+    text-align: left;
     display: inline-block;
     color: white;
     padding-right: 8%;
@@ -103,127 +62,39 @@ body {
     font-size: 120%;
 }
 
-.student-container h4 {
-    font-size: 140%;
-    color: white;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-weight: bold;
-}
-
-.container-skills {
-    width: 100%;
-}
-
-#my-skills {
-    margin: 40px auto;
-    padding: 8px;
-    text-align: left;
-    font-size: 190%;
-    background-color: yellow;
-}
-
-.skills-set {
-    background-color: yellow;
-    color: black;
-    text-align: center;
-}
-
-.container-skills h2 {
-    text-align: left;
-    font-size: 190%;
-    padding: 1%;
-}
-
-.container-skills ul li a {
+.container-lessons ol ul li {
     color: white;
     text-decoration: none;
     transition: opacity 0.2s;
-    font-size: 190%;
-    padding: 4%;
+    padding: 1%;
+    text-align: left;
 }
 
-.container-skills ul li a:hover {
-    opacity: 0.6;
-}
 
-.logo-containers {
-    box-sizing: border-box;
-}
-
-.column {
+/*.column {
     float: left;
-    width: 15%;
-    padding-left: 8%;
-    text-align: center;
-    font-size: 110%;
+    width: 40%;
+    padding-left: 1%;
+    text-align: left;
+    justify-content: center;
+    color: white;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-}
+}*/
 
-.logo-container a {
-    transition: opacity 0.2s;
-}
-
-.logo-container a:hover {
-    opacity: 0.6;
-}
-
-.column h4 {
-    text-decoration: none;
-    color: white;
-    align-items: center;
-}
-
-#get-in-touch {
-    text-align: center;
-    background-color: yellow;
+article {
     text-align: left;
-    padding: 1%;
-    font-size: 190%;
-    margin-top: 4%;
+    font-size: 100%
 }
 
 footer {
     text-align: left;
-    font-size: 190%;
-    padding: 1%;
-    text-decoration: none;
-}
-
-footer p {
-    text-align: center;
+    font-size: 100%;
     padding: 1%;
     color: white;
-}
-
-.footer-lista {
-    background-color: yellow;
-    color: yellow;
-}
-
-.footer-lista ul li a {
-    color: black;
-    text-decoration: none;
-    transition: opacity 0.2s;
-    font-size: 110%;
-    padding: 7%;
     text-align: center;
-}
-
-.container-skills h2 {
-    text-align: left;
-    font-size: 190%;
-    padding: 1%;
-}
-
-.container-skills ul li a {
-    color: white;
-    text-decoration: none;
-    transition: opacity 0.2s;
-    font-size: 190%;
-    padding: 4%;
 }
