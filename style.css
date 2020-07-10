@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -7,7 +7,7 @@ body {
   top: 0;
 }
 
-#container {
+#main {
   margin-top: 130px;
 }
 
@@ -16,7 +16,7 @@ body {
   border-radius: 5%;
 }
 
-.menu li{
+.menu li {
   display: inline-block;
   margin-right: 20px;
 }
