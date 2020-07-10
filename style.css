@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Helvetica, sans-serif;
-  }
+  background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
+}
 
 #cabecalho {
   background-color: green;
@@ -13,10 +13,14 @@ body {
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
   z-index: 1;
   border-radius:50%
+}
+
+#licoes-aprendidas {
+  font-weight: bold;
 }
