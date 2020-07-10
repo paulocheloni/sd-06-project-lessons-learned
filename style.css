@@ -6,14 +6,13 @@
     height: 85px;
     left: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
 }
 #titulo{
     color: rgb(230, 230, 230);
     margin-top: 8px;
     margin-bottom: 0;
     text-align: center;
-    text-border: 0
-
 }
 #subtitulo{
     color: rgb(177, 177, 177);
@@ -31,6 +30,7 @@
 body{
     background-color: rgb(253, 251, 251);
     font-size: 0.8em;
+    margin-top: 108px;
 }
 #minha_foto{
     height: 100px;
@@ -49,12 +49,9 @@ body{
     width: 300px;
     background-color: darkgreen;
 }
-body{
-    margin-top: 108px;
-}
+
 a{
     text-decoration: none;
-
 }
 a:visited{
     color:rgb(253, 251, 251);
