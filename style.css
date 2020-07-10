@@ -1,7 +1,33 @@
-.body{
-    background: rgb(253, 251, 251);
+.body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb (253, 251, 251);
 }
-
-#cabecalho{
-    
+#cabecalho {
+    margin: 0px;
+    padding: 10px 10px 10px 0px;
+    width: 98%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    background: rgb(191, 236, 217);
+    position: fixed;
+}
+#minha_foto {
+    margin-left: 10px;
+    float: left;
+}
+#titulo {
+    text-align: center;
+}
+h1 {
+    font-size: xx-large;
+    font-size: 25px;
+}
+h1 span {
+    color: rgb(191, 236, 217);
+    text-shadow: 1px 1px 2px rgb(0, 5, 0);
+}
+.opcoes li{
+    display: inline-block;
+    margin-left: 35px;
 }
