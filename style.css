@@ -22,3 +22,10 @@ main {
     border-style: solid;
     margin: 10px
 }
+#rodape {
+    margin: 0px;
+    text-align: center;
+    border: #606C38;
+    border-width: 10px;
+    border-style: solid;
+}
