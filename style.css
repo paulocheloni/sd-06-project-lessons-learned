@@ -4,6 +4,14 @@ body{
 
 #cabecalho{
     position: fixed;
-    margin-top: 0px;
-    
+    top: 0px;
+    background-color: seagreen;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#minha_foto{
+    margin: auto;
 }
