@@ -67,8 +67,7 @@ body {
   float: left;
 }
 
-.section-tags .lado-esquerdo h2 ,
- .section-tags .lado-direito h2 {
+.section-tags .lado-esquerdo h2 , .section-tags .lado-direito h2 {
   margin-bottom: 12px;
 }
 
