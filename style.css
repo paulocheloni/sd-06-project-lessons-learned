@@ -1,10 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
-  background-image: radial-gradient(ellipse at top right, rgb(6, 6, 11) 0%, rgb(22, 22, 27) 100%);
+  background-image: radial-gradient(ellipse at top right, rgb(2, 2, 6) 0%, rgb(11, 11, 17) 100%);
+  background-repeat: no-repeat;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(200, 230, 251);
 }
 
 header h1, header h2 {
@@ -17,7 +20,7 @@ header h1 {
   font-weight: 900;
   font-size: 3.5em;
   letter-spacing: 3px;
-  margin: 0 0 -10px 0;
+  margin: 0 0 -10px;
 }
 
 header h2 {
@@ -25,12 +28,77 @@ header h2 {
   font-style: italic;
   letter-spacing: 4px;
   font-size: 1.4em;
-  margin: 0 0 15px 0;
+  margin: 0;
 }
 
 header.header-bar {
-  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-color: rgba(9, 9, 13, 80%);
-  padding: 15px 12px;
+  padding: 0 18px 17px;
+}
 
+main.container {
+  width: 89%;
+  padding: 0;
+  margin: 160px auto 0;
+}
+
+section.list-box-container {
+  background-image: url(foto.png);
+  background-position: 45% 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.list-box {
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  padding: 0;
+}
+
+.list-box.left {
+  float: left;
+}
+
+.list-box h3 {
+  padding: 0;
+  margin: 0 0 0 -18px;
+  font-size: 1.3em;
+}
+
+.list-box ol li {
+  padding: 3px 0 0 5px;
+  font-size: 1.1em;
+}
+
+section.foto_link {
+  width: 50%;
+  margin: 40px auto 0;
+  padding: 2px 0;
+  background-color: rgba(1, 1, 4, 85%);
+  border-radius: 75px;
+}
+
+section .link {
+  margin: 0 25px;
+  font-size: 1.2em;
+  
+}
+
+section .link a {
+  color: rgb(201, 201, 245);
+}
+
+section .link a:visited {
+  color: rgb(183, 181, 241);
+}
+
+img.foto {
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 150px;
 }
