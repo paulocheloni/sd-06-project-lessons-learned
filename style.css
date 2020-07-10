@@ -52,3 +52,14 @@ a {
   text-decoration: none;
   color: rgb(0 , 114 , 0);
 }
+
+footer {
+  position: relative;
+  top: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.social-media-link {
+  margin-right: 20px;
+}
