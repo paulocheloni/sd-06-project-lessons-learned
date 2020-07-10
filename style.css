@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    
+    font-family: Roboto Mono, monospace;
 }
 
 
@@ -43,8 +43,7 @@ body {
     width: auto;
     height: auto;
     box-sizing: border-box;
-    /* display: flex;
-    justify-content: flex-start; */
+
 }
 
 .rodape {
@@ -56,3 +55,17 @@ body {
     
 }
 
+.artigos {
+    background-color: rgb(10, 10, 10);
+}
+
+.meu_aprendizado {
+
+    float: left;
+}
+
+.passagem {
+
+float: right;
+
+}
