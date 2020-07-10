@@ -5,35 +5,3 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
-footer {
-    margin-bottom: 0;
-    padding: 10px;
-    background-color: #84bff0;
-    color: #ffffff;
-}
-
-.coresBarraFixa , a {
-    color: #ffffff;
-    background-color: #84bff0;
-    margin: 0px;
-    padding-bottom: 10px;
-}
-
-.conteudo_lateral {
-    margin-top: 35px;
-    float: right;
-    width: 250px;
-}
-#minha_foto {
-    padding: 15px;
-    border-radius: 50%;
-    width: 175px;
-}
-
-#cabecalho {
-    z-index: fixed;
-    margin: 0px;
-    padding: 20px;
-    text-align: center;
-}
