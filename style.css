@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgb (253,251,251);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}   
+
+#cabecalho{
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    top: 0px;
+    position: fixed;
+}
+
+#titulo {
+
+
+}
+
+#minha_foto {
+    height: 150px;
+    width: auto;
+    border-radius: 5%;
+}
+
+#conteudo {
+    overflow: auto;
+    width: 100%;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+#rodape {    
+    background-color: rgb(70, 70, 70);
+    height: 35px;
+    width: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
