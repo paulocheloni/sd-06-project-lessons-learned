@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
 }
 
 body {
@@ -7,15 +7,22 @@ body {
   margin: 0px;
 }
 
-#cabecalho {
+.title {
   position: fixed;
   margin-top: 0px;
+  text-align: center;
+  padding: 2% 40%;
 }
 
-#minha_foto {
+.header{
+  background-color: pink;
+}
+
+.picture {
   border-radius: 20%;
+  margin: 10;
 }
 
-#rodape{
-    text-align: center;
+#rodape {
+  text-align: center;
 }
