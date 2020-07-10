@@ -1,64 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(253, 251, 251);
-    font-family: 'Roboto', sans-serif;
+body {
+    background-color: rgb(253 , 251 , 251);
+    font-family: Roboto, sans-serif;
 }
-.clear{
+.clear {
     clear: both;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255 , 255 , 255);
     width: 100%;
     text-align: center;
 }
-.title{
-
+.title {
     padding: 20px;
 }
-.profile-lists{
+.profile-lists {
     margin-top: 160px;
 }
-
-#minha_foto{
+#minha_foto {
     border-radius: 100%;
 }
-.img-profile{
+.img-profile {
     text-align: center;
 }
-.img-profile h2{
-    color: black;
+.img-profile h2 {
+    color: rgb(0 , 0 , 0);
     font-weight: 200;
     letter-spacing: 1px;
     padding: 15px 0;
 }
-.listas{
-    background-color: red;
-    width: 100%;
+.lado-esquerdo {
+    width: 68%;
     margin: 25px 0;
-    color: white;
+    color: rgb(255 , 255 , 255);
+    display: inline-block;
 }
-#licoes_aprendidas{
+.listas h2{
+    margin-bottom: 15px;
+}
+#licoes_aprendidas {
     width: calc(50% - 5px);
     float: left;
     list-style-position: inside;
-    background-color: black;
+    background-color: rgb(0 , 0 , 0);
     padding: 30px;
     border-radius: 5px;
     margin-left: 5px;
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
     width: 50%;
     float: right;
     padding: 15px;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(29 , 29 , 29);
     list-style-position: inside;
     position: relative;
     top: 15px;
@@ -66,64 +67,73 @@ body{
     left: -5px;
     z-index: -1;
 }
-#licoes_a_aprender h1, #licoes_aprendidas h1{
+#licoes_a_aprender h1, #licoes_aprendidas h1 {
     margin-bottom: 15px;
 }
-.left-itens{
+.left-itens {
     width: 48%;
     display: inline-block;
 }
-.right-itens{
+.right-itens {
     display: inline-block;
     width: 48%;
 }
-.profile-lists{
+.profile-lists {
     margin-bottom: 60px;
 }
-.social-media img{
+.social-media img {
     width: 35px;
     position: relative;
     top: 10px;
 }
-.social-media{
+.social-media {
     text-align: right;
     margin-bottom: 10px;
 }
-.social-media a{
-    color: white;
+.social-media a {
+    color: rgb(255 , 255 , 255);
     text-decoration: none;
     padding: 10px;
 }
-.title a{
+.title a {
     text-decoration: none;
-    color: white;
+    color: rgb(255 , 255 , 255);
 }
-.social-media:hover a{
+.social-media:hover a {
  font-size: 18px;
  transition: 450ms;
- color: rgb(24, 63, 136);
- font-weight: bold;
+ color: rgb(24 , 63 , 136);
+ font-weight: 800;
 }
-
-article{
+article {
+    margin-top: 40px;
     line-height: 25px;
+    height: 100vh;
+    overflow: scroll;
 }
-
-#rodape{
-    color: white;
-    padding: 20px ;
+#rodape {
+    color: rgb(255 , 255 , 255);
+    padding: 20px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(0 , 0 , 0);
 }
-table{
-    width: 100%;
+table {
+    width: 70%;
     text-align: center;
     padding: 15px;
 }
-table th{
-    border: 2px solid black;
+table th {
+    border: 2px solid rgb(0 , 0 , 0);
 }
-table td{
-    border: 1px solid #ccc;
+table td {
+    border: 1px solid rgb(204 , 204 , 204);
     padding: 5px 0;
+}
+.games{
+    text-align: center;
+}
+.lado-direito{
+    float: right;
+    width: 30%;
+    overflow: hidden;
 }
