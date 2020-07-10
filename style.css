@@ -25,3 +25,14 @@ div.links-navegacao {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+.descricao-inicial {
+    width: 70%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10 px;
+    color: rgb(45, 49, 66);
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    clear: both;
+
+}
