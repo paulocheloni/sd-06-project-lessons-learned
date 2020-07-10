@@ -39,6 +39,7 @@ p {
 }
 
 #artigos {
+    display: inline-block;
     width: 100%;
     height: 350px;
     background-color: blue;
@@ -46,11 +47,13 @@ p {
 
 article {
     float: left;
-    display: inline-block;
+    background-color: salmon;
     width: 50%;
+    
 }
 
 aside {
-    display: inline-block;
+    float: right;
+    background-color: #000;
     width: 50%;
 }
