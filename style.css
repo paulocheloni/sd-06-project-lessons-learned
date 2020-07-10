@@ -1,26 +1,31 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+    background-color: rgb(253 ,251 ,251);
     padding: 35px 35px;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0px;
     background-color: green;
     padding: 5px 500px;
 }
-#titulo{
+#titulo {
 
 }
-#minha_foto{
+#minha_foto {
     width: 100px;
-    position:relative;
-    top: 100px
+    position: relative;
+    top: 100px;
 }
-#licoes_aprendidas{
+#licoes_aprendidas {
     position: relative;
     top: 200px;
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
+    position: relative;
+    top: 200px;
+
+}
+#rodape {
     position: relative;
     top: 200px;
 }
