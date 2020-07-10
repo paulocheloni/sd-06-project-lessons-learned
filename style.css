@@ -3,8 +3,21 @@ body {
 }
 
 header {
-  width: cover;
+  margin: 0px;
   background-color: rgb(177, 255, 212);
   position: fixed;
   top: 0px;
+}
+
+header h1 {
+  margin: 0px;
+}
+
+main {
+  margin-left: 20%;
+}
+#minha_foto {
+  width: 15%;
+  float: left;
+  margin: 15px;
 }
