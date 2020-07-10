@@ -1,29 +1,39 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
+    margin-left: 25px;
 }
 
 #cabecalho {
+    width: 1366px;
+    height: 10%;
     top: 0px;
-    text-align: center;
     position: fixed;
     color: #131616;
 }
 
+#texto-header {
+    text-align: center;
+}
+
 nav {
-    margin:  15px 0px;
-    padding:  15px 0px;
-    border:  15px;
+    word-spacing: 25px;
+    width: 30%;
+    margin: 15px 0px;
+    padding: 15px 0px;
+    border: 15px;
 }
 
 #minha_foto {
-    width:  250px;
-    margin-top: 150px;
+    width: 250px;
+    margin-top: 125px;
+    margin-left: 25px;
+    border-radius: 25%;
 }
 
 aside {
-    float:  right;
+    float: right;
     line-height: 1px;
     width: 40%;
     padding-top: 20px;
@@ -36,8 +46,9 @@ aside {
     padding: 10px;
     border: 20px;
     margin: 20px;
+    clear: both;
 }
 
 #rodape {
-    text-align:  center;
+    text-align: center;
 }
