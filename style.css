@@ -1,31 +1,82 @@
 body {
     background-color: rgb(253 ,251 ,251);
-    padding: 35px 35px;
+    text-align: justify;
+    font-family: sans-serif, helvetica, arial;
+    font-weight: 5px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 46px 47px;
 }
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: green;
-    padding: 5px 500px;
+    background-color: lightseagreen;
+    padding: 5px 350px;
+    z-index: -1;
 }
 #titulo {
-
+    text-size-adjust: 15px ;
+    font-weight: 600;
 }
 #minha_foto {
     width: 100px;
     position: relative;
-    top: 100px;
+    top: 20px;
+    left: 128px;
+    z-index: 999;
 }
 #licoes_aprendidas {
     position: relative;
-    top: 200px;
+    top: -30px;
+    float: left;
+    clear: both;
+    left: 50px;
+    
 }
 #licoes_a_aprender {
+    float: right;
     position: relative;
-    top: 200px;
+    top: -488px;
+    right: 100px;
+    clear: both;
 
 }
 #rodape {
     position: relative;
     top: 200px;
+    clear: both;
+}
+#github{
+    float: right;
+    top: 500px;
+    clear: both;
+}
+#adjust {
+    position: relative;
+    top: 500px;
+    clear: both;
+}
+.navposition{
+    position: relative;
+    margin-left: 20px;
+    font-size: 15px;
+    top: -30px;
+    left: 30px;
+    text-decoration: none;
+    z-index: 9;
+    
+    
+}
+#adjust{
+    position: relative;
+    top: 50px;
+    clear: both;
+    padding: 20px;
+    left: 250px;
+}
+#jornada{
+    top: 600px;
+    
+    
 }
