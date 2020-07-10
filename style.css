@@ -6,6 +6,8 @@ body {
     top:0px;
     font-family: monospace , sans-serif;
     text-align: center;
+    width: 100%;
+    padding: 25px;
     color: #fff;
     background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
 }
