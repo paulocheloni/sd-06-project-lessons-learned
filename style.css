@@ -8,6 +8,9 @@ body {
 }
 #minha_foto {
     max-width: 30%;
+    position: absolute;
+    margin-top: 42%;
+    margin-left:-25% ;
 }
 nav {
     margin-top: 5%;
@@ -24,10 +27,26 @@ article p {
 }
 .lado-direito {
     float: right;
-    margin-right: 43%;
+    margin-right: 41%;
     border: 1px inset black;
     padding: 5px;
+    max-width: 30%;
+    text-align: justify;
 }
 .lado-esquerdo {
     float: left;
+    border: 1px solid blue;
+    padding: 5px;
+}
+aside {
+    position: absolute;
+    margin-top: 82%;
+}
+.linktabela {
+    position: absolute;
+    margin-top: 91%;
+}
+#rodape {
+    position: absolute;
+    margin-top: 95%;
 }
