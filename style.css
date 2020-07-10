@@ -1,5 +1,5 @@
 body {
-    background-color: rgb (253, 251, 251);
+    background-color: rgb(253, 251, 251);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
@@ -8,6 +8,7 @@ body {
     top: 0px;
     text-align: center;
     position: fixed;
+    color: #131616;
 }
 
 nav {
@@ -24,6 +25,17 @@ nav {
 aside {
     float:  right;
     line-height: 1px;
+    width: 40%;
+    padding-top: 20px;
+    border-top: 20px;
+    margin-top: 20px;
+}
+
+#artigo-texto {
+    width: 50%;
+    padding: 10px;
+    border: 20px;
+    margin: 20px;
 }
 
 #rodape {
