@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
 body {
-    background-color: #22798C;
+    background-color: rgb(253, 251, 251);
+}
+
+header#cabecalho {
+    position: fixed;
+    top: 0px;
+
 }
