@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 1.2em;
 }
 .cabecalho, .nav, .foto{
   position: fixed;
