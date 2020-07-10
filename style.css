@@ -48,3 +48,9 @@ a .mais_info{
     height: 300px;
     background-color: darkslategrey;
 }
+.menu{
+    display: block;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
