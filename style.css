@@ -17,8 +17,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body > * {
+    text-align: center;
+}
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: #D8C3A5;
 }
 
 main {
@@ -36,7 +40,8 @@ header {
   width: 100%;
   padding: 15px;
   top: 0px;
-  background-color: #D8C3A5;
+  color: white;
+  background-color: #744E2E;
   border-bottom: 3px solid #E98074;
 }
 
