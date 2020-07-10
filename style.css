@@ -39,7 +39,7 @@ body {
     color: rgb(31, 31, 31);
     font-family: Roboto Mono, monospace;
     margin-left: 300px;
-    margin-top: -276px;
+    margin-top: -230px;
     width: auto;
     height: auto;
     box-sizing: border-box;
@@ -55,17 +55,24 @@ body {
     
 }
 
-.artigos {
+#artigos {
     background-color: rgb(10, 10, 10);
 }
 
-.meu_aprendizado {
+#meu_aprendizado {
 
-    float: left;
+    border: 1px dashed black;
+    width: 500px;
+    margin: 10px;
+    text-align: left;
 }
 
-.passagem {
+#passagem {
 
-float: right;
-
+    border: 1px dashed black;
+    width: 400px;
+    margin: 10px;
+    text-align: left;
+    margin-left:800px;
+    margin-top: -210px;
 }
