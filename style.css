@@ -32,16 +32,16 @@ body{
     margin: 10px;
 }
 .lado-esquerdo{
-    max-width: 500px;
-    margin-left: 615px;
+    max-width: 400px;
+    margin-left: 550px;
     background-image: url(img/azul.jpg);
     padding: 10px;
     display: inline-flex;
     position: absolute;
-    margin-top: -230px;
+    margin-top: -225px;
 }
 .lado-direito{
-    max-width: 384px;
+    max-width: 336px;
     margin-top: 45px;
     margin-left: 180px;
     background-image: url(img/azul.jpg);
@@ -54,7 +54,5 @@ footer{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     color: gray;
-    letter-spacing: 0.5px;
-    
-    
+    letter-spacing: 0.5px;  
 }
