@@ -9,9 +9,12 @@ body {
 	width: 100%;
 }
 
+.foto_wrapper {
+	margin-top: 70px;
+}
+
 #minha_foto {
 	width: 250px;
 	position: relative;
-	top: 70px;
 	border-radius: 25%;
 }
