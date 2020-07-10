@@ -2,5 +2,24 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
 /*Para classes especificadas*/
+/*Header - h1, h2 e navegação*/
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #6D597A;
+    text-align: center;
+    margin: 0;
+    color: white
+}
+header h1,h2, nav, ul {
+    margin: 0;
+    padding: 3px;
+}
+
+header ul {
+    text-align: left;
+    text-decoration: none;
+}
+
