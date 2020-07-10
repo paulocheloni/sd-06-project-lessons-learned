@@ -4,11 +4,10 @@
 }
 
 body {
-  background: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  top: 0px;
   position: fixed;
-  background-color: rgb(81, 163, 163);
+  top: 0px;
 }
