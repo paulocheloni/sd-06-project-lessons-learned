@@ -1,6 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Helvetica, sans-serif;
+  margin:0;
+  padding:15px;
+  border:0;
+  padding-top:60px; /*espaçamento do tamanho do cabecalho*/
 }
 
 #cabecalho {
@@ -20,27 +24,36 @@ body {
 }
 
 #minha_foto {
-  z-index: 1;
   border-radius:50%;
-  margin: 10px;
-  padding: 10px;
-  border: 1px;
 }
 
 #licoes-aprendidas {
+  float: left;
   font-weight: bold;
-  font-size: 
 }
 
 #licoes-a-aprender {
+  float: right;
   font-weight: bold;
 }
 
 #rodape {
   font-weight: bold;
+  clear: both;
 }
 
 #trybe_link_ext {
   font-weight: bold;
   color: black;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+  clear: both;
 }
