@@ -23,10 +23,9 @@ main {
 #minha_foto {
     width: 400px;
     border: #606C38;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     margin: 10px
-    
 }
 #rodape {
     margin: 0px;
