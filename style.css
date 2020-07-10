@@ -9,7 +9,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: rgb(255,229,124);
   width: 100vw;
   text-align: center;
@@ -28,6 +28,22 @@ nav div {
   display: flex;
   justify-content: space-evenly;
   margin-top: 70px;
+  align-content: center;
+}
+
+.licoes img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+#licoes_aprendidas {
+  display: block;
+  align-self: center;
+}
+
+#licoes_a_aprender {
+  display: block;
+  align-self: center;
 }
 
 #rodape {
