@@ -11,7 +11,7 @@ body {
   position: fixed;
   margin-top: 0px;
   text-align: center;
-  padding: 2% 40%;
+  padding: 2% 30%;
 }
 
 .header{
@@ -20,9 +20,11 @@ body {
 
 .picture {
   border-radius: 20%;
-  margin: 10;
+  margin-top: 90px;
+  width: 250px;
 }
 
-#rodape {
+#footer {
   text-align: center;
+  margin-top: 10%;
 }
