@@ -1,16 +1,21 @@
 body {
     background-color: rgb(253, 251, 251);
-    margin: 0px;
-    padding: 0px;
 }
 
 #cabecalho {
     margin-top: 0px;
     padding: 0px;
+    position: fixed;
 }
 
 #titulo {
     color: rgb(255 , 166 , 158);
     font-family: Calibri, sans-serif;
     font-size: 40px;
+}
+
+#minha_foto {
+    position: fixed;
+    width: 15%;
+    margin-top: 100px;
 }
