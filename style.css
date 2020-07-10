@@ -24,23 +24,23 @@ body {
     margin-top: 150px;
     margin-left: 30px;
 }
-.artigo {
+.lado-esquerdo {
     float: left;
     width: 50%;
     margin-right: 20px;
     margin-left: 30px;
     padding: 15px;
 }
-.artigo p {
+.lado-esquerdo p {
     font-size: 14px;
 }
-.passagem {
+.lado-direito {
     width: 100%;
     margin-left: 20px;
     margin-right: 30px;
     padding: 15px;
 }
-.passagem p {
+.lado-direito p {
     font-size: 15px;
 }
 #licoes_aprendidas {
