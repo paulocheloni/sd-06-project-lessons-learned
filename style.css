@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: rgbgit status(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 footer {
-    margin-top: 20px;
+    margin-bottom: 0;
     padding: 10px;
     background-color: #84bff0;
     color: #ffffff;
@@ -20,6 +20,11 @@ footer {
     padding-bottom: 10px;
 }
 
+.conteudo_lateral {
+    margin-top: 35px;
+    float: right;
+    width: 250px;
+}
 #minha_foto {
     padding: 15px;
     border-radius: 50%;
