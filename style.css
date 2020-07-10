@@ -5,6 +5,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
 }
 
 #cabecalho {
@@ -20,7 +21,12 @@ body {
 }
 
 h2 {
-  margin: 10px
+  margin: 10px;
+  text-decoration: underline;
+}
+
+artigo.h2 {
+  text-align: center;
 }
 
 a {
@@ -47,25 +53,29 @@ a {
   float: left;
   border: 1px black solid;
   width: 50%;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #licoes_aprendidas {
   float: left;
-
+  text-align: center;
   
 }
 
 #licoes_a_aprender {
   float: right;
-  margin: auto
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
 }
 
 .artigo {
   border: black 1px solid;
   float: right;
   width: 45%;
-  padding-top: 30px;
+  padding-top: 10px;
+  margin-right: 30px;
+  text-align: justify;
 }
 
 .passagem {
