@@ -6,4 +6,5 @@ body {
 	position: fixed;
 	top: 0px;
 	background-color: rgb(95, 138, 107);
+	width: 100%;
 }
