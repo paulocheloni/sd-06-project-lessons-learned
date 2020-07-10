@@ -7,6 +7,7 @@ body {
   background-color: rgb(186, 199, 190);
 }
 .cabeçalho {
+  position: fixed;
   top: 0px;
 }
 .foto {
@@ -15,4 +16,12 @@ body {
 }
 .nav {
   top: 100px;
+}
+.tabela, th, td {
+  margin: 10px;
+  border: 2px solid rgb(119, 132, 114);
+  text-align: center;
+}
+ th, td {
+padding: 5px;
 }
