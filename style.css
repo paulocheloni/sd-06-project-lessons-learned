@@ -14,3 +14,7 @@
     background-color: rgb(80, 180, 226);
     padding: 35px;
 }
+.picture {
+    border-radius: 100%;
+    text-align: center;
+}
