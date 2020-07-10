@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(253, 251, 251)
 }
 
 #cabecalho {
@@ -8,4 +8,5 @@ body {
 }
 #minha_foto{
     border-radius: 100%;
+    width: 400px;
 }
