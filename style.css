@@ -6,6 +6,10 @@
   font-family: Helvetica, sans-serif;
 }
 
+body {
+  background-color: rgb(253, 251, 251);
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -25,7 +29,7 @@
   margin: 0 auto;
 }
 
-#minha-foto {
+#minha_foto {
   margin-top: 128px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, .7);
@@ -35,4 +39,10 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#rodape {
+  margin: auto 0;
+  text-align: center;
+  padding-top: 32px;
 }
