@@ -19,3 +19,11 @@ article {
 img {
     margin: 10px;
 }
+
+.lado-equerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
