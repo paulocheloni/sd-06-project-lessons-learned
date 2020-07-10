@@ -1,5 +1,6 @@
-.bg {
+body {
     background-color: rgb(201, 218, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -8,9 +9,11 @@
     position: fixed;
     display: inline-block;
     top: 0;
+    color: rgb(255, 255, 255);
 }
 
 #rodape {
+    text-align: center;
     clear: both;
 }
 
@@ -20,12 +23,13 @@
 }
 
 #content-wrapper {
-    margin: 150px 100px 100px 100px;
+    margin: 150px 100px 0;
     padding: 10px;
     width: auto;
+    clear: both;
 }
 
-.barra-lateral {
+.lado-direito {
     width: 30%;
     float: right;
 }
@@ -37,5 +41,24 @@
 }
 
 .header-wrapper {
+    margin: 0 auto;
     width: 80%;
+}
+
+#minha_foto {
+    border: 1px solid rgb(33, 74, 87);
+    border-radius: 4px;
+    padding: 2px;
+    float: left;
+    margin-right: 30px;
+}
+
+.lado-esquerdo {
+    width: 65%;
+    float: left;
+}
+
+p {
+    font-size: 11pt;
+    line-height: 15pt;
 }
