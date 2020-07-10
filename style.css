@@ -7,15 +7,27 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    height: 100px;
+    height: 250px;
+    width: 1366px;
+    background-color: blue;
+}
+
+#cabecalho h1 {
+    text-align: center;
+    
 }
 
 .container {
-   margin-top: 100px;
+   margin-top: 250px;
 }
 
 #minha_foto {
     width: 200px;
+}
+
+.sessoes {
+    width: 1366px;
+   
 }
 
 #rodape {
