@@ -5,6 +5,7 @@
 body{
     background-color: rgb(253, 251, 251);
     font-family: monospace, sans-serif;
+    font-size: 13px;
 }
 
 #cabecalho{
@@ -20,4 +21,17 @@ body{
 
 #rodape {
     background-color: rgb(200,250,100);
+}
+
+#redes-sociais{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer img{
+    width: 60px;
+}
+
+#instagram{
+    align-items: center;
 }
