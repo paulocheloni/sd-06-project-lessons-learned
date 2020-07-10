@@ -10,6 +10,9 @@ body {
   left: 0px;
   right: 0px;
   height: 60px;
+  color: whitesmoke;
+  font-size: large;
+  line-height: normal;
 }
 
 #titulo {
@@ -26,6 +29,7 @@ body {
 
 #licoes-aprendidas {
   font-weight: bold;
+  font-size: 
 }
 
 #licoes-a-aprender {
