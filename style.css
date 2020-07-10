@@ -4,4 +4,28 @@ body {
 
 .cabecalho {
   top: 0px;
+  margin: 0px 0px;
+  background-color: rgb(233 , 233 , 233);
+  font-size: 16;
+}
+
+li.nav-item {
+  display: inline-block;
+  padding: 15px 8px;
+}
+
+.list-side-by-side {
+  display: inline-block;
+  margin: 15px 8px;
+  color: rgb(37 , 37 , 37);
+  font-family: Cursive;
+  font-weight: 900;
+}
+
+.lado-esquerdo {
+  padding-inline-start: 60px;
+}
+
+.lado-direito {
+  padding-inline-start: 50px;
 }
