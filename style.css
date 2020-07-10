@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(88, 4, 95);
+    background-color: rgb(253,251, 251);
 }
 
 #cabecalho {
-    top: 0px;
+    margin-top: 0px;
     background-color: darkgreen;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .listas {
-    color: white;
-    margin: 50px;
+    margin: 10px;
     font-weight: 600;
+    display: inline-block;
 }
