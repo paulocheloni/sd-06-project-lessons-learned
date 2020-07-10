@@ -1,25 +1,39 @@
-*{
-    margin: 0px;
+* {
+    margin-top: 0px;
 }
-body{
+body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
 
 }
-#cabecalho{   
+#cabecalho {
+    position: relative;
     top: 0px;
     margin-bottom: 20px;
     background-color: seagreen;
-    height: 60px;
+    height: 80px;
 }
-#titulo{
+#titulo {
     text-align: center;
 }
-section{
+section {
     margin: 10px;
 }
-footer{
+footer {
     margin: 30px 10px;
 }
-.footer{
+.footer {
     font-size: 10px;
+}
+.artigo {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    width: 400px;
+    margin-left:30px;
+}
+aside {
+    width: 300px;
+    margin-right: 60px;
 }
