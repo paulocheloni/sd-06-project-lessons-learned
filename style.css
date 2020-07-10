@@ -1,0 +1,29 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 15px;
+    padding: 15px;
+    border: 15px;
+}
+
+#minha-foto {
+    width: 250px
+}
+
+aside {
+    float: right;
+}
+
+.licoes {
+    display: inline-block;
+}
+
+#rodape {
+    text-align: center;
+}
