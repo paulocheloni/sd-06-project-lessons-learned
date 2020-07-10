@@ -46,8 +46,17 @@ nav li{
   border-radius: 5%;
 }
 
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
 #rodape {
 /*  position: absolute; */
+  clear: both;
   bottom: 0;
   width: 100%;
 }
