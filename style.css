@@ -1,7 +1,9 @@
-/* ------ BARRA ------ */
-* {
+body, h1, h2, ul, il {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+}
+
+body{
 	background-color: rgb(181, 146, 109);
 }
 
@@ -21,7 +23,6 @@
 	text-align: center;
 }
 
-/* ----- FOTO ------ */
 #div-foto {
 	width: 40%;
 	margin-right: auto;
@@ -44,29 +45,37 @@
 	font-size: 18px;
 }
 
-/* ----- LICOES ------ */
-#section-licoes h2, ul, li{
-	background-color: rgb(222, 207, 172); 
-	color: rgb(181, 146, 109);
-}
-
 #section-licoes {
 	margin-top: 10px;
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
-	border: 1px solid rgb(222, 207, 172);
-	border-radius: 10px;	
 }
 
-#licoes_aprendidas {
-	font-size: 16px;
-	text-align: center;
-	list-style-type: none;
+#section-licoes, h2, ul, li {
+	background-color: rgb(222, 207, 172); 
+	color: rgb(181, 146, 109);
 }
 
 #section-licoes h2 {
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+	font-size: 16px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.div-licoes {
+	background-color: rgb(222, 207, 172); 
+	color: rgb(181, 146, 109);
+	display: inline-block;
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+	/* border: 1px solid rgb(222, 207, 172); */
+	/* border-radius: 10%; */
 }
