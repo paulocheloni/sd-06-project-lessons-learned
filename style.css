@@ -16,15 +16,32 @@ body {
   position: fixed;
   top: 100px;
   background-color: rgb(186, 199, 190);
+  color: rgb(81 102, 84);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 table, th, td {
   margin: 10px;
   border: 2px solid rgb(119, 132, 114);
-  text-align: center;
 }
  th, td {
-padding: 5px;
+  text-align: center;
+  padding: 5px;
+}
+table {
+  float: left;
+  width: 60%;
 }
 article.artigo-principal {
+  float: left;
+  width: 60%;
   margin-top: 220px;
+  line-height: 1.5;
+}
+.todas-as-licoes {
+  float: right;
+  width: 30%;
+  font-size: 0.7em;
+}
+.balancada {
+  clear: both;
 }
