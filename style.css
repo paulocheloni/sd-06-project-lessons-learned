@@ -24,7 +24,10 @@ article p {
 }
 .lado-direito {
     float: right;
-    margin-right: 40%;
+    margin-right: 43%;
     border: 1px inset black;
     padding: 5px;
+}
+.lado-esquerdo {
+    float: left;
 }
