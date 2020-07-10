@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  padding-top: 40px; /* espaçamento do tamanho do header */
 }
 
 header {
@@ -15,6 +16,10 @@ header {
   width: 100%;
 }
 
-.minha-foto {
-  width: 200px;
+#foto {
+  margin: 20px;
+}
+
+#minha_foto {
+  max-width: 200px;
 }
