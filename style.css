@@ -17,8 +17,29 @@ body {
 
 #minha_foto {
     position: relative;
-    width: 350px;
-    height: 260px;
-    margin: 95px 10px 0px;
+    display: block;
+    width: 25%;
+    margin-top: 95px;
+    margin-right: auto;
+    margin-left: auto ;
     border: 3px solid rgb(140, 236, 84);
+}
+
+.lado-direito {
+    position: relative;
+    float: right;
+    background-color: rgb(213, 247, 185);
+    border: 5px dashed rgb(140, 236, 84);
+    width: 300px;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    border-top: 3px solid rgb(140, 236, 84)
+}
+
+.lado-esquerdo {
+    position: relative;
+    width: 70%;
 }
