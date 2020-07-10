@@ -64,25 +64,29 @@ a:hover {
 	background: blue;
 	border: 1px solid gray;
 	width: 1366px;
+	clear: right;
 }
-#licoes_aprendidas {
-	float: left;
-	padding-right: 300px;
 
-}
-#licoes_a_aprender {
-
-	
-}
 
 h1 {
 	color: #4e4e4e;
 	font-size: 2.5em;
 }
 
-/*ol {
+ol {
 	float: left;
+	padding-top: 50px;
+	padding-left: 40px;
+
 }
 ul {
 	float: right;
-}*/
+	padding-top: 50px;
+	padding-right: 150px;
+}
+article {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	clear: left;
+}
