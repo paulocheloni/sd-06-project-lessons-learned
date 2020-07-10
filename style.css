@@ -6,11 +6,16 @@ body {
     background-color: beige;
 }
 #cabecalho {
+	position: fixed;
+	top: 0px;
 	background-color: #07889b;
 	padding: 15px;
 	text-align: center;
 }
-#logo, #menu {
+#logo {
+	padding: 80px;
+}
+#menu {
 	padding: 10px;
 }
 /***** Formatação do menu *****/
@@ -42,10 +47,16 @@ a:hover {
 	background: #66b9bf;
 	text-decoration: none;
 }
-.arrendondamento {
+#minha_foto {
 	border-radius: 150px;
 }
 h1 {
 	color: #4e4e4e;
 	font-size: 2.5em;
+}
+ol {
+	float: left;
+}
+ul {
+	float: right;
 }
