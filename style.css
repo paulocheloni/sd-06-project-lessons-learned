@@ -5,6 +5,8 @@ body {
     top: 0px;
     position: fixed;
     width: 100%;
+    z-index:1;
+   
 }
 header h1{
     font-family: monospace , sans-serif; 
@@ -15,4 +17,19 @@ header h1{
     padding: 25px;
     color:white;
     margin:0px;
+}
+.article{
+    position: absolute;
+    left:20%;
+    top:10%
+}
+footer{
+    text-align: center;
+}
+aside{
+    position: absolute;
+    left:20%;
+    font-style: italic;
+    top:48%;
+    width: 20%;
 }
