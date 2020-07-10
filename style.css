@@ -1,32 +1,29 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb (253, 251, 251);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-header {
-    position: fixed;
+#cabecalho {
     top: 0px;
-}
-
-#titulo {
-    text-align:  center;
+    text-align: center;
+    position: fixed;
 }
 
 nav {
-    margin:  15px;
-    padding:  15px;
+    margin:  15px 0px;
+    padding:  15px 0px;
     border:  15px;
 }
 
-#minha-foto {
+#minha_foto {
     width:  250px;
+    margin-top: 150px;
 }
 
 aside {
     float:  right;
-}
-
-.licoes {
-    display:  inline-block;
+    line-height: 1px;
 }
 
 #rodape {
