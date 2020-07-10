@@ -9,15 +9,19 @@
             position: fixed;
             top: 0px;
             background-color: rgb(17, 17, 17);
-            
+            width: 100%;
+            left: 0;
         }
         #titulo{
             color: rgb(230, 230, 230);
             margin-top: 8px;
-            
+            margin-left: 8px;
+            margin-bottom: 0;
         }
         #subtitulo{
             color: rgb(177, 177, 177);
+            margin-left: 8px;
+            margin-top: 0px;
         }
         #barra-nav{
             background-color: black;
@@ -28,37 +32,42 @@
         }
         #minha_foto{
             width: 100px;
-            position
-         
+            float: left;
         }
-
         #rodape{
             background-color: black;
         }
         #licoes_aprendidas{
             color: brown;
+            width: 300px;
+            background-color: darkblue;
         }
         #licoes_a_aprender{
             color: crimson;
+            width: 300px;
+            background-color: darkgreen;
         }
     </style>
 </head>
 <header id="cabecalho">
+    <img id="minha_foto" src="./foto.png" alt="Foto do rosto de uma mulher">
     <h1 id="titulo">Trybe - Lições aprendidas</h1>
     <h3 id="subtitulo">Até agora!</h3>
     <nav id="barra-nav">
-        <a>Conteúdos</a>
-        <a href="https://www.betrybe.com/" target= _blank>Página da Trybe</a>
+        <a class="botoes" href=#licoes>Lista de lições</a>
+        <a class="botoes" href="https://www.betrybe.com/" target= _blank>Página da Trybe</a>
          </nav>
 </header>
 <body>
-    <img id="minha_foto" src="./foto.png" alt="Foto do rosto de uma mulher">
+   <div>
+
     <article>
         <h4>Sobre estudar na Trybe</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     </article> 
-    <p>Lições que ainda desejo aprender:</p>
+   </div>
+    <p id=licoes>Lições que ainda desejo aprender:</p>
     <ul id="licoes_a_aprender">
         <li>JavaScript</li>
         <li>SQL</li>
@@ -86,6 +95,6 @@
     </ol>
 </body>
 <footer id="rodape">
-
+<p>O rodapé é aqui</p>
 </footer>
 </html>
