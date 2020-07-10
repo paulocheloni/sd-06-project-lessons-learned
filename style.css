@@ -32,13 +32,17 @@ nav a:hover {
 }
 
 .main {
-  margin-top: 70px;
+  margin-top: 75px;
 }
 
 .listas {
   display: inline-block;
   width: 50%;
   margin-left: 20px;
+}
+
+.lista{
+
 }
 
 footer {
