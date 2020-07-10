@@ -19,7 +19,7 @@ header{
     padding: 5px;
 }
 #minha_foto{
-    width: 400px;
+    width: 420px;
     margin: 15px;
     border: solid 8px rgb(181, 182, 181, 0.5);
     float: left;
@@ -70,7 +70,7 @@ main{
 
 .listas{
     clear: both;
-    margin: 10px;
+    margin: 15px;
 }
 .autor{
 
@@ -95,3 +95,6 @@ th {
     text-align: center;
 }
 
+.frase{
+    text-align: center;
+}
