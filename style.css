@@ -1,8 +1,36 @@
 body {
-  background-color: rgb(10, 10, 13);
-  background-image: radial-gradient(ellipse at top right, white, black);
+  background-color: rgb(253, 251, 251);
+  background-image: radial-gradient(ellipse at top right, rgb(6, 6, 11) 0%, rgb(22, 22, 27) 100%);
   min-height: 100vh;
-  min-width: 100vw;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+}
+
+header h1, header h2 {
+  font-family: 'Titillium Web', sans-serif;
+  color: rgba(217, 217, 222, 85%);
+  padding: 0;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 3.5em;
+  letter-spacing: 3px;
+  margin: 0 0 -10px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  font-size: 1.4em;
+  margin: 0 0 15px 0;
+}
+
+header.header-bar {
+  margin-top: 0;
+  background-color: rgba(9, 9, 13, 80%);
+  padding: 15px 12px;
+
 }
