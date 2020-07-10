@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 251, 251);
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    clear: both;
+}
+#cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.title{
+
+    padding: 20px;
+}
+.profile-lists{
+    margin-top: 160px;
+}
+
+#minha_foto{
+    border-radius: 100%;
+}
+.img-profile{
+    text-align: center;
+}
+.img-profile h2{
+    color: black;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+.listas{
+    background-color: red;
+    width: 100%;
+    margin: 25px 0;
+    color: white;
+}
+#licoes_aprendidas{
+    width: calc(50% - 5px);
+    float: left;
+    list-style-position: inside;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#licoes_a_aprender{
+    width: 50%;
+    float: right;
+    padding: 15px;
+    background-color: rgb(29, 29, 29);
+    list-style-position: inside;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    left: -5px;
+    z-index: -1;
+}
+#licoes_a_aprender h1, #licoes_aprendidas h1{
+    margin-bottom: 15px;
+}
+.left-itens{
+    width: 48%;
+    display: inline-block;
+}
+.right-itens{
+    display: inline-block;
+    width: 48%;
+}
+.profile-lists{
+    margin-bottom: 60px;
+}
+.social-media img{
+    width: 35px;
+    position: relative;
+    top: 10px;
+}
+.social-media{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.social-media a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+}
+.social-media:hover a{
+ font-size: 18px;
+ transition: 450ms;
+ color: rgb(24, 63, 136);
+ font-weight: bold;
+}
