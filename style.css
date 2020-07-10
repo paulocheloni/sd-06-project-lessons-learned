@@ -34,12 +34,21 @@ img {
 header {
   position: fixed;
   width: 100%;
+  padding: 15px;
   top: 0px;
   background-color: #D8C3A5;
+  border-bottom: 3px solid #E98074;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav li {
   display: inline-block;
+  padding: 5px;
+  border-radius: 10%;
+  background-color: #E98074;
 }
 
 .personal-info {
