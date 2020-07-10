@@ -3,10 +3,25 @@ body {
 }
 
 #cabecalho {
+    /*width: 100%;*/
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 #rodape {
     clear: both;
+}
+
+.icons {
+    margin-top: 10px;
+    float: right;
+}
+
+#content-wrapper {
+    width: auto;
+}
+
+.barra-lateral {
+    width: 30%;
+    float: right;
 }
