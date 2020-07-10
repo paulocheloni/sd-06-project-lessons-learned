@@ -1,10 +1,44 @@
-/* geral */
+/* ------ Header ------ */
 body, p, h1, h2, input, textarea {
   margin: 0;
 	font-family: 'Roboto', sans-serif;
-	color: #B5926D;
+	background-color: #B5926D;
 }
 
 #cabecalho {
 	top: 0px;
+	background-color: #DECFAC;
+	padding: 0 15px;
+  height: 40px;	
+}
+
+#titulo {
+	color: #A67C5B;
+	background-color: #DECFAC;
+	font-size: 22px;
+	margin-left: 10px;
+	line-height: 40px;
+}
+
+/* ----- Main ------ */
+#main {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #DECFAC;
+  padding: 50px;
+}
+
+#minha_foto {
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #DECFAC;
+}
+
+#main h2 {
+	font-size: 18px;
 }
