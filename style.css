@@ -1,0 +1,10 @@
+
+
+.body-backgound {
+    background-color: ghostwhite;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+}
