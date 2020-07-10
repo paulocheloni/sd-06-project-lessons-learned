@@ -17,3 +17,7 @@ body{
     padding: 40px;
     border-radius: 50%;
 }
+
+#rodape {
+    background-color: rgb(200,250,100);
+}
