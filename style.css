@@ -1,15 +1,13 @@
 body{
-    background: #a9a9a9;
+    background: rgb(253, 251, 251);
 }
 #cabecalho{
     position: fixed;
     margin-top: 0px;
     width: 100%;
     background-color: #5f095f;
-
 }
 #titulo{
-
 }
 #minha_foto{
 
