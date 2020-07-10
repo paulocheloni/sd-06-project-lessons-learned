@@ -2,6 +2,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  left: 0px;
 }
 
 #cabecalho {
@@ -26,9 +27,15 @@ body {
 #minha_foto {
 margin-top: 95px;
 width: 300px;
-display: inline-block;
-padding-left: 0px;
-background-color: forestgreen;
-margin-left: 0px;
 border-radius: 10px;
+}
+
+#licoes_aprendidas{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#licoes_a_aprender{
+  font-weight: bold;
+  font-size: 20px;
 }
