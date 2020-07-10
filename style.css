@@ -5,7 +5,7 @@ html, body {
 
 body {
   background-color: rgb(253, 251, 251);
-  background-image: radial-gradient(ellipse at top right, rgb(2, 2, 6) 7%, rgb(11, 11, 17) 100%);
+  background-image: radial-gradient(ellipse at top right, rgb(0, 2, 6) 7%, rgb(13, 17, 24) 100%);
   background-repeat: no-repeat;
   height: 100%;
   font-size: 16px;
@@ -17,7 +17,7 @@ header.header-bar {
   position: fixed;
   width: 100%;
   top: 0px;
-  background-color: rgba(2, 2, 7, 89%);
+  background-color: rgba(0, 2, 4, 89%);
   padding: 0 18px 17px;
 }
 
@@ -40,9 +40,34 @@ header h2 {
   letter-spacing: 4px;
   font-size: 1.4em;
   margin: 0;
+  float: left;
 }
 
+header .header-nav {
+  display: inline-block;
+  margin: 0;
+  width: 45%;
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+header .header-nav a {
+  text-transform: lowercase;
+  margin: 0 15px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(213, 237, 254);
+}
 
+header .header-nav a:hover {
+  text-decoration: underline;
+}
+
+header .header-nav a:visited {
+  color: rgb(183, 217, 234);
+}
 
 main.container {
   width: 92%;
@@ -161,5 +186,5 @@ img.foto {
   background-color: rgba(0, 0, 0, 65%);
   margin: 45px 0 0;
   padding: 12px 10px 6px;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
