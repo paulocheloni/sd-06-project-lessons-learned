@@ -1,13 +1,22 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(253, 251, 251);
     font-family: Helvetica, sans-serif;
   }
 
 #cabecalho {
-    position: fixed; 
-    top: 0px;
+  background-color: green;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
 }
 
 #titulo {
     text-align: center;
+}
+
+#minha_foto {
+  z-index: 1;
+  border-radius:50%
 }
