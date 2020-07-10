@@ -1,10 +1,10 @@
 nav{
     background: rgb(38,128,0);
-    height: 90px;
+    height: 120px;
     width: 100%;
     position: fixed;
 }
-label.logo{
+label.cabecalho{
     color: white;
     font-size: 35px;
     line-height: 80px;
@@ -39,5 +39,11 @@ a.active,a:hover{
 }
 a{
     text-decoration: none;   
+}
+.titulo-superior{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
 }
 /* Separação */
