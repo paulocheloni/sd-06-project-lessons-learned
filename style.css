@@ -29,3 +29,17 @@ body{
 a .mais_info{
     color: #bead74;
 }
+.artigo_principal{
+    background-color: darkgreen;
+}
+.texto_artigo{
+    background-color: darkkhaki;
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link_h2_artigo{
+    font-style: italic;
+    color: darkred;
+    font-size: 10px;
+    
+}
