@@ -7,7 +7,7 @@ body{
     left: 0px;
     right: 0px;
     background-color: green;
-    margin-bottom: 10px;
+    
 }
 #titulo{
     color: white;
@@ -16,4 +16,7 @@ body{
     border: 5px solid rebeccapurple;
     margin: 10px 10px 10px 10px;
     padding: 2px;
+}
+.content{
+    margin-top: 100px;
 }
