@@ -7,7 +7,7 @@ header {
   width: 100%;
   position: fixed;
   text-align: center;
-  top: 0px;
+  top: 0;
 }
 
 main {
@@ -16,7 +16,7 @@ main {
 
 footer {
   background-color: rgb(72 , 172 , 211);
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #minha_foto {
@@ -54,7 +54,7 @@ footer {
 #link-nome {
   float: left;
   margin-left: 160px;
-  margin-top: 0px;
+  margin-top: 0;
   text-decoration: none;
 }
 
