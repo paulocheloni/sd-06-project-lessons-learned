@@ -3,16 +3,16 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+        position: fixed;
+        top: 0px;
+        width: 100%;
 }
 
 #minha_foto {
-    border-radius: 50%;
-    width: 130px;
+        border-radius: 50%;
+        width: 130px;
 }
 
 section {
-    margin: 5% 1%;
+        margin: 5% 1%;
 }
