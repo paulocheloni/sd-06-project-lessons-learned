@@ -1,12 +1,11 @@
-* {
-    margin-top: 0px;
-}
 body{
 background-color: rgb(253, 251, 251);          
 } 
 #cabecalho{
     background-color: rgb(31, 182, 17);
     z-index: 10;
+    position: fixed;
+    top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -14,7 +13,7 @@ background-color: rgb(253, 251, 251);
     text-align: center;
 }
 #minha_foto{
-    clear: both;
+    
     width: 200px;
     z-index: 9;            
 }
@@ -24,4 +23,7 @@ background-color: rgb(253, 251, 251);
 .caixa_a_direita{
     float: right;
     width: 10%;
+}
+.margem_no_topo{
+    margin-top: 150px;   
 }
