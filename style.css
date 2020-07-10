@@ -1,9 +1,9 @@
 body {
-  background-color: #282a36;
+  background-color: rgb(40,42,54);
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  color: aliceblue;
+  color: rgb(204,207,220);
 }
