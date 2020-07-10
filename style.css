@@ -2,3 +2,12 @@ body {
     background-color: whitesmoke;
     font-family: Helvetica, sans-serif;
   }
+
+#cabecalho {
+    position: fixed; 
+    top: 0px;
+}
+
+#titulo {
+    text-align: center;
+}
