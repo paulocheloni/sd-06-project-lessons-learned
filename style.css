@@ -3,10 +3,17 @@
 }
 
 body{
-    background-color: blueviolet;
+    background-color: rgb(253, 251, 251);
     font-family: monospace, sans-serif;
 }
 
 #cabecalho{
     margin-top: 0;
+    background-color: rgb(200,250,0);
+}
+
+#minha_foto{
+    width: 250px;
+    padding: 40px;
+    border-radius: 50%;
 }
