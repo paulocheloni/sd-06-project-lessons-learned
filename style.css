@@ -34,7 +34,7 @@ body{
     line-height: 2em;
 }
 
-.artigo{
+.lado-esquerdo{
     float: left;
     font-family: 'Times New Roman', Times, serif;
     width: 45%;
@@ -50,7 +50,7 @@ body{
     line-height: 2em;
 }
 
-.causos{
+.lado-direito{
     float: right;
     width: 45%;
     padding: 10px 10px;
