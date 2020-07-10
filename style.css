@@ -9,16 +9,15 @@ body{
 
 #titulo{
     font-family: Didot, 'Times New Roman', Times, serif;
-    background-image: url(azul.jpg);
+    background-image: url(images/azul.jpg);
     width: 1366px;
     text-align: center;
     padding: 10px;
 }
-#perfil{
+.perfil{
     width: 150px;
     margin-top: 30px;
     border: lightskyblue dashed;
-    
     
 }
 .listas{
@@ -26,15 +25,27 @@ body{
     left: 190px;
     top: 90px;
     display: inline-flex;
-    background-image: url(azul.jpg);
+    background-image: url(images/azul.jpg);
 }
 .padding{
     margin: 10px;
 }
 .artigo1{
     max-width: 500px;
-    margin-top: 90px;
     margin-left: 615px;
-    background-image: url(azul.jpg);
+    background-image: url(images/azul.jpg);
     padding: 10px;
+    display: inline-flex;
+    position: absolute;
+    margin-top: -290px;
+}
+.artigo2{
+    max-width: 384px;
+    margin-top: 380px;
+    margin-left: 180px;
+    background-image: url(images/azul.jpg);
+    padding: 10px;
+
+    
+
 }
