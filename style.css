@@ -24,9 +24,8 @@ header {
     padding: 10px;
 }
 .container h2 {
-    margin: 10px 0;
+    margin: 20px 0;
 }
-.container ol{
+.container ol, .container ul {
     margin-left: 40px;
-    margin-top: 0px;
 }
