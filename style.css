@@ -3,7 +3,14 @@ body {
 }
 
 #cabecalho {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 50px;
     background-color: red;
     position: fixed;
     top: 0px;
+}
+
+#rodape {
+    border: 1px solid #000;
 }
