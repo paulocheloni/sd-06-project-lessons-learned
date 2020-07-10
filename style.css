@@ -4,8 +4,10 @@ body {
 #cabecalho{
     top:0px;
     position: fixed;
-    border: 1px solid black;
 }
 #minha_foto {
     max-width:30%;
+}
+nav {
+    margin-top: 5%;
 }
