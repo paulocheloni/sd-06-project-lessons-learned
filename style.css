@@ -21,10 +21,10 @@ footer {
 
 #minha_foto {
   width: 15%;
-  margin-top: 60px;
-  margin-left: 20px;
-  margin-right: 60px;
+  margin-top: 50px;
   border-radius: 50%;
+  border-style: ridge;
+  border-color: rgb(13 , 0 , 87);
   display: inline-block;
 }
 
@@ -34,16 +34,41 @@ footer {
 
 .bloco-lista {
   display: inline-block;
+  margin: 60px;
 }
 
 .lado-esquerdo {
   float: left;
   max-width: 50%;
   margin-left: 15px;
+  margin-top: 50px;
 }
 
 .lado-direito {
   float: right;
   max-width: 30%;
   margin-right: 15px; 
+  margin-top: 50px;
+}
+
+#link-nome {
+  float: left;
+  margin-left: 160px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+#barra_navegacao {
+  display: block;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+}
+
+#listas_licoes {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
 }
