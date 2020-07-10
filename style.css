@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(253, 251, 251);
+  width: 1366px;
+  height: 768px;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(148, 151, 148);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+img {
+  width: 300px;
+  top: 210px;
+}
