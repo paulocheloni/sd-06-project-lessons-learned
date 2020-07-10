@@ -1,6 +1,7 @@
 
 body {
-    background-color: #FEFAE0;
+    /* essa cor de background é obrigatória. */
+    background-color: rgb(253, 251, 251);
     margin: 0px;
 }
 #cabecalho {
