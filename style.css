@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.header {
+  
+}
+
+.cabecalho {
+  background-color: chartreuse;
+}
+
+.image-photo img {
+  width: auto;
+  height: auto;
+}
+
