@@ -36,11 +36,11 @@ body {
     margin: auto;
 }
 
-.right {
+.lado-direito {
     float: right;
 }
 
-.left {
+.lado-esquerdo {
     float: left;
 }
 
