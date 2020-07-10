@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(253 , 251 , 251);
-    font-family: Roboto, sans-serif;
+    background-color: rgb(253,251,251);
+    font-family:  Roboto, sans-serif;
 }
 .clear {
     clear: both;
@@ -15,7 +15,7 @@ body {
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0);
-    color: rgb(255 , 255 , 255);
+    color: rgb(255,255,255);
     width: 100%;
     text-align: center;
 }
@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 .img-profile h2 {
-    color: rgb(0 , 0 , 0);
+    color: rgb(0,0,0);
     font-weight: 200;
     letter-spacing: 1px;
     padding: 15px 0;
@@ -40,17 +40,17 @@ body {
 .lado-esquerdo {
     width: 68%;
     margin: 25px 0;
-    color: rgb(255 , 255 , 255);
-    display: inline-block;
+    color: rgb(255,255,255);
+    float: left;
 }
-.listas h2{
+.listas h2 {
     margin-bottom: 15px;
 }
 #licoes_aprendidas {
     width: calc(50% - 5px);
     float: left;
     list-style-position: inside;
-    background-color: rgb(0 , 0 , 0);
+    background-color: rgb(0,0,0);
     padding: 30px;
     border-radius: 5px;
     margin-left: 5px;
@@ -59,7 +59,7 @@ body {
     width: 50%;
     float: right;
     padding: 15px;
-    background-color: rgb(29 , 29 , 29);
+    background-color: rgb(29,29,29);
     list-style-position: inside;
     position: relative;
     top: 15px;
@@ -91,18 +91,18 @@ body {
     margin-bottom: 10px;
 }
 .social-media a {
-    color: rgb(255 , 255 , 255);
+    color: rgb(255,255,255);
     text-decoration: none;
     padding: 10px;
 }
 .title a {
     text-decoration: none;
-    color: rgb(255 , 255 , 255);
+    color: rgb(255,255,255);
 }
 .social-media:hover a {
  font-size: 18px;
  transition: 450ms;
- color: rgb(24 , 63 , 136);
+ color: rgb(24,63,136);
  font-weight: 800;
 }
 article {
@@ -110,15 +110,13 @@ article {
     line-height: 25px;
     height: 100vh;
     overflow: scroll;
-}
-article p{
-    margin-bottom: 20px;
+    line-height: 35px;
 }
 #rodape {
-    color: rgb(255 , 255 , 255);
+    color: rgb(255,255,255);
     padding: 20px;
     text-align: center;
-    background-color: rgb(0 , 0 , 0);
+    background-color: rgb(0,0,0);
 }
 table {
     width: 70%;
@@ -126,16 +124,16 @@ table {
     padding: 15px;
 }
 table th {
-    border: 2px solid rgb(0 , 0 , 0);
+    border: 2px solid rgb(0,0,0);
 }
 table td {
-    border: 1px solid rgb(204 , 204 , 204);
+    border: 1px solid rgb(204,204,204);
     padding: 5px 0;
 }
-.games{
+.games {
     text-align: center;
 }
-.lado-direito{
+.lado-direito {
     float: right;
     width: 30%;
     overflow: hidden;
