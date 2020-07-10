@@ -1,24 +1,30 @@
 body {
-    margin:  0;
-    padding:  0;
-    background-color:  purple;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 4, 95);
 }
 
 #cabecalho {
-    margin-top:  0px;
-    background-color:  darkgreen;
-    color:  white;
-    text-align:  center;
-    height:  100px;
+    top: 0px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    height: 100px;
 }
 
 #titulo {
-    margin:  0;
-    padding-top:  30px;
+    margin: 0;
+    padding-top: 30px;
 }
 
 #minha_foto {
-    margin:  30px 40%;
-    border-radius:  100%;
-    border:  30px ridge darkgreen;
+    margin: 30px 40%;
+    border-radius: 100%;
+    border: 30px ridge darkgreen;
+}
+
+.listas {
+    color: white;
+    margin: 50px;
+    font-weight: 600;
 }
