@@ -56,11 +56,11 @@ body {
   margin-top: 32px;
   margin-bottom: 18px;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  line-height: 24px;
 }
 
 .section-tags {
-  display: inline;
+  display: inline-block;
 }
 
 .section-tags .lado-esquerdo{
@@ -78,10 +78,29 @@ body {
   float: right;
 }
 
+.table {
+  width: 90%;
+}
+
+.container-table h2 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.table td, .table th {
+  border: 1px solid #cccccc;
+  text-align: left;
+  padding: 8px;
+}
+
 #rodape {
   text-align: center;
-  margin: auto 0;
-  padding-top: 50px;
+  margin-top: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: rgba(230, 222, 222, 0.7);
   bottom: 0;
   clear: both;
   font-size: 14px;
