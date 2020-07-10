@@ -2,5 +2,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgb(253, 251, 251);
+}
+.header {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+.title {
+    text-align: center;
     background-color: rgb(80, 180, 226);
+    padding: 35px;
 }
