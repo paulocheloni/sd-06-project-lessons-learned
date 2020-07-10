@@ -1,3 +1,31 @@
 body{
-    background-color: #98c1d9;
+    background-color:rgb(253, 251, 251);
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0px;
+}
+
+#titulo{
+    font-family: Didot, 'Times New Roman', Times, serif;
+    background-image: url(azul.jpg);
+    width: 1366px;
+    text-align: center;
+    padding: 10px;
+}
+#perfil{
+    width: 150px;
+    
+}
+.clear{
+    clear: both;
+    
+}
+
+. clear{
+    position: absolute;
+    left: 13%;
+    top: 11%;
+    
 }
