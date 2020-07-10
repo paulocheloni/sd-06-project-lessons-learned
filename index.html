@@ -7,21 +7,23 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <header id="cabecalho">
+    <header id="cabecalho" class="cabecalho">
       <h1 id="titulo">Lessons Learned - Trybe</h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Login</li>
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Login</li>
         </ul>
       </nav>
     </header>
-    <a href="https://pedrobth.github.io/" target="_blank">
-      <img id="minha_foto" src="images/profile-sketch-small.jpg" width=180 alt="my picture">
-    </a>
-      <section>
+    <div class="list-side-by-side">
+      <a href="https://pedrobth.github.io/" target="_blank">
+        <img class="" id="minha_foto" src="images/profile-sketch-small.jpg" width=180 alt="my picture">
+      </a>
+    </div>
+      <section class="list-side-by-side">
         <h2>Itens to highlight</h2>
-        <ol id="licoes_aprendidas">
+        <ol class="lado-esquerdo" id="licoes_aprendidas">
           <li>Unix & Bash</li>
           <li>Shell Script</li>
           <li>Git</li>
@@ -34,9 +36,9 @@
           <li>Networking</li>
         </ol>
       </section>
-      <section>
+      <section class="list-side-by-side">
         <h3>What else I expect</h3>
-        <ul id="licoes_a_aprender">
+        <ul class="lado-direito" id="licoes_a_aprender">
           <li>Improve my network</li>
           <li>Lots of soft skills I have no idea of the existence</li>
           <li>JavaScript</li>
@@ -62,7 +64,7 @@
       <!-- requirement: more than 100 less then 300 chars-->
       <p>During those short two weeks, a friend got GitHub errors. He was facing a hard time after hours dragging on the troubleshooting by himself, but he shared his screen and in less than 5 min. his problem was solved. That’s one example of how efficient it is to code and in group.</p>
     </aside>
-    <aside>
+    <aside class="asside-table">
       <table>
         <tr>
           <th>Languages I "speak"</th>
@@ -92,7 +94,7 @@
         </tr>
       </table>
     </aside>
-    <footer id="rodape">
+    <footer class="" id="rodape">
       <p>Copyright © 2020 pedrobth. All rights reserved. Terms of use | Privacy Pollicy</p>
     </footer>
   </body>
