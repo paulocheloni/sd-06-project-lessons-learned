@@ -12,15 +12,18 @@ body {
   margin-top: 0px;
   text-align: center;
   padding: 2% 30%;
+  background-color: pink;
 }
 
-.header{
-  background-color: pink;
+h3{
+  text-align: center;
 }
 
 .picture {
   border-radius: 20%;
-  margin-top: 90px;
+  margin-top: 9%;
+  margin-bottom: 1%;
+
   width: 250px;
 }
 
