@@ -1,6 +1,10 @@
 *{
     padding-top: 0px;
     margin-top: 0px;
+    font-size: 20px;
+    color: seagreen;
+    letter-spacing: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
     background-color: rgb(253, 251, 251);
@@ -16,4 +20,7 @@ body{
 table{
     border: dotted;
     margin-top: 15px;
+}
+section{
+    
 }
