@@ -39,7 +39,6 @@ nav a:hover {
   margin-top: 75px;
 }
 
-
 .listas {
   margin: 20px;
   margin-left: 250px;
@@ -52,6 +51,9 @@ nav a:hover {
   border: 1px solid;
 }
 
+p {
+  margin-top: 20px;
+}
 .artigo {
  display: inline-block;
  width: 40%;
