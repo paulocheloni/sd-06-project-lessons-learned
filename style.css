@@ -4,14 +4,15 @@ body{
 
 #cabecalho{
     position: fixed;
-    top: 0px;
+    top:0;
+    width: 100%;
     background-color: seagreen;
 }
-
+    
 #titulo{
     text-align: center;
 }
 
 #minha_foto{
-    margin: auto;
+    margin-top: 150px;
 }
