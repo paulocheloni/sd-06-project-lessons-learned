@@ -35,3 +35,15 @@ footer {
 .bloco-lista {
   display: inline-block;
 }
+
+.lado-esquerdo {
+  float: left;
+  max-width: 50%;
+  margin-left: 15px;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 30%;
+  margin-right: 15px; 
+}
