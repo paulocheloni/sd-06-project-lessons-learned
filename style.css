@@ -3,11 +3,11 @@ body {
 }
 #cabecalho{
     top: 0px;
-    
+}
+header h1{
     font-family: monospace , sans-serif; 
     background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
 }
-
 #titulo{
     text-align: center;
     padding: 25px;
