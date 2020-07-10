@@ -40,16 +40,20 @@ body {
     letter-spacing: -1px;
 }
 
-ul li{
-    display: inline-block;
-}
 
-ul li:hover {
+#menu ul li:hover {
     transition: 0.5s;
     font-size: 25px;
 }
 
+ul li{
+    display: inline-block;
+}
 
+#menu li img {
+    width: 35px;
+    padding: 5px;
+}
 
 p {
     color: #000;
@@ -123,5 +127,17 @@ main {
 }
 
 #rodape {
-border: 1px solid #000;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(16, 153, 57);
+    font-family: 'Fira Code', monospace;
+    height: 80px;
+    border: 1px solid rgb(16, 153, 57);
+}
+
+#rodape p {
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    color: #fff;
 }
