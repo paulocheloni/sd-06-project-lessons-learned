@@ -27,3 +27,11 @@
     .principal{
       padding:  200px 16px 16px 16px;
     }
+    #minha_foto {
+      border-radius: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: rgb(212, 41, 41);
+      padding: 5px 5px 5px 5px;
+    }
