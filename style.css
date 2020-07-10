@@ -20,3 +20,9 @@ body{
 #licoes_a_aprender{
     background-color: brown;
 }
+#rodape{
+    width: 100%;
+    background-color: darkgoldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
