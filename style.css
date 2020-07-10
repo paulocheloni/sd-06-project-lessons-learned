@@ -18,7 +18,7 @@ header h1{
     color:white;
     margin:0px;
 }
-.article{
+article{
     position: absolute;
     left:20%;
     top:10%
@@ -32,4 +32,9 @@ aside{
     font-style: italic;
     top:48%;
     width: 20%;
+}
+
+article h1{
+    text-align: center;
+    
 }
