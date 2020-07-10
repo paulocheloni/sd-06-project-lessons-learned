@@ -1,10 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+    margin:0;
+    padding:0;
+    border:0;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    background-color: rgb(253, 251, 251);
+body {
+    font-family:'Roboto', sans-serif;
+    list-style:none;
+    background-color:rgb(253, 251, 251);
 }
