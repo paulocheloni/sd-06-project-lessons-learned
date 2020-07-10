@@ -1,6 +1,4 @@
-* {
-    margin-top: 0px;
-}
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
@@ -19,21 +17,21 @@ body {
 section {
     margin: 10px;
 }
-footer {
-    margin: 30px 10px;
-}
 .footer {
     font-size: 10px;
 }
-.artigo {
-    display: flex;
-    justify-content: space-between;
-}
-article {
+
+.lado-esquerdo{
+    float:left;
     width: 400px;
     margin-left:30px;
+    border: solid 2px seagreen;
+    padding: 2px 5px;
 }
-aside {
+.lado-direito {
+    float: right;
     width: 300px;
-    margin-right: 60px;
+    margin-right: 100px;
+    border: solid 2px seagreen;
+    padding: 2px 5px;
 }
