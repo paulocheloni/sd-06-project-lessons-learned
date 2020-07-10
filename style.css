@@ -71,6 +71,7 @@ main{
 .listas{
     clear: both;
     margin: 15px;
+    float: left;
 }
 .autor{
 
@@ -97,4 +98,12 @@ th {
 
 .frase{
     text-align: center;
+}
+.teste{
+
+    padding-top: 60px;
+    float: right;
+}
+footer{
+    clear: both;
 }
