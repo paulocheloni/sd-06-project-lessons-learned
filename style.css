@@ -1,0 +1,9 @@
+body {
+  background-color: #282a36;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  color: aliceblue;
+}
