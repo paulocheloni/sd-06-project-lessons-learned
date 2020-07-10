@@ -89,14 +89,15 @@ a:hover{
     margin-left: 300px;
 }
 .sessao_tabela{
-    background-color: #a9a9a9;
     width: 60vw;
-    height: 50vh;
+    height: 32vh;
+    margin-left: 300px;
     float: left;
 }
 table{
     border: 1px solid #ccccdd;
     border-collapse: collapse;
+    background-color: #ffffcc;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -107,6 +108,9 @@ th, td {
     border-bottom: 1px solid #ddd;
   }
 tr:hover {background-color: #f5f5f5;}
+.bg_titulo_tabela{
+    background-color: #ffff66;
+}
 #rodape{
     width: 100%;
     height: 5vh;
