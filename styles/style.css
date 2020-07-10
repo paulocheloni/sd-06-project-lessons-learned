@@ -3,9 +3,14 @@ body {
     padding: 0;  
     border: 0; 
     overflow-x: hidden;
-    background-color: #242423;
+    background-color: rgb(36, 36, 35);
  }
 
  .container {
      
+ }
+
+ .menu-fixed {
+     position: fixed;
+     margin-top: 0px;
  }
