@@ -56,7 +56,7 @@ body {
     background-color: orangered;
 }
 
-div.listas.artigo {
+.listas.artigo {
     display: inline-block;
     max-width: 600px;
     margin-left: 30px;
