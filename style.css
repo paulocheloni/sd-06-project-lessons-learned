@@ -6,7 +6,7 @@ body {
 
 header {
   position: absolute;
-  top: 0;
+  top: 0px;
   background-color: darkgreen;
   width: 100%;
 
