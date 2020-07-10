@@ -1,0 +1,36 @@
+<style>
+     body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            background: rgb(0, 0, 0);
+    }
+
+        #cabecalho {
+            width: 1500px;
+            height: 150px;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+        }
+        #titulo {
+            width: 250px;
+            position: relative;
+            color: rgb(0, 0, 0);
+            margin-left: 40px;
+            margin-top: 25px;
+            position: fixed;
+        } 
+        #minha_foto {
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 120px;
+            z-index: 1;
+        }
+        #aprendizado ,#rodape {
+            margin-left: 30px;
+        }
+        #licoes_aprendidas {
+            position: ;
+        }
+</style>
