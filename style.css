@@ -54,3 +54,21 @@ body {
 #rodape a:hover {
     color: rgb(238, 59, 59);
 }
+#artigo {
+    display: inline-block;
+    width:40%;
+    margin-left: 20px;
+}
+#box {
+    display: inline-block;
+    width:40%;
+    margin-left: 20px;
+}
+#minha_foto {
+    float: left;
+    margin: 10% 20px;
+    border-radius: 100%;
+    background-color: #003333;
+    padding: 6px;
+    align-content: center;
+}
