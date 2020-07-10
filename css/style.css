@@ -1,8 +1,8 @@
 *{
     padding-top: 0px;
     margin-top: 0px;
-    font-size: 20px;
-    color: seagreen;
+    font-size: 40px;
+    color: rgb(4, 61, 29);
     letter-spacing: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -10,9 +10,12 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    background-color: rgba(105, 170, 200, 0.685);
     width: auto;
     position: fixed;
     text-align: center;
+    font-size: 45px;
+    width: 100%;
 }
 #titulo{
     text-align: center;
