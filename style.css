@@ -9,9 +9,9 @@ body{
 }
 
 #cabecalho{
-    margin-top: 0;
+    top: 0;
     background-color: rgb(200,250,0);
-    position: static;
+    position: fixed;
 } 
 
 #titulo{
