@@ -4,9 +4,10 @@ body {
 
 .cabecalho {
   background-color: chartreuse;
+  margin-top: 0px;
+  block-size: 100px;
 }
 
 .image-photo img {
-  width: auto;
-  height: auto;
+  width: 25%;
 }
