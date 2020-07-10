@@ -20,7 +20,15 @@ body{
 table{
     border: dotted;
     margin-top: 15px;
+    padding: 30px;
 }
-section{
+#section1{
+    border: dotted;
+    width: 45%;
+
+}
+#section2{
     
+    width: 45%;
+    border: dotted;
 }
