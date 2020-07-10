@@ -1,5 +1,5 @@
 body {
-    background-color: (253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 #cabecalho{
     position: relative;
@@ -10,4 +10,7 @@ body {
     padding: 25px;
     color: #fff;
     background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
+}
+#minha_foto{
+    
 }
