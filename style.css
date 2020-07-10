@@ -40,3 +40,17 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+.links {
+    text-align: left;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.links a:hover {
+    background-color: orangered;
+}
