@@ -4,4 +4,9 @@
 
 body{
     background-color: blueviolet;
+    font-family: monospace, sans-serif;
+}
+
+#cabecalho{
+    margin-top: 0;
 }
