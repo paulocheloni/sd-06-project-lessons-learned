@@ -16,16 +16,25 @@ body{
 }
 #perfil{
     width: 150px;
+    margin-top: 30px;
+    border: lightskyblue dashed;
+    
     
 }
-.clear{
-    clear: both;
-    
-}
-
-. clear{
+.listas{
     position: absolute;
-    left: 13%;
-    top: 11%;
-    
+    left: 190px;
+    top: 90px;
+    display: inline-flex;
+    background-image: url(azul.jpg);
+}
+.padding{
+    margin: 10px;
+}
+.artigo1{
+    max-width: 500px;
+    margin-top: 90px;
+    margin-left: 615px;
+    background-image: url(azul.jpg);
+    padding: 10px;
 }
