@@ -1,6 +1,6 @@
 /* ------ Header ------ */
 body, p, h1, h2, input, textarea {
-  margin: 0;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	background-color: #B5926D;
 }
@@ -9,7 +9,7 @@ body, p, h1, h2, input, textarea {
 	top: 0px;
 	background-color: #DECFAC;
 	padding: 0 15px;
-  height: 40px;	
+  	height: 40px;	
 }
 
 #titulo {
@@ -22,18 +22,18 @@ body, p, h1, h2, input, textarea {
 
 /* ----- Main ------ */
 #main {
-  width: 40%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  color: #DECFAC;
-  padding: 50px;
+  	width: 40%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	text-align: center;
+  	color: #DECFAC;
+  	padding: 50px;
 }
 
 #minha_foto {
-  height: 250px;
-  border-radius: 50%;
-  margin-top: 10px;
+	height: 250px;
+	border-radius: 50%;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
 	background-color: #DECFAC;
