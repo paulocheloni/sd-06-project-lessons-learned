@@ -68,7 +68,7 @@ body {
 }
 
 .section-tags .lado-esquerdo h2 ,
-.section-tags .lado-direito h2 {
+ .section-tags .lado-direito h2 {
   margin-bottom: 12px;
 }
 
@@ -81,7 +81,7 @@ body {
   width: 90%;
 }
 
-.container-table h2 {
+.title-table {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 8px;
