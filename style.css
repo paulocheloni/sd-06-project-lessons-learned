@@ -7,7 +7,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: tomato;
-    line-height: 35px;
+    line-height: 20px;
     
 }
 #cabecalho {
@@ -31,10 +31,23 @@ body {
     margin-left: 30px;
     padding: 15px;
 }
+.artigo p {
+    font-size: 14px;
+}
+.passagem {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 15px;
+}
+.passagem p {
+    font-size: 15px;
+}
 #licoes_aprendidas {
     float: left;
     margin-right: 30px;
     margin-top: 0;
+    width: 50%;
 }
 figcaption {
     margin-left: 30px;
@@ -56,12 +69,14 @@ tr td {
     padding: 5px;
 }
 #rodape {
-    position: absolute;
-    display: block;
-    top: 200%;
+    position: relative;
     text-align: center;
     width: 100%;
+    margin-top: 100px;
     margin-left: 30px;
     padding: 15px;
     border: 1px solid black;
+}
+#licoes_a_aprender {
+    width: 50%;
 }
