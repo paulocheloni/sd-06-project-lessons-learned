@@ -14,10 +14,15 @@ body {
     font-family: Calibri, sans-serif;
     font-size: 40px;
     text-align: right;
+    z-index: 2;
 }
 
 #minha_foto {
     width: 15%;
+}
+
+.artigo {
+    width: 65%;
 }
 
 #rodape {
