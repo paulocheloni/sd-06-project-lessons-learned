@@ -1,12 +1,12 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+    background-color: rgb(253 , 251 , 251);
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
-    background-color: #222C30;
+    background-color: #222c30;
     top: 0px;
     width: 100%;
 }
-h1{
+h1 {
     color: white;
 }
