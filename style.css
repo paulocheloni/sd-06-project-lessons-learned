@@ -1,1 +1,19 @@
-body{ background-color: rgb (253, 251, 251) ; }
+body{ 
+    background-color: rgb (253, 251, 251) ; 
+}
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+#titulo{
+    color: white;
+}
+#minha_foto{
+    border: 5px solid rebeccapurple;
+    margin: 10px 10px 10px 10px;
+    padding: 2px;
+}
