@@ -13,5 +13,8 @@ body {
 #titulo {
     text-align: center;
     color: whitesmoke;
-
+}
+#foto {
+    margin-top: 110px;
+}
 }
