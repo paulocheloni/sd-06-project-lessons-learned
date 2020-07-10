@@ -2,18 +2,16 @@ body {
     background-color: rgb(253, 251, 251);
     padding: 0px;
     margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #cabecalho {
     position: relative;
     top: 0px;
-    height: 70px;
-    width: auto;
-    font-family: sans-serif;
-    font-size: 18px;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
     background-color: #0fa36b;
-    margin: 0px;
-    padding: 0px;
 }
 
 #titulo {
@@ -22,6 +20,7 @@ body {
     font-weight: 500;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    margin-left: 30px;
 }
 
 #minha_foto {
@@ -30,7 +29,20 @@ body {
 
 #rodape {
     bottom: 0px;
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
     background-color: grey;
+}
+
+#eotchan {
+    position: relative;
+    float: right;
+    margin-right: 70px;
+    margin-block-start: 0px;
+    padding: 0px;
+
 }
 
 #licoes_a_aprender {
