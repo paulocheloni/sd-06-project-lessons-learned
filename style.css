@@ -51,16 +51,20 @@ p{
     font-size: 16px;
 }
 aside{
-    background-color: seashell;
+    background-color: rgb(38, 97, 46);
     max-width: 20%;
     float: right;
+    font-style: italic;
+    color: white;
 
-}
-article{
-    max-width: 75%;
 }
 .linha{
     max-width: 5px;
     background-color: springgreen;
 }
+main{
+    float: left;
+    max-width: 75%;
+}
+
 
