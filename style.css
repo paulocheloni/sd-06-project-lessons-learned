@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  padding-top: 40px; /* espaçamento do tamanho do header */
+  padding-top: 130px; /* espaçamento do tamanho do header */
 }
 
 header {
@@ -14,6 +14,12 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 30px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center
 }
 
 #foto {
@@ -22,6 +28,7 @@ header {
 
 #minha_foto {
   max-width: 200px;
+  border-radius: 5%;
 }
 
 #rodape {
