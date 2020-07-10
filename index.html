@@ -27,8 +27,30 @@
             padding: 30px;
         }
 
+        nav {
+            position: fixed;
+            top: 90px;
+            background-color: #46925A;
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid black;
+            border-top: 3px solid black;
+            
+        }
+
+        nav ul li {
+            display:inline;
+            font-size: 20px;
+            padding-right: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
         .header-space {
-            margin-bottom: 120px;
+            margin-bottom: 150px;
         }
 
         .foto-perfil {
@@ -36,9 +58,13 @@
             float: left;
         }
 
+        img {
+            border-radius: 20%;
+        }
+
         .lessons-learned {
             float: left;
-            margin-left: 50px;
+            margin-left: 100px;
             width: 250px;
             height: 250px;
             
@@ -47,7 +73,7 @@
         .lessons-to-learn {
             float: right;
             margin-left: 0px;
-            margin-right: 50px;
+            margin-right: 100px;
             width: 250px;
             height: 250px;
         }
@@ -124,13 +150,25 @@
     
     <div class="header-space">
         <header id="cabecalho">
-            <h1 id="titulo">Lessons Learned - Trybe - First Project</h1>
+            <h1 id="titulo">Lessons Learned - Trybe - First Project</h1> 
         </header>
+        <nav>
+            <ul>
+                <li><a href=#cabecalho>Back to the top</a></li>
+                <li>|</li>
+                <li><a href=#minha-foto>Photo</a></li>
+                <li>|</li>
+                <li><a href=#licoes_aprendidas>Learned Lessons</a></li>
+                <li>|</li>
+                <li><a href=#licoes_a_prender>Lessons to Learn</a></li>
+            </ul>
+        </nav>  
     </div>
-    
+
+
 
     <section class="foto-perfil">
-        <img src="perfil2.jpeg" id="minha_foto" width="400px" alt="Foto de André Sartoreto">
+        <img src="perfil2.jpeg" id="minha_foto" width="330px" height="330px" alt="Foto de André Sartoreto">
     </section>
 
     <section class="lessons-learned">
@@ -171,12 +209,6 @@
             <br>
             <br>
             Hoje tenho aproximadamente quinze dias de Trybe e posso dizer que estou impressionado. Em apenas duas semanas aprendi a configurar o Unix, que nunca havia sequer instalado, já aprendi a me virar dentro do terminal, que eu nem sabia que existia, aprendi todos os caminhos que a pagina Web, que eu enxergo no meu browser, percorre até ter aquela formatação, conheci e entendi o que é Git e já tenho meu proprio <a href="https://github.com/FIXSartoreto/" target="_blank">GitHub</a> e por fim aprendi sobre HTML & CSS e o resultado é esta belezinha de página onde vocês estão lendo meu depoimento.
-            <br>
-            <br>
-            Se eu disser que está sendo super fácil e tranquilo eu estarei mentindo, está puxado, e muito, mas eu nunca aprendi tanto em tão pouco tempo e de uma forma tão dinãmica e interativa.
-            <br>
-            <br>
-            Não perca tempo, vem fazer parte do time <a href="https://betrybe.com/" target="_blank">Trybe</a> você também!
         </p>
     </article>
     <hr>
@@ -186,9 +218,6 @@
         <br>
         <br>
         Nas minhas duas semanas de Trybe, eu já fiz mais dinãmicas do que eu havia feito na minha vida inteira, já tive oportunidade de conversar com meus colegas sobre: medo, preconceitos, experiências vividas, sentimentos, empatia, autoconhecimento, entre outros. Aqui você é estimulado diariamente a se conectar com as pessoas, tanto os alunos quanto os colaboradores, fazendo com que seu crescimento seja tanto técnico quanto pessoal.
-        <br>
-        <br>
-        E ainda a Trybe traz quinzenalmente o Trybe Talks, que é um bate-papo com alguma refêrencia profissional em sua área, esta semana nós conversamos com a Lorena Puppo, gerente de RH no Méliuz, que deu uma verdadeira <strong>aula</strong> sobre como funciona o mercado de trabalho e o que devemos buscar aprimorar para nosso futuro profissional.
     </p>
     </aside>
     <hr>
