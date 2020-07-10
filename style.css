@@ -1,8 +1,8 @@
 body {
-  font-style: "Raleway", sans-serif;
+  font-style: "Raleway" sans-serif;
   margin: 2%;
   background-color: rgb(253 , 251 , 251);
-  color: rgb(51, 49, 49);
+  color: rgb(51 , 49 , 49);
 }
 
 header {
@@ -15,9 +15,6 @@ header {
   width: 100%;
 }
 
-.descricao {
-  text-align: justify;
-}
 .resumo {
   margin-left: 13%;
   margin-top: 2%;
@@ -34,6 +31,7 @@ header {
   line-height: 1.25em;
   font-size: 20px;
   width: 50%;
+  text-align: justify;
 }
 
 #cabecalho {
