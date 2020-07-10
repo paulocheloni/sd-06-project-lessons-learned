@@ -9,6 +9,7 @@ body {
     background-color: green;
     width: 99%;
     color: white;
+    z-index: 1;
 }
 
 #minha_foto {
