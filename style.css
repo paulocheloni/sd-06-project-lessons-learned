@@ -12,4 +12,11 @@ body {
 header {
   position: fixed;
   top: 0px;
+  border: 20px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+.main{
+  margin-top: 90px;
 }
