@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(253 , 251 , 251);
+    margin : 0.0px;
+}
+
+
+#cabecalho {
+    overflow: hidden;
+    background-color:rgb(51, 51, 51);
+    position: fixed; 
+    top: 0.0; 
+    width: 100%; 
+  }
+  
+ 
+  #cabecalho h1 {
+    float: left;
+    display: block;
+    color: rgb(255 , 255 , 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #main {
+    margin-top: 30px; 
+  }
+
+  #minha_foto {
+    width: 200px;
+    border-radius : 50%;
+  }
+  
+  #corpo {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr 0.4fr;
+    justify-content: center;
+    align-items: center;
+    width : 50%;
+    margin : 10px auto;
+  }
+2
+  #divCenter {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 90%;
+    margin : 10px auto;
+  }
+
+  #licoes_aprendidas {
+    margin : 150px 30%;
+    font-size : 20px;
+    font-family: sans-serif;
+    width: 300px;
+  }
+  #licoes_a_aprender{
+    font-family: sans-serif;
+    font-size:  20px;
+  }
