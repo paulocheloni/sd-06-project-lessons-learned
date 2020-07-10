@@ -1,0 +1,16 @@
+body{
+    background-color: #F0F8F8;
+}
+
+.coresBarraFixa, a{
+    color: #FFFFFF;
+    background-color: #84bff0;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+#cabecalho{
+    z-index: fixed;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+}
