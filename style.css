@@ -104,3 +104,26 @@ body{
  color: rgb(24, 63, 136);
  font-weight: bold;
 }
+
+article{
+    line-height: 25px;
+}
+
+#rodape{
+    color: white;
+    padding: 20px ;
+    text-align: center;
+    background-color: black;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+table th{
+    border: 2px solid black;
+}
+table td{
+    border: 1px solid #ccc;
+    padding: 5px 0;
+}
