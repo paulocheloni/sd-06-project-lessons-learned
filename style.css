@@ -23,8 +23,18 @@ body {
 
 .artigo {
     width: 65%;
+    float: left;
+}
+
+.texto_lateral {
+    padding: 8px;
+    width: 30%;
+    text-align: right;
+    float: right;
+    background-color: rgb(255 , 166 , 158);
 }
 
 #rodape {
     background-color: rgb(174 , 217 , 224);
+    clear: both;
 }
