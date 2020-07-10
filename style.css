@@ -1,9 +1,12 @@
-body {
+.bg {
     background-color: rgb(201, 218, 223);
 }
 
 #cabecalho {
+    width: 100%;
+    background-color: rgb(33, 74, 87);
     position: fixed;
+    display: inline-block;
     top: 0;
 }
 
@@ -17,10 +20,22 @@ body {
 }
 
 #content-wrapper {
+    margin: 150px 100px 100px 100px;
+    padding: 10px;
     width: auto;
 }
 
 .barra-lateral {
     width: 30%;
     float: right;
+}
+
+.tabela {
+    border: 1px solid rgb(33, 74, 87);
+    text-align: center;
+    width: 100%;
+}
+
+.header-wrapper {
+    width: 80%;
 }
