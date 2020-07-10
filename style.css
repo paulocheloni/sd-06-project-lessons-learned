@@ -1,3 +1,17 @@
 body{
     background-color: rgb(201, 201, 188);
 }
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    width: 100%;
+    
+}
+#titulo{
+    color: white;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
