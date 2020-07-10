@@ -45,14 +45,14 @@ p {
     background-color: blue;
 }
 
-article {
+.lado-esquerdo {
     float: left;
     background-color: salmon;
     width: 50%;
     
 }
 
-aside {
+.lado-direito {
     float: right;
     background-color: #000;
     width: 50%;
