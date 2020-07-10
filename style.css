@@ -7,4 +7,13 @@ body {
 header#cabecalho {
     position: fixed;
     top: 0px;
+    height: 100px;
+}
+
+section.container {
+   margin-top: 100px;
+}
+
+#minha_foto {
+    width: 200px;
 }
