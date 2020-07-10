@@ -1,7 +1,15 @@
+*{
+    padding-top: 0px;
+    margin-top: 0px;
+}
 body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    width: auto;
     position: fixed;
-    padding-top: 0px;
+    text-align: center;
+}
+#titulo{
+    text-align: center;
 }
