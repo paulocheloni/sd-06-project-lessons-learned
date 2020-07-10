@@ -31,6 +31,7 @@ body {
     margin: 50px;
     font-weight: 600;
     display: inline-block;
+    vertical-align: top;
 }
 
 #rodape {
@@ -53,4 +54,11 @@ body {
 
 .links a:hover {
     background-color: orangered;
+}
+
+div.listas.artigo {
+    display: inline-block;
+    max-width: 600px;
+    margin-left: 30px;
+    font-weight: 200;
 }
