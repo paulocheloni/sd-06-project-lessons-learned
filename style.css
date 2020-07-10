@@ -4,36 +4,38 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
-  background-color: rgb(255, 229, 124);
+  background-color: rgb(255,229,124);
   width: 100vw;
   text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav div {
+  display: inline-block;
 }
 
 .licoes {
   display: flex;
   justify-content: space-evenly;
-}
-
-#licoes_aprendidas {
-  margin: 40px 22px;
-}
-
-#licoes_a_aprender {
-  margin: 40px 22px;
+  margin-top: 70px;
 }
 
 #rodape {
-  background-color: rgb(251, 220, 95);
+  background-color: rgb(251,220,95);
   text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0,0,0);
 }
