@@ -1,12 +1,13 @@
 body {
-    background-color:rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-    top:0px;
+#cabecalho {
+    top: 0px;
     position: fixed;
+    text-align: center;
 }
 #minha_foto {
-    max-width:30%;
+    max-width: 30%;
 }
 nav {
     margin-top: 5%;
