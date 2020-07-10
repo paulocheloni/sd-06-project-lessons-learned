@@ -18,20 +18,52 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#github-icon {
+  width: 60px;
+  margin-left: 200px;
+}
+
 #minha_foto {
   width: 250px;
   border-radius: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-left: 45%;
+  background-color: black;
+  padding: 3px;
+
 }
 
 #licoes_aprendidas {
-
+  float: left;
+  width: 45%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 #licoes_a_aprender {
+  float: right;
+  width: 45%;
+  margin: auto;
+  margin-top: 50px;
+}
 
+.artigo {
+  border: black 1px solid;
+  clear: both;
+  padding-top: 30px;
+  margin: 0px 30px;
+}
+
+.passagem {
+  margin: 30px 30px;
 }
 
 #rodape {
-  
+  background-color: black;
 }
+
