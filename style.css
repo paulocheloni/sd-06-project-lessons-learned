@@ -5,4 +5,9 @@ body{
 header#cabecalho{
     top: 0;
     position: fixed;
+    
+}
+
+#minha_foto{
+    margin-top: 75px;
 }
