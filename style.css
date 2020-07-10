@@ -26,10 +26,10 @@ text-align: center;
 
 }
 .lado-esquerdo {
-display: block;
+display: inline-block;
 width: 50%;
 }
 .lado-direito {
-display: inline;
+display: inline-block;
 width: 50%;
 }
