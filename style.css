@@ -1,10 +1,18 @@
 body{
     background-color: rgb(253, 251, 251);
+    padding: 35px 35px;
 }
 #cabecalho{
     position: fixed;
     top: 0px;
+    background-color: green;
+    padding: 5px 500px;
 }
 #titulo{
-    
+
+}
+#minha_foto{
+    width: 100px;
+    position:relative;
+    top: 100px
 }
