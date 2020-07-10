@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
 }
 
 #cabecalho {
@@ -8,10 +8,15 @@ body {
 }
 
 #container {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 #minha_foto {
   width: 15%;
   border-radius: 5%;
+}
+
+.menu li{
+  display: inline-block;
+  margin-right: 20px;
 }
