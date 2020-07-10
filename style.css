@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 header {
-  background-color: rgb(177, 255, 212);
+  background-color: rgb(72 , 172 , 211);
   width: 100%;
   position: fixed;
   text-align: center;
@@ -11,20 +11,27 @@ header {
 }
 
 main {
-  margin-left: 20%;
   margin-top: 150px;
 }
 
 footer {
-  background-color: rgb(177, 255, 212);
+  background-color: rgb(72 , 172 , 211);
+  margin-bottom: 0px;
 }
 
 #minha_foto {
   width: 15%;
-  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
   margin-right: 60px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.corpo-principal{
+.corpo-principal {
+  display: inline-block;
+}
+
+.bloco-lista {
   display: inline-block;
 }
