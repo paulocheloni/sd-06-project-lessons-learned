@@ -9,3 +9,10 @@ body {
 .contain {
     margin-top: 100px;
 }
+
+p {
+    font-size: 23px;
+    color: rgb(92,51,23);
+    line-height: 31px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
