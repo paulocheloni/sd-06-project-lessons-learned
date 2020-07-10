@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 38, 44);
+    background-color: rgb(253, 251, 251);
     
 }
 
@@ -10,12 +10,13 @@ body {
  width: 1366px;
  height: 160px;
  box-sizing: border-box;
+ margin-left: -8px;
 
 }
 
 .titulo {
     font-family: Roboto Mono, monospace;
-    color: rgb(255, 253, 253);
+    color: rgb(238, 238, 238);
     text-align: center
 }
 
@@ -26,6 +27,32 @@ body {
 
 
 .licoes_aprendidas {
-    color: rgb(255, 253, 253);
+    color: rgb(31, 31, 31);
     font-family: Roboto Mono, monospace;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    
 }
+
+.licoes_a_aprender {
+    color: rgb(31, 31, 31);
+    font-family: Roboto Mono, monospace;
+    margin-left: 300px;
+    margin-top: -276px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.rodape {
+    font-family: Roboto Mono, monospace;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    color: rgb(31, 31, 31);
+    
+}
+
