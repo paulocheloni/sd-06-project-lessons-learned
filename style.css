@@ -1,10 +1,9 @@
 body {
-  background-color: rgb( 186, 199, 190);
+  background-color: rgb(253, 251, 251);
 }
-.cabecalho {
+.cabecalho, .nav {
   position: fixed;
-  top: 0px;
 }
-.foto {
-  clear: both;
+.cabeçalho {
+  top: 0px;
 }
