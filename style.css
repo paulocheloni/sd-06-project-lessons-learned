@@ -3,8 +3,13 @@ body {
 }
 #cabecalho{
     top: 0px;
-    font-family: monospace , sans-serif;
-    text-align: center;
-    color:white;
+    
+    font-family: monospace , sans-serif; 
     background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
+}
+
+#titulo{
+    text-align: center;
+    padding: 25px;
+    color:white;
 }
