@@ -12,10 +12,13 @@ body {
     display: inline-block;
     margin: auto;
     height: 12%;
+    border: 5px;
+    border-style: solid;
+    border-color: #606c38;
 }
 main {
     /* para poder acompanhar o #cabecalho que está fixado, botei uma padding-top do mesmo tamanho */
-    padding-top: 80px; 
+    padding-top: 90px; 
 }
 #minha_foto {
     width: 400px;
@@ -23,6 +26,7 @@ main {
     border-width: 10px;
     border-style: solid;
     margin: 10px
+    
 }
 #rodape {
     margin: 0px;
