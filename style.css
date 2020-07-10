@@ -20,7 +20,7 @@ body {
 #titulo {
   text-align: center;
   padding: 30px;
-  color: rgb(34,35,33);
+  color: rgb(34, 35, 33);
 }
 
 .links {
@@ -29,7 +29,7 @@ body {
 }
 
 .links a {
-  color: rgb(34,35,33);
+  color: rgb(34, 35, 33);
 }
 
 .content {
@@ -89,7 +89,7 @@ body {
 }
 
 .table td, .table th {
-  border: 1px solid rgb(204,204,204);
+  border: 1px solid rgb(204, 204, 204);
   text-align: left;
   padding: 8px;
 }
