@@ -1,7 +1,9 @@
 *{
+    text-decoration: none;
+    list-style: none;
     padding-top: 0px;
     margin-top: 0px;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(4, 61, 29);
     letter-spacing: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,18 +22,33 @@ body{
 #titulo{
     text-align: center;
 }
+#rodape{margin-top: 20px;
+    border: dotted;
+    margin: auto;
+    text-align: center;
+}
 table{
     border: dotted;
     margin-top: 15px;
     padding: 30px;
+    
 }
-#section1{
+h1{
+    padding-top: 15px;
+}
+.text-trybe{
+    height: 402px;
+}
+.lado-direito{
     border: dotted;
+    float: left;
     width: 45%;
+    height: inherit;
 
 }
-#section2{
-    
+.lado-esquerdo{
+    float: right;
     width: 45%;
+    height: inherit;
     border: dotted;
 }
