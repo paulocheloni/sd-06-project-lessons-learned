@@ -1,10 +1,15 @@
 * {
+/*
   margin: 0;
   padding: 0;
   border: 0;
+*/
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  border: 0;
   background-color: rgb(253, 251, 251);
   padding-top: 130px; /* espaçamento do tamanho do header */
 }
@@ -14,12 +19,22 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 30px;
+/*  padding: 30px; */
 }
 
 h1 {
   color: rgb(255, 255, 255);
-  text-align: center
+  text-align: center;
+  font-family: Open Sans;
+}
+
+nav a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav li{
+  list-style: none;
 }
 
 #foto {
@@ -32,7 +47,7 @@ h1 {
 }
 
 #rodape {
-  position: absolute;
+/*  position: absolute; */
   bottom: 0;
   width: 100%;
 }
