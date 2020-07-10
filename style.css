@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-size: 16px;
+  --color-background: rgb(228, 229, 218);
+}
