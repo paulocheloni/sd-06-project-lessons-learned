@@ -3,21 +3,28 @@ body {
 }
 
 header {
-  margin: 0px;
   background-color: rgb(177, 255, 212);
+  width: 100%;
   position: fixed;
+  text-align: center;
   top: 0px;
-}
-
-header h1 {
-  margin: 0px;
 }
 
 main {
   margin-left: 20%;
+  margin-top: 150px;
 }
+
+footer {
+  background-color: rgb(177, 255, 212);
+}
+
 #minha_foto {
   width: 15%;
   float: left;
-  margin: 15px;
+  margin-right: 60px;
+}
+
+.corpo-principal{
+  display: inline-block;
 }
