@@ -9,8 +9,8 @@ background-color: rgb(253, 251, 251);
     z-index: 10;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    padding: 0px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
 }
 #minha_foto{
