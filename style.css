@@ -37,7 +37,7 @@ body {
 #licoes_a_aprender {
     float: right;
     position: relative;
-    top: -488px;
+    top: -720px;
     right: 100px;
     clear: both;
 
@@ -75,8 +75,13 @@ body {
     padding: 20px;
     left: 250px;
 }
-#jornada{
+#jornada {
     top: 600px;
-    
-    
+    clear: both;
+       
+}
+.oaprendizado {
+    top: 800;
+    clear: both;
+
 }
