@@ -6,3 +6,12 @@ body {
     position: fixed;
     top: 0px;
 }
+
+#minha_foto {
+    border-radius: 50%;
+    width: 130px;
+}
+
+section {
+    margin: 4% 1%;
+}
