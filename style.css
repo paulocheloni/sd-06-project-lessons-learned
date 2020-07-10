@@ -6,3 +6,6 @@ body {
     position: fixed;
     top:0;
 }
+.contain {
+    margin-top: 100px;
+}
