@@ -2,6 +2,8 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
+    font-family: fantasy;
+    
 
 }
 #cabecalho {
@@ -16,6 +18,10 @@ body {
 }
 section {
     margin: 10px;
+}
+.rodape {
+    width: 100%;
+    margin: 20px;
 }
 .footer {
     font-size: 10px;
@@ -34,4 +40,7 @@ section {
     margin-right: 100px;
     border: solid 2px seagreen;
     padding: 2px 5px;
+}
+.color-green{
+    color: seagreen;
 }
