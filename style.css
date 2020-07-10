@@ -7,7 +7,6 @@ body {
     background-color: royalblue;
     padding: 1px;
     text-align: center;
-    
     width: 10px;
     position: fixed;
 
@@ -16,4 +15,8 @@ body {
 #titulo {
     padding: 10px;
     font-family: monospace;
+}
+
+#minha_foto {
+    
 }
