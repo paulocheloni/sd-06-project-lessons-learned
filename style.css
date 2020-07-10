@@ -7,6 +7,7 @@ body {
     top: 0px;
     position: fixed;
     width: 90%;
+    background-color: transparent;
 }
 
 #titulo {
@@ -14,24 +15,37 @@ body {
     font-family: Calibri, sans-serif;
     font-size: 40px;
     text-align: right;
-    z-index: 2;
+}
+
+.barra_de_navegacao {
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 45px;
+    padding: 20px;
+    letter-spacing: 0,5em;
+}
+
+.barra_de_navegacao a {
+    margin-right: 25px;
 }
 
 #minha_foto {
-    width: 15%;
+    max-width: 15%;
 }
 
-.artigo {
-    width: 65%;
+.artigo_aprendizado {
+    max-width: 65%;
     float: left;
 }
 
 .texto_lateral {
     padding: 8px;
-    width: 30%;
+    max-width: 30%;
     text-align: right;
     float: right;
     background-color: rgb(255 , 166 , 158);
+    margin-bottom: 30px;
 }
 
 #rodape {
