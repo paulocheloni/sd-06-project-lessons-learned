@@ -25,6 +25,18 @@ img {
 
 }
 
+nav {
+  position: relative;
+  top: 380px;
+  text-align: left;
+
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
 main {
   position: relative;
   top: 400px;
@@ -32,4 +44,13 @@ main {
 
 main h3 {
   text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #007200;
+}
+
+nav li{
+  list-style-type: none;
 }
