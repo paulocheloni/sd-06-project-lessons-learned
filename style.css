@@ -1,6 +1,7 @@
 body{
     font-family: monospace;
     background-color:rgb(253, 251, 251);
+    margin: 200px;
 }
 
 header#cabecalho{
@@ -19,12 +20,13 @@ header#cabecalho{
 
 #minha_foto{
     border-radius: 30%;
-    margin-top: 150px;
 }
 
 #sobre{
     padding-top: 70px;
-}
+    float: left;
+    margin-left: 0px;
+    margin-right: 200px;
 
 h2{
     font-size: 20px;
@@ -34,6 +36,31 @@ span{
     font-weight: bold;
 }
 
+#lateral{
+    float: right;
+    margin-right: 0px;
+    margin-left: 200px;
+}
+
+#licoes_aprendidas{
+    float: left;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+#licoes_a_aprender{
+    float: right;
+    margin-right: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
 #contato{
     font-size: 20px;
+    clear: both;
+    text-align: center;
+}
+
+#rodape{
+    text-align: center;
 }
