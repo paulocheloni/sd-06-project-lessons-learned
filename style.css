@@ -1,18 +1,43 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+  font-style: "Raleway", sans-serif;
+  margin: 2%;
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(51, 49, 49);
+}
+
+header {
+  text-align: center;
+}
+
+.container_Foto_Resumo {
+  display: inline-block;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.descricao {
+  text-align: justify;
+}
+.resumo {
+  margin-left: 13%;
+  margin-top: 2%;
+  width: 65%;
+}
+
+.myPicture {
+  border-radius: 50%;
+  width: 12%;
+  float: left;
+}
+
+.descricao {
+  line-height: 1.25em;
+  font-size: 20px;
+  width: 50%;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-#minha_foto {
-    border-radius: 50%;
-    width: 130px;
-}
-
-section {
-    margin: 5% 1%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
