@@ -32,10 +32,19 @@ nav {
     border-radius: 25%;
 }
 
+.lado-esquerdo, .lado-direito {
+    max-width: 250px;
+}
+
+.lado-direito {
+    float: right;
+}
+
 aside {
     float: right;
     line-height: 1px;
     width: 40%;
+    height: 40%;
     padding-top: 20px;
     border-top: 20px;
     margin-top: 20px;
@@ -46,7 +55,6 @@ aside {
     padding: 10px;
     border: 20px;
     margin: 20px;
-    clear: both;
 }
 
 #rodape {
