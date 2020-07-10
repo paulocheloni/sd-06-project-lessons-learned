@@ -45,20 +45,25 @@ body{
     margin-left: 200px;
 
 }
-.sessao_artigo{
-    width: 70%;
-    background-color: darkslategrey;
-}
 #licoes_aprendidas{
-    background-color: aqua;
     width: 25vw;
     float: left;
     margin-left: 200px;
 }
 #licoes_a_aprender{
-    background-color: brown;
     width: 25vw;
     margin-left: 15px;
+    float: left;
+}
+.bg_licoes{
+    background-color: black;
+}
+.sessao_artigo{
+    width: 12%;
+    height: 50vh;
+    margin-top: -380px;
+    margin-left: 20px;
+    background-color: #ccccdd;
     float: left;
 }
 a .mais_info{
@@ -89,4 +94,9 @@ a:hover{
     background-color: darkgoldenrod;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+    font-size: 12px;
+    float: left;
+}
+.mais_info{
+    color: black;
 }
