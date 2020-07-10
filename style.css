@@ -43,10 +43,23 @@ a{
 a:hover{
     color: rgb(124, 253, 124);
 }
-article{
-    max-width: 70%;
-    margin: 10px;
+
+p{
+    margin: 20px;
     text-align: justify;
     line-height: 25px;
+}
+aside{
+    background-color: seashell;
+    max-width: 20%;
+    float: right;
 
 }
+article{
+    max-width: 75%;
+}
+.linha{
+    max-width: 5px;
+    background-color: springgreen;
+}
+
