@@ -4,19 +4,36 @@ body{
 }
 
 header#cabecalho{
+    background-color: rgb(165, 163, 163);
     top: 0;
     position: fixed;
-    
+    background-position: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #nav{
-    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #minha_foto{
-    margin-top: 75px;
+    border-radius: 30%;
+    margin-top: 150px;
+}
+
+#sobre{
+    padding-top: 70px;
+}
+
+h2{
+    font-size: 20px;
 }
 
 span{
     font-weight: bold;
+}
+
+#contato{
+    font-size: 20px;
 }
