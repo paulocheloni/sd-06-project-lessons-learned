@@ -48,7 +48,9 @@ a {
     color: white;
     font-size:45px;
     font-weight:bold;
-    top:0px;
+}
+#cabecalho{
+    top: 0;
 }
 /* Separação */
 
