@@ -32,3 +32,8 @@ body {
 #rodape {
   font-weight: bold;
 }
+
+#trybe_link_ext {
+  font-weight: bold;
+  color: black;
+}
