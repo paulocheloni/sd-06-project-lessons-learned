@@ -5,7 +5,7 @@ body {
     margin: 0px;
 }
 #cabecalho {
-    padding-top: 0px;
+    padding-top: 15px;
     background-color: #bc6c25;
     position: fixed;
     width: 100%;
@@ -73,15 +73,11 @@ main {
 }
 .media-links {
     text-align: right;
-    padding-top: 25px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    
-    
+    padding-right: 30px;    
 }
 .media-link {
-    font-size: 40px;
-    letter-spacing: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
     text-decoration: none;
     color: #fefae0;
 }
