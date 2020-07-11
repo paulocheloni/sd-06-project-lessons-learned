@@ -12,7 +12,7 @@
                 #cabecalho {
                     top: 0px;
                     background-color: green;
-                    position: fixed;
+                    position:initial;
                     width: 100%;
                 }
                 #titulo {
@@ -22,13 +22,14 @@
 
                 }
                 #licoes_aprendidas{
-
+                    list-style-type:decimal-leading-zero;
                 }
-                #licoes_a_aprender{
-
-                }
+                #licoes_a_aprender{}
                 #rodape{
                     background-color: greenyellow;
+                }
+                nav{
+                    background-color:khaki;
                 }
             </style>
 
@@ -38,7 +39,13 @@
             <header id="cabecalho">
                 <h1 id="titulo">Título</h1>
             </header>
-            <img id="minha_foto" src="eufoto.jpg" alt="Foto do Aloízio na British Library">
+            <nav>
+                <h4>Navegação</h4>
+            </nav>
+            <section>
+                <h4>Minha foto:</h4>
+                <img id="minha_foto" src="eufoto.jpg" alt="Foto do Aloízio na British Library">
+            </section>  
             <ol id="licoes_aprendidas">
                 <li>Unix</li>
                 <li>Git</li>
@@ -63,12 +70,16 @@
                 <li>Node</li>
                 <li>SQL</li>
             </ul>
+
             <article>
-                <p>Com o avanço ininterrupto da tecnologia e seus impactos sobre a humanidade, aprender a programar tornou-se habilidade crucial do século XXI.
+                 <p>Com o avanço ininterrupto da tecnologia e seus impactos sobre a humanidade, aprender a programar tornou-se habilidade crucial do século XXI.
                     Saber falar a língua dos computadores e da Internet passou a ser tão importante quanto aprender a própria língua materna.  </p>
-                <p>De alguma maneira, todas as pessoas precisarão ter certo domínio sobre esse vocabulário de códigos que ultrapassa as barreiras culturais, ainda que em um nível básico de conhecimento.  </p>    
+                 <p>De alguma maneira, todas as pessoas precisarão ter certo domínio sobre esse vocabulário de códigos que ultrapassa as barreiras culturais, ainda que em um nível básico de conhecimento.  </p>    
             </article>
-            <aside>As aulas em casa geram oportunidades para tornar o período de distanciamento social mais construtivo, principalmente com a adoção de tecnologias educacionais.</aside>
+            <article>
+            <aside>As aulas em casa geram oportunidades para tornar o período de distanciamento social mais construtivo, principalmente com a adoção de tecnologias educacionais. 
+            </aside>
+            </article>  
             <a target="_blank" href="http://www.csszengarden.com/"> Veja uma demonstração do que é possível fazer com CSS neste link</a>
             <footer id="rodape"><p>rodape</p></footer>
             
