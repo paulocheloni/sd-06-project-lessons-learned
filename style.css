@@ -17,3 +17,13 @@ main {
 	width: 250px;
 	border-radius: 25%;
 }
+
+td, th {
+	border: 1px solid;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+	background-color: rgb(238 , 238 , 238);
+}
