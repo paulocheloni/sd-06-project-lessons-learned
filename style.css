@@ -14,8 +14,8 @@ body {
     text-align: center;
 }
 
-#texto-header {
-    text-align: center;
+h1 {
+    color: rgb (46, 8, 58);
 }
 
 nav {
