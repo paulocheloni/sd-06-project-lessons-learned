@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #cabecalho {
@@ -17,8 +17,8 @@ body {
 
 .links_internos {
   margin-top: 60px;
-  padding: 22px;
-  font-size: 18px
+  padding: 20px;
+  font-size: 18px;
 }
 
 .links {
@@ -29,11 +29,20 @@ body {
 
 #minha_foto {
   border-radius: 45px;
-  height: 300px;
+  height: 250px;
   float: right;
   margin-right: 120px;
-  margin-top: 5px;
+  margin-top: 0;
   background-color: rgb(141 , 153 , 174);
   padding: 10px;
 
+}
+
+.tabela {
+  margin:35px 10px;
+}
+
+.artigo {
+  margin: 25px 10px;
+  max-width: 80%;
 }
