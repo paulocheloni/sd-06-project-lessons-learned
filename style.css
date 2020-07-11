@@ -1,72 +1,73 @@
+
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: 'Segoe UI' , Tahoma , Geneva , Verdana , sans-serif ;
 }
 
 #cabecalho {
-    width: 100%;
-    background-color: rgb(33, 74, 87);
-    position: fixed;
-    display: inline-block;
-    top: 0;
-    color: rgb(255, 255, 255);
+  width: 100%;
+  background-color: rgb(33 , 74 , 87);
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  color: rgb(255 , 255 , 255);
 }
 
 #rodape {
-    padding-top: 20px;
-    text-align: center;
-    clear: both;
-    font-size: 10pt;
+  padding-top: 20px;
+  text-align: center;
+  clear: both;
+  font-size: 10pt;
 }
 
 .icons {
-    margin-top: 10px;
-    float: right;
+  margin-top: 10px;
+  float: right;
 }
 
 .content-wrapper {
-    margin: 150px 100px 0;
-    padding: 10px;
-    width: auto;
-    clear: both;
+  margin: 150px 100px 0;
+  padding: 10px;
+  width: auto;
+  clear: both;
 }
 
 .lado-direito {
-    width: 30%;
-    float: right;
+  width: 30%;
+  float: right;
 }
 
 .tabela {
-    border: 1px solid rgb(33, 74, 87);
-    text-align: center;
-    width: 100%;
+  border: 1px solid rgb(33 , 74 , 87);
+  text-align: center;
+  width: 100%;
 }
 
 .header-wrapper {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 #minha_foto {
-    border: 1px solid rgb(33, 74, 87);
-    border-radius: 4px;
-    padding: 2px;
-    float: left;
-    margin-right: 30px;
+  border: 1px solid rgb(33 , 74 , 87);
+  border-radius: 4px;
+  padding: 2px;
+  float: left;
+  margin-right: 30px;
 }
 
 .lado-esquerdo {
-    width: 65%;
-    float: left;
+  width: 65%;
+  float: left;
 }
 
 p {
-    font-size: 11pt;
-    line-height: 15pt;
-    text-align: justify;
+  font-size: 11pt;
+  line-height: 15pt;
+  text-align: justify;
 }
 
 .box-lessons {
-    width: 35%;
-    float: left;
+  width: 35%;
+  float: left;
 }
