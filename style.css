@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Patua One' , sans-serif;
+  font-family: Patua One , sans-serif;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 }
 
 #titulo {
-  font-family: 'Galada' , sans-serif;
+  font-family: Galada , sans-serif;
   font-size: 45px;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .resto-conteudo {
-  line-height: 1,5em;
+  line-height: 1em;
   font-size: 20px;
   clear: both;
   padding: 35px;
@@ -46,7 +46,7 @@ header {
   max-width: 45%;
 }
 
-h2, h3 {
+h2 , h3 {
   color: #2b9348;
 }
 
