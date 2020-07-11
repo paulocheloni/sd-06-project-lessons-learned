@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Helvetica";
+  font-family: Helvetica;
   letter-spacing: 1.5px;
   color: rgb(13 , 9 , 10);
   font-size: 1em;
@@ -20,7 +20,7 @@ h2 {
 
 #titulo {
   text-align: center;
-  font-family: "Helvetica";
+  font-family: Helvetica;
   color: rgb(234 , 242 , 239);
   letter-spacing: 2px;
   font-size: 2.5em;
@@ -29,7 +29,7 @@ h2 {
 #minha_foto {
   margin-top: 175px;
   border-radius: 200px;
-  border-color:  rgb(134 , 22 , 87);
+  border-color: rgb(134 , 22 , 87);
   border-style: solid;
 }
 
@@ -52,7 +52,7 @@ h2 {
   text-decoration: none;
   margin-left: 4px;
   margin-right: 4px;
-  font-family: "Helvetica";
+  font-family: Helvetica;
   color: rgb(134 , 22 , 87);
 }
 
