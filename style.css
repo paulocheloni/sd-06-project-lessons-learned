@@ -54,7 +54,7 @@ h1 {
 }
 
 /* End menu */
-img.profile-photo {
+.profile-photo {
   border-radius: 50%;
   width: 150px;
   height: 150px;
