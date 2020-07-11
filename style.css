@@ -21,7 +21,7 @@ main {
     padding-top: 90px; 
 }
 #minha_foto {
-    width: 400px;
+    width: 360px;
     border: #606C38;
     border-width: 5px;
     border-style: solid;
@@ -31,13 +31,13 @@ main {
     margin: 0px;
     text-align: center;
     border: #606C38;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
 }
 .media-links {
     text-align: right;
     padding-top: 25px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 20px;
 }
 .media-link {
