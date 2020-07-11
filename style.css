@@ -6,7 +6,6 @@ body{
     top: 0px;
     left: 0px;
     right: 0px;
-    bottom: 500px
     ;
     color: whitesmoke;
     background-color: green;
@@ -20,4 +19,8 @@ body{
       text-align: center;
 
     color: whitesmoke;
+  }
+  #minha_foto{
+    position: relative;
+    top: 60px;
   }
