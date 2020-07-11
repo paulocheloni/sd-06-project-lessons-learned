@@ -73,7 +73,7 @@ body {
 }
 .left-itens {
     width: 48%;
-    display: inline-block;
+    float: left;
 }
 .right-itens {
     display: inline-block;
