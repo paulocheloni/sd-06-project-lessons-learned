@@ -5,7 +5,7 @@ body {
 
 #cabecalho {
   overflow: hidden;
-  background-color: rgb(31 ,29 ,30 );
+  background-color: rgb( 31 , 29 , 30 );
   margin: 0;
   top: 0px;
   position: fixed;
@@ -14,12 +14,12 @@ body {
 
 #title {
   text-align: center;
-  color: rgb(93 ,35 ,148 );
+  color: rgb( 93 , 35 , 148 );
 }
 
 nav {
   margin-top: 13%;
-  background-color: rgb(202, 203, 214 );
+  background-color: rgb( 202 , 203 , 214 );
   width: 100%;
   font-size: 16px;
   text-align: center;
@@ -45,4 +45,17 @@ h3 {
   margin-top: 20%;
   margin-left: 30%;
   position: absolute;
+}
+
+footer{
+overflow: hidden;
+background-color: rgb( 202 , 203 , 214 );
+margin: 0;
+bottom: 0;
+position: absolute;
+width: 100%;
+}
+#rodape{
+color: rgb( 93 , 35 , 148 );
+font-size: 12px;
 }
