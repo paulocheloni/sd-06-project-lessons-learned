@@ -3,8 +3,6 @@
 }
 
 #cabecalho {
-  top: 0px;
-  margin: 0px;
   padding: 10px 10px 10px 0px;
   width: 98%;
   border: 1px solid black;
@@ -34,4 +32,7 @@ h1 span {
 .opcoes li {
   display: inline-block;
   margin-left: 35px;
+}
+
+.content {
 }
