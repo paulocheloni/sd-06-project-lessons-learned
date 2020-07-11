@@ -3,7 +3,7 @@
         background-color: rgb(253, 251, 251)
     }
     #cabecalho{
-        background-color: rgb(209, 157, 147);
+        background-color: sandybrown;
         text-align: center;
         top: 0;
         border-style: ridge;
@@ -11,11 +11,13 @@
         position: fixed;
         width: 100%;
         height: 150px;
+        border-radius: 30px;
     }
     #minha_foto{
         margin-top: 170px;
         margin-bottom: -120px;
         border-style: groove;
+        border-color: sandybrown;
         border-radius: 30%;
         width: 350px;
     }
@@ -23,10 +25,25 @@
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         margin-top: 200px;
+        background-color: rgb(241, 235, 222);
+            border-style: ridge;
+            border-color: sandybrown;
+            padding: 60px;
+            width: 300px;
+            margin-left: 5%;
+            border-radius: 30px;
         }
     #licoes_a_aprender{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-style: italic;
+        background-color: rgb(241, 235, 222);
+        border-color: sandybrown;
+            border-style: ridge;
+            padding: 60px;
+            width: 300px;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            border-radius: 30px;
         }
         #rodape{
             bottom: 0;
@@ -35,7 +52,33 @@
             font-family: Arial, Helvetica, sans-serif;
             position: fixed;
             width: 100%;
-            background-color: rgb(209, 157, 147);
+            background-color: sandybrown;
             text-align: center;
             height: 60px;
+            margin-top: 30px;
+            border-radius: 30px;
+        }
+        #web_developer{
+            text-align: justify;
+          margin-left: 30%;
+            width: 800px;
+            background-color: rgb(241, 235, 222);
+            border-style: ridge;
+            border-color: sandybrown;
+            padding: 20px;
+            border-radius: 30px;
+        
+        }
+        #right_box{
+            margin-left: 65%;
+          margin-top: -30%;
+          width: 400px;
+            background-color: rgb(241, 235, 222);
+            border-style: ridge;
+            padding: 50px;
+            border-color: sandybrown;
+            border-radius: 30px;
+        }
+        h2,h3{
+            text-align: center;
         }
