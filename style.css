@@ -1,8 +1,39 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+#titulo {
+  text-align: center;
+  background-color: rgb(141 , 153 , 174);
+  padding-right: 700px;
+  color: white;
+}
+
+.links_internos {
+  margin-top: 60px;
+  padding: 22px;
+  font-size: 18px
+}
+
+.links {
+  line-height: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+#minha_foto {
+  border-radius: 45px;
+  height: 300px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 5px;
+  background-color: rgb(141 , 153 , 174);
+  padding: 10px;
+
 }
