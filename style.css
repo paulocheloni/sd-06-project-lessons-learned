@@ -25,7 +25,31 @@ main {
     border: #606C38;
     border-width: 5px;
     border-style: solid;
-    margin: 10px
+    margin: 10px       
+}
+.conteudo-incial {
+    position: relative;
+}
+.minha-foto {
+    float: left;
+    position: absolute;
+    
+}
+.listas {
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 200px;
+    
+}
+.licoes_aprendidas {
+    float: left;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+.licoes_a_aprender {
+    float: right;
+    padding-left: 250px;
+    margin-top: 10px;
 }
 #rodape {
     margin: 0px;
@@ -39,6 +63,8 @@ main {
     padding-top: 25px;
     padding-right: 20px;
     padding-bottom: 20px;
+    
+    
 }
 .media-link {
     font-size: 40px;
