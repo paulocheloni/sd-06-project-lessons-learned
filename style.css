@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(253, 251, 251);
+    background-color:rgb(253, 251, 251);
 }
 #cabecalho{
-    position: fixed;
+    position:fixed;
     top: 0px;
     height: 100px;
     background-color: rgb(49, 135, 90);
@@ -55,40 +55,47 @@ table{
     margin: auto;
 }
 .artigo{
-    color: rgb(49, 135, 90);
+    color:rgb(49, 135, 90);
     line-height: 28px;
 }
 .lado-esquerdo{
     margin:auto;
-    float: left;
-    width: 55%;
-    margin-left: 70px;
+    float:left;
+    width:40%;
+    margin-left:10%;
+    margin-bottom: 2%;
+    border:1px solid rgb(225, 224, 223);
+    box-shadow: 2px 2px 3px 3px rgb(225, 224, 223);
+    padding:4px;
+    text-align:center;
+    border-radius: 3px;
 }
 .lado-direito{
-   float: right;
-    background-color: rgb(49, 135, 90);
-    color: white;
-    margin: auto;
-    width: 20%;
-    margin-right: 70px;
-    border-radius: 3px;
-    text-align: center;
-    margin-top: 4%;
+   float:right;
+    background-color:rgb(49, 135, 90);
+    color:white;
+    margin:auto;
+    margin-bottom: 2%;
+    width:20%;
+    margin-right:20%;
+    border-radius:3px;
+    text-align:center;
+    margin-top: 10%;
 }
 #rodape{
-    clear: both;
-    background-color: rgb(49, 135, 90);
-    height: 45px;
-    padding-top: 7px;
+    clear:both;
+    background-color:rgb(49, 135, 90);
+    height:45px;
+    padding-top:7px;
     color:white;
 }
 #rodape a{
-    width: 42px;
-    height: 42px;
-    display: inline-block;
-    text-indent: -9999px;
-    border-radius: 50%;
-    margin-left: 50%;
+    width:42px;
+    height:42px;
+    display:inline-block;
+    text-indent:-9999px;
+    border-radius:50%;
+    margin-left:50%;
 }
 .logo-git{
     background-image: url(imagens/rsz_git-pages.png);
