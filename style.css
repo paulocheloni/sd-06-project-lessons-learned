@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 .cabecalho {
@@ -11,4 +11,8 @@ body {
 
 .minha_foto {
   margin-top: 100px;
+}
+
+.rodape {
+  text-align: center;
 }
