@@ -1,54 +1,54 @@
 body {
-    background-color: rgb(253,251,251);
+    background-color:rgb(253, 251, 251);
 }
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: #0fa36b;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(15, 163, 107);
 }
-    #titulo {
-    color: white;
-    text-align: center;
+#titulo {
+  color: white;
+  text-align: center;
 }
-.sobre-mim{
-    margin-top: 100px;
-    left: 70%;
+.sobre-mim {
+  margin-top: 100px;
+  left: 70%;
 }
 #minha_foto {
-    border: 3px double rgba(41, 40, 40, 0.788);
-    box-shadow: rgba(0, 0, 0, 1);
-    margin: 10px 10px 10px 10px;
-    padding: 2px;
+  border: 3px double rgba(41, 40, 40, 0.788);
+  box-shadow: rgba(black, 1);
+  margin: 10px 10px 10px 10px;
+  padding: 2px;
 }
 div.capsula-texto {
-    color: blue;
-    display: inline-block;
-    margin-left: 5%;
-    padding: 10px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
-    font-size: large;
-    border: double;
-    width: 40%;
+  color: blue;
+  display: inline-block;
+  margin-left: 5%;
+  padding: 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: large;
+  border: double;
+  width: 40%;
 }
-nav.menu{
-    display: block;
-    position: fixed;
-    max-width: 400px;
-    left: 70%;
-    top: 0;
+nav.menu {
+  display: block;
+  position: fixed;
+  max-width: 400px;
+  left: 70%;
+  top: 0;
 }
-nav.menu a{
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: mediumaquamarine;
-    margin: 5px;
-    padding: 5px 10px;
-}    
-.listas  {
-    width: 30%;
-    display: inline-block;
+nav.menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: mediumaquamarine;
+  margin: 5px;
+  padding: 5px 10px;
+}
+.listas {
+  width: 30%;
+  display: inline-block;
 }
