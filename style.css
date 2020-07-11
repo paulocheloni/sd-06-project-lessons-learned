@@ -1,76 +1,76 @@
 body {
-        background-color: rgb(253 , 251 , 251);
-        padding: 1px;
-        margin: 0;
-        font-family: Segoe UI, Open Sans, Helvetica Neue, sans-serif;
+    background-color:  rgb(253 , 251 , 251);
+    padding:  1px;
+    margin:  0;
+    font-family:  Segoe UI, Open Sans, Helvetica Neue, sans-serif;
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-        height: 45px;
-        width: 100%;
-        margin: 0;
-        padding: 10px;
-        border: 1px;
-        background-color: rgb(15 , 163 , 107);
+    position:  fixed;
+    top:  0;
+    height:  45px;
+    width:  100%;
+    margin:  0;
+    padding:  10px;
+    border:  1px;
+    background-color:  rgb(15 , 163 , 107);
 }
 
 #titulo {
-        top: 20px;
-        color: rgb(255 , 255 , 255);
-        font-weight: 500;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        margin-left: 30px;
+    top:  20px;
+    color:  white;
+    font-weight:  500;
+    margin-block-start:  0;
+    margin-block-end:  0;
+    margin-left:  30px;
 }
 
 #minha_foto {
-        width: 400px;
+    width:  400px;
 }
 
 #rodape {
-        bottom: 1px;
-        width: 100%;
-        height: 30px;
-        font-size: 17px;
-        margin-top: 20px;
-        background-color: rgb(150 , 150 , 150);
+    bottom:  1px;
+    width:  100%;
+    height:  30px;
+    font-size:  17px;
+    margin-top:  20px;
+    background-color:  rgb(150 , 150 , 150);
 }
 
 #lists {
-        margin: 10px;
+    margin:  10px;
 }
 
 #eotchan {
-        position: relative;
-        float: right;
-        margin-right: 70px;
-        margin-block-start: 1px;
-        padding: 1px;
-        letter-spacing: 1px;
-        line-height: 1px;
+    position:  relative;
+    float:  right;
+    margin-right:  70px;
+    margin-block-start:  1px;
+    padding:  1px;
+    letter-spacing:  1px;
+    line-height:  1px;
 }
 
 #table {
-        clear: both;
-        margin-bottom: 20px;
-        margin-left: 10px;
+    clear:  both;
+    margin-bottom:  20px;
+    margin-left:  10px;
 }
 
 #rick {
-        border: 5px solid greenyellow;
-        padding: 5px;
-        margin: 5px;
+    border:  5px solid greenyellow;
+    padding:  5px;
+    margin:  5px;
 }
 
 .lado-esquerdo {
-        float: left;
-        width: 40%;
-        margin: 10px;
+    float:  left;
+    width:  40%;
+    margin-left:  10px;
 }
 
 .lado-direito {
-        float: right;
-        width: 40%;
+    float:  right;
+    width:  40%;
 }
