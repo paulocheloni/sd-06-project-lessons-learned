@@ -23,6 +23,7 @@ body > * {
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -99,4 +100,8 @@ footer {
 
 .two-columns, .article-plus-aside ul, ol {
   width: 50%;
+}
+
+.bigger-font {
+  font-size: 30px;
 }
