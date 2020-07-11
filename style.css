@@ -31,13 +31,13 @@ p {
     /*border: solid;*/
 }
 
-.direito {
+.lado-direito {
     width:45%;
     float: right;
     /*border: solid;*/
 }
 
-.esquerdo {
+.lado-esquerdo {
     width:45%;
     float: left;
     /*border: solid;*/
