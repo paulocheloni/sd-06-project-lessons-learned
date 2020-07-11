@@ -14,6 +14,7 @@ background-color: rgb(247, 197, 104);
     border-radius: 50%;  
     background-color: rgb(247, 197, 104) ; 
     padding: 2px;
+    margin-left: 80px;
 }
 #licoes_aprendidas, #licoes_a_aprender{
     max-width: 40%;
@@ -42,6 +43,7 @@ background-color: rgb(247, 197, 104);
 .titulo-sec{
     background-color: rgb(247, 197, 104);
     color: black;
+    text-align: center;
 }
 .tamanho-elemento{
     max-width: 50%;
@@ -64,5 +66,12 @@ div{
     clear:both;
 }
 #texto-exp{
-    max-width: 20%;
+    max-width: 30%;
+    margin-right: 30px;
+}
+#vivencia{
+    text-align: center;
+    background-color: rgb(247, 197, 104);
+    margin-top: 50px;
+    
 }
