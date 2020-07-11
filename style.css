@@ -1,20 +1,54 @@
-body {background-color: rgb(253, 251, 251);}
+body {
+    background-color: rgb(253, 251, 251);
+}
 
-#cabecalho {background-color: rgb(139, 4, 4);
-width:100% ;
-height:200px;
-top:0px;
-position: fixed;}
-h1 {text-align: center;
-margin-top: 40px;
-font-size: 50px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:white;}
-li {color:white;
-font-size: 20px;
-font-weight: bold;
-list-style-type: none;
-line-height: 20px;}
-#picture {margin-top: 14em;
-margin-left: 2em;
-line-height:0px;}
+#cabecalho {
+    width: 90%;
+    background-color: rgb(139, 4, 4);
+    height: 200px;
+    top: 0px;
+    margin-left: 60px;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+header nav ul li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+#picture {
+    margin-top: 15em;
+    margin-left: 6em;
+    line-height: 0px;
+}
+
+.main-lists-style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 5em;
+    line-height: 26px;
+    display: inline-block;
+}
+
+#two-lists ol li,
+#two-lists ul li {
+    margin-left: 1em;
+}
