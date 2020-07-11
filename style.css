@@ -46,6 +46,8 @@ font-family: Arial, Helvetica, sans-serif;
 
     text-align: center;
     color:gray
+    background-color: black;
+    
     
 }
 
@@ -74,6 +76,27 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .h2font {
+ text-align: center;
+    font-size: 30px;
+}
 
-    font-size: 8px;
+.aolado {
+
+    position:relative;
+float: left;
+border-width:3px;
+width:300px;
+height: 750px;
+background-color: peachpuff;
+}
+
+
+#aolado2{
+
+    position:relative;
+    float: right;
+    border-width:3px;
+    width:300px;
+    height: 750px;
+    background-color: peachpuff;
 }
