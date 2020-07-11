@@ -18,7 +18,7 @@ header h1 {
   text-align: center;
   padding: 25px;
   color: white;
-  margin: 0px;
+  margin: unset;
 }
 
 .article {
@@ -78,6 +78,6 @@ article h1 {
 }
 
 .tabela td , th {
-   border: 1px solid black;
-   border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
