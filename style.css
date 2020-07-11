@@ -12,6 +12,8 @@ header{
     padding:2%;
     color: white;
     clear:both;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
 }
 .me img{
     border: 5px;
@@ -28,6 +30,7 @@ header{
 }
 .licoes li{
     text-align: left;
+    line-height: 40px;
 }
 .sec-table-pos-neg{
 text-align: center;
@@ -39,6 +42,7 @@ td, th{
  border: solid 2px black;
  margin: auto;
  padding:2px;
+ line-height: 40px;
 }
 th{
     background-color: #EC39A1;
