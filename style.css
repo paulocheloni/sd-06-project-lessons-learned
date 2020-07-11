@@ -8,3 +8,9 @@ header {
     left: 0px;
     right: 0px;
 }
+
+#minha_foto {
+    max-width: 30%;
+    margin: 2em;
+    border: 1px solid rgb(255, 213, 151);
+}
