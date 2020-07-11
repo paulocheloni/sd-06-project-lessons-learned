@@ -111,11 +111,14 @@ div.learning-container {
   background-color: rgba(217, 217, 222, 25%);
   padding: 20px 32px 34px;
   border-radius: 40px;
+  height: 180px;
 }
 
 article.lado-esquerdo {
   display: inline-block;
   max-width: 65%;
+  height: 100%;
+  float: left;
 }
 
 article.lado-esquerdo p {
