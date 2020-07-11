@@ -34,13 +34,27 @@ main {
 	border: 1px solid;
 }
 
-#tabela {
-	margin: 5px;
-	padding: 5px;
+.lado-esquerdo, .lado-direito {
+	display: inline-block;
+}
+
+.lado-esquerdo {
+	width: 70%;
+}
+
+.lado-direito {
+	width: 20%;
+	float: right;
 }
 
 p {
 	line-height: 1.5em;
+}
+
+#tabela {
+	margin: 5px;
+	padding: 5px;
+	clear: both;
 }
 
 td, th {
