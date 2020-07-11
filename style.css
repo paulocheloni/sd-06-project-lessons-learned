@@ -21,8 +21,8 @@ h1, article h2, aside h3{
     float: left;    
 }
 #minha_foto{    
-    width: 200px;
-    z-index: 9;            
+    width: 400px;     
+    border-radius: 100%;
 }
 #licoes_aprendidas{
     
@@ -39,7 +39,8 @@ h1, article h2, aside h3{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 90%;
+    z-index: 9;
 }
 #titulo{
     padding-top: 2px;
@@ -53,16 +54,38 @@ article{
     border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
+    padding-right: 5px;
+    width: 72%;
+    float: left; 
+    margin-right: -30px;
 }
-aside{
+aside{     
+    position: relative;
+    left: 30px;
     background-color: honeydew;
     border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
-}
-article, aside{
-    width: 40%;
+    float: right;
+    width: 25%;
+    margin-left: -30px;
+}    
+article, aside{    
     display: inline-block;
-    margin: 5px;
-    text-align: top;
+    
+    text-align: top;    
+}
+.container-textos{
+    /*border: 1px solid grey;
+    height: 300px;
+    margin-right: 0px;*/
+}
+#rodape{
+    clear: both;    
+}
+.container-minha-foto{
+    width: 400px;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
