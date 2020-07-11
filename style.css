@@ -70,12 +70,12 @@ ul li {
     line-height: 2em;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
     max-width: 65%;
     float: left;
 }
 
-.lado_direito {
+.lado-direito {
     padding: 8px;
     max-width: 30%;
     text-align: right;
