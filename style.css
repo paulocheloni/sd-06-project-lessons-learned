@@ -12,35 +12,43 @@ body {
     position: fixed;
     top: 0px;
     background-color: lightseagreen;
-    padding: 5px 350px;
+    padding: 5px 255px;
     z-index: -1;
 }
 #titulo {
-    text-size-adjust: 15px ;
+    position: relative;
     font-weight: 600;
+    padding-bottom: 50px;
+    font-size: 33px;
+    top: 17px;
 }
 #minha_foto {
     width: 100px;
     position: relative;
-    top: 20px;
-    left: 128px;
-    z-index: 999;
+    top: 150px;
+    left: 79px;
+    z-index: -2;
+    border-radius: 50%;
+    
 }
 #licoes_aprendidas {
     position: relative;
-    top: -30px;
+    top: 50px;
     float: left;
     clear: both;
     left: 50px;
-    
+    color: #586069;
+    font-size: 18px;
 }
 #licoes_a_aprender {
     float: right;
     position: relative;
-    top: -720px;
+    top: -502px;
     right: 100px;
     clear: both;
-
+    color: #586069;
+    font-size: 18px;
+    text-decoration-style: ;
 }
 #rodape {
     position: relative;
@@ -49,21 +57,21 @@ body {
 }
 #github{
     float: right;
-    top: 500px;
+    top: 15px;
     clear: both;
 }
 #adjust {
     position: relative;
     top: 500px;
+    float: left;
+    right: 300px;
     clear: both;
 }
-.navposition{
+#navposition{
     position: relative;
-    margin-left: 20px;
     font-size: 15px;
-    top: -30px;
+    top: 50px;
     left: 30px;
-    text-decoration: none;
     z-index: 9;
     
     
@@ -71,17 +79,28 @@ body {
 #adjust{
     position: relative;
     top: 50px;
-    clear: both;
     padding: 20px;
-    left: 250px;
+    left: 52px;
+
 }
 #jornada {
-    top: 600px;
-    clear: both;
-       
+    position: relative;
+    clear: both; 
+    color: #586069;
+    font-size: 18px; 
 }
-.oaprendizado {
-    top: 800;
-    clear: both;
-
+#oaprendizado {
+    position: relative;
+    top: 69px;
+    left: 100px;
+    color: #586069;
+    font-size: 18px;
+    float: left;
+}
+h2 {
+    color: black;
+}
+#tituloaprendizado {
+    position: relative;
+    left: -2px;
 }
