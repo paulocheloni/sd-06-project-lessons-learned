@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(201, 218, 223);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(253, 251, 251);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -61,4 +61,5 @@ body {
 p {
     font-size: 11pt;
     line-height: 15pt;
+    text-align: justify;
 }
