@@ -7,6 +7,10 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+a {
+  text-decoration: none;
+}
+
 #cabecalho {
   background-color: rgb(222 , 207 , 172);
   width: 100%;
