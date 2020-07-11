@@ -9,6 +9,8 @@ body {
 
 #cabecalho {
   background-color: rgb(222 , 207 , 172);
+  width: 100%;
+  position: fixed;
   top: 0px;
   padding: 0 15px;
   height: 40px;
@@ -25,6 +27,7 @@ body {
 
 #div-foto {
   width: 40%;
+  margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
