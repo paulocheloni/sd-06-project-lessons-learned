@@ -86,12 +86,10 @@ footer {
 
 .article-plus-aside article {
   width: 65%;
-  float: left;
 }
 
 .article-plus-aside aside {
   width: 30%;
-  float: right;
 }
 
 .two-columns, .article-plus-aside {
