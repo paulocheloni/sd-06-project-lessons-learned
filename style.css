@@ -1,24 +1,26 @@
-body{ 
-  font-family: Helvetica, Sans-serif;
-  background-color: rgb(253, 251, 251);
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(253,251,251);
 }
+
 #cabecalho {
   overflow: hidden;
-  background-color: #333;
-  margin: 0px;
-  top:0px;
+  background-color: rgb(31,29,30);
+  margin: 0;
+  top: 0;
   position: absolute;
   width: 100%;
-  
 }
+
 #title {
   text-align: center;
-  color: rgb(138, 43, 226);
+  color: rgb(93,35,148);
 }
-h1 {
- 	font-size: 34px;
 
+h1 {
+  font-size: 34px;
 }
+
 h2 {
-  color: rgb(138, 16, 16);
+  color: rgb(138,16,16);
 }
