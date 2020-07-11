@@ -21,6 +21,10 @@ img {
     padding: 3px;
 }
 
+#minha_foto {
+    clear: both;
+}
+
 p {
     text-align: justify;
 }
@@ -48,12 +52,13 @@ h1 , h2 {
 }
 
 .lado-esquerdo {
+    float: left;
     width: 40%;
 }
 
 .lado-direito {
     float: right;
-    width: 40%;
+    width: 35%;
 }
 
 footer {
