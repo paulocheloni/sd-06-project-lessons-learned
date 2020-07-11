@@ -1,11 +1,14 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    
 }
 #cabecalho {
     padding-top: 15px;
-    background-color: #4A3607;
+    background-color: #130E02;
     position: fixed;
     width: 100%;
     display: inline-block;
@@ -24,14 +27,10 @@ main {
     border: #606C38;
     border-width: 5px;
     border-style: solid;
-    margin: 10px       
-}
-.conteudo-incial {
-    position: relative;
+    
 }
 .minha-foto {
-    float: left;
-    position: absolute;
+    padding-bottom: 100px;
     
 }
 .listas {
@@ -39,6 +38,7 @@ main {
     margin: 0px;
     padding-bottom: 200px;
     padding-top: 30px
+    
 }
 .licoes_aprendidas {
     float: left;
@@ -68,16 +68,22 @@ ul {
     float: left;
 }
 .lado-direito {
-    width: 20%;
+    width: 30%;
     float: right;
-    padding-right: 10%;
+    padding-right: 10px;
 }
 #rodape {
     margin: 0px;
     text-align: center;
     border: #606C38;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
+    background-color: #130E02;
+    color: #fefae0;
+    font-size: 10px;
+}
+h3 {
+    margin: 0px;
 }
 .media-links {
     text-align: right;
@@ -103,8 +109,14 @@ ul {
 }
 .paragrafos-depoimentos {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #130E02;;
 }
 h2 {
     font-family: 'Merienda One', cursive;
-    font-size: 30px;
+    font-size: 40px;
+    color: #130E02;
+}
+li {
+    font-size: 20px;
 }
