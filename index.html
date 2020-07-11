@@ -30,6 +30,28 @@
                     background-color:khaki;
                     margin-top: 100px;
                 }
+                .lado-esquerdo {
+                    float: left;
+                    width: 40%;
+                    font-family: sans-serif;
+                }
+                .lado-direito {
+                    float: right;
+                    width: 50%;
+                    font-family: monospace;
+                    font-size: 2em;
+                    color:khaki;
+                    background-color: black;
+                    margin: 10px;
+                    padding:10px;
+                    border-radius: 20px;
+                }
+                footer{
+                    clear: both;
+                }
+                #LinkExterno{
+                    clear: both;
+                }
             </style>
 
 
@@ -45,7 +67,7 @@
                 <h2>Minha foto:</h2>
                 <img id="minha_foto" src="eufoto.jpg" alt="Foto do Aloízio na British Library">
             </section>  
-            <ol id="licoes_aprendidas">
+            <div><ol id="licoes_aprendidas">
                 <li>Unix</li>
                 <li>Git</li>
                 <li>GitHub</li>
@@ -56,8 +78,9 @@
                 <li>Zoom</li>
                 <li>Inspect</li>
                 <li>Semantic HTML</li>
-            </ol>
-            <ul id="licoes_a_aprender">
+                </ol>
+            </div>
+            <div><ul id="licoes_a_aprender">
                 <li>JavaScript</li>
                 <li>DOM</li>
                 <li>Forms</li>
@@ -68,16 +91,23 @@
                 <li>React</li>
                 <li>Node</li>
                 <li>SQL</li>
-            </ul>
+                </ul>
+            </div>
 
-            <article>
+            <div class="lado-esquerdo"><article>
                  <p>Com o avanço ininterrupto da tecnologia e seus impactos sobre a humanidade, aprender a programar tornou-se habilidade crucial do século XXI.
                     Saber falar a língua dos computadores e da Internet passou a ser tão importante quanto aprender a própria língua materna.  </p>
                  <p>De alguma maneira, todas as pessoas precisarão ter certo domínio sobre esse vocabulário de códigos que ultrapassa as barreiras culturais, ainda que em um nível básico de conhecimento.  </p>    
-            </article>
-            <aside>As aulas em casa geram oportunidades para tornar o período de distanciamento social mais construtivo, principalmente com a adoção de tecnologias educacionais.</aside>  
-            <a target="_blank" href="http://www.csszengarden.com/"> Veja uma demonstração do que é possível fazer com CSS neste link</a>
-            <footer id="rodape"><p>rodape</p></footer>
+                </article>
+            </div>
+            <div class="lado-direito"><aside>As aulas em casa geram oportunidades para tornar o período de distanciamento social mais construtivo, principalmente com a adoção de tecnologias educacionais.</aside>  
+            </div>
+            <div id="LinkExterno">
+                <a target="_blank" href="http://www.csszengarden.com/"> Veja uma demonstração do que é possível fazer com CSS neste link</a>
+            </div>
+            <div>
+                <footer id="rodape"><p>rodape</p></footer>
+            </div>
 
         </body>
 
