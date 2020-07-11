@@ -4,11 +4,12 @@ body , h1 , h2 , ul , li {
 }
 
 body {
-  background-color: rgb(181 , 146 , 109);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
   background-color: rgb(222 , 207 , 172);
+  top: 0px;
   padding: 0 15px;
   height: 40px;
 }
@@ -34,6 +35,7 @@ body {
 #div-foto h2 {
   font-size: 18px;
 }
+
 #minha_foto {
   height: 280px;
   border-radius: 50%;
