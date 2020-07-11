@@ -59,7 +59,7 @@ body {
 }
 #github{
     position: relative;
-    top: 468px;
+    top: 331px;
     left: 10px;
     clear: both;
 }
@@ -86,16 +86,16 @@ body {
     left: 52px;
 
 }
-#lado-esquerdo {
+.lado-esquerdo {
     position: relative;
     clear: both; 
     color: #586069;
     font-size: 18px;
 }
-#lado-direito {
+.lado-direito {
     position: relative;
-    top: 200px;
-    left: 280px;
+    top: 70px;
+    left: 100px;
     color: #586069;
     font-size: 18px;
 }
