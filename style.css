@@ -52,6 +52,7 @@ main {
 }
 .testimony{
     display: inline-block;
+    text-align: center;
 }
 .article{
     width: 60%;
