@@ -1,83 +1,69 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho {
     top: 0px;
     position: fixed;
     width: 100%;
-    z-index:1;
-   
+    z-index: 1;
 }
-header h1{
-    font-family: monospace , sans-serif; 
-    background: linear-gradient(-45deg, #A3DE9C, #62A87C, #2A546D, #1C3955); 
+header h1 {
+    font-family: monospace,sans-serif;
+    background: linear-gradient(-45deg, #a3dE9c, #62a87c, #2a546d, #1c3955);
 }
-#titulo{
+#titulo {
     text-align: center;
     padding: 25px;
-    color:white;
-    margin:0px;
+    color: white;
+    margin: 0px;
 }
-.article{
+.article {
     position: absolute;
     padding-left: 270px;
-    top:10%
+    top: 10%;
 }
-footer{
+footer {
     text-align: center;
+    clear: both;
 }
-aside{
+aside {
     position: absolute;
     padding-left: 270px;
     font-style: italic;
-    top:50%;
+    top: 50%;
     width: 20%;
 }
-
-article h1{
-    text-align: center;   
+article h1 {
+    text-align: center;
 }
-
-#minha_foto{
-    margin:5px;
-    padding:5px;
-    border:5px;
+#minha_foto {
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
 }
-
-#tabela{
-    
+.lado-esquerdo {
+    float: left;
+}
+.lado-direito {
+    float: right;
+}
+.requisitos_minimos {
+    text-align: center;
+}
+.requisitos_minimos h2 {
+    font-size: 18px;
+    line-height: 1px;
+    font-style: italic;
+}
+#tabela {
+    padding-left: 10%;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
     text-decoration: solid;
     font-family: fantasy;
-    
 }
-#tabela td{
+#tabela td, th {
     border: 1px solid black;
     border-collapse: collapse;
 }
-#tabela th{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-.lado-esquerdo{
-float:left;
-width: 50%;
-
-}
-.lado-direito{
-float:right;
-
-}
-.requisitos_minimos{
-  display: inline;
-  padding: 10px;  
-}
-.requisitos_minimos h2{
-    font-size: 18px;
-    line-height: 1px;
-    font-style: italic;
-}
-
