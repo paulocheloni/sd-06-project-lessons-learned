@@ -40,8 +40,14 @@
       line-height:  2em;
       padding:  5px 5px 10px 1px;
     }
-    #licoes_aprendidas, #licoes_a_aprender{
+    #licoes_aprendidas{
       list-style-type:  upper-roman;
+      color: rgb(49, 26, 151);
+      padding:  10px 5px 10px 25px;
+      margin-bottom:  25px;
+    }
+    #licoes_a_aprender{
+      list-style-type:  circle; 
       color: rgb(49, 26, 151);
       padding:  10px 5px 10px 25px;
       margin-bottom:  25px;
