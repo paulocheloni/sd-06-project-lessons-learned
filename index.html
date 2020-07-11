@@ -22,8 +22,6 @@
                         text-align: center;
 
                 }
-                
-               
                 h1 {
                         color:rgb(9, 104, 9)
                         
@@ -38,25 +36,34 @@
                         text-align: center;
                         line-height: 2px;
                         clear: both;
-                        }
+                }
                 #sociais {
                         font-style: oblique;
                 }
-                
                 img {
+                        
+                        position:relative;
                         float: right;
-                        position: relative;
-                        right: 170px;
-
+                        right: 50px;
+                        bottom: -15px;
+                        border-radius: 20px;
+                        border: 4px groove black;
                 }
                 article {
                         float:left;
                         padding-left: 40px;
                         background-color: rgb(168, 236, 168);
-                        width: 50em;
+                        width: 55em;
                         height:300px;
+                        line-height: 35px;
+                        color:black
                 }
+                section {
                         
+                        background-color: rgb(9, 104, 9);
+                        color: white;
+               
+                }
                
 
                 
@@ -67,11 +74,14 @@
     <header id="cabecalho">
         <h1 id="titulo">Primeiros passos como desenvolvedor FullStack, com a <a target="_blank" href="https://blog.betrybe.com/"><strong>Trybe</strong></a>.</h1>
         <p>Com início no dia <em>22/06/2020</em>, já é possível se expressar na internet.</p>
+        <nav>
+                <a href="#1">Primeiro bloco</a> | <a href="#aaprender">Próx. cap.</a> | <a href="#betrybe"> Ser Tryber</a> | <a href="#sociais">Redes sociais</a>
+        </nav>
 
     </header>
     
         <section>
-            <h2>PRIMEIRO BLOCO</h2>
+            <h2 id="1">PRIMEIRO BLOCO</h2>
             
                 <p>Um pouquinho do bloco <em>Introdução ao desenvolvimento web</em></p>
                     <ol id="licoes_aprendidas">
@@ -102,7 +112,8 @@
                                 <br>
                         <li><strong>React:</strong> Desenvolver componentes React testáveis, manipulando estado nos componentes e globalmente usando ferramentas como Redux, ContextAPI e React Hooks, e bibliotecas RTL para testar componentes síncronos e assíncronos.</li>
                     </ol>
-                    <p>Muita coisa, né? Agora, vejam as cenas para os próximos capítulos:</p>
+                <section>
+                    <p id="aaprender">Muita coisa, né? Agora, vejam as cenas para os próximos capítulos:</p>
                     <ul id="licoes_a_aprender">
                         <li><strong>Banco de dados:</strong>Modelar entidades de dados e seus relacionamentos e propriedades de forma relacional e não relacional.</li>
                         <br>
@@ -124,19 +135,26 @@
                         <br>
                         <li><strong>Python:</strong> Solidificar o conhecimento de lógica de programação, apresentando conceitos como gerenciamento e compartilhamento de memória.</li>
                     </ul>
-        </section>
-    <article>
-        <h2> Como é ser um Tryber:</h2>
-        <p>Vamos lá: Ser um Tryber é bem emocionante, sendo que, na grande maioria do tempo estamos produzindo conteúdo e conhecimento. A minha rotina é full Time trybe, mas alguns colegas de classe trabalham durante a manhã, estudam durante a tarde e parte da noite, mas isso é muito legal, porque além de estudar nos divertimos muito com a interação que a gente tem no slack e também nos fechamentos que acontecem por volta das 19h e 30min. Enfim, ser um tryber é ser bem ativo no mundo das tecnologias, uma vez que durante o dia todo estamos envolvidos nos projetos e ate mesmo nas decisões da empresa. Legal, né? </p>
+                </section>
+
+                    <article>
+                        <h2 id="betrybe"> Como é ser um Tryber:
+                                
+                        </h2>
+                                <p>
+                                        Vamos lá: Ser um Tryber é bem emocionante, sendo que, na grande maioria do tempo estamos produzindo conteúdo e conhecimento. A minha rotina é full Time trybe, mas alguns colegas de classe trabalham durante a manhã, estudam durante a tarde e parte da noite, mas isso é muito legal, porque além de estudar nos divertimos muito com a interação que a gente tem no slack e também nos fechamentos que acontecem por volta das 19h e 30min. Enfim, ser um tryber é ser bem ativo no mundo das tecnologias, uma vez que durante o dia todo estamos envolvidos nos projetos e ate mesmo nas decisões da empresa. Legal, né? 
+
+                                </p>
        
         
-</article>
+                </article>
+        </section>
+                
     <img id="minha_foto" src="foto-do-projeto-htmlcss.jpg" alt="Foto do Rodrigo, de pé, sorrindo." width="200px">
     <footer id="rodape">
                 
-
                 <ul id="contact">
-                        <p id="sociais">Me segue lá no:</p>
+                        <p id="sociais">Redes sociais:</p>
                         <br>
                             <a target="_blank" href="https://github.com/rodrigodesantanaribeiro"><strong>GitHub</strong></a> |
                             <a target="_blank" href="https://linkedin.com/in/rodrigodsantana"><strong>LinkedIn</strong></a> |
