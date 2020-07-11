@@ -55,11 +55,11 @@ body {
     
 }
 
-#artigos {
-    background-color: rgb(10, 10, 10);
-}
+/* .artigos {
+    
+} */
 
-#meu_aprendizado {
+.meu_aprendizado {
 
     border: 1px dashed black;
     width: 500px;
@@ -67,7 +67,7 @@ body {
     text-align: left;
 }
 
-#passagem {
+.passagem {
 
     border: 1px dashed black;
     width: 400px;
@@ -76,3 +76,7 @@ body {
     margin-left:800px;
     margin-top: -210px;
 }
+
+/* .link {
+
+} */
