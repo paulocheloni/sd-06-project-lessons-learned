@@ -1,9 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
-    font-family:"Helvetica", Arial, sans-serif;
+    font-family:"Helvetica";
     letter-spacing: 1.5px;
     color:#0D090A;
-    font-size: medium;
+    font-size: 1em;
 }
 
 #cabecalho{
@@ -51,4 +51,14 @@ body{
     margin-right: 4px;
     font-family: sans-serif;
     color:#861657;
+}
+
+.lado-esquerdo{
+    float: left;
+    width: 50%;
+}
+
+.lado-direito{
+    float:right;
+    width: 50%;
 }
