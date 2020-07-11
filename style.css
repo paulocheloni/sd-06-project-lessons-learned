@@ -1,8 +1,7 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: rgb(253, 251, 251);
-  padding-top: 70px;
-  
+  padding-top: 70px; 
 }
 
 h1, h2, h3 {
@@ -12,35 +11,28 @@ h1, h2, h3 {
   margin-left: 15px;
 }
 
-p, {
+p {
   margin-top: 0;
   text-indent: 30px;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 
-.barra-cabecalho, .texto-rodape{
-  margin: 0px; 
-  text-align: center;
-  background-color: cornflowerblue;
-  color: white;
-  left: 0;
-  right: 0;
-  
-}
-
-.barra-cabecalho {
+#cabecalho {
   position: fixed;
-  top: 0px;
-  
+  top: 0;
+  left: 0; 
+  right: 0;
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  width: 100%;
 }
 
 .texto-rodape {
-  bottom: 0;
-  
+  margin: 0px; 
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  bottom: 0;  
 }
 
-.container {
-  width: 100%;
-  margin: auto;
-
-}
