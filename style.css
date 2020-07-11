@@ -23,7 +23,13 @@ header ul {
     text-align: left;
     text-decoration: none;
 }
+/*Span de cores e tamanhos*/
+span.grandecor {
+    color:#826b91 ;
+    font-weight: bold;
+    font-size: 1.25em;
 
+}
 /*Conteúdo principal*/
 main {
     margin-top: 110px
@@ -60,6 +66,9 @@ main h2, h3 {
     margin-top: 10px;
     padding: 60px 10px 20px;
     background-color: #6D597A
+}
+.lado-esquerdo p {
+    line-height: 1.5em;
 }
 /*Table*/
 table {
