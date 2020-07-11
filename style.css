@@ -34,17 +34,23 @@ body{
     border-radius: 10%;
     border: 5px solid rgb(121, 21, 21);
 }
-#tabelas{
-}
 #divisor-lista{
     display: inline-flex;
     width: 30%;
 }
 #div-lista1{
-    margin-left: 5px;
+    margin-left: 35px;
 }
 #div-lista2{
-    margin-left: 60px;
+    margin-left: 65px;
+}
+#div-lista3{
+    padding-left: 150px;
+    left: 100px;
+}
+#checkmark{
+    position: relative;
+    left: 12px;
 }
 
 #rodape{
