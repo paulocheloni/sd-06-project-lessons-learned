@@ -68,16 +68,19 @@ footer {
   margin-top: 130px;
 }
 
-.two-columns article {
-  width: 40%;
-  margin: auto;
+.two-columns {
+  display: inline-block;
 }
 
-.two-columns:first-child {
+.two-columns div {
+  text-align: center;
+}
+
+.lado-esquerdo {
   float: left;
 }
 
-.two-columns:last-child {
+.lado-direito {
   float: right;
 }
 
@@ -97,9 +100,5 @@ footer {
 }
 
 .two-columns, .article-plus-aside ul, ol {
-  width: 100%;
-}
-
-.two-columns, .article-plus-aside li {
   width: 50%;
 }
