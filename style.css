@@ -39,6 +39,10 @@ main {
 	padding: 5px;
 }
 
+p {
+	line-height: 1.5em;
+}
+
 td, th {
 	border: 1px solid;
 	text-align: center;
