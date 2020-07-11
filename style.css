@@ -10,7 +10,7 @@ header {
     left: 0px;
     right: 0px;
     font-family: 'Pacifico', cursive;
-    display: flex;
+    display: inline-block;
     line-height: 1em;
     color: rgb(77, 24, 0);
 }
@@ -25,4 +25,17 @@ header nav ul {
     max-width: 30%;
     margin: 2em;
     border: 1px outset rgb(255, 213, 151);
+}
+
+.lado-direito {
+    float: right;
+    max-width: 30%;
+}
+.lado-esquerdo {
+    float: left;
+    max-width: 30%;
+}
+
+footer {
+    clear: both;
 }
