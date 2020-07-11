@@ -1,13 +1,39 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: "Patua One";
 }
 
 header {
   position: fixed;
   top: 0;
+  background-image: url(planodefundo.png);
+  background-size: inherit;
+  background-position: 50% 90%;
+  width: 100%;
+  text-align: center;
 }
 
-#minha_foto {
-  max-width: 20%;
-  margin-top: 60px;
+#titulo {
+  font-family: "Galada";
+  font-size: 45px;
 }
+
+.foto {
+    margin: 35px;
+    padding: 35px;
+    max-width: 40%;
+}
+#minha_foto {
+    margin-top: 150px;
+    border-radius: 20%;
+    border: 10px groove #2b9348;
+}
+
+.resto-conteudo {
+    clear: both;
+}
+
+h2 {
+    color: #2b9348;
+}
+
