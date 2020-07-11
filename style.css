@@ -1,7 +1,7 @@
 /* CSS geral - body, h1, h2 (..), p, etc */
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   color: rgb(20 , 20 , 20);
   font-size: 18px;
   line-height: 1.5em;
@@ -13,13 +13,14 @@ body {
 header {
   position: fixed;
   width: 100%;
-  top: 0px;
+  top: 0;
   background-color: rgb(109 , 89 , 122);
   text-align: center;
   margin: 0;
   color: white;
 }
-header h1,h2, nav, ul {
+
+header h1 , h2 , nav, ul {
   margin: 0;
   padding: 3px;
 }
@@ -30,7 +31,7 @@ header ul {
 }
 
 /* Span de cores e tamanhos */
-span.grandecor {
+.grandecor {
   color: rgb(130 , 107 , 145);
   font-weight: 900;
   font-size: 1.25em;
@@ -40,11 +41,13 @@ span.grandecor {
 main {
   margin-top: 110px;
 }
+
 main img {
   border-radius: 50%;
   border: 10px solid rgb(109 , 89 , 122);
 }
-main h2, h3 {
+
+main h2 , h3 {
   background-color: rgb(109 , 89 , 122);
   margin-top: 10px;
   margin-bottom: 15px;
@@ -61,6 +64,7 @@ section ol {
 .link-externo {
   clear: both;
 }
+
 .link-externo a {
   padding: 100px;
 }
@@ -68,12 +72,14 @@ section ol {
 /* Article e Aside */
 .lado-esquerdo {
   float: left;
-  width: 40%;
+  width: 50%;
 }
+
 .lado-direito {
   float: right;
-  width: 60%;
+  width: 50%;
 }
+
 .lado-direito p {
   margin-top: 10px;
   padding: 60px 10px 20px;
@@ -86,22 +92,29 @@ table {
   background-color: rgb(109 , 89 , 122);
   padding: 20px;
 }
+
 thead {
   font-size: 1.5em;
   background-color: rgb(130 , 107 , 145);
 }
+
 thead tr th {
   color: black;
 }
+
 tr:nth-child(even) {
   background-color: rgb(130 , 107 , 145);
 }
+
 tr:nth-child(odd) {
   color: white;
 }
-tr td:nth-child(odd) {
-  font-weight: 900;
-}
+
 td {
   padding: 5px;
 }
+
+tr td:nth-child(odd){
+  font-weight: 900;
+}
+
