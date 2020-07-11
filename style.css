@@ -1,6 +1,7 @@
 /*CSS geral - body, h1, h2 (..), p, etc*/
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /*Para classes especificadas*/
 /*Header - h1, h2 e navegação*/
@@ -49,5 +50,28 @@ main h2, h3 {
     padding: 20px 10px 0px;
 }
 table {
-    clear: both
+    clear: both;
+    background-color: #6D597A;
+    padding: 20px;
+    
+}
+thead {
+    font-size: 1.5em;
+    background-color:#826b91 ;
+}
+thead tr th {
+    color: black;
+}
+tr:nth-child(even) {
+    background-color: #826b91; 
+    
+}
+tr:nth-child(odd) {
+    color: white;
+}
+tr td:nth-child(odd) {
+    font-weight: bold;
+}
+td {
+    padding: 5px;
 }
