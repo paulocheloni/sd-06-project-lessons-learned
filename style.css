@@ -16,16 +16,24 @@ background-color: rgb(247, 197, 104);
     padding: 2px;
 }
 #licoes_aprendidas, #licoes_a_aprender{
-    max-width: 50%;
+    max-width: 40%;
     text-align: justify;
+    
+}
+#licoes_aprendidas{
+    display: inline-block;
+    float: right;
+}
+#licoes_a_aprender{
+    display: inline-block;
+    float: left;
 }
 
 .secao{
     padding: 20px;
     font-family: helvetica;
-    
-
 }
+
 #rodape{
  font-size: smaller;
  text-align: center;
@@ -35,14 +43,26 @@ background-color: rgb(247, 197, 104);
     background-color: rgb(247, 197, 104);
     color: black;
 }
-#artigo{
+.tamanho-elemento{
     max-width: 50%;
     color: gray;
+    text-align: justify;
+    float: left;
 }
 #lista-parceiros{
     list-style-type: none;
 }
 #titulo-terc{
-    background-color: rgb(154, 241, 146);
+    background-color: green;
+    margin-top: 35px;
+}
+div{
+    float: right;
     
+}
+#secao-parc, #vivencia{
+    clear:both;
+}
+#texto-exp{
+    max-width: 20%;
 }
