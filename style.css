@@ -5,7 +5,7 @@ body{
     position:fixed;
     top: 0px;
     height: 100px;
-    background-color: rgb(49, 135, 90);
+    background-color:rgb(49, 135, 90);
     width: 100%;
 }
 #cabecalho h1{
@@ -16,8 +16,7 @@ body{
 .principal{
     width: 80%;
     margin:auto;
-    padding-top: 95px;
-    
+    padding-top: 95px;  
 }
 nav ul li{
     display: inline;
@@ -40,7 +39,7 @@ nav ul li a{
     box-shadow: 1px 1px 3px 3px rgb(232, 247, 239);
 }
 .posicao{
-   margin-left: 32%;
+    margin-left: 32%;
 }
 .licoes{
     padding-top: 20px;
@@ -71,7 +70,7 @@ table{
     border-radius: 3px;
 }
 .lado-direito{
-   float:right;
+    float:right;
     background-color:rgb(49, 135, 90);
     color:white;
     margin:auto;
