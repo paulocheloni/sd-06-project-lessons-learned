@@ -1,23 +1,57 @@
 body {
   margin: auto;
-  background-color: rgb(253 ,251 ,251); 
+  background-color: rgb(253 ,251 ,251);
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
 }
 
 #cabecalho {
   position: fixed;
   width: 1366px;
   height: 768;
-  top: 0px;
+  text-align: center;
   background-color: rgb(220 ,220 ,220);
   padding: 25px;
-  margin: 0px;
+  /* margin: 0px; */
+  font-size: 24px;
+  font-family: 'Fondamento', cursive;
+  color: rgb(50, 50, 50);
+  
+}
+
+#minha_foto {
+  margin-top: 200px;
+  margin-left: 525px;
+  margin-bottom: 15px;
+  width: 350px;
+  border: 10px ridge;
 }
 
 h2 {
   padding-left: 10px;
   margin-left: 10px;
+  font-family: 'Fondamento', cursive;
+}
+
+.otherLessons {
+  margin-left: 10px;
 }
 
 .learning {
   margin-left: 10px;
+}
+
+.aboutLearning {
+  margin-left: 10px;;
+}
+
+#rodape {
+  text-align: center;
+}
+p {
+  line-height: 1.5em;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  line-height: 1.5em;
 }
