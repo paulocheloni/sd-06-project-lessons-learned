@@ -71,12 +71,12 @@ body{
     margin-left: 10px;
     float: left;
     clear: both;
-    top: 120px;
+    top: 70px;
 }
 .lado-direito{
     font-size: 18px;
     width: 650px;
-    top: 0px;
+    top: -70px;
     position: relative;
     float: right;
     clear: both;
