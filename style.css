@@ -70,9 +70,9 @@ aside {
 }
 
 a {
-    border: 5px solid rgb(110, 146, 161);
+    border: 5px solid rgb(110 , 146 , 161);
     border-radius: 4px;
-    background-color: rgb(110, 146, 161);
+    background-color: rgb(110 , 146 , 161);
     text-decoration: none;
     font-size: 20px;
     color: rgb(34 , 44 , 48);
@@ -81,8 +81,8 @@ a {
 }
 
 a:hover {
-    border: 5px solid rgb(193, 208, 215);
-    background-color: rgb(193, 208, 215);
+    border: 5px solid rgb(193 , 208 , 215);
+    background-color: rgb(193 , 208 , 215);
 }
 
 table {
