@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(222, 213, 213);
+    background-color:rgb(253, 251, 251);
     font-family: Verdana, sans-serif; 
     padding: 0; 
     margin: 0;  
@@ -29,7 +29,7 @@ body {
     border: 1px solid #f7f2f2;
 }
 
-.rodape {
+#rodape {
     text-align: right;
     font-style: italic;
     font-size: small;
