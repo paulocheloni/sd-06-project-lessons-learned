@@ -29,11 +29,28 @@ h1 {
     margin-left: 50px;
  }
 
- .menu-fixed ul li {
-    display: inline-block;
-    margin: 0 50px 0 20px;
-    
+ .btn-menu {
+    list-style:none; 
+    float: right;
+    margin-right: 50px;
  }
+
+ .btn-menu li {
+    position:relative; 
+    float: left;
+    margin-left: 50px;
+    background-color: #E8EDDF;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-menu li a {
+    color:#242423; 
+    text-decoration:none; 
+    display:block;}
+ }
+
+
 
  /* End menu */
 
@@ -46,7 +63,7 @@ h2 {
 
 p {
     color: #E8EDDF;
-    letter-spacing: 1.5px;
+    line-height: 1.5;
     font-size: 15px;
 }
 
@@ -79,14 +96,29 @@ p {
 }
 
 .article {
-
+    float: left;
+    margin: auto;
 }
 
 .aside {
+    float: right;
+    margin: auto;
+}
 
+.article p {
+    max-width: 600px;
+}
+
+.aside p {
+    max-width: 200px;
+    margin-right: 20%;
 }
 
 /* End articles */
+
+table {
+    clear: both;
+}
 
 /* Footer */
 
