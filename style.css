@@ -58,16 +58,16 @@ p {
 }
 
 .artigo {
- display:   inline-block;
- width:   40%;
- vertical-align:    top;
- margin-left:   100px;
- font-size:   20px;
- line-height:  25px;
+  display:   inline-block;
+  width:   40%;
+  vertical-align:    top;
+  margin-left:   100px;
+  font-size:   20px;
+  line-height:  25px;
 }
 
 .artigos {
- margin:  20px;
+  margin:  20px;
 }
 
 .table {
