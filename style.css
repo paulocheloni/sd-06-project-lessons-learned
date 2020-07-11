@@ -1,6 +1,13 @@
+*{
+    margin-top: 0px;
+}
 body{
-background-color: rgb(253, 251, 251);          
+background-color: rgb(253, 251, 251); 
+font-family: Arial, Helvetica, sans-serif;         
 } 
+h1, article h2, aside h3{
+    text-align: center;
+}
 #cabecalho{
     background-color: rgb(31, 182, 17);
     z-index: 10;
@@ -10,20 +17,27 @@ background-color: rgb(253, 251, 251);
     margin-right: auto;
     width: 100%;
     padding: 0px;
-    text-align: center;
+    padding-bottom: -5px;
+    float: left;    
 }
-#minha_foto{
-    
+#minha_foto{    
     width: 200px;
     z-index: 9;            
 }
 #licoes_aprendidas{
     
 }
-.caixa_a_direita{
-    float: right;
-    width: 10%;
+.navegacao{
+    position: fixed;
+    top: 35px;     
+    padding: 0px;
+}
+.meu-linkedin{  
+    
 }
 .margem_no_topo{
-    margin-top: 150px;   
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
