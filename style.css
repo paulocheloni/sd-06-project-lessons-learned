@@ -18,11 +18,6 @@ header {
   font-size: 45px;
 }
 
-.foto {
-    margin: 35px;
-    padding: 35px;
-    max-width: 40%;
-}
 #minha_foto {
     margin-top: 150px;
     border-radius: 20%;
@@ -30,10 +25,24 @@ header {
 }
 
 .resto-conteudo {
+    line-height: 1,5em;
+    font-size: 20px;
     clear: both;
 }
 
-h2 {
+#aprendizado {
+    float: left;
+    max-width: 45%;
+}
+
+#melhor-parte {
+    float: right;
+    max-width: 45%;
+}
+h2, h3 {
     color: #2b9348;
 }
 
+.parte-final {
+    clear: both;
+}
