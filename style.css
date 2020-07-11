@@ -32,7 +32,8 @@ background-color: rgb(247, 197, 104);
 
 .secao{
     padding: 20px;
-    font-family: cursive;
+    line-height: 1.5;
+    font-size: medium;
 }
 
 #rodape{
