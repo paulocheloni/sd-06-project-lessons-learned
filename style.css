@@ -70,4 +70,10 @@ font-family: Arial, Helvetica, sans-serif;
     .odd {
         background: #fefcf9;
     }
+
+}
+
+.h2font {
+
+    font-size: 8px;
 }
