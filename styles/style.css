@@ -1,10 +1,9 @@
 body {  
     margin: 0;  
     padding: 0;  
-    border: 0; 
     background-color: rgb(253, 251, 251);
     font-size: 15px;
-    font-family: 'Helvetica';
+    font-family: 'Times New Roman';
     color: #333533;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -15,11 +14,6 @@ body {
      margin: auto;
  }
 
- h1 {
-     color: #F5CB5C;
-     font-family: "Helvetica";
- }
-
  /* Menu */
  .menu-fixed {
      position: fixed;
@@ -28,34 +22,36 @@ body {
      width: 100%;
  }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5CB5C;
+}
+
  .menu-fixed h1 {
     float: left;
     margin-left: 50px;
  }
 
- .btn-menus {
+ .btn-menu {
+    list-style:none; 
     float: right;
     margin-right: 50px;
  }
 
- .btn-menu {
+ .btn-menu li {
     position:relative; 
     float: left;
     margin-left: 50px;
     background-color: #E8EDDF;
     border-radius: 5px;
     padding: 10px 20px;
-    color:#242423; 
-    text-decoration:none; 
-    display:block;
-    font-family: Arial;
 }
-    
-
 
 .btn-menu li a {
-
- }
+    color:#242423; 
+    text-decoration:none; 
+    display:block;}
+ 
 
 
 
@@ -63,14 +59,9 @@ body {
 
  /* Fonts */
 
-
-img {
-
-}
-
  /* End fonts */
 
- img.profile-photo {
+img.profile-photo {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -78,23 +69,7 @@ img {
     border: 3px solid #F5CB5C;
  }
 
- .list-wrapper {
-
- }
-
- .lessons-learned {
-
- }
-
- .lessons-to-learned {
-
-}
-
 /* Articles */
-
-.article-aside-wrapper {
-
-}
 
 .lado-esquerdo {
     float: left;
@@ -108,6 +83,7 @@ img {
 
 .lado-esquerdo p {
     max-width: 600px;
+    padding: 10px 0px;
 }
 
 .lado-direito p {
@@ -117,7 +93,11 @@ img {
 
 /* End articles */
 
+
+
 table {
+    margin: 1px 1px;
+    border: 1px solid #242423;
     clear: both;
 }
 
