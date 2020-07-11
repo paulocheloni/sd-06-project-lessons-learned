@@ -59,9 +59,10 @@ body {
 }
 #github{
     position: relative;
-    top: 331px;
-    left: 10px;
+    top: 154px;
+    left: 600px;
     clear: both;
+    text-decoration: none ;
 }
 #adjust {
     position: relative;
@@ -69,6 +70,7 @@ body {
     float: left;
     right: 300px;
     clear: both;
+    
 }
 #navposition{
     position: relative;
@@ -84,6 +86,7 @@ body {
     top: 50px;
     padding: 20px;
     left: 52px;
+    clear: both;
 
 }
 .lado-esquerdo {
@@ -105,4 +108,10 @@ h2 {
 #tituloaprendizado {
     position: relative;
     left: -2px;
+}
+#agenda{
+    position: relative;
+    top: 105px;
+    right: 100px;
+    text-align: center;
 }
