@@ -1,21 +1,42 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: rgb(253, 251, 251);
-  padding-top: 130px;
+  padding-top: 120px;
+  margin-left: 10px;
 }
 
 h1, h2, h3 {
   font-family: 'Noto JP', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  text-indent: 30px;
+}
+
+.barra-cabecalho, .texto-rodape{
+  margin: 0px; 
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  left: 0;
+  right: 0;
 }
 
 .barra-cabecalho {
-  background-color: cornflowerblue;
-  width: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  margin: 0px;
+  top: 0px;
   
+}
+
+.texto-rodape {
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+
 }
