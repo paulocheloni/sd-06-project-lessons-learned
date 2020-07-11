@@ -1,7 +1,15 @@
 body {
     background-color:rgb(253, 251, 251);
+    margin: 15x;
 }
 #cabecalho {
     position: fixed;
     top: 0px;
+    font-family: 'Bangers', cursive;
+}
+#minha_foto {
+    padding: 10px;
+    border: rgb(102, 76, 114);
+    width: 400px;
+    border-style: solid;
 }
