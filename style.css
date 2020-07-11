@@ -1,7 +1,7 @@
 /* CSS geral - body, h1, h2 (..), p, etc */
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Roboto Condensed, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgb(20 , 20 , 20);
   font-size: 18px;
   line-height: 1.5em;
@@ -20,7 +20,7 @@ header {
   color: white;
 }
 
-header h1 , h2 , nav, ul {
+header h1 , h2 , nav , ul {
   margin: 0;
   padding: 3px;
 }
@@ -72,12 +72,12 @@ section ol {
 /* Article e Aside */
 .lado-esquerdo {
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 .lado-direito {
   float: right;
-  width: 50%;
+  width: 40%;
 }
 
 .lado-direito p {
@@ -102,11 +102,11 @@ thead tr th {
   color: black;
 }
 
-tr:nth-child(even) {
+tr:nth-child( even ) {
   background-color: rgb(130 , 107 , 145);
 }
 
-tr:nth-child(odd) {
+tr:nth-child( odd ) {
   color: white;
 }
 
@@ -114,7 +114,6 @@ td {
   padding: 5px;
 }
 
-tr td:nth-child(odd){
+tr td:nth-child( odd ) {
   font-weight: 900;
 }
-
