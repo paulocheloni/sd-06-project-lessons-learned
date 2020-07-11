@@ -11,6 +11,7 @@ background-color: rgb(247, 197, 104);
 }
 #minha_foto{
     width: 150px;
+    border-radius: 50%;
     
 }
 #licoes_aprendidas, #licoes_a_aprender{
@@ -32,4 +33,7 @@ background-color: rgb(247, 197, 104);
 }
 #artigo{
     max-width: 40%;
+}
+#lista-parceiros{
+    list-style-type: none;
 }
