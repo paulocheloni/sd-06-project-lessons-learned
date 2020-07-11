@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
     position: fixed;
-    background-color: rgb(34, 44, 48);
+    background-color: rgb(34 , 44 , 48);
     top: 0;
     width: 100%;
 }
@@ -17,9 +17,8 @@ body {
 img {
     margin-top: 100px;
     border-radius: 100%;
-    border: 5px solid rgb(34, 44, 48);
+    border: 5px solid rgb(34 , 44 , 48);
     padding: 3px;
-    clear: both;
 }
 
 p {
@@ -28,23 +27,24 @@ p {
 
 p , li {
    font-size: 20px;
-   color: rgb(34, 44, 48);
-   font-family: 'Muli', 'sans-serif';
+   color: rgb(34 , 44 , 48);
+   font-family: "Muli", sans-serif;
    line-height: 1.5;
 }
 
 h1 {
     font-size: 2em;
     color: white;
+    text-align: center;
 }
 
 h2 {
     font-size: 1.5em;
-    color: #222c30;
+    color: rgb(34 , 44 , 48);
 }
 
 h1 , h2 {
-    font-family: 'Ubuntu', 'sans-serif';
+    font-family: "Ubuntu", sans-serif;
 }
 
 .lado-esquerdo {
@@ -57,11 +57,12 @@ h1 , h2 {
 }
 
 footer {
-    background-color: rgb(34, 44, 48);
+    background-color: rgb(34 , 44 , 48);
 }
 
 .final {
     color: white;
+    text-align: right;
 }
 
 aside {
@@ -70,10 +71,22 @@ aside {
 
 a {
     border: 5px solid rgb(110, 146, 161);
+    border-radius: 4px;
     background-color: rgb(110, 146, 161);
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(34 , 44 , 48);
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
 }
 
 a:hover {
     border: 5px solid rgb(193, 208, 215);
     background-color: rgb(193, 208, 215);
+}
+
+table {
+    font-size: 20px;
+    color: rgb(34 , 44 , 48);
+    font-family: "Muli", sans-serif;
 }
