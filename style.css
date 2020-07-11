@@ -11,6 +11,7 @@ header {
     right: 0px;
     font-family: 'Pacifico', cursive;
     display: inline-block;
+    padding: 2em;
     line-height: 1em;
     color: rgb(77, 24, 0);
 }
@@ -38,4 +39,8 @@ header nav ul {
 
 footer {
     clear: both;
+}
+
+main h2{
+    margin-top: 6em;
 }
