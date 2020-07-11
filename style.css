@@ -22,26 +22,50 @@ body {
     margin: 10px 10px 10px 10px;
     padding: 2px;
 }
-aside.text-container {
-    width:30%;
-    display: inline-block;
-    margin-left: 10%;
+/*aside.text-container {
+    margin-left: 5%;
     padding: 10px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
     font-size: large;
     border: double;
+    width: 300px;
 }
 article.text-container{
-    width:30%;
-    display: inline-block;
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 10px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
     font-size: large;
     border: double;
-    color: yellow;
+    width: 300px;
+}*/
+div.capsula-texto .text-container{
+    color: blue;
+    display: inline-block;
+    margin-left: 5%;
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: large;
+    border: double;
+    width: 300px;
 }
+nav.menu{
+    display: block;
+    position: fixed;
+    max-width: 400px;
+    left: 70%;
+    top: 0;
+    
+
+}
+nav.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    margin: 5px;
+    padding: 5px 10px;
