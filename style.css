@@ -11,3 +11,22 @@ body {
 .my-photo {
   padding-top: 150px;
 }
+.my-table table, th, td {
+	border: 1px solid black;
+    text-align: center;
+}
+
+.my-table th, td {
+	padding: 10px;
+}
+
+.my-table table {
+  border-collapse: collapse;
+  margin-left: 20px
+  
+}
+
+.my-column {
+	color: white;
+    background: black;
+}
