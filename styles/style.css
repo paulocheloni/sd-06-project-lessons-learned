@@ -4,6 +4,10 @@ body {
     border: 0; 
     overflow-x: hidden;
     background-color: rgb(253, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
+    color: #333533;
+    line-height: 1.5;
+    font-size: 15px;
  }
 
  .container {
@@ -56,10 +60,6 @@ h1 {
 
  /* Fonts */
 
-h2 {
-    font-size: 25x;
-    color: #CFDBD5;
-}
 
 p {
     color: #E8EDDF;
@@ -95,21 +95,21 @@ p {
 
 }
 
-.article {
+.lado-esquerdo {
     float: left;
     margin: auto;
 }
 
-.aside {
+.lado-direito {
     float: right;
     margin: auto;
 }
 
-.article p {
+.lado-esquerdo p {
     max-width: 600px;
 }
 
-.aside p {
+.lado-direito p {
     max-width: 200px;
     margin-right: 20%;
 }
