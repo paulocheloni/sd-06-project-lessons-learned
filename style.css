@@ -1,82 +1,82 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-    margin-left: 0;
-    margin-right: 0;
+        background-color: rgb(253 , 251 , 251);
+        margin-left: 0;
+        margin-right: 0;
 }
 
 header {
-    background-color: #ec942c;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    padding: 2%;
-    color: white;
-    clear: both;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
+        background-color: rgb(236,148,44);
+        position: fixed;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        padding: 2%;
+        color: white;
+        clear: both;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
 }
 
 .me img {
-    border: 5px;
-    border-radius: 100%;
+        border: 5px;
+        border-radius: 100%;
 }
 
 .licoes {
-    background-color: #3c0581;
-    text-align: center;
-    margin: auto 40%;
-    padding: 2%;
-    border: 10px;
-    border-radius: 10%;
-    color: white;
+        background-color: rgb(60,5,129);
+        text-align: center;
+        margin: auto 40%;
+        padding: 2%;
+        border: 10px;
+        border-radius: 10%;
+        color: white;
 }
 
 .licoes li {
-    text-align: left;
-    line-height: 40px;
+        text-align: left;
+        line-height: 40px;
 }
 
 .sec-table-pos-neg {
-    text-align: center;
-    clear: both;
+        text-align: center;
+        clear: both;
 }
 
 .sec-table-pos-neg table {
-    margin: auto;
+        margin: auto;
 }
 
 td , th {
-    border: solid 2px black;
-    margin: auto;
-    padding: 2px;
-    line-height: 40px;
+        border: solid 2px black;
+        margin: auto;
+        padding: 2px;
+        line-height: 40px;
 }
 
 th {
-    background-color: #ec39a1;
+        background-color: rgb(236,57,161);
 }
 
 footer {
-    background-color: #f6d41b;
+        background-color: rgb(246,212,27);
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 30%;
-    margin: 2% 6%;
-    background-color: #7b31f6;
-    border: solid 5px #7b31f6;
-    border-radius: 5%;
-    padding: 2%;
+        float: left;
+        width: 30%;
+        margin: 2% 6%;
+        background-color: rgb(123,49,246);
+        border: solid 5px rgb(123,49,246);
+        border-radius: 5%;
+        padding: 2%;
 }
 
 .lado-direito {
-    float: right;
-    width: 30%;
-    margin: 2% 6%;
-    background-color: #7be1f6;
-    border: solid 5px #7be1f6;
-    border-radius: 5%;
-    padding: 2%;
+        float: right;
+        width: 30%;
+        margin: 2% 6%;
+        background-color: rgb(123,225,246);
+        border: solid 5px rgb(123,225,246);
+        border-radius: 5%;
+        padding: 2%;
 }
