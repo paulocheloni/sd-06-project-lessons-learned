@@ -62,12 +62,12 @@ article h1{
     border-collapse: collapse;
 }
 
-.lado_esquerdo{
+.lado-esquerdo{
 float:left;
 width: 50%;
 
 }
-.lado_direito{
+.lado-direito{
 float:right;
 
 }
