@@ -1,79 +1,76 @@
-body{
-    background-color: rgb(253, 251, 251);
-    font-family: "Helvetica";
-    letter-spacing: 1.5px;
-    color:#0D090A;
-    font-size: 1em;
-    line-height:1.5;
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: "Helvetica";
+  letter-spacing: 1.5px;
+  color: rgb(13 , 9 , 10);
+  font-size: 1em;
+  line-height: 1.5;
 }
 
-h2{
-    color:#861657
+h2 {
+  color: rgb(134 , 22 , 87);
 }
 
-#cabecalho{
-    position: fixed;
-    top:0;
-    width: 100%;
-    background-color: #837A75;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(131 , 122 , 117);
 }
     
-#titulo{
-    text-align: center;
-    font-family:"Helvetica";
-    color: #EAF2EF;
-    letter-spacing: 2px;
-    font-size: 2.5em;
-    
+#titulo {
+  text-align: center;
+  font-family: "Helvetica";
+  color: rgb(234 , 242 , 239);
+  letter-spacing: 2px;
+  font-size: 2.5em;
 }
 
-#minha_foto{
-    margin-top: 175px;
-    border-radius:200px;
-    border-color:  #861657;
-    border-style: solid
+#minha_foto {
+  margin-top: 175px;
+  border-radius: 200px;
+  border-color:  rgb(134 , 22 , 87);
+  border-style: solid;
 }
 
-.conteiner{
-    margin:auto;
-    width:85%;
+.conteiner {
+  margin: auto;
+  width: 85%;
 }
 
-.new-botton{
-    padding:1em;
+.new-botton {
+  padding: 1em;
 }
 
-.botton
-{
-    font-size: medium;
-    border:0.5px white;
-    background-color: white;
-    border-radius:5px;
-    padding: 5px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    margin-left: 4px;
-    margin-right: 4px;
-    font-family: "Helvetica";
-    color:#861657;
-    
+.botton {
+  font-size: medium;
+  border: 0.5px white;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-family: "Helvetica";
+  color: rgb(134 , 22 , 87);
 }
 
-.lado-esquerdo{
-    float: left;
-    width: 50%;
-    margin-bottom: 5%;
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  margin-bottom: 5%;
 }
 
-.lado-direito{
-    float:right;
-    width: 50%;
-    margin-bottom: 5%;
+.lado-direito {
+  float: right;
+  width: 50%;
+  margin-bottom: 5%;
 }
 
-#rodape{
-    width: 100%;
-    background-color: #837A75;
-    text-align: center;
-    color: white;
-    }
+#rodape {
+  width: 100%;
+  background-color: rgb(131 , 122 , 117);
+  text-align: center;
+  color: white;
+}
