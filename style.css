@@ -133,9 +133,9 @@ article.learning h2 {
   margin-top: 0;
 }
 
-aside.quote {
+aside.lado-direito {
   width: 29%;
-  margin: 35px 10px 0;
+  margin: 15px 0;
   float: right;
   font-size: 1.75em;
   text-align: left;
@@ -145,7 +145,7 @@ aside.quote {
   border-radius: 12px;
 }
 
-aside .quote.big {
+aside .lado-direito.big {
   float: left;
   font-size: 8em;
   padding: 0;
