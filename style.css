@@ -1,8 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   background-color: rgb( 253 , 251 , 251 );
-  overflow: hidden;
- }
+}
 
 #cabecalho {
   overflow: hidden;
@@ -18,22 +17,21 @@ body {
 }
 
 nav {
-  margin: 10;
+  scroll-margin-top: 20px;
   background-color: rgb( 202 , 203 , 214 );
   list-style: none;
   top: 80px;
   position: fixed;
   width: 100%;
-  display:inline;
+  display: inline;
   text-align: center;
 }
 
 nav a {
   font-size: 16px;
   padding: 40px 20px 10px 20px;
-  text-decoration-skip: none;
+  text-decoration: none;
 }
-
 
 h1 {
   font-size: 34px;
@@ -56,9 +54,35 @@ h3 {
   position: absolute;
 }
 
-article {
-  background-color: #22733fe8;
+#licoes_aprendidas {
+  margin-top: 15%;
+  text-decoration: none;
+  background-color: rgba(148, 150, 44, 0.82);
+  height: auto;
+  border: 3px solid black;
+  width: 23%;
+  text-align: left;
+}
+
+#licoes_a_aprender {
+  margin-top: 15%;
+  text-decoration: none;
+  background-color: rgba(148, 150, 44, 0.82);
+  height: auto;
+  border: 3px solid black;
+  width: 23%;
+  text-align: left;
+}
+
+#apredizado {
+  background-color: rgb(160, 158, 50);
   color: #1d1044;
+  display: flex;
+  justify-content: flex-start;
+
+}
+#curiosidade {
+  background-color: rgb(160, 158, 50);
 }
 
 footer {
