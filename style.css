@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Patua One";
+  font-family: 'Patua One' , sans-serif;
 }
 
 header {
@@ -14,42 +14,42 @@ header {
 }
 
 #titulo {
-  font-family: "Galada";
+  font-family: 'Galada' , sans-serif;
   font-size: 45px;
 }
 
 #minha_foto {
-    margin-top: 150px;
-    border-radius: 20%;
-    border: 10px groove #2b9348;
+  margin-top: 150px;
+  border-radius: 20%;
+  border: 10px groove #2b9348;
 }
 
 .listas {
-    padding: 35px;
+  padding: 35px;
 }
 
 .resto-conteudo {
-    line-height: 1,5em;
-    font-size: 20px;
-    clear: both;
-    padding: 35px;
-    margin: 10px;
+  line-height: 1,5em;
+  font-size: 20px;
+  clear: both;
+  padding: 35px;
+  margin: 10px;
 }
 
 .lado-esquerdo {
-    float: left;
-    max-width: 45%;
+  float: left;
+  max-width: 45%;
 }
 
 .lado-direito {
-    float: right;
-    max-width: 45%;
+  float: right;
+  max-width: 45%;
 }
 
 h2, h3 {
-    color: #2b9348;
+  color: #2b9348;
 }
 
 .parte-final {
-    clear: both;
+  clear: both;
 }
