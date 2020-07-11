@@ -31,8 +31,20 @@ main {
 main h2, h3 {
     background-color: #6D597A;
     margin-top: 10px;
+    margin-bottom: 15px ;
     padding: 10px;
     color: white
+}
+/*Lista*/
+ section ol {
+     margin-top: 5px;
+ }
+/*Link-exter*/ 
+.link-externo {
+    clear: both;
+}
+.link-externo a {
+    padding: 100px;
 }
 /*Article e Aside*/
 .lado-esquerdo {
@@ -42,13 +54,14 @@ main h2, h3 {
 .lado-direito {
     float: right;
     width: 30%;
-    margin-top: 10px;
-    background-color: #6D597A;
+    
 }
 .lado-direito p {
-    margin-top: 30px;
-    padding: 20px 10px 0px;
+    margin-top: 10px;
+    padding: 60px 10px 20px;
+    background-color: #6D597A
 }
+/*Table*/
 table {
     clear: both;
     background-color: #6D597A;
