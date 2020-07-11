@@ -1,6 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
     font-family:"Helvetica", Arial, sans-serif;
+    letter-spacing: 1.5px;
+    color:#0D090A;
+    font-size: medium;
 }
 
 #cabecalho{
