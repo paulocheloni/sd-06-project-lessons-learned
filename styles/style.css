@@ -1,13 +1,10 @@
 body {  
-    margin: 0;  
-    padding: 0;  
-    border: 0; 
-    overflow-x: hidden;
     background-color: rgb(253, 251, 251);
     font-size: 15px;
     font-family: 'Times New Roman';
     color: #333533;
     line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 
  .container {
@@ -62,9 +59,7 @@ h1 {
 
 
 p {
-    color: #E8EDDF;
-    line-height: 1.5;
-    font-size: 15px;
+
 }
 
  /* End fonts */
