@@ -18,9 +18,9 @@ header h1{
     color:white;
     margin:0px;
 }
-article{
+.article{
     position: absolute;
-    left:20%;
+    padding-left: 270px;
     top:10%
 }
 footer{
@@ -28,13 +28,56 @@ footer{
 }
 aside{
     position: absolute;
-    left:20%;
+    padding-left: 270px;
     font-style: italic;
-    top:48%;
+    top:50%;
     width: 20%;
 }
 
 article h1{
+    text-align: center;   
+}
+
+#minha_foto{
+    margin:5px;
+    padding:5px;
+    border:5px;
+}
+
+#tabela{
+    
+    font-size: 15px;
+    line-height: 20px;
     text-align: center;
+    text-decoration: solid;
+    font-family: fantasy;
     
 }
+#tabela td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tabela th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.lado_esquerdo{
+float:left;
+width: 50%;
+
+}
+.lado_direito{
+float:right;
+
+}
+.requisitos_minimos{
+  display: inline;
+  padding: 10px;  
+}
+.requisitos_minimos h2{
+    font-size: 18px;
+    line-height: 1px;
+    font-style: italic;
+}
+
