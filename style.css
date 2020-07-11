@@ -73,6 +73,6 @@ td , th {
 }
 
 th {
-  font-weight: bold;
+  font-weight: 600;
   background-color: rgb(238 , 238 , 238);
 }
