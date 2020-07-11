@@ -116,10 +116,13 @@ p {
 
 /* End articles */
 
-table {
-    margin: auto;
-    padding: 10px;
+.table {
+    margin: 10px 10px;
+    padding: 10px 10px;
     border: 1px solid #242423;
+}
+
+table {
     clear: both;
 }
 
