@@ -10,94 +10,204 @@
     <style>
         body
         {
+            
             background-color: rgb(253, 251, 251);
         }
-
+        
+        .tudo 
+        {
+            width: 1368px;
+            height: 768px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
         #header /*propriedade top tendo 0px*/
         {
             position: fixed;
-            top: 0px;
+            width: 1368px;
+            top: 0px;            
+            height: 70px;
+           
+            background-color: rgb(42, 202, 109);
         }
+
+        .header
+        {
+            width: 1368px;
+            height: 84px;
+            margin-top: 70px;
+            background-color:rgb(42, 202, 109)
+
+            /* background-color:rgb(87, 87, 207); */
+        }
+
+        .nav
+        {   
+            
+        }
+
+        .conteudo
+        {
+            width: 1368px;
+            height: 600px;
+
+            background-color:#0F0;  
+        }
+
+        .conteudoesq
+        {
+            width: 684px;
+            height: 600px;
+            float: left;
+
+            background-color:#FF0;
+        }
+
+        .arttab
+        {
+            height: 180px;
+            /* border: 1px solid rgb(rgb(42, 202, 109), green, blue) */
+            
+
+            background-color: hotpink;
+        }
+
+        .conteudodir
+        {
+            width: 684px;
+            height: 600px;
+            float: right;
+
+            background-color:rgb(17, 36, 19);
+        }
+
+        .asitab
+        {
+            height: 180px;
+            /* border: 1px solid rgb(rgb(42, 202, 109), green, blue) */
+            
+
+            background-color: rgb(42, 202, 109);
+
+
+        }
+
+
+        .footer
+        {
+            width: 1368px;
+            height: 84px;
+            text-align: center;
+            background-color:#C3C;
+        }
+
 
     </style>
 
     </head>
     <body>
-        <header class="header" id="header">
-          
-        <h1 id="titulo">Titulo header</h1>
-
-        </header>
-
-        <nav>
-
-            <ul>
-                <li>link01</li>
-                <li>link02</li>
-                <li>link03</li>
-            </ul>
-
-        </nav>
-
-        <article class="art" id="art">
-
-            <section>
-                <img id="minha_foto" src="????" alt="foto de um homem adulto">
+        <div class="tudo" id="tudo">
+            <div class="header">
+                <header id="header">
                 
-                <a target="_blank" href="??????">LINK EXTERNO COM NOVA ABA</a>
-                
-                <p> Crie um artigo sobre seu aprendizado 0123456789012345678901234567890123456789012345678901234567890123456789 012345678901234567890123456789 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789 
-                    artigo deve ter mais de 300 letras e menos de 600 0123456789012345678901234567890123456789012345678901234567890123456789 012345678901234567890123456789 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789 </p>
-            </section>
+                <h1 id="titulo">Primeiras semanas na Trybe!</h1>
 
-            <section>
-                <ol class="tablicoes_aprendidas" id="licoes_aprendidas">
-                    <li>licoes_aprendidas01</li>
-                    <li>licoes_aprendidas02</li>
-                    <li>licoes_aprendidas03</li>
-                    <li>licoes_aprendidas04</li>
-                    <li>licoes_aprendidas05</li>
-                    <li>licoes_aprendidas06</li>
-                    <li>licoes_aprendidas07</li>
-                    <li>licoes_aprendidas08</li>
-                    <li>licoes_aprendidas09</li>
-                    <li>licoes_aprendidas10</li>
-                </ol>
-            </section>
+                </header>
 
-            <section>
-                <ul class="tablicoes_a_aprender" id="licoes_a_aprender" >
-                    <li>licoes_aprender01</li>
-                    <li>licoes_aprender02</li>
-                    <li>licoes_aprender03</li>
-                    <li>licoes_aprender04</li>
-                    <li>licoes_aprender05</li>
-                    <li>licoes_aprender06</li>
-                    <li>licoes_aprender07</li>
-                    <li>licoes_aprender08</li>
-                    <li>licoes_aprender09</li>
-                    <li>licoes_aprender10</li>
-                </ul>
-            </section>
-            
-            
-        </article>
-            
-        <aside>
-                <P>Crie uma seção que conta uma passagem sobre seu aprendizado 0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789 
-                    A seção deve ter mais que 100 letras e menos que 300</P>
-                <!-- <h3></h3> -->
+                <nav class="nav" >
+                    
+                    <ul>
+                        <li><a target="_blank" href="https://www.betrybe.com/">SOBRE A TRYBE</a></li>
+                        <li><a href="#licoes_aprendidas">Tabela de aprendizado adquirido!</a></li>
+                        <li><a href="#licoes_a_aprender">Tabela de aprendizado que vamos adquirir!</a></li>
+                    </ul>
+                </nav> <!--nav-->
+            </div> <!-- header -->
 
-        </aside>
+            <div class="conteudo" id="conteudo">
 
+                <div class="conteudoesq" id="conteudoesq">
 
-        <footer class="rodape" id="rodape" >
+                    <article class="art" id="art">
 
-                <!-- <h3></h3> -->
-                <!-- Adicione um rodapé na página, mostrando algo do gênero "Conteúdo compilado por , " -->
+                        <section class="arttxt" >
+                            
+                            
+                            
+                            
+                            <p>
+                                Crie um artigo sobre seu aprendizado 
+                                artigo deve ter mais de 300 letras e menos de 600
 
-        </footer>
+                                Lorem ipsum imperdiet egestas amet etiam aenean sit nibh netus venenatis pretium quis, euismod auctor curabitur adipiscing class fusce laoreet dapibus quam vel himenaeos. etiam ornare augue tellus etiam viverra nisl felis gravida euismod habitant dictumst, aenean vulputate metus faucibus habitant himenaeos odio condimentum luctus. id convallis felis mi nulla himenaeos sodales porttitor nec donec nibh mattis, ante vitae quisque suspendisse etiam suspendisse molestie ac integer adipiscing. sed cursus arcu hendrerit nulla ornare bibendum ac malesuada purus, euismod diam inceptos malesuada bibendum pellentesque nisi quisque sit, posuere donec luctus id sagittis faucibus curae quis. 
 
+                                Vehicula platea quam aliquam porttitor hendrerit himenaeos donec congue etiam ullamcorper non eget, aenean habitant platea vitae adipiscing elit bibendum aptent curae commodo ut facilisis, fusce curabitur tellus porta tempor vulputate lectus eleifend aptent metus cras. massa vitae vivamus habitasse dui nibh nisi ultrices sapien vulputate praesent nibh cubilia, maecenas per vel amet pretium curabitur fusce suscipit convallis erat at, quisque dolor maecenas senectus vestibulum dictum taciti nisl condimentum a mi. posuere dictumst magna porta molestie quisque senectus ac curabitur, id porta inceptos molestie pellentesque etiam ultrices, dictumst ante quam ante ultricies mollis quisque. 
 
+                                Eros nulla congue pretium convallis sit massa sagittis malesuada pretium quis fermentum commodo fusce a convallis, ipsum imperdiet posuere nisi faucibus mauris porttitor tempor fusce posuere felis aliquam dictumst. iaculis mollis himenaeos accumsan dui praesent pulvinar, blandit sociosqu nisi diam ultrices nibh, malesuada lobortis felis ac nisl. eget volutpat nec aenean vulputate aliquet cubilia phasellus eget, lobortis aenean eros integer ultricies proin netus aliquet, sociosqu conubia risus massa per dictum quisque. mi cras leo rutrum suspendisse ipsum lacus nulla id, eleifend sit tempor at dapibus lorem eget nisi lectus, cubilia aliquam lacinia luctus lacus faucibus interdum. 
+
+                            </p>
+                        </section> <!-- arttxt-->
+
+                        <section class="arttab">
+
+                            <ol class="tablicoes_aprendidas" id="licoes_aprendidas">
+                                <li>licoes_aprendidas01</li>
+                                <li>licoes_aprendidas02</li>
+                                <li>licoes_aprendidas03</li>
+                                <li>licoes_aprendidas04</li>
+                                <li>licoes_aprendidas05</li>
+                                <li>licoes_aprendidas06</li>
+                                <li>licoes_aprendidas07</li>
+                                <li>licoes_aprendidas08</li>
+                                <li>licoes_aprendidas09</li>
+                                <li>licoes_aprendidas10</li>
+                            </ol>
+                        </section> <!--arttab-->
+                    </article>
+                </div> <!--conteudoesq-->
+
+                <div class="conteudodir" id="conteudodir">
+
+                    <aside class="asi" id="asi" >
+
+                        <img id="minha_foto" src="https://www.facebook.com/photo/?fbid=1019544088092983&set=a.273528022694597" alt="foto de um homem adulto">
+                        
+                        <section class="asitxt" >
+                            <P>
+                                Crie uma seção que conta uma passagem sobre seu aprendizado 
+                                A seção deve ter mais que 100 letras e menos que 300
+                                etiam ornare augue tellus etiam viverra nisl felis gravida euismod habitant dictumst, aenean vulputate metus faucibus habitant himenaeos odio condimentum luctus. id convallis felis mi nulla himenaeos sodales porttitor nec donec nibh mattis, ante vitae quisque suspendisse etiam suspendisse molestie ac integer adipiscing. sed cursus arcu hendrerit nulla ornare bibendum ac malesuada purus, euismod diam inceptos malesuada bibendum pellentesque nisi quisque sit, posuere donec luctus id sagittis faucibus curae quis. Vehicula platea quam aliquam porttitor hendrerit himenaeos donec congue etiam ullamcorper non eget, aenean habitant platea vitae adipiscing elit bibendum aptent curae commodo ut facilisis, fusce curabitur tellus porta tempor vulputate lectus eleifend aptent metus cras. massa vitae vivamus habitasse dui nibh nisi ultrices sapien vulputate praesent nibh cubilia, maecenas per vel amet pretium curabitur fusce suscipit convallis erat at, quisque dolor maecenas senectus vestibulum dictum taciti nisl condimentum a mi. posuere dictumst magna porta molestie quisque senectus ac curabitur, id porta inceptos molestie pellentesque etiam ultrices, dictumst ante quam ante ultricies mollis quisque. Eros nulla congue pretium convallis sit massa sagittis malesuada pretium quis fermentum commodo fusce a convallis, ipsum imperdiet posuere nisi faucibus mauris porttitor tempor fusce posuere felis aliquam dictumst. iaculis mollis himenaeos accumsan dui praesent pulvinar, blandit sociosqu nisi diam ultrices nibh, malesuada lobortis felis ac nisl. eget volutpat nec aenean vulputate aliquet cubilia phasellus eget, lobortis aenean eros integer ultricies proin netus aliquet, sociosqu conubia risus massa per dictum quisque. mi cras leo rutrum suspendisse ipsum lacus nulla id, eleifend sit tempor at dapibus lorem eget nisi lectus, cubilia aliquam lacinia luctus lacus faucibus interdum.
+                            </P>
+                        </section> <!--asitxt-->
+
+                        <section class="asitab" >
+                                <ul class="tablicoes_a_aprender" id="licoes_a_aprender" >
+                                    <li>licoes_aprender01</li>
+                                    <li>licoes_aprender02</li>
+                                    <li>licoes_aprender03</li>
+                                    <li>licoes_aprender04</li>
+                                    <li>licoes_aprender05</li>
+                                    <li>licoes_aprender06</li>
+                                    <li>licoes_aprender07</li>
+                                    <li>licoes_aprender08</li>
+                                    <li>licoes_aprender09</li>
+                                    <li>licoes_aprender10</li>
+                                </ul>
+                        </section> <!--asitab-->
+                    </aside>
+                </div> <!-- conteudodir -->
+            </div> <!-- conteudo -->
+
+            <div class="footer" id="footer" >
+
+                <footer class="rodape" id="rodape" >
+                        <br><br>
+                        <p>Projeto bloco 3! By RAM </p>
+                </footer>
+            </div> <!-- footer -->
+        </div> <!--tudo-->
     </body>
 </html>
