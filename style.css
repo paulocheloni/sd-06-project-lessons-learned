@@ -113,12 +113,12 @@ div.learning-container {
   border-radius: 40px;
 }
 
-article.learning {
+article.lado-esquerdo {
   display: inline-block;
   max-width: 65%;
 }
 
-article.learning p {
+article.lado-esquerdo p {
   margin: 0 0 0 10px;
   line-height: 1.5em;
   font-size: 1.15em;
@@ -127,29 +127,30 @@ article.learning p {
   color: rgb(201, 235, 255);
 }
 
-article.learning h2 {
+article.lado-esquerdo h2 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   margin-top: 0;
 }
 
 aside.lado-direito {
-  width: 29%;
-  margin: 15px 0;
+  width: 25%;
+  margin: 5px 0;
   float: right;
-  font-size: 1.75em;
+  font-size: 1.3em;
   text-align: left;
   letter-spacing: 2px;
-  padding: 25px 20px;
+  padding: 12px 20px;
   background-color: rgba(1, 1, 4, 45%);
-  border-radius: 12px;
+  border-radius: 15px;
+  text-align: right;
 }
 
 aside .lado-direito.big {
   float: left;
-  font-size: 8em;
+  font-size: 7em;
   padding: 0;
-  margin: -75px 3px -150px -15px;
+  margin: -35px 3px -75px -15px;
 }
 
 
