@@ -44,3 +44,25 @@ h1, article h2, aside h3{
 #titulo{
     padding-top: 2px;
 }
+p{
+    color: gray;
+    
+}
+article{
+    background-color: honeydew;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside{
+    background-color: honeydew;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+article, aside{
+    width: 40%;
+    display: inline-block;
+    margin: 5px;
+    text-align: top;
+}
