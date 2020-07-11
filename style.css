@@ -19,5 +19,13 @@ body{
 }
 
 #minha_foto{
-    margin-top: 150px;
+    margin-top: 175px;
+    border-radius:200px;
+    border-color:  #861657;
+    border-style: solid
+}
+
+.conteiner{
+    margin:auto;
+    width:85%;
 }
