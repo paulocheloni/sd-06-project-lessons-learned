@@ -7,6 +7,7 @@
     color: rgb(4, 61, 29);
     letter-spacing: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
 }
 body{
     background-color: rgb(253, 251, 251);
@@ -28,16 +29,19 @@ body{
     text-align: center;
 }
 table{
-    border: dotted;
+    border: outset;
     margin-top: 15px;
     padding: 30px;
+    width: 200px;
+    border-color: lawngreen;
     
 }
 h1{
     padding-top: 15px;
 }
-.text-trybe{
-    height: 402px;
+.text{
+    height: 555px;
+    
 }
 .lado-direito{
     border: dotted;
