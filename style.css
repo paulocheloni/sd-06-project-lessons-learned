@@ -1,0 +1,65 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(253 , 251 , 251);
+}
+
+.cabecalho {
+    background-color: darksalmon;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 6vh;
+}
+
+.nav_bar {
+    margin-top: 6vh;
+    background-color: darkslategrey;
+    padding: 8px;
+}
+
+.profile_pic {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: url("images/learning.jpeg") no-repeat;
+    background-size: cover;
+    background-position: 40% 70%;
+    min-height: 50vh;
+}
+
+.greeting {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.greeting h2 {
+    margin-bottom: 36px;
+    font-size: 55px;
+}
+
+.greeting p {
+    width: 50%;
+    background-color: black;
+    color: white;
+    opacity: 0.92;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.profile_pic img {
+    height: 20vw;
+    border-radius: 100%;
+    margin-left: 20vw;
+}
+
