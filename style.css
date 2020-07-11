@@ -33,16 +33,17 @@ header {
     font-size: 20px;
     clear: both;
     padding: 35px;
+    margin: 10px;
 }
 
 .lado-esquerdo {
     float: left;
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .lado-direito {
     float: right;
-    max-width: 30%;
+    max-width: 45%;
 }
 
 h2, h3 {
