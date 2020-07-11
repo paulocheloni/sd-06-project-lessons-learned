@@ -45,6 +45,10 @@ header {
   border-bottom: 3px solid #E98074;
 }
 
+section {
+  width: 100%;
+}
+
 nav {
   margin-top: 10px;
 }
@@ -56,6 +60,46 @@ nav li {
   background-color: #E98074;
 }
 
+footer {
+  clear: both;
+}
+
 .personal-info {
   margin-top: 130px;
+}
+
+.two-columns article {
+  width: 40%;
+  margin: auto;
+}
+
+.two-columns:first-child {
+  float: left;
+}
+
+.two-columns:last-child {
+  float: right;
+}
+
+.article-plus-aside article {
+  width: 65%;
+  float: left;
+}
+
+.article-plus-aside aside {
+  width: 30%;
+  float: right;
+}
+
+.two-columns, .article-plus-aside {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.two-columns, .article-plus-aside ul, ol {
+  width: 100%;
+}
+
+.two-columns, .article-plus-aside li {
+  width: 50%;
 }
