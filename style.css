@@ -20,7 +20,7 @@ body{
     position: relative;
     bottom: 35%;
 }
-#article{
+#main{
     height: 550px;
     padding-top: 150px;
 }
@@ -61,24 +61,27 @@ body{
     bottom: 0;
     left: 0;
 }
-
+.boxbox{
+    width: 100%;
+}
 .lado-esquerdo{
     font-size: 18px;
     width: 650px;
     position: relative;
     margin-left: 10px;
-
     float: left;
     clear: both;
-    
+    top: 120px;
 }
 .lado-direito{
     font-size: 18px;
     width: 650px;
+    top: 0px;
     position: relative;
     float: right;
     clear: both;
 }
+
 
 a:hover {
     background-color: rgb(211, 13, 13);
