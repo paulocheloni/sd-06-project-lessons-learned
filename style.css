@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -7,10 +9,20 @@ header {
     top: 0px;
     left: 0px;
     right: 0px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    line-height: 1em;
+    color: rgb(77, 24, 0);
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5em;
 }
 
 #minha_foto {
     max-width: 30%;
     margin: 2em;
-    border: 1px solid rgb(255, 213, 151);
+    border: 1px outset rgb(255, 213, 151);
 }
