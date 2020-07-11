@@ -9,7 +9,9 @@ body {
     top: 0;
     height: 45px;
     width: 100%;
+    margin: 0px;
     padding: 10px;
+    border: 0px;
     background-color: #0fa36b;
 }
 #titulo {
@@ -37,16 +39,22 @@ body {
     margin-right: 70px;
     margin-block-start: 0px;
     padding: 0px;
-
-}
-#artigo {
-    float: left;
-    width: 40%;
-}
-#aside {
-    float: right;
-    width: 40%;
+    letter-spacing: 1px;
 }
 #table {
     clear: both;
+    margin-bottom: 20px;
+}
+#rick {
+    border: 5px solid greenyellow;
+    padding: 5px;
+    margin: 5px;
+}
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+}
+.lado-direito {
+    float: right;
+    width: 40%;
 }
