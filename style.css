@@ -1,11 +1,11 @@
 body {
   font-family: Helvetica, sans-serif;
-  background-color: rgb( 253, 251, 251);
+  background-color: rgb(253 ,251 ,251 );
 }
 
 #cabecalho {
   overflow: hidden;
-  background-color: rgb( 31, 29, 30);
+  background-color: rgb(31 ,29 ,30 );
   margin: 0;
   top: 0px;
   position: fixed;
@@ -14,7 +14,16 @@ body {
 
 #title {
   text-align: center;
-  color: rgb( 93, 35, 148);
+  color: rgb(93 ,35 ,148 );
+}
+
+nav {
+  margin-top: 13%;
+  background-color: rgb(202, 203, 214);
+  width: 100%;
+  font-size: 16px;
+  text-align:center;
+  padding: 20px;
 }
 
 h1 {
