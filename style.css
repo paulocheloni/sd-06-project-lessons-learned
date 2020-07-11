@@ -9,5 +9,8 @@ body {
 }
 
 .my-photo {
-  padding-top: 80px;
+  padding-top: 150px;
+}
+.my-photo p{
+  margin: 0px;
 }
