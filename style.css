@@ -1,19 +1,21 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: rgb(253, 251, 251);
-  padding-top: 120px;
-  margin-left: 10px;
+  padding-top: 70px;
+  
 }
 
 h1, h2, h3 {
   font-family: 'Noto JP', serif;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 15px;
 }
 
-p {
+p, {
   margin-top: 0;
   text-indent: 30px;
+  margin-left: 0px;
 }
 
 .barra-cabecalho, .texto-rodape{
@@ -23,6 +25,7 @@ p {
   color: white;
   left: 0;
   right: 0;
+  
 }
 
 .barra-cabecalho {
@@ -33,6 +36,7 @@ p {
 
 .texto-rodape {
   bottom: 0;
+  
 }
 
 .container {
