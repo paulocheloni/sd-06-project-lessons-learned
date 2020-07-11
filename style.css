@@ -5,10 +5,13 @@ body{
 #cabecalho {
   overflow: hidden;
   background-color: #333;
-  margin top: 0px;
-  position top: fixed;
+  margin: 0px;
+  top:0px;
+  position: absolute;
+  width: 100%;
+  
 }
-#cabecalho title {
+#title {
   text-align: center;
   color: rgb(138, 43, 226);
 }
@@ -18,4 +21,4 @@ h1 {
 }
 h2 {
   color: rgb(138, 16, 16);
-}*/
+}
