@@ -1,14 +1,17 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: large;
+  text-decoration-color: blue;
 }
 
 #cabecalho {
   background-color: chartreuse;
   block-size: 100px;
-  top: 0px;
+  top: 0;
   position: fixed;
 }
 
 .image-photo img {
   width: 25%;
 }
+
