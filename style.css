@@ -13,8 +13,10 @@ body {
 }
 
 #rodape {
+    padding-top: 20px;
     text-align: center;
     clear: both;
+    font-size: 10pt;
 }
 
 .icons {
@@ -62,4 +64,9 @@ p {
     font-size: 11pt;
     line-height: 15pt;
     text-align: justify;
+}
+
+.box-lessons {
+    width: 35%;
+    float: left;
 }
