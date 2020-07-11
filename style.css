@@ -10,8 +10,9 @@ body {
 #titulo {
   color: rgb(184 , 39 , 39 );
 }
-p {
+p .article{
     font-family: Helvetica, sans-serif;
+    color: rgb(187, 36, 36)
 
 }
 
