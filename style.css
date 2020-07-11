@@ -10,7 +10,7 @@ font-family: helvetica;
 background-color: rgb(247, 197, 104);
 }
 #minha_foto{
-    
+    width: 150px;
     border-radius: 50%;  
     background-color: rgb(247, 197, 104) ; 
     padding: 2px;
