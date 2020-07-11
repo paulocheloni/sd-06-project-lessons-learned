@@ -111,18 +111,18 @@ div.learning-container {
   background-color: rgba(217, 217, 222, 25%);
   padding: 10px 32px 34px;
   border-radius: 40px;
-  height: 180px;
+  height: 220px;
 }
 
 div.learning-container h2 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  margin: 0 0 -2px 3px;
+  margin: 0 0 0 10px;
 }
 
 article.lado-esquerdo {
-  display: inline-block;
-  max-width: 65%;
+  float: left;
+  width: 65%;
   height: 100%;
   margin: 0 0 0 10px;
 }
@@ -137,9 +137,9 @@ article.lado-esquerdo p {
 }
 
 aside.lado-direito {
-  width: 25%;
-  margin: -20px 0 0 45px;
-  display: inline-block;
+  float: right;
+  width: 27%;
+  margin: -10px 0 0 25px;
   font-size: 1.3em;
   text-align: left;
   letter-spacing: 2px;
