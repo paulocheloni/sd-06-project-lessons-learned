@@ -9,6 +9,10 @@ body {
 	width: 100%;
 }
 
+nav a {
+	margin-left: 10px;
+}
+
 main {
 	margin-top: 100px;
 }
@@ -16,6 +20,15 @@ main {
 #minha_foto {
 	width: 250px;
 	border-radius: 25%;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+	border: 1px solid;
+}
+
+#tabela {
+	margin: 5px;
+	padding: 5px;
 }
 
 td, th {
