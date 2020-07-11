@@ -1,65 +1,80 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
     box-sizing: border-box;
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
 }
+
 .header {
-    margin-top: 0px;
+    top: 0em;
     color: white;
     position: fixed;
     width: 100%;
-    position: relative;
 }
+
 .navigation {
-    margin: 20px;
+    margin-top: 115px;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", 'Merriweather', serif;
     font-size: 20px;
 }
+
+.box li {
+    font-size: 20px;
+    font-family: "Merriweather", 'Merriweather', serif;
+    line-height: 40px;
+}
+
 .navigation li {
     display: inline-block;
     margin: 3px 15px;
+    padding: 10px;
 }
+
 .navigation li:hover {
-    background-color: rgb(51,51,51);
+    background-color: rgb(51, 51, 51);
     color: white;
     padding: 10px;
 }
+
 .main_title {
-    margin: 0px;
+    margin: 0em;
     text-align: center;
-    background-color: rgb(80,180,226);
+    background-color: rgb(80, 180, 226);
     padding: 3%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", 'Open Sans', sans-serif;
 }
+
 .title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", 'Open Sans', sans-serif;
     font-size: 30px;
+    text-align: center;
+    margin: 3%;
 }
+
 .picture {
     border-radius: 100%;
     text-align: center;
-    margin: 2% 2%;
+    margin: 2%;
 }
+
 .box {
     margin: 2% 14%;
 
 }
+
 .lado-esquerdo {
     float: left;
 }
+
 .lado-direito {
     float: right;
 }
+
 .box h2 {
     margin-bottom: 35px;
 }
-.box li {
-    font-size: 20px;
-    font-family: 'Merriweather', serif;
-    line-height: 40px;
-}
+
 .article {
     clear: both;
 }
