@@ -6,7 +6,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(126, 126, 126);
+  color: rgb(126 , 126 , 126);
   line-height: 20px;
   font-size: 20px;
   max-width: 1366px;
@@ -25,15 +25,14 @@ body {
   background-color: salmon;
 }
 
-.title{
+.title {
   text-align: center;
   margin: 30px 0;
 }
 
-.menu{
+.menu {
   text-align: center;
 }
-
 
 .container {
   max-width: 1366px;
@@ -41,21 +40,21 @@ body {
   overflow: hidden;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   width: 50%;
   height: 300px;
   background-color: royalblue;
   float: left;
 }
 
-.lado-direito{
+.lado-direito {
   width: 50%;
   height: 300px;
   background-color: saddlebrown;
   float: right;
 }
 
-.image{
+.image {
   margin-top: 130px;
   width: 250px;
   border-radius: 6px;
