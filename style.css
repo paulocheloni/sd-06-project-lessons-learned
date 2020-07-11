@@ -22,27 +22,7 @@ body {
     margin: 10px 10px 10px 10px;
     padding: 2px;
 }
-/*aside.text-container {
-    margin-left: 5%;
-    padding: 10px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
-    font-size: large;
-    border: double;
-    width: 300px;
-}
-article.text-container{
-    margin-left: 5%;
-    padding: 10px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
-    font-size: large;
-    border: double;
-    width: 300px;
-}*/
-div.capsula-texto .text-container{
+div.capsula-texto {
     color: blue;
     display: inline-block;
     margin-left: 5%;
@@ -52,7 +32,7 @@ div.capsula-texto .text-container{
     line-height: 20px;
     font-size: large;
     border: double;
-    width: 300px;
+    width: 40%;
 }
 nav.menu{
     display: block;
@@ -60,8 +40,6 @@ nav.menu{
     max-width: 400px;
     left: 70%;
     top: 0;
-    
-
 }
 nav.menu a{
     text-transform: uppercase;
@@ -69,3 +47,8 @@ nav.menu a{
     background-color: mediumaquamarine;
     margin: 5px;
     padding: 5px 10px;
+}    
+.listas  {
+    width: 30%;
+    display: inline-block;
+}
