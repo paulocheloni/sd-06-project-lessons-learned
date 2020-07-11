@@ -1,6 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
-    font-family:Helvetica;
+    font-family: "Helvetica";
     letter-spacing: 1.5px;
     color:#0D090A;
     font-size: 1em;
@@ -54,8 +54,9 @@ h2{
     text-decoration: none;
     margin-left: 4px;
     margin-right: 4px;
-    font-family: sans-serif;
+    font-family: "Helvetica";
     color:#861657;
+    
 }
 
 .lado-esquerdo{
