@@ -91,6 +91,10 @@ article {
     font-size: 100%
 }
 
+aside {
+    padding: 1%;
+}
+
 footer {
     text-align: left;
     font-size: 100%;
