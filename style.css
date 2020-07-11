@@ -1,5 +1,6 @@
 body {
-    font-family: monospace, Arial, sans-serif;
+    background-color: rgb (253, 251, 251);
+    font-family: monospace, Arial, sans-serif; font-size: 14px; color: darkcyan;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -53,4 +54,13 @@ th {
     width: 100%;
     text-align:center;
     
+}
+.lado-esquerdo{
+    float: left;
+    width: 45%;
+}
+
+.lado-direito{
+    float: right;
+    width: 45%;
 }
