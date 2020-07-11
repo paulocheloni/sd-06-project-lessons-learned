@@ -13,9 +13,9 @@ h1, article h2, aside h3{
     z-index: 10;
     position: fixed;
     top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 105%;
     padding: 0px;
     padding-bottom: -5px;
     float: left;    
@@ -30,7 +30,7 @@ h1, article h2, aside h3{
 .navegacao{
     position: fixed;
     top: 35px;     
-    padding: 0px;
+    padding-left: 10px;
 }
 .meu-linkedin{  
     
@@ -39,5 +39,8 @@ h1, article h2, aside h3{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 85%;
+}
+#titulo{
+    padding-top: 2px;
 }
