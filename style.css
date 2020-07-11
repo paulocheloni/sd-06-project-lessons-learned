@@ -3,8 +3,8 @@ body {
     padding: 0;
     background-color: rgb(253, 251, 251);
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(51,53,51);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51, 53, 51);
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -19,13 +19,13 @@ body {
 .menu-fixed {
     position: fixed;
     margin-top: 0;
-    background-color: rgb(51,53,51);
+    background-color: rgb(51, 53, 51);
     width: 100%;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(245,203,92);
+    color: rgb(245, 203, 92);
 }
 
 .menu-fixed h1 {
@@ -43,13 +43,13 @@ h1 {
     position: relative;
     float: left;
     margin-left: 50px;
-    background-color: rgb(232,237,223);
+    background-color: rgb(232, 237, 223);
     border-radius: 5px;
     padding: 10px 20px;
 }
 
 .btn-menu li a {
-    color: rgb(36,36,35);
+    color: rgb(36, 36, 35);
     text-decoration: none;
     display: block;
 }
@@ -61,7 +61,7 @@ img.profile-photo {
     width: 150px;
     height: 150px;
     margin-top: 100px;
-    border: 3px solid rgb(245,203,92);
+    border: 3px solid rgb(245, 203, 92);
 }
 
 /* Articles */
@@ -90,6 +90,6 @@ img.profile-photo {
 
 table {
     margin: 1px;
-    border: 1px solid rgb(36,36,35);
+    border: 1px solid rgb(36, 36, 35);
     clear: both;
 }
