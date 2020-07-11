@@ -29,3 +29,20 @@ header{
 .licoes li{
     text-align: left;
 }
+.sec-table-pos-neg{
+text-align: center;
+}
+.sec-table-pos-neg table{
+    margin: auto;
+}
+td, th{
+ border: solid 2px black;
+ margin: auto;
+ padding:2px;
+}
+th{
+    background-color: #EC39A1;
+}
+footer{
+    background-color: #F6D41B;
+}
