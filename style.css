@@ -34,3 +34,13 @@ body {
 .section-article-aside {
   display: inline-block;
 }
+
+.table, td, th {
+  border: 2px groove black;
+  width: 50%;
+  margin: auto;
+}
+
+th {
+  background-color: gray;
+}
