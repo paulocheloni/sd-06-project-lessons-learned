@@ -38,6 +38,10 @@ span.grandecor {
 main {
     margin-top: 110px
 }
+main img {
+    border-radius: 50%;
+    border: 10px solid #6D597A
+}
 main h2, h3 {
     background-color: #6D597A;
     margin-top: 10px;
