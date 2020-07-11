@@ -39,20 +39,20 @@ body{
     top: 20px;
     margin: auto;
 }
-#lado-esquerdo{
+.lado-esquerdo{
     width: 600px;
     display: inline-block;
 }
-#lado-direito{
+.lado-direito{
     padding-left: 3px;
-    top: -82.5px;
+    top: -41.5px;
     left: 50px;
     position: relative;
     width: 300px;
     display: inline-block;
 
 }
-#section{
+#tabelas{
     position: absolute;
     top: 450px;
 }
