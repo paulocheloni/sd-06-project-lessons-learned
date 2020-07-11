@@ -78,7 +78,7 @@ main.container {
 
 section.list-box-container {
   background-image: url('foto_v2.png');
-  background-position: 49% 100%;
+  background-position: 47% 100%;
   background-repeat: no-repeat;
   background-size: auto 100%;
   vertical-align: top;
@@ -202,7 +202,7 @@ section.foto_link {
 span.link {
   font-size: 1.2em;
   float: right;
-  margin: 20px 80px 0 0;
+  margin: 20px 170px 0 0;
 }
 
 span.link a {
