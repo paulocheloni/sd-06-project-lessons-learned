@@ -47,15 +47,16 @@ h3 {
   position: absolute;
 }
 
-footer{
-overflow: hidden;
-background-color: rgb( 202 , 203 , 214 );
-margin: 0;
-bottom: 0;
-position: absolute;
-width: 100%;
+footer {
+  overflow: hidden;
+  background-color: rgb( 202 , 203 , 214 );
+  margin: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  
 }
-#rodape{
-color: rgb( 93 , 35 , 148 );
-font-size: 12px;
+#rodape {
+  color: rgb( 93 , 35 , 148 );
+  font-size: 12px;
 }
