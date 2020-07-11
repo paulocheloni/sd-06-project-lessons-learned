@@ -1,8 +1,8 @@
 /* CSS geral - body, h1, h2 (..), p, etc */
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: 'Roboto Condensed', sans-serif;
-  color: rgb(20, 20, 20);
+  background-color: rgb(253 , 251 , 251);
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(20 , 20 , 20);
   font-size: 18px;
   line-height: 1.5em;
 }
@@ -14,10 +14,10 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
-  background-color: rgb(109, 89, 122);
+  background-color: rgb(109 , 89 , 122);
   text-align: center;
   margin: 0;
-  color: white
+  color: white;
 }
 header h1,h2, nav, ul {
   margin: 0;
@@ -31,26 +31,25 @@ header ul {
 
 /* Span de cores e tamanhos */
 span.grandecor {
-  color:rgb(130, 107, 145) ;
-  font-weight: bold;
+  color: rgb(130 , 107 , 145);
+  font-weight: 900;
   font-size: 1.25em;
-
 }
 
 /* Conteúdo principal */
 main {
-  margin-top: 110px
+  margin-top: 110px;
 }
 main img {
   border-radius: 50%;
-  border: 10px solid rgb(109, 89, 122)
+  border: 10px solid rgb(109 , 89 , 122);
 }
 main h2, h3 {
-  background-color: rgb(109, 89, 122);
+  background-color: rgb(109 , 89 , 122);
   margin-top: 10px;
-  margin-bottom: 15px ;
+  margin-bottom: 15px;
   padding: 10px;
-  color: white
+  color: white;
 }
 
 /* Lista */
@@ -69,7 +68,7 @@ section ol {
 /* Article e Aside */
 .lado-esquerdo {
   float: left;
-  width: 40%
+  width: 40%;
 }
 .lado-direito {
   float: right;
@@ -78,30 +77,30 @@ section ol {
 .lado-direito p {
   margin-top: 10px;
   padding: 60px 10px 20px;
-  background-color: rgb(109, 89, 122)
+  background-color: rgb(109 , 89 , 122);
 }
 
 /* Table */
 table {
   clear: both;
-  background-color: rgb(109, 89, 122);
+  background-color: rgb(109 , 89 , 122);
   padding: 20px;
 }
 thead {
   font-size: 1.5em;
-  background-color:rgb(130, 107, 145) ;
+  background-color: rgb(130 , 107 , 145);
 }
 thead tr th {
   color: black;
 }
 tr:nth-child(even) {
-  background-color: rgb(130, 107, 145);
+  background-color: rgb(130 , 107 , 145);
 }
 tr:nth-child(odd) {
   color: white;
 }
 tr td:nth-child(odd) {
-  font-weight: bold;
+  font-weight: 900;
 }
 td {
   padding: 5px;
