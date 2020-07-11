@@ -91,17 +91,16 @@
         }
         
         .main-sector-table {
-            margin: auto;
-            padding: 60px;
+            padding: 20px;
             width: 33%;
         }
         
         .main-article-my-table {
-            padding: 60px;
+            padding: 10px;
             text-align: left;
-            width: 50%;
-            margin: auto;
+            width: 33%;
             line-height: 20px;
+            margin-left: 30px;
         }
         
         #my-table {
@@ -125,4 +124,8 @@
             font-size: 20px;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
+        }
+        
+        h3 {
+            font-size: 30px;
         }
