@@ -1,16 +1,21 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family:"Helvetica",Arial, sans-serif  ;
 }
 
 #cabecalho{
     position: fixed;
     top:0;
     width: 100%;
-    background-color: #861657;
+    background-color: #837A75;
 }
     
 #titulo{
     text-align: center;
+    font-family: "Josefin Sans";
+    color: #EAF2EF;
+    letter-spacing: 2px;
+    font-size: 2.5em;
 }
 
 #minha_foto{
