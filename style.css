@@ -1,3 +1,8 @@
+aside {
+    width: 30%;
+    margin-left: 70%;
+}
+
 .body-backgound {
   background-color: rgb(253, 251, 251);
 }
@@ -12,5 +17,5 @@
 }
 
 #rodape {
-    
+
 }
