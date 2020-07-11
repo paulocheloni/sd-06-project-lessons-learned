@@ -66,8 +66,8 @@ ul {
     width: 60%;
     text-align: center;
     float: left;
-    padding-top: 100px;
-
+    padding-top: 20px;
+    line-height: 40px;
 }
 .lado-direito {
     width: 30%;
@@ -76,6 +76,7 @@ ul {
     border-width: 1.5px;
     border-style: groove; 
     border-color: #606C38;
+    line-height: 60px;
 }
 #rodape {
     width: 100%;
@@ -123,6 +124,7 @@ h2 {
     font-family: 'Merienda One', cursive;
     font-size: 40px;
     color: #130E02;
+    line-height: 70px;
 }
 li {
     font-size: 20px;
