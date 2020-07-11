@@ -11,22 +11,68 @@ body {
 .my-photo {
   padding-top: 150px;
 }
-.my-table table, th, td {
-	border: 1px solid black;
-    text-align: center;
+
+.learned-lessons ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: lighter;
+  font-size: 15px;
 }
 
+.learned-lessons h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.lessons-to-learn ul {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
+.lessons-to-learn h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+.article p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.article h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.learn-process p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.learn-process h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.my-table h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.my-table table, th, td {
+	border: 1px solid black;
+  text-align: center;
+}
 .my-table th, td {
 	padding: 10px;
 }
-
 .my-table table {
   border-collapse: collapse;
-  margin-left: 20px
-  
+  margin-left: 10px
 }
-
 .my-column {
 	color: white;
-    background: black;
+  background: black;
+}
+.my-footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
