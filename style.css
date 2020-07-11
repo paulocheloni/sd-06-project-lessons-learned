@@ -14,11 +14,11 @@ body {
 
 h1 {
 	color: rgb(255 , 255 , 255);
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 }
 
 h2 {
-	margin: 0 0 15px 0;
+	margin: 0 0 15px;
 }
 
 nav a {
@@ -39,12 +39,12 @@ section {
 	border-radius: 25%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
 	border: 1px solid;
 	width: 30%;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
 	display: inline-block;
 }
 
@@ -67,7 +67,7 @@ p {
 	clear: both;
 }
 
-td, th {
+td , th {
 	border: 1px solid;
 	text-align: center;
 }
