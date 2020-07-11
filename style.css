@@ -11,6 +11,7 @@ body {
     top: 0px;
     position: fixed;
     color: #131616;
+    text-align: center;
 }
 
 #texto-header {
@@ -32,19 +33,26 @@ nav {
     border-radius: 25%;
 }
 
+.listas {
+    width: 80%;
+    height: 250px;
+    display: inline;
+}
+
 .lado-esquerdo, .lado-direito {
     max-width: 250px;
 }
 
 .lado-direito {
+    margin-top: 390px;
+    margin-right: 800px;
     float: right;
 }
 
 aside {
     float: right;
-    line-height: 1px;
     width: 40%;
-    height: 40%;
+    height: 100px;
     padding-top: 20px;
     border-top: 20px;
     margin-top: 20px;
