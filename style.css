@@ -78,30 +78,34 @@ main.container {
 
 section.list-box-container {
   background-image: url('foto_v2.png');
-  background-position: 46% 100%;
+  background-position: 49% 100%;
   background-repeat: no-repeat;
   background-size: auto 100%;
   vertical-align: top;
+  height: 320px;
 }
 
-.list-box {
-  display: inline-block;
-  width: 33%;
-  margin: 0;
-  padding: 0;
+.lado-esquerdo, .lado-direito {
+  padding: 0 30px 0 0;
 }
 
-.list-box.left {
+.lado-esquerdo {
   float: left;
+  width: 30%;
 }
 
-.list-box h3 {
+.lado-direito {
+  float: right;
+  width: 30%;
+}
+
+.list-box-container h3 {
   padding: 0;
   margin: 0 0 0 -18px;
   font-size: 1.3em;
 }
 
-.list-box ol li, .list-box ul li {
+.list-box-container ol li, .list-box-container ul li {
   padding: 3px 0 0 5px;
   font-size: 1.1em;
 }
