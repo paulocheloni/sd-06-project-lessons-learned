@@ -18,12 +18,35 @@ body {
 }
 
 #titulo {
-  text-align: center;
   color:rgb(29, 28, 28);
   background-color: rgb(179, 179, 179);
   border-bottom: 3px solid forestgreen;
-  font-size: 25px;
   padding-top: 5px;
+  padding-left: 350px;
+  padding-bottom: 5px;
+  /*text-shadow: 0 0 0.2em rgb(204, 240, 204);*/
+}
+
+.navegator {
+  width: 50%
+}
+
+#subtitulo {
+  float: right;
+  width: 50%;
+  margin-top: 42px;
+  margin-right: 40px;
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+
+.subtitle-tryber {
+  color: forestgreen;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 25px;
 }
 
 h2 {
@@ -44,7 +67,7 @@ a {
 }
 
 a:hover{
-  color: rgb(228, 104, 3);
+  color: forestgreen;
 }
 
 #github-icon {
@@ -66,8 +89,8 @@ a:hover{
 #trybe-icon {
   width: 120px;
   position: absolute;
-  margin-left: 640px;
-  margin-top: -35px;
+  margin-left: 620px;
+  margin-top: -37px;
 }
 
 #minha_foto {
@@ -153,13 +176,14 @@ aside.lado-direito p {
 #rodape {
   background-color: black;
   clear: both;
-  height: 60px;
+  height: 50px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 5px;
   font-size: 12px;
 }
 
-footer.rodape span {
-  color:rgb(179, 179, 179;
+.footer-copyrights {
+  padding-top: 10px;
+  color:rgb(179, 179, 179);
 }
 
