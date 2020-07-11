@@ -15,6 +15,11 @@ body {
      margin: auto;
  }
 
+ h1 {
+     color: #F5CB5C;
+     font-family: "Helvetica";
+ }
+
  /* Menu */
  .menu-fixed {
      position: fixed;
@@ -23,35 +28,33 @@ body {
      width: 100%;
  }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #F5CB5C;
-}
-
  .menu-fixed h1 {
     float: left;
     margin-left: 50px;
  }
 
- .btn-menu {
-    list-style:none; 
+ .btn-menus {
     float: right;
     margin-right: 50px;
  }
 
- .btn-menu li {
+ .btn-menu {
     position:relative; 
     float: left;
     margin-left: 50px;
     background-color: #E8EDDF;
     border-radius: 5px;
     padding: 10px 20px;
-}
-
-.btn-menu li a {
     color:#242423; 
     text-decoration:none; 
-    display:block;}
+    display:block;
+    font-family: Arial;
+}
+    
+
+
+.btn-menu li a {
+
  }
 
 
@@ -61,7 +64,7 @@ h1 {
  /* Fonts */
 
 
-p {
+img {
 
 }
 
@@ -113,12 +116,6 @@ p {
 }
 
 /* End articles */
-
-.table {
-    margin: 10px 10px;
-    padding: 10px 10px;
-    border: 1px solid #242423;
-}
 
 table {
     clear: both;
