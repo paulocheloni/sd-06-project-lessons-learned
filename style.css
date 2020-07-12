@@ -1,7 +1,7 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: rgb(253, 251, 251);
-  padding-top: 70px; 
+  padding-top: 90px; 
 }
 
 h1, h2, h3 {
@@ -11,28 +11,44 @@ h1, h2, h3 {
   margin-left: 15px;
 }
 
+ol, ul {
+  margin-top: 0px;
+}
+
+li {
+
+}
+
 p {
   margin-top: 0;
   text-indent: 30px;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   left: 0; 
-  right: 0;
-  text-align: center;
-  background-color: cadetblue;
-  color: white;
+  background-color: rgb(95,158,160);
   width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+nav {
+  text-align: center;
+  overflow: auto;
+  
 }
 
 .texto-rodape {
   margin: 0px; 
   text-align: center;
-  background-color: cadetblue;
-  color: white;
-  bottom: 0;  
+  background-color: rgb(95,158,160);
+  color: rgb(255,255,255); 
 }
 
