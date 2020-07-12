@@ -1,3 +1,5 @@
+/* Configurações de letra geral */
+
 * {
   font-family: Helvetica, sans-serif;
 }
@@ -10,9 +12,15 @@ aside p {
   line-height: 1.5em;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+  color: rgb(211, 211, 211);
+}
+
+h2, h3, h4, h5 {
   color: rgb(41 , 41 , 41);
 }
+
+/* Configurações de layout */
 
 body {
   background-color: rgb(253 , 251 , 251);
@@ -21,6 +29,34 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  left: 0px;
+  right: 0px;
+  display: inline-block;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(22, 22, 22, 0.801);
+}
+
+nav {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.nav-icons {
+  height: 30px;
+  margin: 0px 5%;
+}
+.nav-icons{
+  filter: invert(5);
+}
+.nav-icons:hover{
+  fill: white;
 }
 
 #minha_foto {
@@ -30,9 +66,6 @@ body {
 
 .artigos {
   width: 100%;
-
-/* vertical-align: middle; */
-
 }
 
 .lado-esquerdo {
@@ -71,6 +104,8 @@ body {
   font-size: 0.8em;
 }
 
-#rodape 
+#rodape {
   clear: both;
 }
+
+
