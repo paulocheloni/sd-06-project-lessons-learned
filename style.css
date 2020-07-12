@@ -13,15 +13,19 @@ body {
     padding: 200px;
 }
 
-#cabecalho {
+header#cabecalho {
     top: 0;
     position: fixed;
     margin-top: 120px;
     margin-left: 300px;
+}
+
+#titulo {
     font-size: 1.3em;
 }
 
 #nav {
+    font-size: 1.2em;
     margin-top: 10px;
     margin-left: 120px;
 }
@@ -41,6 +45,7 @@ body {
     margin-top: 50px;
     padding: 20px;
     text-align: justify;
+    line-height: 17px;
 }
 
 #lateral {
@@ -51,6 +56,7 @@ body {
     float: right;
     padding: 20px;
     margin: 20px 10px 0px 0px;
+    line-height: 16px;
     
 }
 
