@@ -1,107 +1,103 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
+  background-color: rgb(253 , 251 , 251);
+  margin: 0px;
 }
 
 #titulo {
-    background-color: #2b396f;
-    width: 46%;
-    margin-left: 27%;
-    padding: 5px;
-    border: 5px ridge #3d59a8;
-    border-radius: 13px;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(43 , 57 , 111);
+  width: 46%;
+  margin-left: 27%;
+  padding: 5px;
+  border: 5px ridge rgb(61 , 89 , 168);
+  border-radius: 13px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: cornflowerblue;
-    left: 0px;
-    right: 0px;
-    text-align: center;
+  position: fixed;
+  top: 0px;
+  background-color: cornflowerblue;
+  left: 0px;
+  right: 0px;
+  text-align: center;
 }
 
 .foto {
-    text-align: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
 }
 .foto img {
-    border-radius: 100%;
-    width: 20%;
+  border-radius: 100%;
+  width: 20%;
 }
 
 .listas {
-    margin-left: 20px;
-    display: inline-block;
-    /* background-color: darkviolet; */
-    margin-left: 32%;
+  display: inline-block;
+  margin-left: 32%;
 }
 
 #licoes_aprendidas {
-    display: inline-block;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
+  display: inline-block;
 }
 
 .licoes_wrapper {
-    margin: 35px;
-    line-height: 1.3em;
-    font-size: 1.2em;
+  margin: 35px;
+  line-height: 1.3em;
+  font-size: 1.2em;
 }
 
-.licoes_container{
-    display: inline-block;
-    width: 45%;
-    background-color: darkgreen;
-    text-align: center;
-    margin: auto;
-    border-radius: 15%;
+.licoes_container {
+  display: inline-block;
+  width: 45%;
+  background-color: darkgreen;
+  text-align: center;
+  margin: auto;
+  border-radius: 15%;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
 
 .tabela {
-    clear: both;
-    margin-top: 250px;
-    background-color: crimson;
-    text-align: center;
+  clear: both;
+  margin-top: 250px;
+  background-color: crimson;
+  text-align: center;
 }
 
 table {
-    background-color: darkmagenta;
-    border: 5px ridge black;
-    text-align: center;
-    width: 70%;
-    margin-left: 15%;
+  background-color: darkmagenta;
+  border: 5px ridge black;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
 }
 
 footer {
-    background-color: cornflowerblue;
-    text-align: center;
+  background-color: cornflowerblue;
+  text-align: center;
 }
 
 .trybe {
-    position: relative;
-    background-color: #2b396f;
-    /* width: 42%;
-    margin-left: 29%; */
-    padding: 5px;
-    border: 5px ridge #3d59a8;
-    border-radius: 13px;
+  position: relative;
+  background-color: rgb(43 , 57 , 111);
+  padding: 5px;
+  border: 5px ridge rgb(61 , 89 , 168);
+  border-radius: 13px;
 }
 
 .git {
-    position: relative;
-    float: left;
-    width: 81px;
-    margin-left: 15px;
+  position: relative;
+  float: left;
+  width: 81px;
+  margin-left: 15px;
 }
