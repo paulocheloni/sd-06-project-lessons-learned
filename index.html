@@ -6,17 +6,13 @@
     <style>
      body {
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(255, 255, 255);
-            background: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            background: 
     }
 
         #cabecalho {
-            width: 1500px;
-            height: 150px;
-            position: fixed;
-            left: 0px;
             top: 0px;
-            right: 0px;
+            
         }
         #titulo {
             width: 250px;
@@ -32,22 +28,27 @@
             margin-top: 120px;
             z-index: 1;
         }
-        #aprendizado ,#rodape {
+        #aprendizado {
             margin-left: 30px;
         }
         #licoes_aprendidas {
             position: ;
         }
+        #rodape{
+            color: rgb(0, 0, 0);
+            background:rgb(62, 141, 212);
+            border-left: 30px solid rgb(62,141, 212);
+            margin-left: 0px
+        }
 </style>
     </head>
     <body>
-     <header>    
-        <img src="https://w1.ezcdn.com.br/artefatosdemadeirasuely/fotos/grande/9447fg1/feltro-santa-fe-50x70cm-azul-clar.o.jpg" alt="FundoAzul" id="cabecalho">
+     <header id="cabecalho">    
         <h1 id="titulo">FIRST PROJECT</h1>
         <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/10653642_10205219263465566_238059911877259319_n.jpg?_nc_cat=107&_nc_sid=d2e176&_nc_ohc=cOvdpr_dB90AX-stPMV&_nc_ht=scontent.fplu9-2.fna&oh=d10b77346e84567061f8cf2833fcaef7&oe=5F29C80F"alt="Foto Do Vinicius com a Renata" id="minha_foto">
      </header>
       <article id="aprendizado">
-          <h3>Meu Aprendizado Trybe!</h3>
+          <h2>Meu Aprendizado Trybe!</h2>
           <p>Fala, galera! É indescritivel estar aqui nesse momento podendo escrever esse peuqeno artigo 
               sobre o meu aprendizado aqui na Trybe. Dizer que esta sendo facil seria mentira, já que no meu
               caso tudo tem sido novidade. Mas a sensação de estar aprendendo e podendo realizar o que eu
@@ -87,8 +88,35 @@
         </ul>
        </section>
       </article>
-     <footer id="rodape">
-        <h3>Saiba mais sobre o Programador:</h3>
+      <h1>Minhas Metas</h1> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Pet name</th>
+                    <th>Species</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Black & white</td>
+                    <td>rabbit</td>
+                    <td>black and white</td>
+                </tr>
+                <tr>
+                    <td>Daemon</td>
+                    <td>cat</td>
+                    <td>black</td>
+                </tr>
+                <tr>
+                    <td>Angel</td>
+                    <td>cat</td>
+                    <td>orange</td>
+                </tr>
+            </tbody>
+        </table>
+     <footer>
+        <h3 id="rodape">Saiba mais sobre o Programador:</h3>
          <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>
          <br>
          <a target="_blank" href="https://www.facebook.com/vinicius.b.matta/">Facebook</a>
