@@ -1,0 +1,106 @@
+body {
+    max-width: 90%;
+    margin: auto auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: rgb(253, 251, 251);
+}
+
+.header {
+    display: grid;
+    grid-templategit-rows: 1fr 1fr;
+    color: white;
+    padding-right: 8%;
+    padding-left: 10%;
+}
+
+#cabecalho {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: none;
+    font-size: 25px;
+    background-color: yellow;
+    position: fixed;
+    top: 0px;
+}
+
+#titulo a {
+    padding: 3%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+#titulo:hover {
+    background-color: rgb(253, 251, 251));
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: left;
+    color: white;
+    font-size: 180%;
+}
+
+#minha_foto img {
+    border-radius: 100%;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+}
+
+.art-container {
+    text-align: left;
+    display: inline-block;
+    color: white;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 120%;
+}
+
+.container-lessons ol ul li {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    padding: 1%;
+    text-align: left;
+}
+
+
+/*.column {
+    float: left;
+    width: 40%;
+    padding-left: 1%;
+    text-align: left;
+    justify-content: center;
+    color: white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+article {
+    text-align: left;
+    font-size: 100%
+}
+
+aside {
+    padding: 1%;
+}
+
+footer {
+    text-align: left;
+    font-size: 100%;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
