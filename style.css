@@ -9,7 +9,7 @@ a , a:visited {
 .cabecalho {
   font-family: Times New Roman , Times , serif;
   font-style: oblique;
-  background-color: rgb(176 , 196 , 222);
+  background-color: lightsteelblue;
   top: 0;
   position: fixed;
   text-align: center;
@@ -23,7 +23,7 @@ a , a:visited {
 
 .nav {
   margin-top: 83px;
-  background-color: rgb(176 , 196 , 222);
+  background-color: lightsteelblue;
   color: white;
   display: flex;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ th {
 .rodape {
   text-align: center;
   margin: -6px;
-  background-color: rgb(176 , 196 , 222);
+  background-color: lightsteelblue;
   width: auto;
 }
 
