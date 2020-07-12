@@ -1,3 +1,6 @@
+*{
+  margin: 0px;
+}
 
 body {
   background-color: #f7f1f1;
@@ -5,17 +8,18 @@ body {
 
 #cabecalho {
   position: relative;
-  background-color: rgb(253,251,251);
-  height: 45px;
+  margin-top: 0px;
+  background-color: rgb(253, 251, 251);;
+  height: 100px;
 }
-
-#titulo {
-  color: aliceblue;
-  margin-left: 15px;
+#titulo{
+  padding: 10px;
+  color: rgb(56, 136, 80);
+  text-align: center;
 }
 
 nav {
-  background-color:rgb(253,251,251);
+  padding: 5px;
 }
 
 #minha_foto {
@@ -36,10 +40,14 @@ h2 {
   margin-left: 15px;
 }
 
+#rodape{
+  text-align: center;
+}
+
 p {
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
   max-width: 80%;
   padding: 5px;
-}
+ }
