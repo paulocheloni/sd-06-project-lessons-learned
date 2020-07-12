@@ -2,7 +2,8 @@ body {
     max-width: 90%;
     margin: auto auto;
     font-family: 'Ubuntu Condensed', sans-serif;
-    background: linear-gradient(to right, gray, lightgray);
+    background: seagreen;
+    line-height: 200%;
 }
 
 .header {
@@ -38,6 +39,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    offset: top;
 }
 
 .grid-item {
