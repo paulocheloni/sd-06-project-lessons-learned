@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 body {
-  font-style: rubik, sans-serif;
+  font-family: Rubik, sans-serif;
   background-color: rgb(253 , 251 , 251);
   color: rgb(51 , 49 , 49);
   font-size: 20px;
 }
 
 header {
-  font-style: rubik, sans-serif;
+  font-family: Rubik, sans-serif;
   background-color: rgb(228 , 214 , 241);
   color: rgb(58 , 58 , 58);
   text-align: center;
@@ -122,7 +122,7 @@ footer {
 }
 
 .lsContatos {
-  font-family: Raleway, sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 20px;
   display: inline;
 }
