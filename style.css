@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+table {
+  display: none;
+}
+
 /* -------------------- MAIN HEADER -------------------- */
 
 .cabecalho {
