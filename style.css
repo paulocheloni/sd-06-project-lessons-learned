@@ -9,6 +9,7 @@ body {
     font-style: oblique;
     font-stretch: semi-expanded;
     text-decoration: line-through;
+    line-height: 2px;
 }
 #cabecalho {
     position: fixed;
@@ -78,14 +79,14 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 }
-.lado_direito {
+.lado-direito {
     margin-top: 10px;
     margin-left: 150px;
     background-color: tomato;
     float: left;
     height: 35vh;
 }
-.lado_esquerdo {
+.lado-esquerdo {
     width: 200px;
     float: left;
     margin-left: 200px;
