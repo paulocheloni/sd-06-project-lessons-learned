@@ -1,18 +1,19 @@
+
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
   color: whitesmoke;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 /* HEADER */
 header {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  font-family: "Pacifico", cursive;
-  color: rgb(61,61,61);
-  background-color: rgb(252,206,121);
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: Pacifico, cursive;
+  color: rgb(61 , 61 , 61);
+  background-color: rgb(252 , 206 , 121);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +25,7 @@ header {
 }
 
 header h1 {
-  font-weight: lighter;
+  font-weight: 400;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -41,8 +42,8 @@ header nav ul {
 
 header nav ul a {
   text-decoration: none;
-  color: rgb(61,61,61);
-  margin: 0em 2em;  /* Espaço top/bottom  -  left/right */
+  color: rgb(61 , 61 , 61);
+  margin: 0 2em;  /* Espaço top/bottom  -  left/right */
 }
 
 header nav ul a:hover {
@@ -57,8 +58,8 @@ main {
 
 h2 {
   font-size: 2em;
-  font-family: "Pacifico", cursive;
-  color: rgb(85,85,85);
+  font-family: Pacifico, cursive;
+  color: rgb(85 , 85 , 85);
   font-weight: lighter;
   text-align: center;
 }
@@ -72,13 +73,13 @@ h2 {
 /* DEFINIÇÃO DO LAYOUT H3 E PARÁGRAFOS */
 h3 {
   font-size: 1.5em;
-  font-family: "Pacifico", cursive;
-  color: rgb(85,85,85);
-  font-weight: lighter;
+  font-family: Pacifico, cursive;
+  color: rgb(85 , 85 , 85);
+  font-weight: 400;
   display: flex;
   align-items: center;
-  margin-top: 0px;
-  background-color: rgb(250,222,171);
+  margin-top: 0;
+  background-color: rgb(250 , 222 , 171);
   padding: 0.5em;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -110,16 +111,16 @@ p , .sobre-mim {
 /* DEFINIÇÃO DO LAYOUT DAS SEÇÕES */
 .Projeto , .licoes , .sobre-mim , #artigo , aside , footer {
   border-radius: 8px;
-  border: 1px solid rgb(161,161,161);
+  border: 1px solid rgb(161 , 161, 161);
   margin: 2em 3em;
-  background-color: rgb(44,44,44);
+  background-color: rgb(44 , 44 , 44);
 }
 
 /* EDITANDO A TABELA */
 table {
-  color: rgb(44,44,44);
-  border: 1px solid rgb(44,44,44);
-  background-color: rgb(250,222,171);
+  color: rgb(44 , 44 , 44);
+  border: 1px solid rgb(44 , 44 , 44);
+  background-color: rgb(250 , 222 , 171);
   width: 30%;
   text-align: left;
   border-collapse: collapse;
@@ -128,9 +129,9 @@ table {
 }
 
 table th {
-  font-family: "Pacifico", cursive;
-  background-color: rgb(252,206,121);
-  font-weight: lighter;
+  font-family: Pacifico, cursive;
+  background-color: rgb(252 , 206 , 121);
+  font-weight: 400;
   text-align: center;
   padding: 1em;
   font-size: 1.5em;
@@ -149,7 +150,7 @@ table td {
 #minha_foto {
   max-width: 20%;
   margin: 2em 2.5em;
-  border: 1px outset rgb(255,213,151);
+  border: 1px outset rgb(255 , 213 , 151);
 }
 
 /* LAYOUT DOS QUADROS COM APRENDIZADOS */
@@ -175,11 +176,11 @@ footer {
 footer a {
   text-decoration: none;
   color: whitesmoke;
-  font-family: "Pacifico", cursive;
+  font-family: Pacifico, cursive;
   font-size: 1.5em;
-  margin: 1em 5em 1em 0em;
+  margin: 1em 5em 1em 0;
 }
 
 footer a:hover {
-  color: rgb(252,206,121);
+  color: rgb(252 , 206 , 121);
 }
