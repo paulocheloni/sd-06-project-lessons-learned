@@ -1,24 +1,19 @@
 * {
     margin: 0px;
 }
-body {
-     background: rgb(253, 251, 251);
+
+
+#cabecalho {
+    background-color: rgb(65, 199, 32);
+    padding: 50px ;
 }
-.header {
-    background-color: rgb(137, 219, 137);
-}
-header {
-     text-align: center;
-     max-width: 100%;
-     
-     color: white;
-}
+ #titulo {
+      color: aliceblue;   
+} 
 
 
 nav {
-    margin-top: 80px;
-    margin-left: 15px;
-    
+    background-color: rgb(65, 199, 32);
 }
 #minha_foto {
     width: 18%;
