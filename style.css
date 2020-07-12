@@ -56,7 +56,7 @@ nav a {
 }
 
 .lado-esquerdo {
-  margin-left: 170px;
+  margin-left: 200px;
   border: 1px solid rgb(248 , 212 , 242);
   width: 30%;
   height: 400px;
@@ -69,7 +69,7 @@ nav a {
   float: right;
   text-align: right;
   font-size: 25px;
-  margin-right: 170px;
+  margin-right: 200px;
 }
 
 .myExperience {
