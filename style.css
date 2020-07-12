@@ -65,6 +65,22 @@
       margin-top: 65px;
       clear: both;
     }
+    .texto-table{
+      margin-top: 15px;
+      color: rgb(49, 26, 151);
+    }
+    .th, td {
+      padding: 5px;
+      text-align: left;    
+    }
+    table, th, td{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;    
+    }
     #rodape{
       background-color: rgba(56, 5, 5, 0.274);
     }
