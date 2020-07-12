@@ -72,8 +72,8 @@ aside{
     width: 22%;    
 }    
 article, aside{    
-    display: inline-block;    
-    text-align: top;    
+    /*display: inline-block;    
+    text-align: top;*/    
 }
 .container-textos{
     /*border: 1px solid grey;
