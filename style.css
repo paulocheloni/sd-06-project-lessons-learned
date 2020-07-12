@@ -1,168 +1,185 @@
 body {
-    background-color: rgb(253, 251, 251);
-    color: whitesmoke;
-    font-family: 'Raleway', sans-serif;
+  background-color: rgb(253,251,251);
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
 }
 
 /* HEADER */
 header {
-    position: fixed; 
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    font-family: 'Pacifico', cursive;
-    color: rgb(61, 61, 61);
-    background-color: rgb(252, 206, 121);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: "Pacifico", cursive;
+  color: rgb(61,61,61);
+  background-color: rgb(252,206,121);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 #img-titulo {
-    width: 1em;
-    margin: 0.3em;
+  width: 1em;
+  margin: 0.3em;
 }
+
 header h1 {
-    font-weight: lighter;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 0.3em;
+  font-weight: lighter;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0.3em;
 }
+
 header nav ul {
-    list-style-type: none; /* Retirado os pontos dos itens */
-    font-size: 1.5em;
-    display: flex;
-    justify-content: space-between;
-    margin: 0.3em;
+  list-style-type: none; /* Retirado os pontos dos itens */
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3em;
 }
-header nav ul a{
-    text-decoration: none;
-    color: rgb(61, 61, 61);
-    margin: 0em 2em;  /* Espaço top/bottom  -  left/right */
+
+header nav ul a {
+  text-decoration: none;
+  color: rgb(61,61,61);
+  margin: 0em 2em;  /* Espaço top/bottom  -  left/right */
 }
+
 header nav ul a:hover {
-    text-shadow:rgb(0, 0, 0) 1px 1px 5px;
-    color: whitesmoke;
+  text-shadow: black 1px 1px 5px;
+  color: whitesmoke;
 }
 
 /* HOME */
 main {
-    margin-top: 8em;
+  margin-top: 8em;
 }
+
 h2 {
-    font-size: 2em;
-    font-family: 'Pacifico', cursive;
-    color: rgb(85, 85, 85);
-    font-weight: lighter;
-    text-align: center;
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+  color: rgb(85,85,85);
+  font-weight: lighter;
+  text-align: center;
 }
 
 /* DEFINIÇÃO IMAGENS */
-#img-computador, #img-certificate, .img-book, .img-pencil, #img-search {
-    max-width: 4%;
-    margin-right: 0.5em;
+#img-computador , #img-certificate , .img-book , .img-pencil , #img-search {
+  max-width: 4%;
+  margin-right: 0.5em;
 }
 
 /* DEFINIÇÃO DO LAYOUT H3 E PARÁGRAFOS */
 h3 {
-    font-size: 1.5em;
-    font-family: 'Pacifico', cursive;
-    color: rgb(85, 85, 85);
-    font-weight: lighter;
-    display: flex;
-    align-items: center;
-    margin-top: 0px;
-    background-color: rgb(250, 222, 171);
-    padding: 0.5em;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-}   
-p, .sobre-mim {
-    line-height: 2em; /* Espaçamento entre linhas */
-    text-align: justify;
-    margin: 3em;
-}
-#img-aula {
-    max-width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#descricao {
-    font-size: 1.2em;
-    margin: 1.2em;
-    text-align: center;
-}
-.licoes li {
-    margin:1em;
-}
-/* DEFINIÇÃO DO LAYOUT DAS SEÇÕES*/
-.Projeto, .licoes, .sobre-mim, #artigo, aside, footer, .licoes {
-    border-radius: 8px;
-    border: 1px solid rgb(161, 161, 161);
-    margin: 2em 3em;
-    background-color: rgb(44, 44, 44);
+  font-size: 1.5em;
+  font-family: "Pacifico", cursive;
+  color: rgb(85,85,85);
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  background-color: rgb(250,222,171);
+  padding: 0.5em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-/* EDITANDO A TABELA*/
+p , .sobre-mim {
+  line-height: 2em; /* Espaçamento entre linhas */
+  text-align: justify;
+  margin: 3em;
+}
+
+#img-aula {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#descricao {
+  font-size: 1.2em;
+  margin: 1.2em;
+  text-align: center;
+}
+
+.licoes li {
+  margin: 1em;
+}
+
+/* DEFINIÇÃO DO LAYOUT DAS SEÇÕES */
+.Projeto , .licoes , .sobre-mim , #artigo , aside , footer {
+  border-radius: 8px;
+  border: 1px solid rgb(161,161,161);
+  margin: 2em 3em;
+  background-color: rgb(44,44,44);
+}
+
+/* EDITANDO A TABELA */
 table {
-    color: rgb(44, 44, 44);
-    border: 1px solid rgb(44, 44, 44);
-    background-color: rgb(250, 222, 171);
-    width: 30%;
-    text-align: left;
-    border-collapse: collapse;
-    margin: 2em 3em;
-    font-size: 1em;
+  color: rgb(44,44,44);
+  border: 1px solid rgb(44,44,44);
+  background-color: rgb(250,222,171);
+  width: 30%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 2em 3em;
+  font-size: 1em;
 }
+
 table th {
-    font-family: 'Pacifico', cursive;
-    background-color: rgb(252, 206, 121);
-    font-weight: lighter;
-    text-align: center;
-    padding: 1em;
-    font-size: 1.5em;
+  font-family: "Pacifico", cursive;
+  background-color: rgb(252,206,121);
+  font-weight: lighter;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
 }
+
 table td {
-    padding-left: 1em;
+  padding-left: 1em;
 }
-.div-tabela, .logos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.div-tabela , .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #minha_foto {
-    max-width: 20%;
-    margin: 2em 2.5em;
-    border: 1px outset rgb(255, 213, 151);
+  max-width: 20%;
+  margin: 2em 2.5em;
+  border: 1px outset rgb(255,213,151);
 }
+
 /* LAYOUT DOS QUADROS COM APRENDIZADOS */
 .lado-direito {
-    float: right;
-    max-width: 37%;
+  float: right;
+  max-width: 37%;
 }
+
 .lado-esquerdo {
-    float: left;
-    max-width:63%;
+  float: left;
+  max-width: 63%;
 }
+
 .img-book {
-    max-width: 8%;
+  max-width: 8%;
 }
 
 /* FOOTER */
 footer {
-    clear: both;
+  clear: both;
 }
-footer a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5em;
-    margin: 1em 5em 1em 0em;
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em;
+  margin: 1em 5em 1em 0em;
 }
+
 footer a:hover {
-    color: rgb(252, 206, 121);
+  color: rgb(252,206,121);
 }
