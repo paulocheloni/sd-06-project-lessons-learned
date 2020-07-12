@@ -1,7 +1,21 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253 , 251 , 251);
 }
-#cabecalho{
-    position: fixed;
-    top: 0px;  
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+/* margin padding border font: font-size font color font-family */
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+}
+
+.lado-direito {
+  float: right;
+  right: 0;
+  width: 45%;
 }
