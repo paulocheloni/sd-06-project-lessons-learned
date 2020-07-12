@@ -254,6 +254,59 @@ body {
   margin-bottom: 12px;
 }
 
+/* table */
+
+.table-complement {
+  float: right;
+  margin: 12px 24px;
+  width: 20%;
+  height: 20vh;
+}
+
+.table-complement aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  height: 100%;
+  margin-top: 12px;
+  background-color: lightcyan;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.table-complement h4 {
+  margin-bottom: 12px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.table table {
+  border-collapse: collapse;
+  margin: 12px 0 16px;
+  width: 30%;
+  align-self: center;
+}
+
+.table table,
+.table th,
+.table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
+}
+
+.table th {
+  background-color: lightslategrey;
+  color: white;
+}
+
+/* footer */
+
 footer {
   background-color: navajowhite;
 }
