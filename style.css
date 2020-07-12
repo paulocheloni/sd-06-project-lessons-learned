@@ -1,5 +1,6 @@
 body {
     background-color:rgb(253, 251, 251);
+    color: #200224;
     font-family: Verdana, sans-serif; 
     padding: 0; 
     margin: 0;  
@@ -55,5 +56,6 @@ body {
 }
 
 h2 {
-    text-decoration: underline #4b0554
+    text-decoration: underline #4b0554;
+    font-size: 25px;
 }
