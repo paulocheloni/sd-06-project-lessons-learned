@@ -1,4 +1,5 @@
 
+
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -6,4 +7,23 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    color: blueviolet;
+    font-family: sans-serif;
+
+}
+
+#cabecalho h1 {
+    color: blueviolet;
+    font-size: 30;    
+}
+
+.content {
+    font-family: sans-serif;
+}
+
+.lista {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+
 }
