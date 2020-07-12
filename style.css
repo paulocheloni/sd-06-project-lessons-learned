@@ -3,23 +3,24 @@
 }
 
 body {
-  background-color: #f7f1f1;
+  background-color: rgb(253, 251, 251);
 }
 
  .barrasuperior{
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(134, 199, 50);
  }
 
 #cabecalho {
   position: relative;
   margin-top: 0px;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(134, 199, 50);
   height: 100px;
 }
 
 #titulo {
   padding: 10px;
-  color: rgb(56, 136, 80);
+  font-size: 2em;
+  font-family: fantasy;
   text-align: center;
 }
 
@@ -43,6 +44,7 @@ a {
 
 h2 {
   margin-left: 15px;
+  color: red;
 }
 
 #rodape h4{
@@ -50,9 +52,10 @@ h2 {
 }
 
 p {
+  margin: 15px;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 15px;
+  font-size: 25px;
   max-width: 80%;
   padding: 5px;
- }
+}
