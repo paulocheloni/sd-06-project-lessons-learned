@@ -11,6 +11,7 @@ body {
     width: 20px;
     padding: 2px;
     
+    
    
 
 }
@@ -38,4 +39,30 @@ body {
 #rodape {
     text-align: center;
 }
+
+.link {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 700px; 
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;    
+    line-height: 15px;
+}
+
+.verticalLine {
+    
+
+}
+
+.bloco {
+    display: flex;
+    padding: 2px;
+    
+}
+
 
