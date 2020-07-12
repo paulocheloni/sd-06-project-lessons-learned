@@ -60,7 +60,7 @@ ul {
 .testimony {
     display: inline-block;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .lado-esquerdo {
@@ -145,5 +145,35 @@ li {
 }
 
 li:hover {
-    background-color: #fefae0;;
+    background-color: #fefae0;
+}
+.table {
+    text-align: center;
+    padding-left: 31%; 
+    padding-bottom: 5%;
+}
+table {
+    border: #130e02;
+    border-style: solid;
+    border-width: 3px;
+}
+th {
+    font-size: 30px;
+    font-family: roboto, sans-serif;
+    padding: 10px;
+    border-width: 3px;
+    background-color: #606c38;
+   
+}
+td {
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+    padding: 5px;
+}
+td:hover {
+    background-color: #fefae0;
+}
+.table-links {
+    text-decoration: none;
+    color: #130e02;
 }
