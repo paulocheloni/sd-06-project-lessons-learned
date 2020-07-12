@@ -3,45 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Lessons Learned</title>
+    <title>Lições Aprendidas</title>
 </head>
 <body>
     <header id="cabecalho">
-        <h1 id="titulo">Lições Aprendidas</h1>
+        <h1 id="titulo"><img id="img-titulo" src="/img/logo.png" alt="Logo de um código">Lições Aprendidas</h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Sobre mim</li>
-                <li>Contato</li>
+                <li><a href="#intro-projeto">Projeto</a></li>
+                <li><a href="#descricao">Sobre</a></li>
+                <li><a href="#rodape">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Home</h2>
-        <section>
-            <h3>Sobre mim</h3>
-            <img id="minha_foto" src="/img/foto.jpg" alt="Foto de Débora Polesel">
-            <table>
-            <tr>
-                <th colspan="2">Informações sobre mim</th>
-            </tr>
-            <tr>
-                <td>Idade</td>
-                <td>30</td>
-            </tr>
-            <tr>
-                <td>Formação Acadêmica</td>
-                <td>Veterinária</td>
-            </tr>
-            <tr>
-                <td>Idiomas</td>
-                <td>Inglês, Italiano e Alemão</td>
-            </tr>
-            </table>
+        <h2 id="intro-projeto">Home</h2>
+        <section class="Projeto">
+                <h3><img id="img-computador" src="/img/computer.png" alt="Ilustração de um computador"> Primeiro Projeto na Trybe</h3>
+                <section class="text-project">
+                    <p>O projeto "Lições Aprendidas" foi realizado durante o curso de  Desenvolvimento de Software na Trybe. A grade curricular do curso conta com mais de 1.500 horas de aulas que abordam a introdução  ao  desenvolvimento  de  software,  front-end,  back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.</p>
+                    <p>Esta página é resultado de muito aprendizado e consolida mais uma etapa na minha formação como desenvolvedora. Foram apenas três semanas de curso mas são conhecimentos e vivências para toda a vida. Durante este período nossa turma teve muitas interações que foram essenciais para conhecer um pouco mais sobre a Trybe, a sua equipe de profissionais e nossos colegas de sala. Além disso, aprendemos sobre o Unix e o Shell Script. Não foi uma tarefa fácil mas é gratificante superar os desafios de trabalhar com o terminal.
+                    <p>A realização e avaliação deste projeto também não seria possível se não tivessemos aprendido sobre o Git e o Github. No início parece difícil mas para o crescimento de um desenvolvedor estas ferramentas são essenciais. Para finalizar, aprendemos os conceitos básicos de HTML e CSS que nos permitiram chegar nesta etapa do projeto. Tenho muito orgulho e admiração das minhas vitórias e de fazer parte desta escola.</p>
+                </section>
+            <img id="img-aula" src="/img/aula.png" alt="Imagem durante a aula da Trybe">
+            <figcaption id="descricao">Imagem de um fechamento das atividades</figcaption>
         </section>
-        <section>
-            <h3>Lições aprendidas</h3>
+        <section class="sobre-mim">
+            <h3><img id="img-certificate" src="/img/certificate.png" alt="Ilustração de um certificado">Sobre mim</h3>
+            <div class="div-tabela">
+                <table>
+                    <tr>
+                        <th colspan="2">Informações</th>
+                    </tr>
+                    <tr>
+                        <td>Residência</td>
+                        <td>Ribeirão Preto -SP</td>
+                    </tr>
+                    <tr>
+                        <td>Idade</td>
+                        <td>30 anos</td>
+                    </tr>
+                    <tr>
+                        <td>Formação Acadêmica</td>
+                        <td>Médica veterinária</td>
+                    </tr>
+                    <tr>
+                        <td>Idiomas</td>
+                        <td>Inglês, Italiano e Alemão</td>
+                    </tr>
+                </table>
+                <img id="minha_foto" src="/img/foto.jpg" alt="Foto de Débora Polesel">
+            </div>
+        </section>
+        <section class="licoes" >
+            <h3><img class="img-pencil" src="/img/pencil.png" alt="Ilustração de um lápis">Lições aprendidas</h3>
             <ol id="licoes_aprendidas">
                 <li>Shell Script</li>
                 <li>Unix e Bash</li>
@@ -54,8 +71,9 @@
                 <li>HTML Semântico</li>
                 <li>Desenvolvimento do Primeiro Projeto HTML e CSS</li>
             </ol>
-
-            <h3>Lições a aprender</h3>
+        </section>
+        <section class="licoes" >
+            <h3><img class="img-pencil" src="/img/pencil.png" alt="Ilustração de um lápis">Lições a aprender</h3>
             <ul id="licoes_a_aprender">
                 <li>Javascript</li>
                 <li>Introdução do Desenvolvimento Front-end</li>
@@ -71,19 +89,23 @@
         </section>
     </main>
     <div class="lado-esquerdo">
-        <article>
-            <h3>Milho</h3>
-            <p>O conceito Antifrágil surgiu com Nassim Taleb que divide os sistemas em estado robusto, frágil e antifrágil. Coisas frágeis perdem, robustas resistem e antifrágeis se beneficiam. Antifragilidade significa crescimento em situações adversas. O que tem a ver com o milho? Nossa turma na Trybe é a do milho. Há metáfora melhor? O milho pode ser moído, torrado, cozido e mesmo assim transforma-se em farinha, flocos e pipoca.Estas situações enxergamos como adversas mas ele cresce. Na vida sejamos como o milho, tirando sempre o melhor de nós em tempos difíceis.</p>
+        <article id="artigo">
+            <h3><img class="img-book" src="/img/book.png" alt="Ilustração de um papel e lápis">Meu aprendizado</h3>
+            <p>Neste trabalho tive a possibilidade de demonstrar os conhecimentos adquiridos durante o curso e também buscar aprofundar meus estudos em HTML e CSS. Apesar de nunca ter estudado Programação de Softwares, consegui desenvolver minhas habilidades e me sinto realizada e orgulhosa do meu aprendizado.</p>
         </article>
     </div>
     <div class="lado-direito">
         <aside>
-            <h4>Minhas primeiras semanas na Trybe</h4>
-            <p>Durante os primeiros dias de estudo a Trybe, os professores e os alunos superaram minhas espectavias. Meu aprendizado cresce a cada dia e o trabalho com as soft-skills foram exepcionais.</p>
+            <h3><img class="img-book" src="/img/book.png" alt="Ilustração de um papel e lápis">Minhas primeiras semanas</h3>
+            <p>O curso da Trybe me mostrou que sempre é possível aprender coisas novas quando se tem vontade e determinação.</p>
         </aside>
     </div>
     <footer id="rodape">
-        <a href="https://www.linkedin.com/in/deborapolesel/" target="_blank">Perfil no linkedin</a>
+        <h3><img id="img-search" src="/img/search.png" alt="Ilustração de uma lupa">Conheça mais sobre o meu trabalho</h3>
+        <div class="logos">
+            <a href="https://www.linkedin.com/in/deborapolesel/" target="_blank">Linkedin</a>
+            <a href="https://github.com/deborapolesel" target="_blank">Github</a>  
+        </div>
     </footer>
 </body>
 </html>
