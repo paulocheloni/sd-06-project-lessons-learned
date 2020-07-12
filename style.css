@@ -9,7 +9,7 @@ a , a:visited {
 .cabecalho {
   font-family: Times New Roman , Times , serif;
   font-style: oblique;
-  background: rgb(176 , 196 , 222);
+  background-color: rgb(176 , 196 , 222);
   top: 0;
   position: fixed;
   text-align: center;
@@ -23,7 +23,7 @@ a , a:visited {
 
 .nav {
   margin-top: 83px;
-  background: rgb(176 , 196 , 222);
+  background-color: rgb(176 , 196 , 222);
   color: white;
   display: flex;
   text-transform: uppercase;
