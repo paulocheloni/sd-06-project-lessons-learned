@@ -1,11 +1,17 @@
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
   border: 8px;
   color: blue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: large;
+  line-height: 2em;
   margin: 8px;
   padding: 10px;
+}
+
+h2 {
+  font-family: monospace;
+  color: rgb(50, 20, 80);
 }
 
 #cabecalho {
@@ -19,3 +25,21 @@ body {
   width: 25%;
 }
 
+#lado-esquerdo {
+  float: left;
+  margin: auto;
+}
+
+#lado-direito {
+  float: right;
+  margin: auto;
+}
+
+#lado-direito p {
+  max-width: 650px;
+  padding-bottom: 37px;
+}
+
+#lado-esquerdo p {
+  max-width: 650px;
+}
