@@ -2,13 +2,38 @@ body {
   background-color: rgb(253 , 251 , 251);
   margin: 0px;
   padding: 0px;
-  font-size: 1.2em;
+  font-size: 1.5em;
+}
+
+#nav {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav a {
+  margin-left: 20px;
+  font-weight: 900;
+  color: #183042;
+  border-radius: 20%;
+}
+
+#nav a:link, a:visited {
+  background-color: #498e8d;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#nav a:hover, a:active {
+  background-color: #183042;
 }
 
 #minha_foto {
-  width: 200px;
-  margin: 200px 0px 20px 20px;
+  width: 350px;
+  margin: 250px 0px 20px 20px;
   border-radius: 30%;
+  border:10px solid #183042;
 }
 
 #cabecalho {
@@ -21,7 +46,9 @@ body {
 #titulo {
   color: #498e8d;
   font-family: Fondamento, cursive;
-  font-size: 40px;
+  font-size: 60px;
+  margin-left: 20px;
+  text-align: center;
 }
 
 #rodape {
