@@ -9,7 +9,7 @@ a , a:visited {
 .cabecalho {
   font-family: Times New Roman , Times , serif;
   font-style: oblique;
-  background: #c6cdde;
+  background: #B0C4DE;
   top: 0;
   position: fixed;
   text-align: center;
@@ -23,7 +23,7 @@ a , a:visited {
 
 .nav {
   margin-top: 83px;
-  background: #c6cdde;
+  background: #B0C4DE;
   color: white;
   display: flex;
   text-transform: uppercase;
@@ -81,7 +81,9 @@ th {
 
 .rodape {
   text-align: center;
-  margin: 15px;
+  margin: -6px;
+  background-color: #B0C4DE;
+  width: auto;
 }
 
 .link-portfolio , .link-portfolio:visited {
