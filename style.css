@@ -1,13 +1,25 @@
 .body {
-  background:  rgb(253 , 251 , 251);
+  background:  rgb(253, 251, 251);
 }
 
 #cabecalho {
-  padding: 10px 10px 10px 0px;
+  top: 0px;
+  padding: 10px 10px 1px 1px;
   width: 98%;
   border: 1px solid black;
   box-shadow: 1px 1px 5px black;
   background:  rgb(191 , 236 , 217);
+  position: fixed;
+}
+.navegacao {
+  background: black;
+  color: white;
+  font: arial;
+  font-size: 18px;
+  margin-top: 115px;
+  width: 99%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px gray;
   position: fixed;
 }
 
@@ -25,8 +37,8 @@ h1 {
 }
 
 h1 span {
-  color:  rgb(191 , 236 , 217);
-  text-shadow: 1px 1px 2px rgb (0 , 5 , 0);
+  color:   rgb(191 , 236 , 217);
+  text-shadow: 1px 1px 2px rgb(0 , 5 , 0);
 }
 
 .opcoes li {
@@ -35,4 +47,34 @@ h1 span {
 }
 
 .content {
+  margin-top: 170px;
+  position: absolute;
+  z-index: -9;
+}
+
+.article_left {
+  width: 46%;
+  padding: 18px;
+  text-align: justify;
+  text-indent: 20px;
+  float: left;  
+}
+
+.article_rigth {
+  width: 46%;
+  padding: 18px;
+  text-align: justify;
+  text-indent: 20px;
+  float: right;  
+}
+
+footer {
+  bottom: 0px;
+  width: 97%;
+  text-align: right;
+  border: 1px solid gray;
+  font-size: 10px;
+  position: fixed;
+  padding-right: 20px;
+  background:  rgb(191 , 236 , 217);
 }
