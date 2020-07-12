@@ -2,8 +2,12 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+a:visited {
+  color: white;
+}
+
 .cabecalho {
-  font-family: 'Times New Roman' , Times , serif;
+  font-family: 'Times New Roman' , 'Times' ,  'serif';
   background: blue;
   top: 0;
   position: fixed;
@@ -19,11 +23,12 @@ body {
   text-transform: uppercase;
   position: relative;
   text-align: center;
+  line-height: 20px;
+  font-size: 15px;
 }
 
-.rodape {
-  text-align: center;
-  margin: 15px;
+.nav-link {
+  padding-left: 20px;
 }
 
 .lado-direito {
@@ -65,4 +70,13 @@ th {
   padding: 2px;
   border: groove gray;
   font-weight: 600;
+}
+
+.rodape {
+  text-align: center;
+  margin: 15px;
+}
+
+.link-portfolio {
+  background-color: rgb(223 , 221 , 221);
 }
