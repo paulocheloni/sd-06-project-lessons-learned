@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-h1 {
+#titulo {
     color: rgb (46, 8, 58);
 }
 
@@ -68,4 +68,7 @@ aside {
 
 #rodape {
     text-align: center;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
 }
