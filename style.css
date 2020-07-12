@@ -1,56 +1,57 @@
-
 <style>
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    background: rgb(253,251,251);
-}
-
-#cabecalho {
-    position: fixed;
-    top: 0px;
-    color: rgb(0, 0, 0);           
-}
-#titulo {
-    position: fixed;
-    color: rgb(0, 0, 0);
-    margin-left: 30px;
-    margin-top: 0px;
-} 
-#minha_foto {
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 100px;
-    z-index: 1;
-}
-#aprendizado, #Git {
-    margin-left: 30px;
-}
-#rodape {
-    color: rgb(255, 255, 255);
-    background:rgb(0, 0, 0);
-    border-left: 30px solid rgb(0, 0, 0);
-    margin-left: 0px
-}
-a { 
-    text-decoration:none;
-    background-color: black; 
-    color: rgb(255, 255, 255);
-}
-p,li {
-    color: rgb(87, 87, 87);
-}
-td {
-    color: rgb(87, 87, 87);
-    width: 25px;
-}
-#licoes_aprendidas, #licoes_a_aprender {
-    color: rgb(87, 87, 87);
-    margin-left: 30px;
-}
-h3 {
-    margin-left: 30px;
-}
-</style>
-
-
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(253,251,251);
+            padding-left: 0mm;
+        }
+        #cabecalho {
+            position: fixed;
+            top: 0px;
+            background:  rgb(1, 9, 54);
+            border-right: solid  rgb(1, 9, 54) 1010px; 
+        }
+        #titulo {
+            position: fixed;
+            color: rgb(0253,251,251);
+            background: rgb(1, 9, 54);
+            margin-left: 0px;
+            margin-top: 0px;
+            border-top: solid  rgb(1, 9, 54) 5px;
+            border-right: solid rgb(1, 9, 54) 10000px;
+            border-left: solid   rgb(1, 9, 54) 30px;
+            border-bottom: solid   rgb(1, 9, 54) 20px; ;
+        }   
+        #minha_foto {
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
+        #aprendizado, #Git {
+            margin-left: 30px;
+        }
+        #rodape {
+            color: rgb(255, 255, 255);
+            background: rgb(1, 9, 54);
+            border-left: solid  rgb(1, 9, 54) 30px;
+            margin-left: 0px;
+        }
+        a { 
+            color: rgb(255, 255, 255);
+        }
+        p,li {
+            color: rgb(99, 89, 89);
+        }
+        td {
+            color: rgb(99, 89, 89);;
+            width: 25px;
+        }
+        #licoes_aprendidas, #licoes_a_aprender {
+            margin-left: 30px;
+        }
+        h3 {
+            margin-left: 30px;
+        }
+        table {
+            margin: 30px;
+        }
+        </style>

@@ -10,63 +10,67 @@
         <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(0, 0, 0);
             background: rgb(253,251,251);
+            padding-left: 0mm;
         }
-
         #cabecalho {
             position: fixed;
             top: 0px;
-            color: rgb(0, 0, 0);           
+            background:  rgb(1, 9, 54);
+            border-right: solid  rgb(1, 9, 54) 1010px; 
         }
         #titulo {
             position: fixed;
-            color: rgb(0, 0, 0);
-            margin-left: 30px;
+            color: rgb(0253,251,251);
+            background: rgb(1, 9, 54);
+            margin-left: 0px;
             margin-top: 0px;
-        } 
+            border-top: solid  rgb(1, 9, 54) 5px;
+            border-right: solid rgb(1, 9, 54) 10000px;
+            border-left: solid   rgb(1, 9, 54) 30px;
+            border-bottom: solid   rgb(1, 9, 54) 20px; ;
+        }   
         #minha_foto {
             width: 300px;
             margin-left: 30px;
             margin-top: 100px;
-            z-index: 1;
         }
         #aprendizado, #Git {
             margin-left: 30px;
         }
         #rodape {
             color: rgb(255, 255, 255);
-            background:rgb(0, 0, 0);
-            border-left: 30px solid rgb(0, 0, 0);
-            margin-left: 0px
+            background: rgb(1, 9, 54);
+            border-left: solid  rgb(1, 9, 54) 30px;
+            margin-left: 0px;
         }
         a { 
-            text-decoration:none;
-            background-color: black; 
             color: rgb(255, 255, 255);
         }
         p,li {
-            color: rgb(87, 87, 87);
+            color: rgb(99, 89, 89);
         }
         td {
-            color: rgb(87, 87, 87);
+            color: rgb(99, 89, 89);;
             width: 25px;
         }
         #licoes_aprendidas, #licoes_a_aprender {
-            color: rgb(87, 87, 87);
             margin-left: 30px;
         }
         h3 {
             margin-left: 30px;
         }
+        table {
+            margin: 30px;
+        }
         </style>
     </head>
     <body>
-        <header id="cabecalho">
+        <header id="cabecalho"> 
         <ul>
-            <a href="#aprendizado">Aprendizado/</a>
-            <a href="#Git">Git/</a>
-            <a href="#licoes_aprendidas">Top 10/</a>
+            <a href="#aprendizado">Aprendizado /</a>
+            <a href="#Git">Git /</a>
+            <a href="#licoes_aprendidas">Top 10 /</a>
             <a href="#rodape">Vou aprender</a>
         </ul>
         <h1 id="titulo">FIRST PROJECT</h1>
@@ -76,20 +80,16 @@
         </nav>
         <article id="aprendizado">
           <h2>Meu Aprendizado Trybe!</h2>
-          <p>Fala, galera! É indescritivel estar aqui nesse momento podendo escrever esse peuqeno artigo 
+            <p>Fala, galera! É indescritivel estar aqui nesse momento podendo escrever esse peuqeno artigo 
               sobre o meu aprendizado aqui na Trybe. Dizer que esta sendo facil seria mentira, já que no meu
               caso tudo tem sido novidade. Mas a sensação de estar aprendendo e podendo realizar o que eu
               tenho realizado é incrivel. </p>
         </article>
         <aside id="Git">
-            <h2>O famoso Git!</h2>
-                <p>No inicio tudo parecia festa, mas logo me apareceu um tal de Git 
-                e Github que me deixaram maluco!! Mas como tudo na vida, acostumamos e aprendemos com a pratica
-                e com o tempo entendemos que somos capazes sim. E agora eu estou aqui, veja só!! Podendo criar 
-                meu primeiro projeto, utilizando não somente a ferramente Git, mas tambem entendendo já sobre html
-                e Css. Só agradeço a equipe da Trybe!!</p>
-          
-
+            <h2>O Famoso Git!</h2>
+            <p>No inicio tudo parecia festa, mas logo me apareceu um tal de Git e Github que me deixaram maluco!! 
+            Mas como tudo na vida, acostumamos e aprendemos com a pratica e com o tempo entendemos que somos capazes 
+            de dominar tarefas importantes.</p>
         </aside>
         <section>
         <h3>Top 10 liçoes aprendidas</h3>
@@ -124,7 +124,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>Maior dificuldade/</th>
+                    <th>Maior dificuldade</th>
                     <th>Outra dificuldade</th>
                 </tr>
             </thead>
@@ -137,13 +137,13 @@
         </table>
     
      
-     <footer id="rodape">
-        <h4>Saiba mais sobre o Programador:</h4>
-         <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>
-         <br>
-         <a target="_blank" href="https://www.facebook.com/vinicius.b.matta/">Facebook</a>
-         <br>
-         <a target="_blank" href="https://www.instagram.com/vbragaoficial/?hl=pt-br">Instagram</a>
-            
-     </footer>
+        <footer id="rodape">
+            <h4>Saiba mais sobre o Programador:</h4>
+             <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>
+             <br>
+             <a target="_blank" href="https://www.facebook.com/vinicius.b.matta/">Facebook</a>
+             <br>
+             <a target="_blank" href="https://www.instagram.com/vbragaoficial/?hl=pt-br">Instagram</a>
+                
+         </footer>
     </body>
