@@ -106,3 +106,7 @@ footer {
 .bigger-font {
   font-size: 30px;
 }
+
+.tick {
+  height: 20px;
+}
