@@ -46,7 +46,7 @@ background-color: rgb(247, 197, 104);
     color: black;
     text-align: center;
 }
-.tamanho-elemento{
+.lado-esquerdo, .lado-direito{
     max-width: 50%;
     color: gray;
     text-align: justify;
