@@ -60,6 +60,7 @@ header,
 
 section {
   width: 100%;
+  margin: 0 auto;
 }
 
 nav {
@@ -100,7 +101,8 @@ h2 {
 .footer-text, 
   .two-columns, 
   .learning-journey,
-  nav li {
+  nav li,
+  .personal-info article {
   display: inline-block;
 }
 
@@ -123,6 +125,10 @@ h2 {
   float: right;
 }
 
+.two-columns div {
+    padding: 10px 20px;
+}
+
 .article-plus-aside article {
   width: 65%;
 }
@@ -131,13 +137,22 @@ h2 {
   width: 30%;
 }
 
+.two-columns {
+  padding: 40px;
+}
+
 .two-columns, .article-plus-aside, .learning-journey {
-  padding: 15px;
   overflow: hidden;
+  background-color: #eae7dc;
+  border-radius: 5%;
 }
 
 .two-columns, .article-plus-aside ul, ol {
   width: 50%;
+}
+
+.learning-journey {
+  margin: 20px auto;
 }
 
 .bigger-font {
