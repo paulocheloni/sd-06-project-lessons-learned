@@ -32,7 +32,7 @@ body {
     border-color: white;
     border-width: 10px;
 }
-.artigo_principal{
+.artigo_principal {
     background-color: darkkhaki;
     width: 75vw;
     height: 50vh;
@@ -62,17 +62,20 @@ body {
     float: left;
     height: 35vh;
 }
-.sessao_artigo {
+.lado-esquerdo {
     height: 35vh;
     background-color: #ccccdd;
     border-radius: 30px;
     padding-top: 5px;
     margin-top: 10px;
+    width: 200px;
+    float: left;
+    margin-left: 200px;
 }
-.sessao_artigo h4 {
+.lado-esquerdo h4 {
     margin-left: 15px;
 }
-.sessao_artigo p {
+.lado-esquerdo p {
     font-size: 14px;
     font-style: oblique;
     color: brown;
@@ -84,12 +87,6 @@ body {
     margin-left: 150px;
     background-color: tomato;
     float: left;
-    height: 35vh;
-}
-.lado-esquerdo {
-    width: 200px;
-    float: left;
-    margin-left: 200px;
     height: 35vh;
 }
 .sublinhado {
