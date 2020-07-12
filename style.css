@@ -30,7 +30,7 @@ body {
     border: 30px ridge darkgreen;
 }
 
-.lado-direito {
+.lado-esquerdo {
     margin: 50px;
     font-weight: 600;
     display: inline-block;
@@ -59,7 +59,7 @@ body {
     background-color: orangered;
 }
 
-.lado-direito.artigo {
+.lado-esquerdo.artigo {
     display: inline-block;
     max-width: 600px;
     margin-left: 30px;
@@ -67,7 +67,7 @@ body {
     line-height: 30px;
 }
 
-.lado-esquerdo {
+.lado-direito {
     max-width: 200px;
     background-color: gray;
     float: right;
