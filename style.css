@@ -74,10 +74,16 @@ table {
     grid-template-columns: auto auto;
 }
 
-.grid-item {
+.lado-esquerdo {
     text-align: left;
     color: seagreen;
-    font-size: 180%;
+    font-size: 200%;
+}
+
+.lado-direito {
+    text-align: left;
+    font-size: 200%;
+    color: seagreen;
 }
 
 #minha_foto {
@@ -91,18 +97,9 @@ table {
 .art-container {
     text-align: left;
     display: inline-block;
-    color: white;
+    color: seagreen;
     padding-right: 8%;
     padding-left: 10%;
-    font-size: 120%;
-}
-
-.container-lessons ol ul li {
-    color: white;
-    text-decoration: none;
-    transition: opacity 0.2s;
-    padding: 1%;
-    text-align: left;
 }
 
 article {
