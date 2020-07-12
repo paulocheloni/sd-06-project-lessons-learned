@@ -4,7 +4,15 @@
             <meta charset="utf-8">
             <title>WebTreino</title>
             <style>
-                
+                .contraste{
+                    background-color: rgb(253, 251, 251);
+                    font-family: sans-serif;
+                    color: rgb(2,4,4);
+                }
+                .contraste2{
+                    background-color: white;
+                    color: black;
+                }
                 td {
                     width: 100px;
                     font-family: sans-serif;
@@ -15,28 +23,36 @@
                     position:fixed;
                     width: 100%;
                     background-color: green;
+                    text-align: center;
+                    color: white;
                 }
-                #titulo {
-
-                }
-                #minha_foto {
-
+                #titulo{}
+                #minha_foto{
+                    background-color: rgb(253, 251, 251);
+                    color: rgb(2,4,4);
                 }
                 #licoes_aprendidas{
                     list-style-type:decimal-leading-zero;
                 }
                 #licoes_a_aprender{}
                 #rodape{
-                    background-color: greenyellow;
+                    background-color: green;
+                    color: white;
                 }
                 nav{
-                    background-color:khaki;
+                    background-color:green;
                     margin-top: 100px;
+                    color: white;
                 }
                 .lado-esquerdo {
                     float: left;
                     width: 40%;
                     font-family: sans-serif;
+                    box-sizing: border-box;
+                    border-style: ridge;
+                    border-radius: 10px;
+                    background-color: white;
+                    color: black;
                 }
                 .lado-direito {
                     float: right;
@@ -44,12 +60,11 @@
                     font-family: monospace;
                     line-height: 2em;
                     font-size: 1.5em;
-                    color:khaki;
-                    background-color:darkcyan;
                     box-sizing: border-box;
-                    border-color: khaki;
                     border-style: ridge;
                     border-radius: 10px;
+                    background-color: white;
+                    color: black;
                     
                 }
                 footer{
@@ -68,18 +83,19 @@
 
 
         </head>
-        <body background="rgb(253, 251, 251)">
+        <body class="contraste">
             <header id="cabecalho">
                 <h1 id="titulo">Título</h1>
                 </header>
             <nav>
-                <h2>Navegação</h2>
+                <h2>Home</h2>
+                <h2>Login</h2>
             </nav>
-            <section>
+            <section class="contraste2">
                 <h2>Minha foto:</h2>
                 <img id="minha_foto" src="eufoto.jpg" alt="Foto do Aloízio na British Library">
             </section>  
-            <div><ol id="licoes_aprendidas">
+            <div class="contraste2"><ol id="licoes_aprendidas">
                 <li>Unix</li>
                 <li>Git</li>
                 <li>GitHub</li>
@@ -92,7 +108,7 @@
                 <li>Semantic HTML</li>
                 </ol>
             </div>
-            <div><ul id="licoes_a_aprender">
+            <div class="contraste2"><ul id="licoes_a_aprender">
                 <li>JavaScript</li>
                 <li>DOM</li>
                 <li>Forms</li>
@@ -119,7 +135,7 @@
                 <a target="_blank" href="http://www.csszengarden.com/"> Veja uma demonstração do que é possível fazer com CSS neste link</a>
             </div>
             <div>
-                <table>
+                <table class="contraste2">
                     <tr>
                         <td>1</td>
                         <td>Cruzeiro</td>
