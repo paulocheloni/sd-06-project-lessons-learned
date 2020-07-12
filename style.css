@@ -25,22 +25,22 @@ h2 {
   width: 25%;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   margin: auto;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   margin: auto;
 }
 
-#lado-direito p {
+.lado-direito p {
   max-width: 650px;
   padding-bottom: 37px;
 }
 
-#lado-esquerdo p {
+.lado-esquerdo p {
   max-width: 650px;
 }
 
