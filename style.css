@@ -1,23 +1,29 @@
 body {
-    background-color: rgb(253,251,251);
+    color: #fff;
+    background: linear-gradient(#062f4f,#813772,#b82601,#062f4f,#062f4f);
+    
 }
 
-#cabecalho {
+.cabecalho {
     top: 0px;
-    background-color: royalblue;
-    padding: 1px;
-    text-align: center;
-    width: 10px;
-    position: fixed;
+    background-color: black;
+    text-align: left;
+    width: 20px;
+    padding: 2px;
+    
+   
 
 }
 
 #titulo {
     padding: 10px;
     font-family: monospace;
+
 }
 
 #minha_foto {
+    width: 300px;
+    border-radius: 50%;
     
 }
 
@@ -32,3 +38,4 @@ body {
 #rodape {
     text-align: center;
 }
+
