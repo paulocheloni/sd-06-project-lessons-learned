@@ -54,6 +54,19 @@ table {
     font-size: 180%;
     color: seagreen;
     align-items: center;
+    line-height: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#licoes_a_aprender {
+    color: seagreen;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#licoes_aprendidas {
+    color: seagreen;
+    align-items: center;
 }
 
 .grid-container {
@@ -102,9 +115,9 @@ aside {
 }
 
 footer {
-    text-align: left;
+    text-align: center;
     font-size: 100%;
     padding: 1%;
     color: white;
-    text-align: center;
+    background-color: black;
 }
