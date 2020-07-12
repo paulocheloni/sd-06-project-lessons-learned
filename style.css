@@ -41,6 +41,12 @@
   margin: 0 10px;
 }
 
+.text a {
+  text-decoration: none;
+  color: rgb(25 , 25 , 25);
+  background-color: rgb(80 , 180 , 226);
+}
+
 .navigation li a {
   text-decoration: none;
   color: black;
@@ -60,9 +66,8 @@
 
 .box {
   margin-top: 70px;
-  text-align: center;
-  line-height: 50px;
   background-color: rgb(80 , 180 , 226);
+  clear: both;
 }
 
 .title {
@@ -79,34 +84,38 @@
   font-family: Merriweather, serif;
   font-size: 20px;
   background-color: rgb(80 , 180 , 226);
-  padding: 60px 40px;
+  padding: 40px 40px 100px;
+  line-height: 40px;
+  text-align: center;
 }
 
 .text p , em , strong {
   background-color: rgb(80 , 180 , 226);
 }
 
-/* OK ATÉ AQUI */
 .lado-esquerdo {
   float: left;
-  margin-left: 100px;
+  padding: 50px 150px;
 }
 
 .lado-direito {
-  float: right;
-  margin-right: 90px;
+  float: left;
+  padding: 50px 150px;
 }
 
-.article {
-  clear: both;
+.title2 {
+  font-size: 35px;
+  font-family: Open Sans, sans-serif;
 }
 
-/* .box li {
+.list {
   font-size: 20px;
   font-family: Merriweather, serif;
-  line-height: 40px;
-} */
+  line-height: 35px;
+  padding-top: 40px;
+}
 
+/* OK ATÉ AQUI */
 .footer {
   text-align: center;
   font-family: Merriweather, serif;
