@@ -15,7 +15,17 @@ h1, h2, h3 {
 .imagem-perfil {
   margin-left: 15px;
   margin-bottom: 10px;
+}
 
+td {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.menu-barra {
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 ol, ul {
