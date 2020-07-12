@@ -1,13 +1,13 @@
-
 /* general settings */
 * {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: crimson
+  color: crimson;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 .cabecalho {
   background-color: lightslategrey;
   position: fixed;
-  top: 0px;
+  top: 0;
   height: 4vh;
   z-index: 99999;
   width: 100%;
@@ -28,6 +28,7 @@ body {
 
 .cabecalho h1 {
   font-size: 20px;
+  line-height: 22px;
   text-align: center;
   width: 100%;
   color: white;
@@ -110,7 +111,7 @@ body {
   justify-self: flex-start;
   margin: 20px 0 0;
   font-size: 42px;
-  flex:1;
+  flex: 1;
 }
 
 .lado-esquerdo p {
@@ -125,14 +126,14 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  background-color: rgb(179, 135, 91);
+  background-color: rgb(179 , 135 , 91);
   padding: 8px;
   border-radius: 8px;
   margin: 16px 8px 16px 8px;
 }
 
 .html-semantico {
-  background-color: rgb(104, 182, 104);
+  background-color: rgb(104 , 182 , 104);
   border-radius: 8px;
   color: white;
   font-weight: 700;
@@ -143,7 +144,7 @@ body {
 }
 
 .section-1 {
-  background-color: rgb(104, 214, 214);
+  background-color: rgb(104 , 214 , 214);
   margin: 3px;
   border-radius: 8px;
   padding: 4px;
@@ -153,7 +154,7 @@ body {
 }
 
 .section-1 p {
-  background-color: rgb(38, 110, 110);
+  background-color: rgb(38 , 110 , 110);
   width: 100%;
   border-radius: 8px;
 }
@@ -165,7 +166,7 @@ body {
 }
 
 .sub1 {
-  background-color: rgb(104, 214, 214);
+  background-color: rgb(104 , 214 , 214);
   border-radius: 8px;
   padding: 4px;
   text-align: center;
@@ -173,7 +174,7 @@ body {
 }
 
 .sub1-1 {
-  background-color: rgb(38, 110, 110);
+  background-color: rgb(38 , 110 , 110);
   border-radius: 8px;
   padding: 4px;
 }
@@ -185,13 +186,13 @@ body {
 }
 
 .sub1-1 p {
-  background-color: rgb(104, 214, 214);
+  background-color: rgb(104 , 214 , 214);
   border-radius: 8px;
   padding: 1px;
 }
 
 .sub2 {
-  background-color: rgb(104, 214, 214);
+  background-color: rgb(104 , 214 , 214);
   border-radius: 8px;
   margin-left: 2%;
   width: 40%;
@@ -199,7 +200,7 @@ body {
 }
 
 .section-3 {
-  background-color: rgb(104, 214, 214);
+  background-color: rgb(104 , 214 , 214);
   border-radius: 8px;
   margin: 3px;
 }
