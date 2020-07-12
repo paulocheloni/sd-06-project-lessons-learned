@@ -9,16 +9,21 @@ a , a:visited {
 .cabecalho {
   font-family: Times New Roman , Times , serif;
   font-style: oblique;
-  background: blue;
+  background: #c6cdde;
   top: 0;
   position: fixed;
   text-align: center;
   width: 100%;
 }
 
+.img {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .nav {
   margin-top: 83px;
-  background: blue;
+  background: #c6cdde;
   color: white;
   display: flex;
   text-transform: uppercase;
