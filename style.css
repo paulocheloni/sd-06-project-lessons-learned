@@ -24,17 +24,24 @@ body {
     text-decoration: none;
 }
 
-#titulo a {
-    padding: 3%;
+section {
+    margin-top: 8%;
     color: black;
     font-weight: bold;
     text-decoration: none;
     transition: opacity 0.2s;
+    text-align: center;
 }
 
-#titulo:hover {
-    background-color: rgb(253, 251, 251));
-    color: white;
+section a {
+    text-decoration: none;
+    color: black;
+    font-size: 190%;
+}
+
+#cabecalho:hover {
+    background-color: rgb(253, 251, 251);
+    color: seagreen;
 }
 
 .grid-container {
@@ -52,7 +59,7 @@ body {
     border-radius: 100%;
     width: 30%;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .art-container {
