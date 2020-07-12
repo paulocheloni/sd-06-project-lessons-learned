@@ -4,10 +4,6 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-p {
-    background-color: cornflowerblue;
-}
-
 #cabecalho {
     position: fixed;
     top: 0;
@@ -16,24 +12,45 @@ p {
 #cabecalho h1 {
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 30;
 }
 
-#cabecalho h1 {
-    color: blueviolet;
-    font-size: 30;    
+#titulo {
+    float: left;
 }
+
+#minha_foto {
+    float: right;
+}
+
 
 .content {
     font-family: sans-serif;
+    margin-top: 150px;
+    border-style: dashed;
 }
 
 #licoes_aprendidas {
-    letter-spacing: 10;  
+    letter-spacing: 20;  
 }
 
+.lado-esquerdo {
+    float: left;
+}
 
-.lista {
-    width: 40%;
-    display: inline-block;
-    text-align: center;
+.lado-direito {
+    float: right;
+}
+
+.rodape-left {
+    float: left;
+    max-width: 50%;
+}
+
+.rodape-right {
+    float: right;
+}
+
+.abaixo {
+    margin-top: 300px;
 }
