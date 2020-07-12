@@ -1,53 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Meu primeiro projeto!</title>
-    <style>
-     body {
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu primeiro projeto: Liçoes Trybe!</title>
+</head>
+        <style>
+        body {
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(0, 0, 0);
-            background: 
-    }
+            color: rgb(6, 0, 87);
+            background: rgb(253,251,251);
+        }
 
         #cabecalho {
+            position: fixed;
             top: 0px;
-            
+            color: rgb(6, 0, 87);           
         }
         #titulo {
-            width: 250px;
-            position: relative;
-            color: rgb(0, 0, 0);
-            margin-left: 40px;
-            margin-top: 25px;
             position: fixed;
+            color: rgb(6, 0, 87);
+            margin-left: 30px;
+            margin-top: 0px;
         } 
         #minha_foto {
             width: 300px;
             margin-left: 30px;
-            margin-top: 120px;
+            margin-top: 100px;
             z-index: 1;
         }
         #aprendizado {
             margin-left: 30px;
         }
-        #licoes_aprendidas {
-            position: ;
-        }
-        #rodape{
-            color: rgb(0, 0, 0);
-            background:rgb(62, 141, 212);
-            border-left: 30px solid rgb(62,141, 212);
+        #rodape {
+            color: rgb(255, 255, 255);
+            background:rgb(6, 0, 87);
+            border-left: 30px solid rgb(6,0,87);
             margin-left: 0px
         }
-</style>
+        a { 
+            text-decoration:none;
+            border: 35x solid rgb(0, 0, 0); 
+            color: rgb(6, 0, 87);
+        }
+        p,li {
+            color: rgb(87, 87, 87);
+        }
+        td {
+            color: rgb(87, 87, 87);
+            width: 25px;
+        }
+        </style>
     </head>
     <body>
-     <header id="cabecalho">    
+        <header id="cabecalho">
+        <ul>
+            <a href="#aprendizado" style = "color: rgb(6, 0, 87);" >Aprendizado/</a>
+            <a href="#licoes_aprendidas"style ="color: rgb(6, 0, 87);">Top 10/</a>
+            <a href="#rodape" style ="color: rgb(6, 0, 87);">Vou aprender</a>
+        </ul>
         <h1 id="titulo">FIRST PROJECT</h1>
-        <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/10653642_10205219263465566_238059911877259319_n.jpg?_nc_cat=107&_nc_sid=d2e176&_nc_ohc=cOvdpr_dB90AX-stPMV&_nc_ht=scontent.fplu9-2.fna&oh=d10b77346e84567061f8cf2833fcaef7&oe=5F29C80F"alt="Foto Do Vinicius com a Renata" id="minha_foto">
      </header>
-      <article id="aprendizado">
+     <nav>
+        <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/10653642_10205219263465566_238059911877259319_n.jpg?_nc_cat=107&_nc_sid=d2e176&_nc_ohc=cOvdpr_dB90AX-stPMV&_nc_ht=scontent.fplu9-2.fna&oh=d10b77346e84567061f8cf2833fcaef7&oe=5F29C80F" alt="Foto Do Vinicius com a Renata" id="minha_foto">
+     </nav>
+        <article id="aprendizado">
           <h2>Meu Aprendizado Trybe!</h2>
           <p>Fala, galera! É indescritivel estar aqui nesse momento podendo escrever esse peuqeno artigo 
               sobre o meu aprendizado aqui na Trybe. Dizer que esta sendo facil seria mentira, já que no meu
@@ -86,37 +105,28 @@
             <li>NoSQL</li>
             <li>NodeJS</li>
         </ul>
-       </section>
-      </article>
-      <h1>Minhas Metas</h1> 
+     </section>
+     </article>
+     <aside>
+      <h3>O que preciso melhorar?</h3> 
         <table>
             <thead>
                 <tr>
-                    <th>Pet name</th>
-                    <th>Species</th>
-                    <th>Color</th>
+                    <th>Maior dificuldade/</th>
+                    <th>Outra dificuldade</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Black & white</td>
-                    <td>rabbit</td>
-                    <td>black and white</td>
-                </tr>
-                <tr>
-                    <td>Daemon</td>
-                    <td>cat</td>
-                    <td>black</td>
-                </tr>
-                <tr>
-                    <td>Angel</td>
-                    <td>cat</td>
-                    <td>orange</td>
+                    <td>Ferramenta Git e Github</td>
+                    <td>Decorar Tags de Html e Css</td>
                 </tr>
             </tbody>
         </table>
+    </aside>
+       
      <footer>
-        <h3 id="rodape">Saiba mais sobre o Programador:</h3>
+        <h4 id="rodape">Saiba mais sobre o Programador:</h4>
          <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>
          <br>
          <a target="_blank" href="https://www.facebook.com/vinicius.b.matta/">Facebook</a>
