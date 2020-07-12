@@ -52,17 +52,17 @@
         margin: 10px;
     }
     
-    
-    .lado_direito {
-        width: 600px;
-        height: 180px;
-        display: inline-block;    
-    }
-    .lado_esquerdo {
+    .lado-esquerdo {
         width: 600px;
         height: 100px;
         display: inline-block; 
         float: left;
     }
+    .lado-direito {
+        width: 600px;
+        height: 180px;
+        display: inline-block;    
+    }
+    
         
     
