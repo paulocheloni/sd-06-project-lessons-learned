@@ -17,7 +17,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body > * {
+body > *,
+  .two-columns div,
+  .learning-journey,
+  footer {
     text-align: center;
 }
 
@@ -64,14 +67,28 @@ nav li {
 
 footer {
   clear: both;
+  height: 100px;
+  position: relative;
 }
 
 th {
   font-weight: 500;
 }
 
+th, td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
 h2 {
   margin: 20px 0px;
+}
+
+.footer-text {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
 }
 
 .personal-info {
@@ -80,10 +97,6 @@ h2 {
 
 .two-columns {
   display: inline-block;
-}
-
-.two-columns div {
-  text-align: center;
 }
 
 .lado-esquerdo {
@@ -102,7 +115,7 @@ h2 {
   width: 30%;
 }
 
-.two-columns, .article-plus-aside {
+.two-columns, .article-plus-aside, .learning-journey {
   padding: 15px;
   overflow: hidden;
 }
@@ -117,4 +130,10 @@ h2 {
 
 .tick {
   height: 20px;
+}
+
+.learning-journey {
+  clear: both;
+  display: inline-block;
+  margin: 0 auto;
 }
