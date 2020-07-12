@@ -12,13 +12,20 @@
   <header id="cabecalho">
     <h1 class="title" id="titulo">Lições aprendidas na Trybe</h1>
     <nav class="menu">
-      <a href="#">Home</a>
-      <a href="#">Detalhes</a>
-      <a href="#">Contato</a>
+      <a href="#cabecalho">Home</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#rodape">Contato</a>
     </nav>
   </header>
-  <img class="image" id="minha_foto" src="img/dilenio.jpg" alt="Foto do Dilenio">
-  <section class="container">
+  <section id="conteudo" class="container">
+    <section class="lado-esquerdo topo-esquerdo">
+      <h2>Seja um desenvolvedor<br>Web Full Stack</h2>
+      <p>Clique no link abaixo e saiba mais</p>
+      <a class="btn" target="_blank" href="https://betrybe.com">Trybe</a>
+    </section>
+    <section class="lado-direito topo-direito">
+      <img class="image" id="minha_foto" src="img/dilenio.jpg" alt="Foto do Dilenio">   
+    </section>
     <section class="lado-esquerdo">
       <table>
         <thead>
@@ -62,16 +69,15 @@
       </table>
     </section>
     <article class="lado-direito">
-      <p>Quando iniciei os estudos, tinha uma expectativa grande sobre como seria o aprendizado e o relacionamento com o pessoal da Trybe e os colegas. Na verdade está sendo uma experiência incrível estudar na Trybe, a cada dia que passa percebo que o aprendizado está aumentado e também minha vontade de aprender cada vez mais. Realmente minhas expectativas estão sendo superadas em muito.</p>
+      <p>Quando iniciei os estudos, tinha uma expectativa grande sobre como seria o aprendizado e o relacionamento com o pessoal da Trybe e os colegas, já que as aulas seriam online. Na verdade está sendo uma experiência incrível estudar na Trybe, a cada dia que passa percebo que o aprendizado está aumentado e também minha vontade de aprender cada vez mais. Realmente minhas expectativas estão sendo superadas em muito.</p>
     </article>
-    <a target="_blank" href="https://betrybe.com">Trybe - Seja um desenvolvedor Full Stack</a>
   </section>
-  <footer id="rodape">
-    <p>Criado por Dilenio Enderle</p>
-  </footer>
-  <aside>
-    <p>O meu aprendizado aqui na Trybe está sendo ótimo, consegui aprender muitas coisas que durante anos vinha tentando aprender sozinho, buscando informações na internet, daqui e dali, mas nada como uma educação bem organizada e bem orientada.</p>
+  <aside class="lateral">
+    <p>"O meu aprendizado aqui na Trybe está sendo ótimo, consegui aprender muitas coisas que durante anos vinha tentando aprender sozinho, buscando informações na internet, daqui e dali, mas nada como uma educação bem organizada e bem orientada."</p>
   </aside>
+  <footer id="rodape" class="rodape">
+    <p>Criado por <a href="https://github.com/dilenio" alt="link para o github do Dilenio">Dilenio Enderle</a></p>
+  </footer>
 </body>
 
 </html>
