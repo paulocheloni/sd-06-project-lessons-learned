@@ -20,6 +20,12 @@ h1, h2, h3 {
 td {
   padding-left: 7px;
   padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  }
+
+.indice-divisoria {
+  border-right: 1px solid rgb(41,50,65);
 }
 
 .menu-barra {
