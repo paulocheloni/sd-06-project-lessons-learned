@@ -10,18 +10,18 @@
         <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(6, 0, 87);
+            color: rgb(0, 0, 0);
             background: rgb(253,251,251);
         }
 
         #cabecalho {
             position: fixed;
             top: 0px;
-            color: rgb(6, 0, 87);           
+            color: rgb(0, 0, 0);           
         }
         #titulo {
             position: fixed;
-            color: rgb(6, 0, 87);
+            color: rgb(0, 0, 0);
             margin-left: 30px;
             margin-top: 0px;
         } 
@@ -31,19 +31,19 @@
             margin-top: 100px;
             z-index: 1;
         }
-        #aprendizado {
+        #aprendizado, #Git {
             margin-left: 30px;
         }
         #rodape {
             color: rgb(255, 255, 255);
-            background:rgb(6, 0, 87);
-            border-left: 30px solid rgb(6,0,87);
+            background:rgb(0, 0, 0);
+            border-left: 30px solid rgb(0, 0, 0);
             margin-left: 0px
         }
         a { 
             text-decoration:none;
-            border: 35x solid rgb(0, 0, 0); 
-            color: rgb(6, 0, 87);
+            background-color: black; 
+            color: rgb(255, 255, 255);
         }
         p,li {
             color: rgb(87, 87, 87);
@@ -52,35 +52,48 @@
             color: rgb(87, 87, 87);
             width: 25px;
         }
+        #licoes_aprendidas, #licoes_a_aprender {
+            color: rgb(87, 87, 87);
+            margin-left: 30px;
+        }
+        h3 {
+            margin-left: 30px;
+        }
         </style>
     </head>
     <body>
         <header id="cabecalho">
         <ul>
-            <a href="#aprendizado" style = "color: rgb(6, 0, 87);" >Aprendizado/</a>
-            <a href="#licoes_aprendidas"style ="color: rgb(6, 0, 87);">Top 10/</a>
-            <a href="#rodape" style ="color: rgb(6, 0, 87);">Vou aprender</a>
+            <a href="#aprendizado">Aprendizado/</a>
+            <a href="#Git">Git/</a>
+            <a href="#licoes_aprendidas">Top 10/</a>
+            <a href="#rodape">Vou aprender</a>
         </ul>
         <h1 id="titulo">FIRST PROJECT</h1>
-     </header>
-     <nav>
+        </header>
+        <nav>
         <img src="https://scontent.fplu9-2.fna.fbcdn.net/v/t1.0-9/10653642_10205219263465566_238059911877259319_n.jpg?_nc_cat=107&_nc_sid=d2e176&_nc_ohc=cOvdpr_dB90AX-stPMV&_nc_ht=scontent.fplu9-2.fna&oh=d10b77346e84567061f8cf2833fcaef7&oe=5F29C80F" alt="Foto Do Vinicius com a Renata" id="minha_foto">
-     </nav>
+        </nav>
         <article id="aprendizado">
           <h2>Meu Aprendizado Trybe!</h2>
           <p>Fala, galera! É indescritivel estar aqui nesse momento podendo escrever esse peuqeno artigo 
               sobre o meu aprendizado aqui na Trybe. Dizer que esta sendo facil seria mentira, já que no meu
               caso tudo tem sido novidade. Mas a sensação de estar aprendendo e podendo realizar o que eu
-              tenho realizado é incrivel. No inicio tudo parecia festa, mas logo me apareceu um tal de Git 
-              e Github que me deixaram maluco!! Mas como tudo na vida, acostumamos e aprendemos com a pratica
-              e com o tempo entendemos que somos capazes sim. E agora eu estou aqui, veja só!! Podendo criar 
-              meu primeiro projeto, utilizando não somente a ferramente Git, mas tambem entendendo já sobre html
-              e Css. Só agradeço a equipe da Trybe!!</p>
-      
-         
-       <section id="licoes_aprendidas">
-        <h3 >Top 10 liçoes aprendidas</h3>
-        <ol>
+              tenho realizado é incrivel. </p>
+        </article>
+        <aside id="Git">
+            <h2>O famoso Git!</h2>
+                <p>No inicio tudo parecia festa, mas logo me apareceu um tal de Git 
+                e Github que me deixaram maluco!! Mas como tudo na vida, acostumamos e aprendemos com a pratica
+                e com o tempo entendemos que somos capazes sim. E agora eu estou aqui, veja só!! Podendo criar 
+                meu primeiro projeto, utilizando não somente a ferramente Git, mas tambem entendendo já sobre html
+                e Css. Só agradeço a equipe da Trybe!!</p>
+          
+
+        </aside>
+        <section>
+        <h3>Top 10 liçoes aprendidas</h3>
+        <ol id="licoes_aprendidas">
             <li>Seleções por Tags</li>
             <li>Seleções por ID</li>
             <li>Seleções por Classe</li>
@@ -93,7 +106,7 @@
             <li>Inline CSS</li>
         </ol>
         <h3> 10 coisas que gostaria de aprender</h3>
-        <ul>
+        <ul id ="licoes_a_aprender">
             <li>JavaScript</li>
             <li>CSS FLexBox</li>
             <li>JavaScript ES6</li>
@@ -105,10 +118,9 @@
             <li>NoSQL</li>
             <li>NodeJS</li>
         </ul>
-     </section>
-     </article>
-     <aside>
-      <h3>O que preciso melhorar?</h3> 
+        </section>
+     
+        <h3>O que preciso melhorar?</h3> 
         <table>
             <thead>
                 <tr>
@@ -123,10 +135,10 @@
                 </tr>
             </tbody>
         </table>
-    </aside>
-       
-     <footer>
-        <h4 id="rodape">Saiba mais sobre o Programador:</h4>
+    
+     
+     <footer id="rodape">
+        <h4>Saiba mais sobre o Programador:</h4>
          <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>
          <br>
          <a target="_blank" href="https://www.facebook.com/vinicius.b.matta/">Facebook</a>

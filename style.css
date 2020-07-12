@@ -1,39 +1,56 @@
-HEAD
-    <style>
-     .body {
-            font-family: Arial, Helvetica, sans-serif;
-            color:rgb(255, 255, 255);
-            background:rgb(0,0,0);
-        }
 
-        #cabecalho {
-            width: 1500px;
-            height: 150px;
-            position: fixed;
-            left: 0px;
-            top: 0px;
-            right: 0px;
-        }
-        #titulo {
-            width: 250px;
-            position: relative;
-            color: rgb(0, 0, 0);
-            margin-left: 40px;
-            margin-top: 25px;
-            position: fixed;
-        } 
-        #minha_foto {
-            width: 300px;
-            margin-left: 30px;
-            margin-top: 120px;
-            z-index: 1;
-        }
-        #aprendizado ,#rodape {
-            margin-left: 30px;
-        }
-        #licoes_aprendidas {
-            position: ;
-        }
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(253,251,251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    color: rgb(0, 0, 0);           
+}
+#titulo {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: 0px;
+} 
+#minha_foto {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 100px;
+    z-index: 1;
+}
+#aprendizado, #Git {
+    margin-left: 30px;
+}
+#rodape {
+    color: rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+    border-left: 30px solid rgb(0, 0, 0);
+    margin-left: 0px
+}
+a { 
+    text-decoration:none;
+    background-color: black; 
+    color: rgb(255, 255, 255);
+}
+p,li {
+    color: rgb(87, 87, 87);
+}
+td {
+    color: rgb(87, 87, 87);
+    width: 25px;
+}
+#licoes_aprendidas, #licoes_a_aprender {
+    color: rgb(87, 87, 87);
+    margin-left: 30px;
+}
+h3 {
+    margin-left: 30px;
+}
 </style>
 
 
