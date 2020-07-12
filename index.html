@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <title>Project Lessons Learned</title>
 
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
@@ -10,7 +11,6 @@
 
         body
         {
-            
             background-color: rgb(253, 251, 251);
         }
         
@@ -35,16 +35,43 @@
 
         .cabecalho
         {
+            text-align: center;
             width: 1368px;
             height: 84px;
             margin-top: 70px;
-            background-color:rgb(20, 170, 70)
+            background-color: rgb(20, 170, 70);
+        }
+
+        .nav ul
+        {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            list-style: none;
+            text-align: center;
+        }
+
+        .nav ul li
+        {
+            display: inline;
+            
+        }
+
+        .nav ul li a
+        {
+            padding: 30px 30px;
+            display: inline-block;
+            text-decoration: none;
+            
+            /* margin-bottom: 0px; */
+            /* text-align: center; */
         }
 
         .conteudo
         {
             width: 1368px;
             height: 600px;
+            /* text-align: center; */
         }
 
         .conteudoesq
@@ -54,10 +81,11 @@
             float: left;
         }
 
-        .arttab
+        .arttab ul
         {
             height: 180px;
-            /* border: 1px solid rgb(rgb(10, 110, 50), green, blue) */
+            /* text-align: center; */
+            /* border: 10px solid rgb(rgb(10, 110, 50); */
         }
 
         .conteudodir
@@ -67,10 +95,11 @@
             float: right;
         }
 
-        .asitab
+        .asitab ul 
         {
             height: 180px;
-            /* border: 1px solid rgb(rgb(10, 110, 50), green, blue) */
+            /* text-align: center; */
+            /* border: 10px solid rgb(rgb(10, 110, 50); */
         }
 
         .footer
@@ -94,9 +123,9 @@
                 <nav class="nav" >
                     
                     <ul>
-                        <li><a target="_blank" href="https://www.betrybe.com/">SOBRE A TRYBE</a></li>
-                        <li><a href="#licoes_aprendidas">Tabela de aprendizado adquirido!</a></li>
-                        <li><a href="#licoes_a_aprender">Tabela de aprendizado que vamos adquirir!</a></li>
+                        <li><a target="_blank" href="https://www.betrybe.com/"><strong>SOBRE A TRYBE</strong></a></li>
+                        <li><a href="#licoes_aprendidas"><strong>Tabela de aprendizado adquirido!</strong> </a></li>
+                        <li><a href="#licoes_a_aprender"><strong>Tabela de aprendizado que vamos adquirir!</strong> </a></li>
                     </ul>
                 </nav> <!--nav-->
             </div> <!-- header -->
