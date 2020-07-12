@@ -30,9 +30,13 @@ body {
   line-height: 140%;
 }
 
+main, 
+  .learning-journey {
+    margin: 0 auto;
+}
+
 main {
   width: 90%;
-  margin: 0 auto;
 }
 
 img {
@@ -59,14 +63,17 @@ nav {
 }
 
 nav li {
-  display: inline-block;
   padding: 5px;
   border-radius: 10%;
   background-color: #E98074;
 }
 
+footer,
+  .learning-journey {
+    clear: both;
+  }
+
 footer {
-  clear: both;
   height: 100px;
   position: relative;
 }
@@ -84,19 +91,22 @@ h2 {
   margin: 20px 0px;
 }
 
+.footer-text, 
+  .two-columns, 
+  .learning-journey,
+  nav li {
+  display: inline-block;
+}
+
 .footer-text {
   position: absolute;
   top: 50%;
-  display: inline-block;
+
   transform: translate(-50%, -50%);
 }
 
 .personal-info {
   margin-top: 130px;
-}
-
-.two-columns {
-  display: inline-block;
 }
 
 .lado-esquerdo {
@@ -130,10 +140,4 @@ h2 {
 
 .tick {
   height: 20px;
-}
-
-.learning-journey {
-  clear: both;
-  display: inline-block;
-  margin: 0 auto;
 }
