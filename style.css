@@ -35,6 +35,12 @@
   padding: 15px;
 }
 
+.footer a {
+  background-color: rgb(51 , 51 , 51);
+  color: white;
+  margin: 0 10px;
+}
+
 .navigation li a {
   text-decoration: none;
   color: black;
@@ -100,3 +106,12 @@
   font-family: Merriweather, serif;
   line-height: 40px;
 } */
+
+.footer {
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgb(51 , 51 , 51);
+  color: white;
+}
