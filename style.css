@@ -70,6 +70,10 @@ th {
   font-weight: 500;
 }
 
+h2 {
+  margin: 20px 0px;
+}
+
 .personal-info {
   margin-top: 130px;
 }
