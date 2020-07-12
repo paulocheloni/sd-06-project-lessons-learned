@@ -1,10 +1,8 @@
-html, body{
-    margin: 0
-}
-body{
+body {
     background: rgb(253, 251, 251);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 .font_destacada {
     font-family: Impact, Charcoal, sans-serif;
@@ -12,18 +10,18 @@ body{
     font-stretch: semi-expanded;
     text-decoration: line-through;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     margin-top: 0px;
     width: 100%;
     height: 15vh;
     background-color: #5f095f;
 }
-#titulo{
+#titulo {
     margin-left: 200px;
     color: white;
 }
-#minha_foto{
+#minha_foto {
     width: 150px;
     margin-top: -35px;
     position: absolute;
@@ -40,37 +38,37 @@ body{
     margin-left: 150px;
     padding-top: 130px;
 }
-.artigo_principal h2{
+.artigo_principal h2 {
     margin-left: 180px;
 }
-.texto_artigo{
+.texto_artigo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 40vw;
     margin-left: 160px;
 }
-.link_h3_artigo{
+.link_h3_artigo {
     font-style: italic;
     color: darkred;
     margin-left: 200px;
 }
-#licoes_aprendidas{
+#licoes_aprendidas {
     width: 20vw;
     float: left;
     height: 35vh;
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
     width: 20vw;
     float: left;
     height: 35vh;
 }
-.sessao_artigo{
+.sessao_artigo {
     height: 35vh;
     background-color: #ccccdd;
     border-radius: 30px;
     padding-top: 5px;
     margin-top: 10px;
 }
-.sessao_artigo h4{
+.sessao_artigo h4 {
     margin-left: 15px;
 }
 .sessao_artigo p {
@@ -80,14 +78,14 @@ body{
     padding-left: 5px;
     padding-right: 5px;
 }
-.lado_direito{
+.lado_direito {
     margin-top: 10px;
     margin-left: 150px;
     background-color: tomato;
     float: left;
     height: 35vh;
 }
-.lado_esquerdo{
+.lado_esquerdo {
     width: 200px;
     float: left;
     margin-left: 200px;
@@ -96,10 +94,10 @@ body{
 .sublinhado {
     text-decoration: underline;
 }
-a .mais_info{
+a .mais_info {
     color: #bead74;
 }
-.bg_menu{
+.bg_menu {
     background-color: #5f095f;
     width: 100%;
     height: 20px;
@@ -108,23 +106,23 @@ a {
     color: #bead74;
     text-decoration: none;
 }
-a:hover{
+a:hover {
     color: #ffffff;
 }
-.btn_menu{
+.btn_menu {
     margin-left: 20px;
     text-transform: uppercase;
 }
-.possicao_menu{
+.possicao_menu {
     margin-left: 300px;
 }
-.sessao_tabela{
+.sessao_tabela {
     width: 60vw;
     height: 32vh;
     margin-left: 300px;
     float: left;
 }
-table{
+table {
     border: 1px solid #ccccdd;
     border-collapse: collapse;
     background-color: #ffffcc;
@@ -137,11 +135,13 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-tr:hover {background-color: #f5f5f5;}
-.bg_titulo_tabela{
+tr:hover {
+    background-color: #f5f5f5;
+}
+.bg_titulo_tabela {
     background-color: #ffff66;
 }
-#rodape{
+#rodape {
     width: 100%;
     height: 5vh;
     background-color: darkgoldenrod;
@@ -150,6 +150,6 @@ tr:hover {background-color: #f5f5f5;}
     font-size: 12px;
     float: left;
 }
-.mais_info{
+.mais_info {
     color: black;
 }
