@@ -1,4 +1,5 @@
 
+/* general settings */
 * {
     padding: 0;
     margin: 0;
@@ -6,25 +7,55 @@
 
 a {
     text-decoration: none;
+    color: crimson
 }
 
 body {
     background-color: rgb(253 , 251 , 251);
 }
 
+/* header */
+
 .cabecalho {
-    background-color: darksalmon;
+    background-color: lightslategrey;
     position: fixed;
     top: 0px;
+    height: 4vh;
+    z-index: 99999;
     width: 100%;
-    height: 6vh;
+    border-radius: 0 0 6px 6px;
 }
 
-.nav_bar {
-    margin-top: 6vh;
-    background-color: darkslategrey;
-    padding: 8px;
+.cabecalho h1 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
+
+/* nav bar */
+
+.nav_bar {
+    margin-top: 3vh;
+    background-color: lightslategrey;
+    padding: 14px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_bar a {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    margin-right: 20px;
+    color: white;
+}
+
+.nav_bar a:hover {
+    background-color: black;
+}
+
+/* first section: my picture */
 
 .profile_pic {
     display: flex;
@@ -63,3 +94,172 @@ body {
     margin-left: 20vw;
 }
 
+/* article */
+
+.lado-esquerdo {
+    padding: 16px;
+    width: 75%;
+    height: 45vh;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lado-esquerdo h2 {
+    justify-self: flex-start;
+    margin: 20px 0 0;
+    font-size: 42px;
+    flex:1;
+}
+
+.lado-esquerdo p {
+    margin-bottom: 25px;
+}
+
+/* semantic HTML part */
+
+.lado-direito {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(179, 135, 91);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 16px 8px 16px 8px;
+}
+
+.html-semantico {
+    background-color: rgb(104, 182, 104);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    width: 30vh;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+}
+
+.section-1 {
+    background-color: rgb(104, 214, 214);
+    margin: 3px;
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 p {
+    background-color: rgb(38, 110, 110);
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-2 {
+    margin: 3px;
+    display: flex;
+    width: 95%;
+}
+
+.sub1 {
+    background-color: rgb(104, 214, 214);
+    border-radius: 8px;
+    padding: 4px;
+    text-align: center;
+    width: 60%;
+}
+
+.sub1-1 {
+    background-color: rgb(38, 110, 110);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.sub1-1 span {
+    margin: 4px 0 4px;
+    display: inline-block;
+    /* esse display foi necessário para conseguir dar a margem!! */
+}
+
+.sub1-1 p {
+    background-color: rgb(104, 214, 214);
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.sub2 {
+    background-color: rgb(104, 214, 214);
+    border-radius: 8px;
+    margin-left: 2%;
+    width: 40%;
+    padding-top: 2px;
+}
+
+.section-3 {
+    background-color: rgb(104, 214, 214);
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.side-text {
+    font-size: 15px;
+    text-align: justify;
+    padding: 2px;
+    margin-top: 8px;
+}
+
+/* list-links-gif part */
+
+.parte-baixo {
+    display: flex;
+}
+
+.topicos {
+    padding: 12px;
+    margin: 12px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    clear: both;
+}
+
+.card ul,
+.card ol {
+    margin-top: 12px;
+}
+
+.card li {
+    margin-left: 24px;
+}
+
+.bons-links li {
+    list-style: lower-greek;
+}
+
+.joke {
+    width: 20%;
+    left: 200px;
+    margin: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joke h3 {
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: navajowhite;
+}
+
+footer p {
+    font-weight: 600;
+    text-align: center;
+    padding: 4px
+}
