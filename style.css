@@ -1,12 +1,20 @@
 body {
     background-color:rgb(253, 251, 251);
     margin: 15x;
+    margin-top: 150px;
+}
+h3 {
+    margin-left: 10px;
 }
 #cabecalho {
     position: fixed;
     top: 0px;
     font-family: 'Bangers', cursive;
     line-height: 5px;
+    background-color: seagreen;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
 }
 #minha_foto {
     padding: 10px;
@@ -21,22 +29,35 @@ body {
 }
 #licoes_a_aprender {
     color: royalblue;
+    margin-bottom: 100px;
 }
 #titulo {
     font-size: 40px;
 }
-.lado-direito {
-    float: right;
-    width: 30%;
-    margin-top: 25px;
+#sidebyside {
+    height: 150px;
+    margin: 10px;
+    margin-bottom: 50px;
 }
-.lado-esquedo {
+#lado-esquerdo {
     float: left;
-    width: 30%;
-    position: static;
-    margin-bottom: 80px;
+    position: relative;
+    width: 45%;
+}
+#lado-direito {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    margin-left: 50px;
 }
 #rodape {
     position: fixed;
-    bottom: 20px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: skyblue;
+}
+nav {
+    margin-bottom: 10px;
+    margin-left: 50px;
 }
