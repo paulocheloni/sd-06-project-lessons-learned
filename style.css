@@ -1,0 +1,18 @@
+@charset "utf-8";
+body {
+    background-color: rgba(253,251,251);
+}
+#cabecalho {
+    background-color: rgb(221, 71, 71);
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+#minha_foto {
+    width: 30%;
+    padding-top: 150px;
+}
+#rodape {
+    background-color: rgb(221, 71, 71);
+}
