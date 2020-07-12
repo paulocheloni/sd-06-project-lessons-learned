@@ -2,18 +2,17 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-ul, li {
+ul , li {
   text-align: left;
 }
 
 header nav ul {
-  padding: 15px 0px 15px 100px;
+  padding: 15px 0 15px 100px;
   font-weight: 600;
   background-color: rgb(37 , 37 , 37);
   font-size: large;
-  color: rgb(218, 218, 218);
-} 
-
+  color: rgb(218 , 218 , 218);
+}
 .cabecalho {
   top: 0;
   margin: 0;
