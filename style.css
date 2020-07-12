@@ -50,9 +50,13 @@ header {
   padding: 15px;
   top: 0px;
   color: white;
-  background-color: #744E2E;
   border-bottom: 3px solid #E98074;
 }
+
+header,
+  footer {
+    background-color: #744E2E;
+  }
 
 section {
   width: 100%;
@@ -76,6 +80,8 @@ footer,
 footer {
   height: 100px;
   position: relative;
+  border-top: 3px solid #E98074;
+  color: white;
 }
 
 th {
