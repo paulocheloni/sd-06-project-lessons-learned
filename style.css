@@ -43,3 +43,14 @@ h2 {
 #lado-esquerdo p {
   max-width: 650px;
 }
+
+.tabela th {
+  background-color: cyan;
+  border: 2px;
+  color: darkblue;
+}
+
+.tabela td {
+  background-color: paleturquoise;
+  color: midnightblue;
+}
