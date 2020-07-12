@@ -3,6 +3,12 @@ body{
     background: rgb(253, 251, 251);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.font_destacada {
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: oblique;
+    font-stretch: semi-expanded;
+    text-decoration: line-through;
+  }
 #cabecalho{
     position: fixed;
     margin-top: 0px;
