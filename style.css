@@ -2,12 +2,12 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-a, a:visited {
+a , a:visited {
   color: white;
 }
 
 .cabecalho {
-  font-family: 'Times New Roman' , 'Times' , serif;
+  font-family: "Times New Roman" , "Times" , serif;
   font-style: oblique;
   background: blue;
   top: 0;
@@ -79,6 +79,6 @@ th {
   margin: 15px;
 }
 
-.link-portfolio, .link-portfolio:visited {
+.link-portfolio , .link-portfolio:visited {
   color: blue;
 }
