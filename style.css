@@ -34,12 +34,14 @@ a:visited {
 
 .lado-direito {
   float: right;
-  width: 35%;
+  width: 47%;
+  text-align: justify;
 }
 
 .lado-esquerdo {
   float: left;
-  width: 65%;
+  width: 50%;
+  text-align: justify;
 }
 
 .section-article-aside {
