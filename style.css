@@ -1,12 +1,11 @@
-* {
-  margin: 0px;
-}
+
 body {
-  background-color: rgb(247, 241, 241);
+  background-color: #f7f1f1;
 }
+
 #cabecalho {
   position: relative;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
   height: 45px;
 }
 
@@ -16,7 +15,7 @@ body {
 }
 
 nav {
-  background-color: rgb(253, 251, 251);
+  background-color:rgb(253,251,251);
 }
 
 #minha_foto {
@@ -25,7 +24,7 @@ nav {
   border-radius: 15px;
 }
 
-ul, ol {
+ul,ol {
   margin: 15px;
 }
 
