@@ -1,45 +1,47 @@
 * {
-    margin: 0px;
+  margin: 0px;
 }
 body {
-    background-color: rgb(247, 241, 241);
+  background-color: rgb(247,241,241);
 }
 #cabecalho {
-    background-color: rgb(65,199,32);
-    padding: 50px;
+  position: relative;
+  top: 0px;
+  background-color: rgb(65,199,32);
+  height: 45px;
 }
 
 #titulo {
-    color: aliceblue;   
-} 
+  color: aliceblue;
+  margin-left: 15px;
+}
 
 nav {
-    background-color: rgb(65,199,32);
+  background-color: rgb(65,199,32);
 }
 
 #minha_foto {
-    width: 18%;
-    margin: 15px 15px;
-    border-radius: 15px ;
+  width: 180px;
+  margin: 15px 15px;
+  border-radius: 15px;
 }
 
 ul, ol {
-    margin: 15px 15px
+  margin: 15px 15px;
 }
 
 a {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 h2 {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 p {
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 15px;
-    max-width: 80%;
-    padding: 5px 5px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px;
+  max-width: 80%;
+  padding: 5px 5px;
 }
-  
