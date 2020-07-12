@@ -22,9 +22,9 @@ header nav ul {
   text-align: center;
 }
 
-.titulo {
+/*.titulo {
   padding-top: 35px;
-}
+}*/
 
 .nav-item {
   display: inline-block;
@@ -56,6 +56,10 @@ article , aside , table {
   padding-left: 100px;
   padding-right: 100px;
   border: 1px;
+}
+
+p {
+  line-height: 15px;
 }
 
 footer {
