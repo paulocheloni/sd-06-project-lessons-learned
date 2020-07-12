@@ -4,12 +4,18 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+p {
+    background-color: cornflowerblue;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
-    color: blueviolet;
-    font-family: sans-serif;
+}
 
+#cabecalho h1 {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #cabecalho h1 {
@@ -21,9 +27,13 @@ body {
     font-family: sans-serif;
 }
 
+#licoes_aprendidas {
+    letter-spacing: 10;  
+}
+
+
 .lista {
     width: 40%;
     display: inline-block;
     text-align: center;
-
 }
