@@ -1,3 +1,43 @@
 * {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  text-emphasis: justify;
+}
+
+#cabecalho #titulo {
+  background-color: midnightblue;
+  margin-top: 0px;
+  font-family: cursive;
+  color: silver
+}
+
+#navigation ul li {
+  list-style: none;
+  display: inline-flex;
+  text-align: left;
+  margin-left: 8px;
+  padding: 6px;
+}
+
+#minha_foto {
+  width: 15%;
+  margin-top: 30px;
+  padding: 8px;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+#rodape {
+  margin-bottom: 0px;
+  margin-top: 30px;
+  background-color: silver;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 500;
 }
