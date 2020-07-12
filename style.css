@@ -2,12 +2,11 @@
   margin: 0px;
 }
 body {
-  background-color: rgb(247,241,241);
+  background-color: rgb(247, 241, 241);
 }
 #cabecalho {
   position: relative;
-  top: 0px;
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   height: 45px;
 }
 
@@ -17,17 +16,17 @@ body {
 }
 
 nav {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
   width: 180px;
-  margin: 15px 15px;
+  margin: 15px;
   border-radius: 15px;
 }
 
 ul, ol {
-  margin: 15px 15px;
+  margin: 15px;
 }
 
 a {
@@ -43,5 +42,5 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
   max-width: 80%;
-  padding: 5px 5px;
+  padding: 5px;
 }
