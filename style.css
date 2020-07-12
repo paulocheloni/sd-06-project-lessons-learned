@@ -17,6 +17,9 @@ body {
 #titulo {
     margin: 0;
     padding-top: 30px;
+    font-family: Bangers, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #minha_foto {
@@ -27,7 +30,7 @@ body {
     border: 30px ridge darkgreen;
 }
 
-.listas {
+.lado-direito {
     margin: 50px;
     font-weight: 600;
     display: inline-block;
@@ -56,16 +59,17 @@ body {
     background-color: orangered;
 }
 
-.listas.artigo {
+.lado-direito.artigo {
     display: inline-block;
     max-width: 600px;
     margin-left: 30px;
     font-weight: 200;
 }
 
-.adicional {
+.lado-esquerdo {
     max-width: 200px;
     background-color: gray;
     float: right;
     padding: 20px;
+    
 }
