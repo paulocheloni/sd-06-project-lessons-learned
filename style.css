@@ -1,3 +1,69 @@
 body {
     background-color: rgb(253, 251, 251);
+    border-left: 30px solid rgb(18, 85, 18);
+    border-right: 30px solid rgb(18, 85, 18);
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    background-color: rgba(18, 85, 18, 0.5);
+    position: relative;
+}
+header {
+    background-color: rgb(145, 229, 145);
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    background-color: rgb(186, 221, 223);
+
+}
+#doing{
+    background-color: rgb(145, 229, 145);
+    line-height: 50px;
+
+}
+#next {
+    background-color: rgb(145, 229, 145);
+    line-height: 50px;
+}
+#minha_foto{
+        border-radius: 40px;
+        position: absolute;
+        right: 300px;
+        bottom: -1185px;
+
+}
+    footer {
+    text-align: center;
+    clear: both;
+    background-color: rgb(145, 229, 145);
+}
+article {
+    background-color: rgb(34, 133, 34);
+    position: relative;
+    float: left;
+    display: block;
+    width: 600px;
+    height: 300px;
+    text-indent: 30px;
+}
+aside{
+    background-color: rgb(34, 133, 34);
+    position: relative;
+    float: right;
+    display: block;
+    width: 600px;
+    height: 300px;
+    text-indent: 30px;
+
 }
