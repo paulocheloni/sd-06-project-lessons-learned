@@ -7,21 +7,21 @@ body {
 
 .header {
     display: grid;
-    grid-templategit-rows: 1fr 1fr;
-    color: white;
+    grid-template-rows: 1fr 1fr;
+    color: seagreen;
     padding-right: 8%;
     padding-left: 10%;
 }
 
 #cabecalho {
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    background: none;
     font-size: 25px;
-    background-color: yellow;
+    background-color: black;
     position: fixed;
+    width: 90%;
     top: 0px;
+    color: white;
+    text-decoration: none;
 }
 
 #titulo a {
@@ -52,7 +52,7 @@ body {
     border-radius: 100%;
     width: 30%;
     text-align: center;
-    padding: 2%;
+    margin-top: 15%;
 }
 
 .art-container {
