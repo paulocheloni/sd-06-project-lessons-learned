@@ -53,13 +53,13 @@ body {
   margin: 10px;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
   max-width: 50%;
   display: inline-block;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   float: left;
   max-width: 50%;
   display: inline-block;
