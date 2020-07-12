@@ -251,6 +251,10 @@ body {
   align-items: center;
 }
 
+.joke a {
+  font-size: 0;
+}
+
 .joke h3 {
   margin-bottom: 12px;
 }
