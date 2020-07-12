@@ -3,6 +3,7 @@ body {
 }
 
 .cabecalho {
+  font-family: 'Times New Roman', Times, serif;
   background: blue;
   top: 0;
   position: fixed;
@@ -13,22 +14,26 @@ body {
 .nav {
   margin-top: 83px;
   background: blue;
-  text-align: center;
   color: white;
+  display: flex;
+  text-transform: uppercase;
+  position: relative; 
+  text-align:center;
 }
 
 .rodape {
   text-align: center;
+  margin: 20px;
 }
 
 .lado-direito {
   float: right;
-  width: 30%;
+  width: 35%;
 }
 
 .lado-esquerdo {
   float: left;
-  width: 70%;
+  width: 65%;
 }
 
 .section-article-aside {
