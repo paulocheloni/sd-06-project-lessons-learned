@@ -25,12 +25,12 @@ body {
 #titulo {
     font-size: 40px;
 }
-article {
+.lado-direito {
     float: right;
     width: 30%;
     margin-top: 25px;
 }
-ol, ul {
+.lado-esquedo {
     float: left;
     width: 30%;
     position: static;
