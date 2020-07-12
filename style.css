@@ -55,7 +55,7 @@ nav a {
   margin: auto;
 }
 
-.skills {
+.lado-esquerdo {
   font-style: rubik, sans-serif;
   font-size: 18px;
   border: 1px solid grey;
@@ -63,6 +63,16 @@ nav a {
   margin-left: 170px;
   display: inline-block;
   width: 30%;
+}
+
+.lado-direito {
+  margin-right: 600px;
+  padding: 10px;
+  font-size: 22px;
+  width: 20%;
+  float: right;
+  text-align: right;
+  line-height: 1.25em;
 }
 
 .skillsLeft {
@@ -91,14 +101,16 @@ p a , nav a {
   font-style: italic;
 }
 
-.artigo-lado-direito {
-  margin-right: 600px;
-  padding: 10px;
-  font-size: 22px;
-  width: 20%;
-  float: right;
-  text-align: right;
-  line-height: 1.25em;
+.myExperience {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 26px;
+  padding: 40px;
+  width: 50%;
+  font-style: italic;
 }
 
 a:hover {
