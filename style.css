@@ -66,6 +66,10 @@ footer {
   clear: both;
 }
 
+th {
+  font-weight: 500;
+}
+
 .personal-info {
   margin-top: 130px;
 }
