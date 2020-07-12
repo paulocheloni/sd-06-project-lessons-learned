@@ -1,6 +1,6 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
   padding-top: 90px; 
 }
 
@@ -9,6 +9,13 @@ h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 15px;
+  color: rgb(61,90,128)
+}
+
+.imagem-perfil {
+  margin-left: 15px;
+  margin-bottom: 10px;
+
 }
 
 ol, ul {
@@ -16,7 +23,9 @@ ol, ul {
 }
 
 li {
-
+  color: rgb(41,50,65);
+  font-size: 16px;
+  line-height: 2;
 }
 
 p {
@@ -24,13 +33,16 @@ p {
   text-indent: 30px;
   margin-left: 15px;
   margin-right: 15px;
+  color: rgb(41,50,65);
+  line-height: 2;
+  font-size: 16px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   left: 0; 
-  background-color: rgb(95,158,160);
+  background-color: rgb(152,193,217);
   width: 100%;
 }
 
@@ -42,13 +54,12 @@ p {
 nav {
   text-align: center;
   overflow: auto;
-  
 }
 
 .texto-rodape {
   margin: 0px; 
   text-align: center;
-  background-color: rgb(95,158,160);
+  background-color: rgb(152,193,217);
   color: rgb(255,255,255); 
 }
 
