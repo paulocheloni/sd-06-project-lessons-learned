@@ -31,10 +31,12 @@ body {
 }
 
 .lado-esquerdo {
-    margin: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
     font-weight: 600;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 #rodape {
@@ -71,6 +73,7 @@ body {
     max-width: 200px;
     background-color: gray;
     float: right;
+    margin-right: 50px;
     padding: 20px;
     
 }
