@@ -8,7 +8,7 @@ body {
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    color: seagreen;
+    color: rgb(29, 53, 39);
     padding-right: 8%;
     padding-left: 10%;
 }
@@ -30,18 +30,30 @@ section {
     font-weight: bold;
     text-decoration: none;
     transition: opacity 0.2s;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 100px;
+    align-items: center;
 }
 
 section a {
     text-decoration: none;
     color: black;
     font-size: 190%;
+    padding-top: 1%;
+    text-align: left;
+    padding-left: 2%;
 }
 
 #cabecalho:hover {
     background-color: rgb(253, 251, 251);
     color: seagreen;
+}
+
+table {
+    font-size: 180%;
+    color: seagreen;
+    align-items: center;
 }
 
 .grid-container {
@@ -55,11 +67,12 @@ section a {
     font-size: 180%;
 }
 
-#minha_foto img {
+#minha_foto {
     border-radius: 100%;
-    width: 30%;
+    width: 100%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 20%;
+    float: left;
 }
 
 .art-container {
@@ -78,22 +91,6 @@ section a {
     padding: 1%;
     text-align: left;
 }
-
-
-/*.column {
-    float: left;
-    width: 40%;
-    padding-left: 1%;
-    text-align: left;
-    justify-content: center;
-    color: white;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}*/
 
 article {
     text-align: left;
