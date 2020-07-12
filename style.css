@@ -6,6 +6,10 @@ body {
   background-color: #f7f1f1;
 }
 
+ .barrasuperior{
+  background-color: rgb(253, 251, 251);
+ }
+
 #cabecalho {
   position: relative;
   margin-top: 0px;
@@ -41,7 +45,7 @@ h2 {
   margin-left: 15px;
 }
 
-#rodape {
+#rodape h4{
   text-align: center;
 }
 
