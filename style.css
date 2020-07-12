@@ -6,7 +6,7 @@ body {
     background-color: rgb(221, 71, 71);
     width: 100%;
     position: fixed;
-    top: 20px;
+    top: 0px;
     left: 10px;
 }
 #minha_foto {
