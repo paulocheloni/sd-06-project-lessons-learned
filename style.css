@@ -34,16 +34,16 @@ header#cabecalho {
 #minha_foto { 
     border-radius: 30%;
     border: solid 2px black;
-    float: left;
-    margin-left: 140px;
+    float: right;
 }
 
 .lado-esquerdo {
     background-color: rgb(235, 235, 235);
     width: 500px;
     height: 250px;
-    float: right;
+    float: left;
     margin-top: 50px;
+    margin-left: 130px;
     padding: 20px;
     text-align: justify;
     line-height: 17px;
@@ -57,7 +57,7 @@ header#cabecalho {
     float: right;
     padding: 20px;
     margin: 20px 10px 0px 0px;
-    line-height: 16px;
+    line-height: 19px;
     
 }
 
