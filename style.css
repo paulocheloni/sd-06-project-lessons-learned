@@ -47,7 +47,7 @@ h1, article h2, aside h3, h4{
 }
 p{
     color: gray;
-    font-weight: 100px;
+    font-size: 16px;
     line-height: 1.2em;
 }
 article{
@@ -72,8 +72,7 @@ aside{
     margin-left: -30px;
 }    
 article, aside{    
-    display: inline-block;
-    
+    display: inline-block;    
     text-align: top;    
 }
 .container-textos{
