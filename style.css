@@ -39,12 +39,12 @@ h3 {
     margin: 10px;
     margin-bottom: 50px;
 }
-#lado-esquerdo {
+.lado-esquerdo {
     float: left;
     position: relative;
     width: 45%;
 }
-#lado-direito {
+.lado-direito {
     position: relative;
     display: inline-block;
     width: 45%;
