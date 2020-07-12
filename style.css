@@ -55,11 +55,11 @@ a {
 
 .bloco {
     display: flex;
-    padding: 2px;    
+    
 }
 
 .titulo_fixo {
-
+    padding: 20px;
 }
 
 .bloco-foto {
