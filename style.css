@@ -23,15 +23,15 @@
 }
 
 .navigation {
-  margin-top: 115px;
   text-align: center;
   font-family: Merriweather, serif;
   font-size: 20px;
+  padding-top: 125px;
+  padding-bottom: 70px;
 }
 
 .navigation li {
   display: inline-block;
-  margin: 3px 0;
   padding: 15px;
 }
 
@@ -50,11 +50,10 @@
 .picture {
   border-radius: 100%;
   text-align: center;
-  margin: 2%;
 }
 
 .box {
-  font-size: 30px;
+  margin-top: 70px;
   text-align: center;
   line-height: 50px;
   background-color: rgb(80 , 180 , 226);
@@ -62,30 +61,34 @@
 
 .title {
   font-family: Open Sans, sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   color: white;
   background-color: rgb(80 , 180 , 226);
-  padding: 1%;
+  padding-top: 30px;
 }
 
 .text {
-  font-size: 25px;
-  margin: 0 6%;
   color: rgb(25 , 25 , 25);
-}
-
-.text p {
+  font-family: Merriweather, serif;
+  font-size: 20px;
   background-color: rgb(80 , 180 , 226);
-  padding: 30px;
+  padding: 60px 40px;
 }
 
+.text p , em , strong {
+  background-color: rgb(80 , 180 , 226);
+}
+
+/* OK ATÉ AQUI */
 .lado-esquerdo {
   float: left;
+  margin-left: 100px;
 }
 
 .lado-direito {
   float: right;
+  margin-right: 90px;
 }
 
 .article {
