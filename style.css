@@ -1,7 +1,7 @@
 body {
     color: #fff;
-    background: linear-gradient(#062f4f,#813772,#b82601,#062f4f,#062f4f);
-    
+    background: linear-gradient(#062f4f,#813772,#b82601,#062f4f,#062f4f);    
+    background-color: rgb(253, 251, 251);
 }
 
 .cabecalho {
@@ -10,22 +10,17 @@ body {
     text-align: left;
     width: 20px;
     padding: 2px;
-    
-    
-   
-
+    position: fixed;
 }
 
 #titulo {
     padding: 10px;
     font-family: monospace;
-
 }
 
 #minha_foto {
     width: 300px;
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
 
 #licoes_aprendidas {
@@ -42,10 +37,9 @@ body {
 
 .link {
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     top: 20px;
-    left: 700px; 
-    
+    left: 700px;     
 }
 
 a {
@@ -61,8 +55,19 @@ a {
 
 .bloco {
     display: flex;
-    padding: 2px;
-    
+    padding: 2px;    
 }
 
+.titulo_fixo {
+
+}
+
+.bloco-foto {
+   
+}
+
+.barra {
+    background-color: black;
+    width: 100px;
+}
 
