@@ -72,7 +72,7 @@ div.links-navegacao {
     margin-right: 10px;
     margin-left: 10px;  
 }
-.lado-direito{
+.lado-direito {
     float: right;
     width: 45%;
     font-family: 'Work Sans', sans-serif;
@@ -91,5 +91,5 @@ div.links-navegacao {
     text-align: center;
     font-size: 30px;
     bottom: 0px;
-    clear: both
+    clear: both;
 }
