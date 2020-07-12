@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: -1px;
 }
 
 body {
@@ -11,11 +11,13 @@ body {
 }
 
 #cabecalho {
-  position: relative;
+  position: absolute;
   top: 0px;
-  background-color: rgb(134,199,50);
+  background-color: rgb(134, 199, 50);
   height: 100px;
 }
+
+
 
 #titulo {
   padding: 10px;
