@@ -22,14 +22,18 @@
                     top: 0px;
                     position:fixed;
                     width: 100%;
-                    background-color: green;
-                    text-align: center;
+                    background-color:green;
                     color: white;
                 }
-                #titulo{}
+                #titulo{
+                    text-align: center;
+                }
                 #minha_foto{
                     background-color: rgb(253, 251, 251);
                     color: rgb(2,4,4);
+                }
+                .DifCabecalho{
+                    margin-top: 200px;
                 }
                 #licoes_aprendidas{
                     list-style-type:decimal-leading-zero;
@@ -47,7 +51,6 @@
                 }
                 nav{
                     background-color:green;
-                    margin-top: 100px;
                     color: white;
                 }
                 .lado-esquerdo {
@@ -82,11 +85,6 @@
                 #LinkExterno{
                     clear: both;
                 }
-                table{
-                    margin-left: 10px;
-                    padding-left: 10px;
-                    border-left: 10px;    
-                }
                
             </style>
 
@@ -95,43 +93,46 @@
         <body class="contraste">
             <header id="cabecalho">
                 <h1 id="titulo">Título</h1>
+                <nav>
+                    <h2>Home</h2>
+                    <h2>Login</h2>
+                </nav>
                 </header>
-            <nav>
-                <h2>Home</h2>
-                <h2>Login</h2>
-            </nav>
+            
             <section class="contraste2">
-                <h2>Minha foto:</h2>
+                <h2 class="DifCabecalho">Minha foto:</h2>
                 <img id="minha_foto" src="eufoto.jpg" alt="Foto do Aloízio na British Library">
             </section>  
-            <div class="contraste2"><ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Empatia</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Slack</li>
-                <li>Zoom</li>
-                <li>Inspect</li>
-                <li>Semantic HTML</li>
+            <table>
+            <div class="contraste2"> 
+                <ol id="licoes_aprendidas">
+                    <li>Unix</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Empatia</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>Inspect</li>
+                    <li>Semantic HTML</li>
                 </ol>
             </div>
-            <div class="contraste2"><ul id="licoes_a_aprender">
-                <li>JavaScript</li>
-                <li>DOM</li>
-                <li>Forms</li>
-                <li>CSS Responsive</li>
-                <li>ES6</li>
-                <li>HOF</li>
-                <li>Unit Tests</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>SQL</li>
+            <div class="contraste2"> 
+                <ul id="licoes_a_aprender">
+                    <li>JavaScript</li>
+                    <li>DOM</li>
+                    <li>Forms</li>
+                    <li>CSS Responsive</li>
+                    <li>ES6</li>
+                    <li>HOF</li>
+                    <li>Unit Tests</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
                 </ul>
             </div>
-       
-
+            </table>
             <div class="lado-esquerdo"><article>
                  <p>Com o avanço ininterrupto da tecnologia e seus impactos sobre a humanidade, aprender a programar tornou-se habilidade crucial do século XXI.
                     Saber falar a língua dos computadores e da Internet passou a ser tão importante quanto aprender a própria língua materna.  </p>
@@ -142,30 +143,6 @@
             </div>
             <div id="LinkExterno">
                 <a target="_blank" href="http://www.csszengarden.com/"> Veja uma demonstração do que é possível fazer com CSS neste link</a>
-            </div>
-            <div>
-                <table class="contraste2">
-                    <tr>
-                        <td>1</td>
-                        <td>Cruzeiro</td>
-                        <td>30pts</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>América</td>
-                        <td>25pts</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Atlético</td>
-                        <td>23pts</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>URT</td>
-                        <td>22pts</td>
-                    </tr>
-                </table>
             </div>
             <div>
                 <footer id="rodape"><p>rodapé</p></footer>
