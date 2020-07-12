@@ -14,16 +14,13 @@
     </header>
     
     
-
-    <img id="minha_foto" src="https://avatars2.githubusercontent.com/u/61760676?s=460&u=ff9486c994ca01a47cab75a4e606b73db274a819&v=4" alt="Foto de Jederson.">
-
-    <nav>
-        <p><a href="#minha_foto">Foto</a> <a href="#licoes">Lições</a> <a href="#rodape">Rodapé</a></p>
-    </nav>
-
-    <h2>Lições aprendidas</h2>
-    <section id="licoes">
+    <section class="foto">
+        <img id="minha_foto" src="https://avatars2.githubusercontent.com/u/61760676?s=460&u=ff9486c994ca01a47cab75a4e606b73db274a819&v=4" alt="Foto de Jederson.">
+    </section>
+    
+    <section class="listas">
         <ol id="licoes_aprendidas"> 
+            <h2>Lições aprendidas</h2>
             <li>Unix</li>
             <li>Shell</li>
             <li>ShellScript</li>
@@ -35,10 +32,9 @@
             <li>Slack</li>
             <li>Zoom</li>
         </ol>
-        
-        <h3>Lições a aprender</h3>
-        
-        <ul id="licoes_a_aprender"> Lições a aprender
+                
+        <ul id="licoes_a_aprender">
+            <h2>Lições a aprender</h2>
             <li>JavaScript</li>
             <li>Forms</li>
             <li>Frameworks CSS</li>
@@ -66,23 +62,28 @@
         </aside>
     </section>
     <br>
-    <h3 class="tabela">Modulos do curso Trybe:</h3>
-    <table>
-        <tr>
-            <th>Módulo 1</th>
-            <th>Módulo 2</th>
-            <th>Módulo 3</th>
-            <th>Módulo 4</th>
-        </tr>
-        <tr>
-            <td>Introdução ao Desenvolvimento Web</td>
-            <td>Desenvolvimento Front-end</td>
-            <td>Desenvolvimento Back-end</td>
-            <td>Ciência da Computação</td>
-        </tr>
-    </table>
+    <section class="tabela">
+        <h3>Módulos do curso Trybe:</h3>
+        <table>
+            <tr>
+                <th>Módulo 1</th>
+                <th>Módulo 2</th>
+                <th>Módulo 3</th>
+                <th>Módulo 4</th>
+            </tr>
+            <tr>
+                <td>Introdução ao Desenvolvimento Web</td>
+                <td>Desenvolvimento Front-end</td>
+                <td>Desenvolvimento Back-end</td>
+                <td>Ciência da Computação</td>
+            </tr>
+        </table>
+    </section>
 
     <footer id="rodape">
-        <a href="https://www.betrybe.com/" target="_blank">Conheça a Trybe</a>
+        <nav>
+            <a href="https://github.com/jedersoncm" target="_blank"><img class="git" src="./img/github2.png" alt="logo github"></a>
+            <a href="https://www.betrybe.com/" target="_blank"><img class="trybe" src="./img/logo_white.png" alt="logo da Trybe"></a>
+        </nav>
     </footer>
 </html>
