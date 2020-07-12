@@ -17,6 +17,18 @@ body {
     width: 380px;
 }
 
+.listas {
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudo_lateral {
+    float: right;
+    justify-content: right;
+    width: 160px;
+    padding-left: 35px;
+}
+
 #cabecalho {
     padding-top: 10px;
     font-size: 1.3em;
@@ -25,38 +37,24 @@ body {
 }
 
 #menu {
-    padding: 3px;
-    margin-top: 10;
+   padding: 10px;
 }
 
 #minha_foto {
-    width: 190px;
+    width: 150px;
     border-radius: 50%;
     margin-top: 15px;
-    background-color: black;
 }
 
 #link_linkedin {
     font-size: 22px;
-    margin-left: 24px;
-}
-
-#licoes_aprendidas , #licoes_a_aprender {
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-.conteudo_lateral {
     display: flex;
-    justify-content: right;
-    height: 216px;
-    width: 280px;
-    margin-top: 50px;
+    justify-content: center;
 }
 
 #rodape {
     display: flex;
     justify-content: center;
+    padding: 8px;
+    margin-top: 20px;
 }
