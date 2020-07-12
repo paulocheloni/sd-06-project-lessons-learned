@@ -63,7 +63,6 @@ article {
     display: block;
     width: 600px;
     height: 300px;
-    text-indent: 30px;
 }
 aside{
     background-color: rgb(34, 133, 34);
@@ -72,7 +71,6 @@ aside{
     display: block;
     width: 600px;
     height: 300px;
-    text-indent: 30px;
 
 }
 hgroup{
