@@ -48,7 +48,7 @@ nav li{
         border-radius: 40px;
         position: absolute;
         right: 300px;
-        bottom: -300px
+        bottom: -500px
 
 }
     footer {
@@ -78,4 +78,9 @@ aside{
 hgroup{
     position: relative;
 
+}
+
+#principal{
+    background-color: rgb(145, 229, 145);
+    padding-top: 150px;
 }
