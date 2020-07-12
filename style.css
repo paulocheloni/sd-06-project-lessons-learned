@@ -309,7 +309,8 @@ a {
 }
 
 .articles-container article,
-.articles-container aside {
+.articles-container aside,
+.articles-container > section {
   width: 50%;
 }
 
