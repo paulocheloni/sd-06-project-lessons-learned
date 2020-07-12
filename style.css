@@ -72,22 +72,6 @@ body {
     text-align: left;
 }
 
-
-/*.column {
-    float: left;
-    width: 40%;
-    padding-left: 1%;
-    text-align: left;
-    justify-content: center;
-    color: white;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}*/
-
 article {
     text-align: left;
     font-size: 100%
