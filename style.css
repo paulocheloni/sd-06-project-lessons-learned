@@ -56,11 +56,13 @@ body {
 .lado_direito {
   float: right;
   max-width: 50%;
+  display: inline-block;
 }
 
 .lado_esquerdo {
   float: left;
   max-width: 50%;
+  display: inline-block;
 }
 
 .button {
