@@ -1,66 +1,94 @@
-body{
-    font-family: monospace;
-    background-color:rgb(253, 251, 251);
-    margin: 200px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-header#cabecalho{
-    background-color: rgb(165, 163, 163);
+body {
+    background-color:rgb(253, 251, 251);
+    font-family: monospace;
+    width: 1366px;
+    height: 768px;
+    margin:0;
+    padding: 200px;
+}
+
+#cabecalho {
     top: 0;
     position: fixed;
-    background-position: 0;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-top: 120px;
+    margin-left: 300px;
+    font-size: 1.3em;
 }
 
-#nav{
-    text-align: center;
-    padding-bottom: 10px;
+#nav {
+    margin-top: 10px;
+    margin-left: 120px;
 }
 
-#minha_foto{
+#minha_foto { 
     border-radius: 30%;
-}
-
-#sobre{
-    padding-top: 70px;
+    border: solid 2px black;
     float: left;
-    margin-left: 0px;
-    margin-right: 200px;
-
-h2{
-    font-size: 20px;
+    margin-left: 140px;
 }
 
-span{
-    font-weight: bold;
-}
-
-#lateral{
+#sobre {
+    background-color: rgb(235, 235, 235);
+    width: 500px;
+    height: 250px;
     float: right;
-    margin-right: 0px;
-    margin-left: 200px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: justify;
 }
 
-#licoes_aprendidas{
+#lateral {
+    background-color: rgb(211, 211, 211);
+    clear: both;
+    width: 200px;
+    height: 350px;
+    float: right;
+    padding: 20px;
+    margin: 20px 10px 0px 0px;
+    
+}
+
+#licoes_aprendidas {
     float: left;
-    margin-right: 200px;
-    margin-left: 100px;
+    width: 220px;
+    height: 220px;
+    margin-left: 150px;
+    margin-top: 30px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     float: right;
-    margin-right: 0px;
-    margin-left: 200px;
-    margin-right: 100px;
+    width: 220px;
+    height: 220px;
+    margin-right: 80px;
+    margin-top: 25px;
 }
 
-#contato{
-    font-size: 20px;
+#contato {
+    padding-top: 30px;
     clear: both;
     text-align: center;
+    font-size: 1.1em;
 }
 
-#rodape{
+#rodape {
     text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.1em;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+span {
+    font-weight: bold;
 }
