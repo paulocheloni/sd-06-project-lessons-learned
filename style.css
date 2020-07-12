@@ -55,17 +55,35 @@ nav {
 .nav-icons{
   filter: invert(5);
 }
-.nav-icons:hover{
-  fill: white;
+
+.list-section{
+  width: 100%;
+  margin-top: 15%;
+}
+
+.list-selection-left {
+  float: left;
+  width: 30%;
+}
+
+.list-selection-center {
+  display: inline;
+}
+
+.list-selection-right{
+  float: right;
+  width: 30%;
 }
 
 #minha_foto {
   border-radius: 100%;
-  width: 400px;
+  width: 250px;
 }
 
 .artigos {
   width: 100%;
+  clear: both;
+  margin-top: 10%;
 }
 
 .lado-esquerdo {
