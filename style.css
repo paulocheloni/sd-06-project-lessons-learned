@@ -2,110 +2,117 @@ body {
   background-color:rgb(253, 251, 251);
 }
 .conteudo {
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-background-color: #337ab7;
-
+  background-color: #337ab7;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 10px black;
 }
 #cabecalho {
-position: fixed;
-top: 0px;
-left: 0px;
-right: 0px;
-background-color: rgb(15, 163, 107);
-height: 100px;
+  background-color: rgb(51, 51, 51);
+  border-bottom: 30px rgb(41, 41, 41) solid;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;  
+  height: 120px;
 }
 #titulo {
-color: white;
-text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
 }
 .sobre-mim {
-float: right;
-width: 600px;
-margin-top: 100px;
-margin-right: 0;
+  float: right;
+  width: 600px;
+  margin-top: 100px;
+  margin-right: 0;
 }
 #minha_foto {
-border: 3px double rgba(41, 40, 40, 0.788);
-
-box-shadow: rgba(black, 1);
-margin: 10px 10px 10px 10px;
-padding: 2px;
-display: block;
+  position: absolute;
+  border: 3px double rgba(41, 40, 40, 0.788);
+  top: 200px;
+  left: 1000px;
+  z-index: 3;
+  /*border-radius: 50%;*/
+  box-shadow: rgba(black, 1);  
+  padding: 2px;
 /*margin-left: auto;*/
 }
 div.capsula-texto {
-color: whitesmoke;
-display: inline-block;
-padding: 10px;
-text-align: justify;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 20px;
-font-size: large;
-margin: 20px;
-width: 40%;
+  color: whitesmoke;
+  display: inline-block;
+  padding: 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: large;
+  margin: 20px;
+  width: 40%;
 }
 .lado-esquerdo {
-margin-left: 20%;
+  margin-left: 20%;
+  margin-top: 200px;
+  margin-right: 20px;
 }
 .lado-direito {
-margin-right: 20%;
+  margin-left: 20px;
+  margin-right: 20%;
 }
 nav.menu {
-display: block;
-position: fixed;
-max-width: 400px;
-left: 70%;
-top: 11%;
+  display: block;
+  position: fixed;
+  max-width: 400px;
+  left: 75%;
+  top: 95px;
 }
 nav.menu a {
-text-transform: uppercase;
-text-decoration: none;
-background-color: #4bb679;
-margin: 5px;
-padding: 5px 10px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #4bb679;
+  margin: 5px;
+  padding: 5px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav.menu a {
-color: white  ;
+  color: white  ;
 }
 nav.menu a:hover {
-background-color: #337ab7;
+  background-color: #337ab7;
 }
 .listas {
-width: 30%;
-display: inline-block;
-line-height: 20px;
-font-size: 20px;
+  width: 30%;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 20px;
 }
 .barra-lateral {
-position: fixed;
-left: 0;
-top: 50%;
-font-size: 25px;
-margin-left: 10px;
-text-decoration: none;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  font-size: 25px;
+  margin-left: 10px;
+  text-decoration: none;
 
 }
 .barra-lateral td{
-text-transform: uppercase;
-background-color: #4bb679;
-border-radius: 0 5px 5px 0;
-padding: 5px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-decoration: none;
+  text-transform: uppercase;
+  background-color: #4bb679;
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
 }
 .barra-lateral td:hover {
-background-color: #337ab7;
-/*background-image: url("./images/opensuse-logo.png");*/
+  background-color: #337ab7;
+  transition: background-color 1s;
 }
 .barra-lateral th {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .barra-lateral a{
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 /*#menu ul li a {
   display: block;
