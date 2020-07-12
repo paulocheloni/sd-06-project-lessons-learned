@@ -6,6 +6,7 @@ body {
     position: fixed;
     top: 0px;
     font-family: 'Bangers', cursive;
+    line-height: 5px;
 }
 #minha_foto {
     padding: 10px;
@@ -22,5 +23,5 @@ body {
     color: royalblue;
 }
 #titulo {
-    font-size: 50px;
+    font-size: 40px;
 }
