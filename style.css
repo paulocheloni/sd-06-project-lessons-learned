@@ -1,14 +1,14 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: monospace , Arial , sans-serif; 
-  font-size: 14px; 
+  font-family: monospace , Arial , sans-serif;
+  font-size: 14px;
   color: darkcyan;
   line-height: 1;
   margin: 0px;
   padding: 0px;
   border: 0px;
-} 
+}
 
 th {
   background-color: rgb(200 , 160 , 25);
@@ -49,7 +49,7 @@ th {
   background-color: rgb(130 , 65 , 30);
 }
 
-#rodape {  
+#rodape {
   background-color: rgb(70 , 70 , 70);
   height: 50px;
   width: auto;
