@@ -58,7 +58,12 @@ nav {
 
 .list-section{
   width: 100%;
+  height: 250px;
   margin-top: 15%;
+
+  background-image: URL(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .list-selection-left {
@@ -67,12 +72,25 @@ nav {
 }
 
 .list-selection-center {
-  display: inline;
+  display: inline-block;
+  margin: 15px 0px 5px 55px;
 }
 
-.list-selection-right{
+.list-selection-right {
   float: right;
   width: 30%;
+  height: 100%;
+}
+
+.list-selection-left, .list-selection-right {
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgb(0, 0, 134);
+}
+
+.list-selection-left li, .list-selection-right li{
+  color: white;
 }
 
 #minha_foto {
