@@ -48,11 +48,13 @@ body {
 .lado-esquerdo {   
     float: left;
     padding-left: 10px;
+    position: relative;
 }
 
 .lado-direito {   
     float: right;
     padding-right: 10px;
+    position: relative;
 }
  
  .separado {
