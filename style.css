@@ -18,6 +18,9 @@ body {
 
 #licoes_aprendidas , #licoes_a_aprender , .artigo_sobre_aprendizado {
   line-height: 20px;
+}
+
+p {
   margin-left: 20px;
 }
 
@@ -36,12 +39,12 @@ h2 h3 {
 .lado-esquerdo {
   width: 600px;
   height: 100px;
-  display: inline-block;  
-  float: left; 
+  display: inline-block;
+  float: left;
 }
 
 .lado-direito {
   width: 600px;
   height: 180px;
-  display: inline-block;     
+  display: inline-block;
 }
