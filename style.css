@@ -1,8 +1,4 @@
-* {
-  top: 0;
-}
-
-body {
+body{
   background-color: rgb(253 , 251 , 251);
 }
 
@@ -22,7 +18,6 @@ body {
   margin: 15px;
   background-color: rgb(134 , 199 , 50);
   font-family: fantasy;
-  font-weight: bolder;
 }
 
 nav {
