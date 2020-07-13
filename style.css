@@ -46,9 +46,11 @@ body {
 }
 
  .lado-esquerdo {   
+    float: left;
 }
 
-.lado-direito {    
+.lado-direito {   
+    float: right;
 }
  
  .separado {
