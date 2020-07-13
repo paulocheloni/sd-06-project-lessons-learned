@@ -1,5 +1,18 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
+
+.corpo_conteudo {
+    background-color: rgba(4, 139, 4, 0.294);   
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.largura_conteudo {
+    width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 #cabecalho {
@@ -7,4 +20,62 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
+    background-color: rgba(4, 139, 4, 0.74);
+    padding-bottom: 22px;
 }
+
+#titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_cabecalho {
+    margin-top: 80px;
+    background-color: rgba(0, 19, 0, 0.733);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.ref_cabecalho {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#minha_foto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(4, 139, 4, 0.589);
+}
+
+.section_foto {
+}
+
+.section_aprendizados {  
+}
+
+.article_aprendezido {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.article_aprendendo {
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.listas {
+    display: table;
+}
+
+.lista_enumerada {
+    display: table-cell;
+}
+
+.lista_numerada {
+    display: table-cell;
+}
+
+
