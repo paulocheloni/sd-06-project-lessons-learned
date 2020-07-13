@@ -1,117 +1,117 @@
-body {
-    background-color: rgb(253, 251, 251)
+body { 
+    background-color: rgb(253, 251, 251); 
 }
 
-#cabecalho {
-    position: fixed;
-    top: 0px;
-    height: 100px;
-    background-color: rgb(49, 135, 90);
-    width: 100%;
+#cabecalho {  
+    position:  fixed;
+    top:  0%;
+    height:  100px;
+    background-color:  rgb(49, 135, 90);
+    width:  100%;
 }
 
 #cabecalho h1 {
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    color:  white;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .principal {
-    width: 80%;
-    margin: auto;
-    padding-top: 95px;
+    width:  80%;
+    margin:  auto;
+    padding-top:  95px;
 }
 
 nav ul li {
-    display: inline;
-    padding: 10px;
+    display:  inline;
+    padding:  10px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:  none;
+    color:  white;
+    font-weight:  500;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .fundo-foto {
-    border-radius: 7px;
-    background-color: rgb(215, 214, 213);
+    border-radius:  7px;
+    background-color:  rgb(215, 214, 213);
 }
 
 #minha_foto {
-    border-radius: 50%;
-    border: 2px groove rgb(232, 247, 239);
-    width: 50%;
-    box-shadow: 1px 1px 3px 3px rgb(232, 247, 239);
+    border-radius:  50%;
+    border:  2px groove rgb(232, 247, 239);
+    width:  50%;
+    box-shadow:  1px 1px 3px 3px rgb(232, 247, 239);
 }
 
 .posicao {
-    margin-left: 32%;
+    margin-left:  32%;
 }
 
 .licoes {
-    padding-top: 20px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top:  20px;
+    margin:  auto;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .palavra {
-    font-size: large;
-    font-style: italic;
+    font-size:  large;
+    font-style:  italic;
 }
 
 table {
-    margin: auto;
+    margin:  auto;
 }
 
 .artigo {
-    color: rgb(49, 135, 90);
-    line-height: 28px;
+    color:  rgb(49, 135, 90);
+    line-height:  28px;
 }
 
 .lado-esquerdo {
-    margin: auto;
-    float: left;
-    width: 40%;
-    margin-left: 10%;
-    margin-bottom: 2%;
-    border: 1px solid rgb(225, 224, 223);
-    box-shadow: 2px 2px 3px 3px rgb(225, 224, 223);
-    padding: 15px;
-    text-align: justify;
-    border-radius: 3px;
+    margin:  auto;
+    float:  left;
+    width:  40%;
+    margin-left:  10%;
+    margin-bottom:  2%;
+    border:  1px solid rgb(225, 224, 223);
+    box-shadow:  2px 2px 3px 3px rgb(225, 224, 223);
+    padding:  15px;
+    text-align:  justify;
+    border-radius:  3px;
 }
 
 .lado-direito {
-    float: right;
-    background-color: rgb(49, 135, 90);
-    color: white;
-    margin: auto;
-    width: 22%;
-    padding: 15px;
-    margin-right: 20%;
-    border-radius: 3px;
-    text-align: justify;
+    float:  right;
+    background-color:  rgb(49, 135, 90);
+    color:  white;
+    margin:  auto;
+    width:  22%;
+    padding:  15px;
+    margin-right:  20%;
+    border-radius:  3px;
+    text-align:  justify;
 }
 
 #rodape {
-    clear: both;
-    background-color: rgb(49, 135, 90);
-    height: 45px;
-    padding-top: 7px;
-    color: white;
+    clear:  both;
+    background-color:  rgb(49, 135, 90);
+    height:  45px;
+    padding-top:  7px;
+    color:  white;
 }
 
 #rodape a {
-    width: 42px;
-    height: 42px;
-    display: inline-block;
-    text-indent: -9999px;
-    border-radius: 50%;
-    margin-left: 50%;
+    width:  42px;
+    height:  42px;
+    display:  inline-block;
+    text-indent:  -9999px;
+    border-radius:  50%;
+    margin-left:  50%;
 }
 
 .logo-git {
-    background-image: url("imagens/rsz_git-pages.png");
+    background-image:  url('imagens/rsz_git-pages.png');
 }
