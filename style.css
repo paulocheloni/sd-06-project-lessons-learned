@@ -67,12 +67,12 @@ p {
 }
 
 .lado-esquerdo {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 
 .lado-direito {
-  width: 45%;
+  width: 50%;
   float: right;
 }
 
