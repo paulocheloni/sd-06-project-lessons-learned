@@ -78,13 +78,19 @@ body {
 .lista_enumerada {
     float: right;
     margin-right: 80px; 
-    margin-right: 80px;   
+    margin-right: 80px;  
+    border: 1px solid black; 
+    padding-left: 10px;
+    padding-right: 45px;
 }
 
 .lista_numerada {
     float: left;
     margin-right: 80px;
     margin-left: 80px;
+    border: 1px solid black;
+    padding-left: 10px;   
+    padding-right: 10px; 
 }
 
 #link_externo {
