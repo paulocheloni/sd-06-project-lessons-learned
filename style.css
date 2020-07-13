@@ -22,7 +22,7 @@ nav {
 }
 
 .subtitle {
-  text-align: center;
+  text-align: left;
 }
 
 .lado-esquerdo {
@@ -33,6 +33,10 @@ nav {
   float: right;
 }
 
+.licoes-table {
+  width: 200px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -40,15 +44,24 @@ nav {
   height: 80px; width: 100%;
   background-color: seagreen;
   color: ghostwhite;
+  padding-left: 5px;
+}
+
+#apresentacao {
+  color: seagreen;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 #minha_foto {
-  width: 25%;
-  padding-top: 100px;
+  width: 18%;
+  border-radius: 50%;
+  margin-top: 100px;
 }
 
 #content {
-  display: inline-block;margin-bottom: 25px;
+  display: inline-block;
+  margin-bottom: 25px;
   width: 50%;
   line-height: 20px;
 }
@@ -65,7 +78,9 @@ nav {
 }
 
 #licoes {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 #rodape {
