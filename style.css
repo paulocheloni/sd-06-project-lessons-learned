@@ -6,16 +6,17 @@ aside {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   z-index: 1;
 }
 
-ol, ul {
+ol , ul {
   width: 25%;
 }
 
 nav {
-  position: fixed; bottom: 30px;
+  position: fixed; 
+  bottom: 30px;
 }
 
 .body-backgound {
@@ -41,7 +42,8 @@ nav {
 #cabecalho {
   position: fixed;
   top: 0;
-  height: 80px; width: 100%;
+  height: 80px; 
+  width: 100%;
   background-color: seagreen;
   color: ghostwhite;
   padding-left: 5px;
@@ -54,7 +56,7 @@ nav {
 
 #apresentacao {
   color: seagreen;
-  font-weight: bold;
+  font-weight: 800;
   padding-left: 10px;
 }
 
@@ -78,13 +80,15 @@ nav {
 }
 
 #experiencia_trybe {
-  position: fixed; left: 10px;
+  position: fixed; 
+  left: 10px;
   width: 65%;
 }
 
 #sidebar-right {
   font-size: 14px;
-  position: fixed; right: 10px;
+  position: fixed; 
+  right: 10px;
   width: 30%;
 }
 
@@ -97,8 +101,7 @@ nav {
 #rodape {
   background-color: seagreen;
   position: fixed;
-  bottom: 0px;
+  bottom: 1px;
   width: 100%;
 }
-
 
