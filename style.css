@@ -1,36 +1,47 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(253 , 251 , 251);
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
 }
 
 header {
   width: 100%;
-  padding: 20px 0;
   position: fixed;
   top: 0;
-  background-color: rgb(10 , 102 , 7);
-  z-index: 1;
-}
-
-#titulo {
+  background: transparent;
   text-align: center;
-  background-color: rgb(10 , 102 , 7);
-  color: rgb(253 , 251 , 251);
 }
 
-.container {
-  margin: 100px 20px 20px;
+nav a{
+  background: transparent;
+  color: rgb(253 , 251 , 251);
+  margin: 0 20px;
+  font-size: 1.3em;
+}
+
+header h1 , nav {
+  background-color: rgb(10 , 102 , 7 , 0.3);
+  color: rgb(253 , 251 , 251);
+  margin: 0;
   padding: 10px;
 }
 
-.container h2 {
-  margin: 20px 0;
+.container {
+  display: flex;
+  width: 80%;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
-.container ol , .container ul {
-  margin-left: 40px;
+.main-container {
+  width: 70%;
+  padding-right: 10%;
 }
 
 footer h3 {
@@ -39,4 +50,12 @@ footer h3 {
   text-align: center;
   color: rgb(253 , 251 , 251);
   background-color: rgb(10 , 102 , 7);
+}
+
+aside {
+  width: 30%;
+  height: fit-content;
+  margin-top: 764px;
+  padding: 0 10px;
+  border: 2px dashed rgb(15, 12, 12);
 }

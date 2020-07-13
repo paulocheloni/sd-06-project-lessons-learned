@@ -6,11 +6,21 @@
   <title>Lições aprendidas</title>
 </head>
 <body>
-  <header id="cabecalho"><h1 id="titulo">Lições aprendidas na Trybe</h1></header>
+  <header id="cabecalho">
+    <h1 id="titulo">Lições aprendidas na Trybe</h1>
+    <nav>
+      <a href="#minha_foto">Início</a>
+      <a href="#licoes_aprendidas">Lições aprendidas</a>
+      <a href="#licoes_a_aprender">Lições a aprender</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#paginas">Minhas páginas</a>
+    </nav>
+  </header>
   <div class="container">
-    <img id="minha_foto" src="/img/renan.jpeg" alt="foto Renan" width="200px">
-    <h2>Lições aprendidas:</h2>
-    <ol id="licoes_aprendidas">
+    <div class="main-container">
+      <img id="minha_foto" src="/img/renan.jpeg" alt="foto Renan" width="200px">
+      <ol id="licoes_aprendidas">
+        <h2>Lições aprendidas:</h2>
         <li>Unix & Bash</li>
         <li>Shell Script</li>
         <li>Git</li>
@@ -21,9 +31,9 @@
         <li>CSS</li>
         <li>HTML Semântico</li>
         <li>Slack</li>
-    </ol>
-    <h2>Lições a aprender:</h2>
-    <ul id="licoes_a_aprender">
+      </ol>
+      <ul id="licoes_a_aprender">
+        <h2>Lições a aprender:</h2>
         <li>Javascript</li>
         <li>Front-end</li>
         <li>CSS Flexbox</li>
@@ -34,20 +44,31 @@
         <li>Redux</li>
         <li>Back-end</li>
         <li>NoSQL</li>
-    </ul>
-    <article>
-      <h2>Minha experiência na Trybe</h2>
-      <p>Minha experiência de aprendizado na Trybe tem sido sensacional. Esse modelo de estudo
-      ativo da Trybe faz toda a diferença, fazendo com que os estudantes tenham questionamentos
-      e dúvidas, que são levados para discussão e esclarecimento na aula, e então após a aula
-      fazemos exercícios que nos ajudam a fixar o conteúdo.
-      Por fim, os projetos nos ajudam a consolidar o conteúdo ao longo do curso, testando o conhecimento
-      que aprendemos até o momento.</p><br>
-    </article>
-    <h2>Minhas páginas</h2>
-    <a target="_blank" href="https://www.linkedin.com/in/renan-hcunha/">Linkedin</a>
-    <a target="_blank" href="https://www.github.com/renanhcunha/">Github</a>
-    <a target="_blank" href="https://renanhcunha.github.io/">Portfólio Web</a>
+      </ul>
+      <article id="experiencia">
+        <h2>Minha experiência na Trybe</h2>
+        <p>Minha experiência de aprendizado na Trybe tem sido sensacional. Esse modelo de estudo
+        ativo da Trybe faz toda a diferença, fazendo com que os estudantes tenham questionamentos
+        e dúvidas, que são levados para discussão e esclarecimento na aula, e então após a aula
+        fazemos exercícios que nos ajudam a fixar o conteúdo.
+        Por fim, os projetos nos ajudam a consolidar o conteúdo ao longo do curso, testando o conhecimento
+        que aprendemos até o momento.</p><br>
+      </article>
+      <h2 id="paginas">Minhas páginas</h2>
+      <a target="_blank" href="https://www.linkedin.com/in/renan-hcunha/">Linkedin</a>
+      <a target="_blank" href="https://www.github.com/renanhcunha/">Github</a>
+      <a target="_blank" href="https://renanhcunha.github.io/">Portfólio Web</a><br><br>
+      <a href="#minha_foto">Topo da página</a>
+    </div>
+    <aside>
+      <section>
+        <h2>Explorando HTML & CSS</h2>
+        <p>Durante o aprendizado sobre HTML & CSS aprendi a fazer um Portfólio Web, que conta
+          um pouco sobre mim, minhas habilides técnicas e pessoais, minha páginas recomendadas
+          e minhas páginas sociais.
+        </p>
+      </section>
+    </aside>
   </div>
   <footer id="rodape"><h3>&copy; Página criada por Renan H. Cunha</h3></footer>
 </body>
