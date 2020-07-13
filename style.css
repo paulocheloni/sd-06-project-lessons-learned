@@ -31,15 +31,26 @@ body {
 }
 
 .lado-esquerdo {
-    margin-left: 50px;
-    margin-top: 50px;
-    max-width: 300px;
-    position: relative;
-    font-weight: 600;
-    vertical-align: top;
-    float: left;
-    
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 30px;
+    max-width: 100%;
+    display: inline-block;
 }
+
+div.primeira_lista, div.segunda_lista, article.artigo {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.artigo {
+    display: inline-block;
+    max-width: 550px;
+    line-height: 30px;
+}
+
 
 #rodape {
     clear: both;
@@ -62,14 +73,6 @@ body {
 
 .links a:hover {
     background-color: orangered;
-}
-
-.lado-esquerdo.artigo {
-    display: inline-block;
-    max-width: 550px;
-    margin-left: 30px;
-    font-weight: 200;
-    line-height: 30px;
 }
 
 .lado-direito {
