@@ -1,12 +1,12 @@
 .body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Cambria, Cochin, Georgia, Times "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   font-size: large;
   line-height: 2em;
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   padding: 10px 10px 1px 1px;
   width: 98%;
   border: 1px solid black;
@@ -87,12 +87,12 @@ footer {
 }
 
 .background_fundo {
-  background-image: url("imagem/fundo1.jpg");
+  background-image: url(imagem/fundo1.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: rgb(253, 251, 251);
+  color: rgb(253 , 251 , 251);
   text-shadow: 1px 1px 1px rgba(0 , 0 , 0 , 0.61);
   padding-top: 50px;
   padding-bottom: 50px;
