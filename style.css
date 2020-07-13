@@ -1,12 +1,13 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
+    width: 100%;
 }
 
 .corpo_conteudo {
     background-color: rgba(4, 139, 4, 0.294);   
     padding-top: 10px;
-    padding-bottom: 20px;
+    width: 100%;
 }
 
 .largura_conteudo {
@@ -21,16 +22,15 @@ body {
     left: 0px;
     width: 100%;
     background-color: rgba(4, 139, 4, 0.74);
-    padding-bottom: 22px;
 }
 
 #titulo {
-    text-align: center;
+    text-align: left;
+    margin-left: 150px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_cabecalho {
-    margin-top: 80px;
     background-color: rgba(0, 19, 0, 0.733);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -45,8 +45,8 @@ body {
 }
 
 #minha_foto {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-bottom: 100px;
     background-color: rgba(4, 139, 4, 0.589);
 }
 
@@ -59,23 +59,67 @@ body {
 .article_aprendezido {
     margin-left: 30px;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .article_aprendendo {
     margin-left: 30px;
     padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .listas {
-    display: table;
+    display: inline-block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
 }
 
 .lista_enumerada {
-    display: table-cell;
+    float: right;
+    margin-right: 80px; 
+    margin-right: 80px;   
 }
 
 .lista_numerada {
-    display: table-cell;
+    float: left;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
+#link_externo {
+    display: inline-block;
+    background-color: rgba(0, 19, 0, 0.733);
+    width: 100%;
+    text-align: center;
+    margin-bottom: ;
+}
 
+.titulo_links {
+    float: left;
+    margin-left: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.links_externos {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.espacamento_link_externo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+#rodape {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+}
