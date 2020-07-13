@@ -64,6 +64,11 @@ a {
   color: rgb(5 , 5 , 5);
 }
 
+h2{
+  margin-top: 20px;
+  text-align: center;
+}
+
 #content {
   width: 80%;
   margin: auto;
@@ -73,6 +78,6 @@ a {
 }
 
 #complementar {
-  float: right; 
-  width: 30%; 
+  float: right;
+  width: 30%;
 }
