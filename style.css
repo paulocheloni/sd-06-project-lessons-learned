@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  z-index: 1;
 }
 
 ol, ul {
@@ -40,11 +41,15 @@ nav {
 #cabecalho {
   position: fixed;
   top: 0;
-  z-index: 10;
   height: 80px; width: 100%;
   background-color: seagreen;
   color: ghostwhite;
   padding-left: 5px;
+}
+
+#bk-img {
+  position: absolute;
+  z-index: -1;
 }
 
 #apresentacao {
@@ -53,10 +58,16 @@ nav {
   padding-left: 10px;
 }
 
+#sobre {
+  color: black;
+  font-weight: 500;
+}
+
 #minha_foto {
-  width: 18%;
+  width: 140px;
   border-radius: 50%;
   margin-top: 100px;
+  z-index: 2;
 }
 
 #content {
@@ -89,4 +100,5 @@ nav {
   bottom: 0px;
   width: 100%;
 }
+
 
