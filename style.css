@@ -60,6 +60,24 @@ div.links-navegacao {
     width: 30%;
     line-height: 20px;
 }
+.titulo-tabela {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10 px;
+    color: rgb(45, 49, 66);
+}
+.tabela-trybe{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10 px;
+    color: rgb(45, 49, 66);
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 5px;
+}
+table, th, td {
+    padding: 10px;
+    border: 1px solid rgb(45, 49, 66);
+}
     
 .lado-esquerdo {
     float: left;
