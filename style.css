@@ -87,7 +87,7 @@ footer {
 }
 
 .background_fundo {
-  background-image: url(imagem/fundo1.jpg);
+  background-image: url(imagem/"fundo1.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@ footer {
 }
 
 .background_top {
-  background-image: url(imagem/fundo2.jpg);
+  background-image: url(imagem/"fundo2.jpg");
   color: rgb(253 , 251 , 251);
   text-shadow: 1px 1px 1px rgba(0 , 0 , 0 , 0.61);
   padding-top: 50px;
