@@ -12,7 +12,7 @@ body {
     background-color: green;
     
   }
-  #titulo {
+  #titulo{
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-weight: 2000;
       font-style: normal;
@@ -24,5 +24,11 @@ body {
   }
   #minha_foto {
     width: 200px;
-
+    float: initial;
+  }
+  #licoes_aprendidas {
+    float: left;
+  }
+  #licoes_a_aprender {
+    float: inline-start;
   }
