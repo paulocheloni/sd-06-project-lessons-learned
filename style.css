@@ -1,8 +1,10 @@
 body {
-  background-color: rgb(253 , 251 , 251);/* testando crítica dos espaços codeclimate, "espaço,espaço (253 , 251 , 251)" na cor verde */
+  background-color: rgb(253 , 251 , 251);
+  /* testando crítica dos espaços codeclimate, "espaço,espaço (253 , 251 , 251)" na cor verde */
   border: 8px;
-  color: rgb(120, 10, 250);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman" , serif; /* crítica do codeclimate espaço após aspas duplas */
+  color: rgb(120 , 10 , 250);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* crítica do codeclimate aspa simples */
   font-size: large;
   line-height: 2em;
   margin: 8px;
@@ -11,7 +13,8 @@ body {
 
 h2 {
   font-family: monospace;
-  color: rgb(50 , 20 , 80);/* testando crítica dos espaços codeclimate */
+  color: rgb(50 , 20 , 80);
+  /* testando crítica dos espaços codeclimate */
 }
 
 #cabecalho {
