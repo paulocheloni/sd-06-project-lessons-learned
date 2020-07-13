@@ -8,8 +8,10 @@ body {
     top: 0px;
     position: fixed;
     background-color: black;
-    text-align: left;  
-    
+    text-align: left; 
+    width: 20px;
+    padding: 2px;
+    margin: 0px;
 }
 
 #titulo {
@@ -75,6 +77,7 @@ a {
     text-decoration: none;    
     line-height: 15px;
 }
+
 
 
 
