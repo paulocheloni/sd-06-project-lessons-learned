@@ -1,26 +1,68 @@
-@charset "utf-8";
+@charset "utf-8"; 
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(253, 251, 251);
 }
 #cabecalho { 
-    background-color: rgb(104, 128, 184);
+    background-image: url("img/dev-web1.jpg");
+    background-size: cover;
+    background-position: 70% 40%;
+    padding: 70px 600px 70px 10px;
     position: fixed;
+    width: 750px;
+    height: 80px;
     top: 0px;
-    margin: 0px;
-    padding: 50px 300px;
-}
-#minha_foto {
-    margin-top:;
-    width: 200px;
-    padding-top: 170px;
 }
 nav {
     text-align: left;
     padding-left: 0px;
 }
-#rodape{
-    background-color:  rgb(104, 128, 184);
+nav a{ 
+    padding: 5px;
+    color: #0a7e51;
+    text-decoration: none;
+}
+#cabecalho h1 {
+    color: #0a7e51;
+        text-align: left;
+        line-height: 70px;
+        letter-spacing: -1px;
+        font-size: 37px;        
+}
+#minha_foto {
     
-    padding: 10px;
-    margin: -5px;
+    border: 5px solid white;
+    box-shadow: 1px 1px 4px black;
+    float: left ;
+    margin: 220px 50px 10px 0px;
+    width: 200px;
+    padding: 2px;
+}
+#table {
+    float: left;
+    padding-top: 200px;
+}
+#table h2{
+    text-align: center;
+}
+#table td {
+    padding-left: 10px;
+}
+article {
+    padding-top: 500px;
+}
+ol {
+    float: left;
+}
+ul {
+    float: left;
+    padding-left: 150px;
+}
+#rodape{
+    background-color:  #0a7e51;
+    color: white;
+    width: 1325px;
+    padding: 1px 1px;
+    margin: px;
+    margin-top: 320px;
 }
