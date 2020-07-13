@@ -77,23 +77,22 @@ table {
     margin-left: 10%;
     margin-bottom: 2%;
     border: 1px solid rgb(225 ,224 ,223);
-    box-shadow: 2px 2px 3px 3px rgb(225 ,224 ,223);
-    padding: 4px;
+    box-shadow: 2px 2px 3px 3px rgb(225,224,223);
+    padding: 15px;
     text-align: justify;
     border-radius: 3px;
 }
 
 .lado-direito {
     float: right;
-    background-color: rgb(49 ,135 ,90);
+    background-color: rgb(49,135,90);
     color: white;
     margin: auto;
-    margin-bottom: 2%;
-    width: 20%;
+    width: 22%;
+    padding: 15px;
     margin-right: 20%;
     border-radius: 3px;
-    text-align: center;
-    margin-top: 10%;
+    text-align: justify;
 }
 
 #rodape {
