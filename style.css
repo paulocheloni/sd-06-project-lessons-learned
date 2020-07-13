@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color:black;
+  color: black;
   padding: 20px 10px;
 }
 
@@ -51,7 +51,7 @@ main {
   clear: both;
   position: relative;
   top: 120px;
-  margin: 0px 5px;
+  margin: 0 5px;
 }
 
 aside {
@@ -62,10 +62,10 @@ aside {
   z-index: 100000;
 }
 
-aside p.hero-description {
+.hero-description {
   font-size: 12px;
   position: relative;
-  left: 0px;
+  left: 0;
   bottom: 20px;
   display: inline-block;
   max-width: 289px;
@@ -111,7 +111,7 @@ footer {
   text-align: center;
 }
 
-section.lessons-header {
+.lessons-header {
   width: 100%;
   height: 120px;
   line-height: 1em;
@@ -119,10 +119,10 @@ section.lessons-header {
 }
 
 .lessons-header h2 {
-height: 120px;
+  height: 120px;
 }
 
-section.lessons-body {
+.lessons-body {
   width: 100%;
   min-height: 200px;
 }
@@ -176,7 +176,7 @@ section.lessons-body {
     display: inline-block;
     width: 39.5%;
     text-align: right;
-    right: 0%;
+    right: 0;
 
   }
 }
