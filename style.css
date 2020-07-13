@@ -1,6 +1,5 @@
-
 * {
-  top: 0px;
+  top: 1px;
 }
 
 body {
@@ -13,8 +12,8 @@ body {
 }
 
 #cabecalho {
-  position: absolute;
-  top: 1px;
+  position: fixed;
+  top: 0px;
   background-color: rgb(134 , 199 , 50);
 }
 
