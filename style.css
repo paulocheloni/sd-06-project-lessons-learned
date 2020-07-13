@@ -7,9 +7,7 @@ body {
 .cabecalho {
     top: 0px;
     background-color: black;
-    text-align: left;
-    width: 20px;
-    padding: 2px;
+    text-align: left;    
     position: fixed;
 }
 
