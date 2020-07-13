@@ -32,20 +32,22 @@ body {
 
 .lado-esquerdo {
     margin-left: 30px;
-    margin-top: 10px;
-    padding: 30px;
     width: 550px;
     position: relative;
     float: left;
 }
 
 .lado-direito {
-    margin-top: 10px;
-    padding: 30px;
     width: 550px;
     line-height: 30px;
     position: relative;
     float: right;
+}
+
+.lado-esquerdo, .lado-direito {
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 30px;
 }
 
 div.primeira_lista, div.segunda_lista {
@@ -83,7 +85,7 @@ div.primeira_lista, div.segunda_lista {
     background-color: orangered;
 }
 
-.adicional {
+.lado-direito {
     max-width: 250px;
     background-color: gray;
     float: right;
