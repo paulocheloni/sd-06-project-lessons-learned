@@ -1,121 +1,121 @@
 
-* {
-	margin: 0;
-	padding: 0;
-}
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
-body {
-	background-color: rgb(253 , 251 , 251);
-}
+	body {
+		background-color: rgb(253 , 251 , 251);
+	}
 
-#cabecalho {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	background-color: rgb(7 , 136 , 155);
-	padding: 15px;
-	text-align: center;
-}
+	#cabecalho {
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		background-color: rgb(7 , 136 , 155);
+		padding: 15px;
+		text-align: center;
+	}
 
-#logo {
-	padding-top: 80px;
-	padding-left: 30px;
-	font-family: 'Courier New', Courier, monospace;	
-}
+	#logo {
+		padding-top: 80px;
+		padding-left: 30px;
+		font-family: 'Courier New', Courier, monospace;	
+	}
 
-#menu {
-	padding: 10px;
-}
+	#menu {
+		padding: 10px;
+	}
 
-a {
-	text-decoration: none;
-}
+	a {
+		text-decoration: none;
+	}
 
-#rodape {
-	width: 100%;
-	clear: both;
-	text-align: center;
-	padding: 15px;
-	background: rgb(102 , 115 , 116);
-	color: rgb(78 , 78 , 78);
-}
+	#rodape {
+		width: 100%;
+		clear: both;
+		text-align: center;
+		padding: 15px;
+		background: rgb(102 , 115 , 116);
+		color: rgb(78 , 78 , 78);
+	}
 
-a:link, a:visited {
-	color: rgb(247 , 182 , 0);
-}
+	a:link, a:visited {
+		color: rgb(247 , 182 , 0);
+	}
 
-a:hover {
-	text-decoration: underline;
-}
+	a:hover {
+		text-decoration: underline;
+	}
 
-#cabecalho a:link, #cabecalho a:visited {
-	color: white;
-	padding: 8px 12px;
-}
+	#cabecalho a:link, #cabecalho a:visited {
+		color: white;
+		padding: 8px 12px;
+	}
 
-#cabecalho a:hover {
-	color: rgb(227 , 114 , 34);
-	background: rgb(102 , 185 , 191);
-	text-decoration: none;
-}
+	#cabecalho a:hover {
+		color: rgb(227 , 114 , 34);
+		background: rgb(102 , 185 , 191);
+		text-decoration: none;
+	}
 
-#minha_foto {
-	border-radius: 150px;
-	padding-top: 60px;
-}
+	#minha_foto {
+		border-radius: 150px;
+		padding-top: 60px;
+	}
 
-.lado-esquerdo {
-	float: left;
-}
+	.lado-esquerdo {
+		float: left;
+	}
 
-.lado-direito {
-	float: right;
-}
+	.lado-direito {
+		float: right;
+	}
 
-h1 {
-	color: rgb(78 , 78 , 78);
-	font-size: 2.5em;
-}
+	h1 {
+		color: rgb(78 , 78 , 78);
+		font-size: 2.5em;
+	}
 
-ol {
-	float: left;
-	padding-top: 50px;
-	padding-left: 40px;
-}
+	ol {
+		float: left;
+		padding-top: 50px;
+		padding-left: 40px;
+	}
 
-ul {
-	float: right;
-	padding-top: 50px;
-	padding-right: 150px;
-}
+	ul {
+		float: right;
+		padding-top: 50px;
+		padding-right: 150px;
+	}
 
-article {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 40px;
-	padding-right: 50px;
-	clear: left;
-	width: 450px;
-	height: 250px;
-}
+	article {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 50px;
+		clear: left;
+		width: 450px;
+		height: 250px;
+	}
 
-aside {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 40px;
-	padding-right: 50px;
-	width: 450px;
-	height: 250px;
-}
+	aside {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 50px;
+		width: 450px;
+		height: 250px;
+	}
 
-th, td {
-	padding: 10px;
-	text-align: center;
-	border-style: dotted;
-	border-color: lime;
-	font-size: 2em;
-}
+	th, td {
+		padding: 10px;
+		text-align: center;
+		border-style: dotted;
+		border-color: lime;
+		font-size: 2em;
+	}
 
-p {
-	line-height: 30px;
-}
+	p {
+		line-height: 30px;
+	}
