@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 ,251 ,251);
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
     height: 100px;
-    background-color: rgb(49, 135, 90);
+    background-color: rgb(49 ,135 ,90);
     width: 100%;
 }
 
@@ -29,21 +29,21 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundo-foto {
     border-radius: 7px;
-    background-color: rgb(215, 214, 213);
+    background-color: rgb(215 ,214 ,213);
 }
 
 #minha_foto {
     border-radius: 50%;
-    border: 2px groove rgb(232, 247, 239);
+    border: 2px groove rgb(232 ,247 ,239);
     width: 50%;
-    box-shadow: 1px 1px 3px 3px rgb(232, 247, 239);
+    box-shadow: 1px 1px 3px 3px rgb(232 ,247 ,239);
 }
 
 .posicao {
@@ -66,7 +66,7 @@ table {
 }
 
 .artigo {
-    color: rgb(49, 135, 90);
+    color: rgb(49 ,135 ,90);
     line-height: 28px;
 }
 
@@ -76,16 +76,16 @@ table {
     width: 40%;
     margin-left: 10%;
     margin-bottom: 2%;
-    border: 1px solid rgb(225, 224, 223);
-    box-shadow: 2px 2px 3px 3px rgb(225, 224, 223);
+    border: 1px solid rgb(225 ,224 ,223);
+    box-shadow: 2px 2px 3px 3px rgb(225 ,224 ,223);
     padding: 4px;
-    text-align: center;
+    text-align: justify;
     border-radius: 3px;
 }
 
 .lado-direito {
     float: right;
-    background-color: rgb(49, 135, 90);
+    background-color: rgb(49 ,135 ,90);
     color: white;
     margin: auto;
     margin-bottom: 2%;
@@ -98,7 +98,7 @@ table {
 
 #rodape {
     clear: both;
-    background-color: rgb(49, 135, 90);
+    background-color: rgb(49 ,135 ,90);
     height: 45px;
     padding-top: 7px;
     color: white;
