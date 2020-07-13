@@ -3,19 +3,46 @@ aside {
   margin-left: 70%;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .body-backgound {
   background-color: rgb(253 , 251 , 251);
+}
+
+.subtitle {
+  text-align: center;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 #minha_foto {
   width: 25%;
 }
 
+#content {
+  width: 70%;
+  position: fixed;
+  left: 1px;
+}
+
+#sidebar-right {
+  border-style: inset;
+  position: fixed;
+  top: 200px;
+  right: 1px;
+  width: 20%;
+}
+
 #rodape {
   background-color: seagreen;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
