@@ -8,14 +8,14 @@ body {
   top: 0;
   margin-left: 10px;
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: rgb(191 , 192 , 192);
   background-color: rgb(239 , 131 , 84);
 }
 
 #titulo {
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: rgb(191 , 192 , 192);
 }
 
@@ -35,7 +35,7 @@ div .links-navegacao {
 
 .descricao-inicial {
   width: 70%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   position: absolute;
@@ -46,7 +46,7 @@ div .links-navegacao {
 }
 
 .lista-aprendizados {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   line-height: 20px;
   color: rgb(45 , 49 , 66);
@@ -57,7 +57,7 @@ div .links-navegacao {
 }
 
 .vou-aprender {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   width: 30%;
@@ -65,13 +65,13 @@ div .links-navegacao {
 }
 
 .titulo-tabela {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
 }
 
 .tabela-trybe {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   line-height: 20px;
@@ -87,7 +87,7 @@ table , th , td {
 
 .lado-esquerdo {
   float: left;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   width: 45%;
@@ -100,7 +100,7 @@ table , th , td {
 .lado-direito {
   float: right;
   width: 45%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   line-height: 20px;
@@ -113,7 +113,7 @@ table , th , td {
   background-color: rgb(239 , 131 , 84);
   width: 100%;
   color: rgb(191 , 192 , 192);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-align: center;
   font-size: 20px;
   bottom: 0;
