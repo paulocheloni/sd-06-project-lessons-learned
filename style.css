@@ -12,21 +12,18 @@ body {
     color: #ffffff;
 }
 
-.conteudo_lateral {
-    float: right;
-    width: 380px;
-}
-
 .listas {
     display: flex;
+    width: 568px;
     margin-top: 20px;
+    padding: 15px;
 }
 
 .conteudo_lateral {
-    float: right;
+    display: flex;
     justify-content: right;
-    width: 160px;
-    padding-left: 35px;
+    width: 200px;
+   margin-left: 150px;
 }
 
 #cabecalho {
@@ -50,6 +47,10 @@ body {
     font-size: 22px;
     display: flex;
     justify-content: center;
+}
+
+#tabela {
+    padding: 15px;
 }
 
 #rodape {
