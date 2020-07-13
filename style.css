@@ -117,3 +117,12 @@ td {
 tr td:nth-child( odd ) {
   font-weight: 900;
 }
+
+/* Rodapé */
+footer {
+  background-color: black;
+  color: rgb(109 , 89 , 122);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
