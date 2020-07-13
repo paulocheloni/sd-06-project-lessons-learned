@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -19,20 +20,29 @@ footer {
   margin-bottom: 0;
 }
 
-#minha_foto {
+.my-pic {
   width: 15%;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-left: 50px;
   border-radius: 50%;
   border-style: ridge;
   border-color: rgb(13 , 0 , 87);
   display: inline-block;
 }
 
-.corpo-principal {
-  display: inline-block;
+.title {
+  font-family: 'Anton', sans-serif;
 }
 
-.bloco-lista {
+.title-header {
+  letter-spacing: 0.1em;
+}
+
+.sub-title-header {
+  letter-spacing: 0.05em;
+}
+
+.block-list {
   display: inline-block;
   margin: 60px;
 }
@@ -51,24 +61,29 @@ footer {
   margin-top: 50px;
 }
 
-#link-nome {
-  float: left;
-  margin-left: 160px;
-  margin-top: 0;
+.link-name {
+  position: absolute;
+  top: 83%;
+  left: 5%;
   text-decoration: none;
 }
 
-#barra_navegacao {
-  display: block;
+nav {
+  background-color: rgb(78, 199, 247);
 }
 
 .nav-link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-color: rgb(29, 42, 155);
 }
 
-#listas_licoes {
-  display: inline-block;
-  text-align: center;
-  margin: auto;
+.nav-link a:hover {
+
 }
