@@ -12,6 +12,7 @@ header {
   position: fixed;
   text-align: center;
   top: 0;
+  z-index: 1;
 }
 
 main {
@@ -21,7 +22,7 @@ main {
 
 footer {
   background-color: rgb(72 , 172 , 211);
-  position: bottom;
+  margin-top: 50px;
 }
 
 .my-pic {
@@ -89,4 +90,13 @@ nav a:hover {
   color: white;
   font-weight: 600;
   background-color: rgb(29 , 42 , 155);
+}
+
+.footer {
+  display: inline-block;
+}
+
+.social-link-block {
+  margin-left: 150px;
+  margin-top: 15px;
 }
