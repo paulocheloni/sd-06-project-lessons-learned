@@ -13,15 +13,17 @@ body {
   width: 80%;
   height: 80%;
   margin: 2%;
-  background-color: rgb (253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 /* Requisito 2 */
 #cabecalho {
+  position: fixed;
   top: 0;
-  width: 100%;
-  height: 10%;
-  display: block;
+  left: 0;
+  width: 80%;
+  height: 50px;
+  display: inline-block;
   background-color: green;
   color: whitesmoke;
 }
@@ -29,6 +31,8 @@ body {
 #cabecalho h1 {
   margin-top: 0;
   margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 14pt;
 }
 
 nav {
@@ -38,6 +42,7 @@ nav {
 }
 
 main {
+  margin-top: 2%;
   width: 100%;
   height: 80%;
   display: inline-block;
@@ -62,13 +67,14 @@ nav a {
   height: 50%;
 }
 
-.blocos {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   margin: 0;
   padding: 2%;
   height: 50%;
   width: 30%;
   text-align: left;
+  line-height: 1.2;
 }
 
 footer {
