@@ -38,17 +38,23 @@ body {
     display: inline-block;
 }
 
-div.primeira_lista, div.segunda_lista, article.artigo {
+div.primeira_lista, div.segunda_lista {
     display: inline-block;
     vertical-align: top;
     margin-left: 30px;
     font-weight: 600;
 }
 
-.artigo {
+.lado-direito {
     display: inline-block;
+    margin-top: 10px;
+    padding: 30px;
     max-width: 550px;
     line-height: 30px;
+}
+
+.lado-esquerdo, .lado-direito {
+    vertical-align: top;
 }
 
 
@@ -75,7 +81,7 @@ div.primeira_lista, div.segunda_lista, article.artigo {
     background-color: orangered;
 }
 
-.lado-direito {
+.adicional {
     max-width: 250px;
     background-color: gray;
     float: right;
