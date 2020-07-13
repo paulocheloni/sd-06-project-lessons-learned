@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Inter, sans-serif;
+  color: rgb(4 , 0 , 27);
+  font-size: 110%;
+  line-height: 1.1;
 }
 
 header {
@@ -13,11 +16,12 @@ header {
 
 main {
   margin-top: 150px;
+  display: inline-block;
 }
 
 footer {
   background-color: rgb(72 , 172 , 211);
-  margin-bottom: 0;
+  position: bottom;
 }
 
 .my-pic {
@@ -63,8 +67,8 @@ footer {
 
 .link-name {
   position: absolute;
-  top: 83%;
-  left: 5%;
+  top: 540px;
+  left: 50px;
   text-decoration: none;
 }
 
@@ -81,6 +85,8 @@ nav {
   border-color: rgb(29 , 42 , 155);
 }
 
-.nav-link a:hover {
-
+nav a:hover {
+  color: white;
+  font-weight: 600;
+  background-color: rgb(29 , 42 , 155);
 }
