@@ -66,12 +66,12 @@ p {
   display: inline-block;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   width: 45%;
   float: left;
 }
 
-#lado-direito {
+.lado-direito {
   width: 45%;
   float: right;
 }
