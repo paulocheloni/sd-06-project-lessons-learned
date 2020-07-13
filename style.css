@@ -66,7 +66,7 @@ body {
 .foto {
   width: 263px;
   border-radius: 25%;
-  grid-area: b;
+  grid-area: t;
   justify-self: center;
 }
 
@@ -83,7 +83,7 @@ article {
 }
 
 aside {
-  grid-area: c;
+  grid-area: t;
 
   font-size: 2em;
   text-align: right;
@@ -93,7 +93,7 @@ aside {
 }
 
 table {
-  grid-area: t;
+  grid-area: c;
   margin: 92px 0px;
 }
 
