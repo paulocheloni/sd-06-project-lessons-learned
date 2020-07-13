@@ -1,50 +1,84 @@
-* {
+body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
-  text-emphasis: justify;
+  text-align: justify;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  margin: 8px;
 }
 
-,title-container {
-  background-color: midnightblue;
-  color: silver;
-}
-
-#cabecalho, #titulo {
-  margin-top: 0px;
-  font-family: cursive;
+#cabecalho {
+  background-color: forestgreen;
+  color: black;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   position: fixed;
-  background-color: midnightblue;
   color: whitesmoke;
 }
 
+#titulo {
+  margin-left: 20px;
+}
+
+#navigation ul {
+  display: flex;
+}
+
 #navigation ul li {
-  list-style: none;
-  display: inline-flex;
-  text-align: left;
-  margin-left: 8px;
-  margin-top: 80px;
+  list-style-type: none;
   padding: 6px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.picture {
+  padding: 8px;
 }
 
 #minha_foto {
   width: 15%;
-  margin-top: 30px;
-  padding: 8px;
+  margin-top: 100px;
 }
 
-#licoes_aprendidas {
-
+a {
+  margin-left: 20px;
+  font-weight: bold;
 }
 
-#licoes_a_aprender {
+a, a:visited {
+  text-decoration: none;
+  color:black;
+}
 
+a:hover, a:active, a:focus {
+  background-color: azure;  
+}
+
+.licoes {
+  margin: 15px;
+  padding: 18px;
+  border: 2px;;
+  border-color: black;
+  border-style: dashed;
+  width: 40% ;
+}
+
+.lado_esquerdo {
+  float: left;
+  width: 30%;
+}
+
+.lado_direito {
+  float: right;
+  width: 30%;
+  margin-right: 500px;
 }
 
 #rodape {
-  margin-bottom: 0px;
-  margin-top: 30px;
-  background-color: silver;
-  font-family: cursive;
-  font-size: 15px;
-  font-weight: 500;
+  margin-left: 5px;
+  font-weight: 600;
+  font-style: italic;
+  clear: both;
+  bottom: 0px;
 }
