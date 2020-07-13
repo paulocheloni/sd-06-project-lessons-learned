@@ -35,19 +35,22 @@ border: 0px;
 #licoes_aprendidas{
   font-weight: bold;
   font-size: 20px;
-  clear: both;
+  float: left;
+  margin-left: 30%;
 }
 
 #licoes_a_aprender{
   font-weight: bold;
   font-size: 20px;
-  clear: both;
+  float: right;
+  margin-right: 30%;
 }
 
 #rodape {
   text-align: center;
   background-color: gray;
   color: white;
+  clear: both;
 }
 
 .artigo-sobre-aprendizado{
@@ -62,4 +65,12 @@ float: left;
   font-weight: bold;
   font-style: italic;
   float: right;
+}
+
+.linkexterno{
+  clear: both;
+}
+
+.listasection{
+  clear: both;
 }
