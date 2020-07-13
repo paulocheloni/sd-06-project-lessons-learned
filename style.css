@@ -86,7 +86,10 @@ aside {
   grid-area: c;
 
   font-size: 2em;
-  text-align: right;'
+  text-align: right;
+  background: linear-gradient(rgb(0, 69, 134),rgb(1, 141, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 table {
@@ -103,6 +106,22 @@ footer {
   background-color: rgb(0, 69, 134);
   color: rgb(240, 240, 240);
   font-size: 0.8em;
+}
+
+footer img:hover {
+  animation-name: picGlow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes picGlow {
+  0% {
+      transform: scale(1);
+      filter: saturate(100%);
+  }
+  100% {
+      transform: scale(1.1);
+    filter: saturate(200%);
+  }
 }
 
 a {
