@@ -112,7 +112,8 @@ h3 {
   border: 3px solid  rgb( 194 , 83 , 19 );
   position: absolute;
   top: 48%;
-  width: 100%;
+  left: 0;
+  width: 48%;
   height: auto;
   line-height: 1.4;
 }
@@ -121,8 +122,9 @@ h3 {
   background-color: rgb( 160 , 158 , 50 );
   border: 3px solid rgb( 194 , 83 , 19 );
   position: absolute;
-  top: 70%;
-  width: 100%;
+  top: 48%;
+  right: 0;
+  width: 50%;
   height: auto;
   line-height: 1.4;
 }
