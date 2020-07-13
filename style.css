@@ -35,7 +35,8 @@ body {
     margin-top: 10px;
     padding: 30px;
     max-width: 100%;
-    display: inline-block;
+    position: relative;
+    float: left;
 }
 
 div.primeira_lista, div.segunda_lista {
@@ -46,11 +47,12 @@ div.primeira_lista, div.segunda_lista {
 }
 
 .lado-direito {
-    display: inline-block;
     margin-top: 10px;
     padding: 30px;
     max-width: 550px;
     line-height: 30px;
+    position: relative;
+    float: right;
 }
 
 .lado-esquerdo, .lado-direito {
