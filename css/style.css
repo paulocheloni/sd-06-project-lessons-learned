@@ -20,6 +20,9 @@ body{
     font-size: 45px;
     width: 100%;
 }
+#minha_foto{
+    width: max-content;
+}
 #titulo{
     text-align: center;
 }
