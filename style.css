@@ -14,7 +14,10 @@ body {
   background-color:rgb(253 , 251 , 251 );   
   margin: 15px
 }
-
+p { 
+  font-size: larger;  
+  color: rgb(26, 27, 88);
+}
 article{
     font-family: Helvetica, sans-serif;
     color: rgb(187, 36, 36);
@@ -42,8 +45,6 @@ ol {
   margin: 10px;
   padding: 20px;
 }
-p { 
-  font-size: larger;  
-  color: rgb(26, 27, 88);
-}
+
+
 
