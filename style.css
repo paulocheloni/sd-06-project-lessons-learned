@@ -30,10 +30,7 @@ div.links-navegacao {
   margin-top: 120px;
   margin-left: 10px;
   border: 2px solid rgb(239 , 131 , 84);
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-radius: 10% 10% 10% 10%;
 }
 
 .descricao-inicial {
