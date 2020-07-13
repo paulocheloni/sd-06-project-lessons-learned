@@ -9,6 +9,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+ol, ul {
+  width: 25%;
+}
+
+nav {
+  position: fixed; bottom: 30px;
+}
+
 .body-backgound {
   background-color: rgb(253 , 251 , 251);
 }
@@ -17,24 +25,47 @@ body {
   text-align: center;
 }
 
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   z-index: 10;
+  height: 80px; width: 100%;
+  background-color: seagreen;
+  color: ghostwhite;
 }
 
 #minha_foto {
   width: 25%;
+  padding-top: 100px;
 }
 
 #content {
-  width: 70%;
-  position: fixed;
-  left: 1px;
+  display: inline-block;margin-bottom: 25px;
+  width: 50%;
+  line-height: 20px;
+}
+
+#experiencia_trybe {
+  position: fixed; left: 10px;
+  width: 65%;
 }
 
 #sidebar-right {
-  
+  font-size: 14px;
+  position: fixed; right: 10px;
+  width: 30%;
+}
+
+#licoes {
+  margin: auto;
 }
 
 #rodape {
