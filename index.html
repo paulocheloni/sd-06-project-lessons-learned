@@ -4,68 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=>
     <title>Meu primeiro projeto: Liçoes Trybe!</title>
 </head>
         <style>
-        body {
+        body{
             font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
             background: rgb(253,251,251);
             padding-left: 0mm;
         }
-        #cabecalho {
+        #cabecalho{
             position: fixed;
             top: 0px;
-            background:  rgb(1, 9, 54);
-            border-right: solid  rgb(1, 9, 54) 1010px; 
+            background:  rgb(99,89, 89);
+            border-right: solid  rgb(99, 89, 89) 1112px; 
+            z-index: 2;
         }
-        #titulo {
+        #titulo{
             position: fixed;
             color: rgb(0253,251,251);
             background: rgb(1, 9, 54);
             margin-left: 0px;
             margin-top: 0px;
-            border-top: solid  rgb(1, 9, 54) 5px;
+            border-top: solid  rgb(1, 9, 54) 30px;
             border-right: solid rgb(1, 9, 54) 10000px;
             border-left: solid   rgb(1, 9, 54) 30px;
-            border-bottom: solid   rgb(1, 9, 54) 20px; ;
-        }   
-        #minha_foto {
+            border-bottom: solid   rgb(1, 9, 54) 20px;
+            z-index: 1;
+        }
+        #minha_foto{
             width: 300px;
             margin-left: 30px;
             margin-top: 100px;
         }
-        #aprendizado, #Git {
+        #aprendizado, #Git{
             margin-left: 30px;
             font-size: 16px;
         }
-        #melhorias {
+        #melhorias{
             line-height: 1px;
         }
-        #rodape {
+        #rodape{
             color: rgb(255, 255, 255);
             background: rgb(1, 9, 54);
+            border-top: solid  rgb(1, 9, 54) 5px;
             border-left: solid  rgb(1, 9, 54) 30px;
+            border-bottom:solid  rgb(1, 9, 54) 30px;
             margin-left: 0px;
         }
-        a { 
+        a{ 
             color: rgb(255, 255, 255);
+            font-size: 10px;
+            text-decoration : none;
         }
-        p,li {
+        p,li{
             color: rgb(99, 89, 89);
         }
-        td {
-            color: rgb(99, 89, 89);;
+        td{
+            color: rgb(99, 89, 89);
             width: 25px;
         }
-        #licoes_aprendidas, #licoes_a_aprender {
+        #licoes_aprendidas, #licoes_a_aprender{
             margin-left: 30px;
         }
-        h3 {
+        h3{
             margin-left: 30px;
         }
-        table {
-            margin: 30px;
+        table{
+            margin-left: 50px;
+        }
+        .lado-esquerdo{
+            margin-left: 50;
+            margin-top: 35px;
+            position: absolute;
+            z-index: 4;
+        }
+        .lado-direito{
+            padding-left: 30%;
         }
         </style>
     </head>
@@ -96,8 +112,9 @@
             Mas, como tudo na vida, é questão de tempo! O Git ta dominado!</p>
         </aside>
         </section>
+        <br>
         <section>
-        <h3>Top 10 liçoes aprendidas</h3>
+        <h3 class="lado-esquerdo">Top 10 liçoes aprendidas
         <ol id="licoes_aprendidas">
             <li>Seleções por Tags</li>
             <li>Seleções por ID</li>
@@ -109,8 +126,9 @@
             <li>Modelos de caixa CSS</li>
             <li>Elementos CSS flutuantes</li>
             <li>Inline CSS</li>
-        </ol>
-        <h3> 10 coisas que gostaria de aprender</h3>
+        </ol></h3>
+        <br>
+        <h3 class="lado-direito"> 10 coisas que gostaria de aprender
         <ul id ="licoes_a_aprender">
             <li>JavaScript</li>
             <li>CSS FLexBox</li>
@@ -122,26 +140,25 @@
             <li>Banco de dados SQL</li>
             <li>NoSQL</li>
             <li>NodeJS</li>
-        </ul>
+        </ul></h3>
         </section>
         <br>
         <h3 id="melhorias">O que preciso melhorar?</h3> 
         <table>
             <thead>
                 <tr>
-                    <th>Maior dificuldade/</th>
+                    <th>Maior dificuldade </th>
                     <th>Outra dificuldade</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Ferramenta Git e Github.</td>
-                    <td>Decorar Tags de Html e Css.</td>
+                    <td>Dominar melhor as funções CSS.</td>
+                    <td>Decorar TAGS e usá-las de forma correta.</td>
                 </tr>
             </tbody>
         </table>
-    
-     
+        <br>
         <footer id="rodape">
             <h4>Saiba mais sobre o Programador:</h4>
              <a target="_blank" href="https://www.linkedin.com/in/vin%C3%ADcius-braga-matta-3811b531/">Linkedin </a>

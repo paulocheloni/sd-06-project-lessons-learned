@@ -1,61 +1,77 @@
 <style>
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
     background: rgb(253,251,251);
     padding-left: 0mm;
 }
-#cabecalho {
+#cabecalho{
     position: fixed;
     top: 0px;
-    background:  rgb(1, 9, 54);
-    border-right: solid  rgb(1, 9, 54) 1010px; 
+    background:  rgb(99,89, 89);
+    border-right: solid  rgb(99, 89, 89) 1112px; 
+    z-index: 2;
 }
-#titulo {
+#titulo{
     position: fixed;
     color: rgb(0253,251,251);
     background: rgb(1, 9, 54);
     margin-left: 0px;
     margin-top: 0px;
-    border-top: solid  rgb(1, 9, 54) 5px;
+    border-top: solid  rgb(1, 9, 54) 30px;
     border-right: solid rgb(1, 9, 54) 10000px;
     border-left: solid   rgb(1, 9, 54) 30px;
-    border-bottom: solid   rgb(1, 9, 54) 20px; ;
-}   
-#minha_foto {
+    border-bottom: solid   rgb(1, 9, 54) 20px;
+    z-index: 1;
+}
+#minha_foto{
     width: 300px;
     margin-left: 30px;
     margin-top: 100px;
 }
-#aprendizado, #Git {
+#aprendizado, #Git{
     margin-left: 30px;
     font-size: 16px;
 }
-#melhorias {
+#melhorias{
     line-height: 1px;
 }
-#rodape {
+#rodape{
     color: rgb(255, 255, 255);
     background: rgb(1, 9, 54);
+    border-top: solid  rgb(1, 9, 54) 5px ;
     border-left: solid  rgb(1, 9, 54) 30px;
+    border-bottom:solid  rgb(1, 9, 54) 30px;
     margin-left: 0px;
 }
-a { 
+a{ 
     color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-decoration : none;
 }
-p,li {
+p,li{
     color: rgb(99, 89, 89);
 }
-td {
-    color: rgb(99, 89, 89);;
+td{
+    color: rgb(99, 89, 89);
     width: 25px;
 }
 #licoes_aprendidas, #licoes_a_aprender {
     margin-left: 30px;
 }
-h3 {
+h3{
     margin-left: 30px;
 }
-table {
-    margin: 30px;
+table{
+    margin-left: 50px;
+}
+.lado-esquerdo{
+    margin-left: 50;
+    margin-top: 35px;
+    position: absolute;
+    z-index: 4;
+}
+.lado-direito{
+    padding-left: 30%;
 }
 </style>
