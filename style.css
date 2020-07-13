@@ -146,10 +146,10 @@ section.lessons-body{
 }
 
 .lado-direito {
+  position: relative;
   clear: both;
   display: inline-block;
   max-width: 34.5%;
-  position: relative;
   text-align: center;
 }
 
