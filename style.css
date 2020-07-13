@@ -32,6 +32,7 @@ section {
     grid-template-columns: 1fr 4fr;
     margin-top: 100px;
     align-items: center;
+    font-weight: bolder;
 }
 
 section a {
