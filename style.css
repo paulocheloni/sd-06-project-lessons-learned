@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 header {
@@ -31,7 +31,7 @@ footer {
 }
 
 .title {
-  font-family: 'Anton', sans-serif;
+  font-family: Anton, sans-serif;
 }
 
 .title-header {
@@ -69,19 +69,16 @@ footer {
 }
 
 nav {
-  background-color: rgb(78, 199, 247);
+  background-color: rgb(78 , 199 , 247);
 }
 
 .nav-link {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 50px;
   border-style: solid;
-  border-color: rgb(29, 42, 155);
+  border-color: rgb(29 , 42 , 155);
 }
 
 .nav-link a:hover {
