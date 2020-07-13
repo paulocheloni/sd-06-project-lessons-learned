@@ -1,25 +1,29 @@
 body {
   background-color: rgb(253 , 251 , 251);
 }
+
 #cabecalho {
   position: fixed;
   width: 100%;
   top: 0;
   margin-left: 10px;
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgb(191 , 192 , 192);
   background-color: rgb(239 , 131 , 84);
 }
+
 #titulo {
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgb(191 , 192 , 192);
 }
+
 div.links-navegacao {
   display: inline;
   color: rgb(191 , 192 , 192);
 }
+
 #minha_foto {
   width: 200px;
   float: left;
@@ -31,9 +35,10 @@ div.links-navegacao {
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
+
 .descricao-inicial {
   width: 70%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   position: absolute;
@@ -42,8 +47,9 @@ div.links-navegacao {
   text-align: justify;
   line-height: 20px;
 }
+
 .lista-aprendizados {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   line-height: 20px;
   color: rgb(45 , 49 , 66);
@@ -52,20 +58,23 @@ div.links-navegacao {
   text-align: justify;
   padding: 10px;
 }
+
 .vou-aprender {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   width: 30%;
   line-height: 20px;
 }
+
 .titulo-tabela {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
 }
+
 .tabela-trybe {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   line-height: 20px;
@@ -73,25 +82,28 @@ div.links-navegacao {
   text-align: center;
   border-spacing: 5px;
 }
-table, th, td {
+
+table , th , td {
   padding: 10px;
   border: 1px solid rgb(45 , 49 , 66);
 }
+
 .lado-esquerdo {
   float: left;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   width: 45%;
   line-height: 20px;
   text-align: justify;
   margin-right: 10px;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
+
 .lado-direito {
   float: right;
   width: 45%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 10 px;
   color: rgb(45 , 49 , 66);
   line-height: 20px;
@@ -99,11 +111,12 @@ table, th, td {
   margin-right: 10px;
   margin-left: 10px;
 }
+
 #rodape {
   background-color: rgb(239 , 131 , 84);
   width: 100%;
   color: rgb(191 , 192 , 192);
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   text-align: center;
   font-size: 20px;
   bottom: 0;
