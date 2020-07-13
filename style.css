@@ -24,18 +24,21 @@ body {
 #titulo {
 color: rgb(252, 163, 17);
 text-align: center;
-
+font-family: "Lucida Console", Courier, monospace;
+font-size: 30px;
 }
 .lado-esquerdo{
 display: inline-block;
 width: 250px; 
 background-color: aqua;
 float: left;
+line-height: 130%;
 }
 .lado-direito{
 display: inline-block;
 width: 250px;
 background-color: gray;
+line-height: 130%;
 }
 #barra_lateral{
 background-color: blueviolet;
