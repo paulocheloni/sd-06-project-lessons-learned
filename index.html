@@ -4,116 +4,128 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 		<title>Lessons Learned</title>
 	</head>
+	<!--FIM DO HEAD-->
+	
+	<!--INÍCIO DO BODY-->
 	<body>
 		<header id="cabecalho">
 			<h1 id="titulo">
-					Lessons Learned - Daniel Moura
-			</h1>
+					Lessons Learned
+			</h1>		
+			<nav id="barra_navegacao">
+				<h2>
+					<ul>
+						<li>
+								<a href="#container">O Aprendizado</a>
+						</li>
+						<li>
+								<a href="#licoes">As Lições</a>
+						</li>		
+					</ul>
+				</h2>
+			</nav>
 		</header>
-		<nav id="barra_navegacao">
-			<h2>
-				<ul>
-					<li>
-							Lições aprendidas
-					</li>
-					<li>
-							Lições a aprender
-					</li>
-					<li>
-							O caminho do aprendizado
-					</li>
-				</ul>
-			</h2>
-		</nav>
-		<img id="minha_foto" src="3x4 Pipa.jpg" alt="Foto do rosto de Daniel Moura, em Pipa/RN" style="width: 200px;">
-		<ol id="licoes_aprendidas">
-			<li>
-					Unix/Shell
-			</li>
-			<li>
-					Bash terminal
-			</li>
-			<li>
-					Shell Scripts
-			</li>
-			<li>
-					Git e GitHub
-			</li>
-			<li>
-					Como gerenciar os repositórios - comandos git
-			</li>
-			<li>
-					Como funciona a Internet
-			</li>
-			<li>
-					HTML - Estruturas de Página
-			</li>
-			<li>
-					HTML - Semântica para Acessibilidade
-			</li>
-			<li>
-					CSS - Estilização, Seletores e Posicionamento
-			</li>
-			<li>
-					<strong>Soft Skills</strong> - Inteligência Emocional
-			</li>
-		</ol>
-		<ul id="licoes_a_aprender">
-			<li>
-					CSS Responsivo
-			</li>
-			<li>
-					JavaScript
-			</li>
-			<li>
-					Node.JS
-			</li>
-			<li>
-					Front-End design
-			</li>
-			<li>
-					Frameworks CSS e JavaScript
-			</li>
-			<li>
-					Automação de Testes
-			</li>
-			<li>
-					React
-			</li>
-			<li>
-					Bancos de Dados - Relacionais e Não-Relacionais
-			</li>
-			<li>
-					Arquitetura de Software
-			</li>
-			<li>
-					<strong>Soft Skills</strong>
-			</li>
-		</ul>
-		<section id="artigo">
-			<article id="aprendizado">
+		<section id="container">
+			<img class="foto" id="minha_foto" src="3x4 Pipa.jpg" alt="Foto do rosto de Daniel Moura, em Pipa/RN">
+			<article id="artigo">
+				<h3 class="titulo">
+					O aprendizado até agora
+				</h3>
 				<p>
-					Embora eu já tivesse estudado alguma coisa introdutória sobre programação (em particular, estrutura de algoritmos e introdução a Python), a maior parte do conteúdo aprendido, até agora, no curso de Desenvolvedor Web Fullstack da Trybe foi novidade. Os conhecimentos adquiridos já são de muito valor, visto que aprendemos a configurar e utilizar um sistema operacional baseado em Unix - o Ubuntu-, além dos conhecimentos introdutórios de estrutura HTML e de estilização com CSS.
-				</p>
+						Embora eu já tivesse estudado alguma coisa introdutória sobre programação (em particular, estrutura de algoritmos e introdução a Python), a maior parte do conteúdo aprendido, até agora, no curso de Desenvolvedor Web Fullstack da Trybe foi novidade. Os conhecimentos adquiridos já são de muito valor, visto que aprendemos a configurar e utilizar um sistema operacional baseado em Linux - o Ubuntu-, além dos conhecimentos introdutórios de estrutura HTML e de estilização com CSS. As expectativas com o curso, dia após dia, aumentam exponencialmente com a vontade de aprender ainda mais e me tornar um excelente profissional.
+				</p>					
 			</article>
+			<aside id="lateral" class="lateral">
+				As expectativas com o curso, dia após dia, aumentam exponencialmente com a vontade de aprender ainda mais e me tornar um excelente profissional.
+			</aside>					
+			<table id="licoes">
+				<tr>
+					<th>Lições Aprendidas</th>
+					<th>Lições a Aprender</th>
+				</tr>
+				<td>			
+					<ol id="licoes_aprendidas">
+						<li>
+								Unix/Shell
+						</li>
+						<li>
+								Bash terminal
+						</li>
+						<li>
+								Shell Scripts
+						</li>
+						<li>
+								Git e GitHub
+						</li>
+						<li>
+								Como gerenciar os repositórios - comandos git
+						</li>
+						<li>
+								Como funciona a Internet
+						</li>
+						<li>
+								HTML - Estruturas de Página
+						</li>
+						<li>
+								HTML - Semântica para Acessibilidade
+						</li>
+						<li>
+								CSS - Estilização, Seletores e Posicionamento
+						</li>
+						<li>
+								<strong>Soft Skills</strong> - Inteligência Emocional
+						</li>
+					</ol>
+				</td>
+				<td>
+					<ul id="licoes_a_aprender">
+						<li>
+								CSS Responsivo
+						</li>
+						<li>
+								JavaScript
+						</li>
+						<li>
+								Node.JS
+						</li>
+						<li>
+								Front-End design
+						</li>
+						<li>
+								Frameworks CSS e JavaScript
+						</li>
+						<li>
+								Automação de Testes
+						</li>
+						<li>
+								React
+						</li>
+						<li>
+								Bancos de Dados - Relacionais e Não-Relacionais
+						</li>
+						<li>
+								Arquitetura de Software
+						</li>
+						<li>
+								<strong>Soft Skills</strong>
+						</li>
+					</ul>
+				</td>
+			</table>		
 			
-		<section>
-			<aside id="lateral">
-				Uma passagem marcante foi o momento de soft skills do dia 09/07. A empatia é uma virtude muito forte.
-			</aside>
-		</section>
-		<section>
-		<footer id="rodape">
-			<h2 id="conheca_daniel">
-				Conheça mais sobre Daniel, siga-o em suas redes sociais
-			</h2>
-		
-		<a target="_blank" href="https://www.linkedin.com/in/darthurmoura/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwSnqW1QdQWeOoEQ197SETA%3D%3D"><img class="socialmediaIcons" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" style="width: 38px;" alt="Ícone do LinkedIn"></a>
-		<a target="_blank" href="https://www.instagram.com/darthurmoura/"><img class="socialmediaIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" style="width: 35px;" alt="Ícone do Instagram"></a>
-		<a target="_blank" href="https://www.facebook.com/darthurmoura"><img class="socialmediaIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/600px-Facebook-icon-1.png" style="width: 35px;" alt="Ícone do Facebook"></a>
-		<a href="https://github.com/Darthurmoura"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 35px;" alt="Ícone do Github"></a>    
-		</footer>
+			<footer id="rodape">
+				<h2 id="conheca_daniel">
+					Conheça mais sobre Daniel, siga-o em suas redes sociais
+				</h2>			
+				<a target="_blank" href="https://www.linkedin.com/in/darthurmoura/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwSnqW1QdQWeOoEQ197SETA%3D%3D"><img class="socialmediaIcons" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" style="width: 36px;" alt="Ícone do LinkedIn"></a>
+				<a target="_blank" href="https://www.instagram.com/darthurmoura/"><img class="socialmediaIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" style="width: 35px;" alt="Ícone do Instagram"></a>
+				<a target="_blank" href="https://www.facebook.com/darthurmoura"><img class="socialmediaIcons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/600px-Facebook-icon-1.png" style="width: 35px;" alt="Ícone do Facebook"></a>
+				<a href="https://github.com/Darthurmoura"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 35px;" alt="Ícone do Github"></a>    			
+			</footer>
+		</section>		
 	</body>
 </html>

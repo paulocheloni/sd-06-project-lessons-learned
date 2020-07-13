@@ -1,10 +1,115 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(253, 251, 251);
+header {
+  position: fixed;
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;  
+  background-color: rgb(0, 69, 134);  
+  color: rgb(240, 240, 240);
+  line-height: 10px;
 }
 
-header {
-    position: fixed;
-    top: 0px;
+header #titulo {
+  flex: 1 1 100%;
+  text-align: left;
+  padding: 0;
+  margin-top: 22px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 4em;
+  font-family: "Cormorant Garamond", serif;
 }
+
+header nav {
+  flex: 1;
+  margin: -15px;
+  padding: 0px 0px;
+  background-color: rgb(2, 89, 170);
+  }
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  font-weight: 200;
+  font-size: 1em;
+  margin: -20px 0px;
+}
+
+nav ul li {
+  padding: 10px;
+  margin: 0px 50px;  
+  border-radius: 5px;
+  text-align: left;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(253, 251, 251);
+  font-family: "Merriweather", serif;
+}
+
+
+#container {
+  padding: 92px 15px 0px 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas: "a c b"
+                       "t t t"
+                       "f f f";
+        
+}
+
+.foto {
+  width: 263px;
+  border-radius: 25%;
+  grid-area: b;
+  justify-self: center;
+}
+
+
+article {
+  grid-area: a;
+  width: 70%;
+  font-size: 1.2em;
+}
+
+.titulo {
+  margin: 0px;
+  font-size: 1.3em;
+}
+
+aside {
+  grid-area: c;
+
+  font-size: 2em;
+  text-align: right;'
+}
+
+table {
+  grid-area: t;
+  margin: 92px 0px;
+}
+
+footer {
+  grid-area: f;
+  margin: 100px 0px 0 -15px;
+  padding-right: 20px;
+  padding-left: 10px;
+  width: 100%;
+  background-color: rgb(0, 69, 134);
+  color: rgb(240, 240, 240);
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(240, 240, 240);
+}
+
