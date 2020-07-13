@@ -4,8 +4,6 @@ body {
     margin: 0px;
     font-family: fantasy;
     line-height: 20px;
-    
-
 }
 #titulo {
     text-align: center
@@ -16,7 +14,12 @@ body {
     top: 0px;
     margin-bottom: 20px;
     background-color: seagreen;
-    height: 82px;
+    height: 90px;
+}
+.navegacao{
+    position: fixed;
+    width: 10%;
+    right: 0px;
 }
 .primeiro-content{
     margin-top: 120px;
