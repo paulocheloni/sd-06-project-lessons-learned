@@ -47,10 +47,12 @@ body {
 
 .lado-esquerdo {   
     float: left;
+    padding-left: 10px;
 }
 
 .lado-direito {   
     float: right;
+    padding-right: 10px;
 }
  
  .separado {
