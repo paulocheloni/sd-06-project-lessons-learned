@@ -9,72 +9,62 @@
 <body>
     <header id="cabecalho">
         <h1 id="titulo" class="header-title">Lessons learned</h1>
+        <nav>
+            <ul>
+                <li><a href="#licoes_aprendidas">liçoes aprendidas</a></li>
+                <li><a href="#licoes_a_aprender">liçoes a aprender</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#licoes_aprendidas">liçoes aprendidas</a></li>
-            <li><a href="#licoes_a_aprender">liçoes a aprender</a></li>
-        </ul>
-    </nav>
-    <aside>
-        <img id="minha_foto" class="profile-picture" src="img/my_foto.jpg" alt="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sequi fugiat harum libero molestiae, cum adipisci a, id accusamus sunt nostrum blanditiis quo debitis eveniet vel? Eveniet voluptates ea officiis.
-
-    </aside>
     <main>
-        <article id="aprendizado">
+        <aside>
+            <img id="minha_foto" class="profile-picture" src="img/my_foto.jpg" alt="">
+            <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sequi fugiat harum libero molestiae, cum adipisci a, id accusamus sunt nostrum blanditiis quo debitis eveniet vel? Eveniet voluptates ea officiis.</p>
+        </aside>
+        <section class="lessons-header">
             <h2>Aprendizado</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At excepturi itaque amet quibusdam est earum? Placeat voluptas molestiae magni, asperiores nam dolore debitis maiores cupiditate. Atque natus omnis ducimus error.
-            In obcaecati cum provident, explicabo iste laboriosam ea. Corrupti dolorem impedit totam nam a modi, aliquam voluptas, voluptate enim placeat laboriosam quos officiis reprehenderit! Distinctio natus deserunt fuga neque? Iste.
-            </p>
-        </article>
-        <section id="licoes">
-            <section id="secao-licoes-aprendidas">
-                <h2 id="titulo-licoes-aprendidas">licoes aprendidas</h2>
-                <ol id="licoes_aprendidas">
-                    <li>Unix</li>
-                    <li>Bash/Shell</li>
-                    <li>Shell Scripts</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>HTML</li>
-                    <li>HTML semantico</li>
-                    <li>CSS</li>
-                    <li>Zoom</li>
-                    <li>Slack</li>
-                </ol>
-            </section>
-            <section id="secao-descricao-licoes-aprendidas">
-                <header id="cabecario-secao-descricao-licoes-aprendidas">
-                    <h2 id="titulo-descricao-licoes-aprendidas">
-                        Aprendizado
-                    </h2>
-                </header>
-                <section id="corpo-secao-descricao-licoes-aprendidas">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tenetur suscipit aliquam porro voluptas nam pariatur libero exercitationem? Optio rem exercitationem assumenda, suscipit praesentium blanditiis necessitatibus repellat nemo. Voluptatibus, saepe.
-                    </p>
-                </section>
-            </section>
-            <section id="secao-licoes-a-aprender">
-                <section id="secao-lista-licoes-a-aprender">
-                    <h2>licoes a aprender</h2>
-                    <ul id="licoes_a_aprender">
-                        <li>CSS Flexbox</li>
-                        <li>CSS GRID</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>Express</li>
-                        <li>MongoDB</li>
-                        <li>software arctecture</li>
-                        <li>JEST</li>
-                        <li>JSON</li>
-                    </ul>
-                </section>
-                <section id="secao-descricao-licoes-a-aprender">
 
-                    Nesciunt numquam nam at eaque deserunt laudantium delectus eos ullam dolorem ipsa. Blanditiis reiciendis possimus alias. Fuga architecto dolores ab ratione excepturi, reprehenderit temporibus, quia repellat eos minima cumque quos.
-
+        </section>
+        <section class="lessons-body">
+            <article id="aprendizado" class="main-description">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At excepturi itaque amet quibusdam est earum? Placeat voluptas molestiae magni, asperiores nam dolore debitis maiores cupiditate. Atque natus omnis ducimus error.
+                In obcaecati cum provident, explicabo iste laboriosam ea. Corrupti dolorem impedit totam nam a modi, aliquam voluptas, voluptate enim placeat laboriosam quos officiis reprehenderit! Distinctio natus deserunt fuga neque? Iste.
+                </p>
+            </article>
+            <section id="licoes" class="section-lessons">
+                <section id="secao-licoes-aprendidas" class="lessons-learned">
+                    <table>
+                        <thead>
+                            <th>licoes aprendidas</th>
+                            <th>licoes a aprender</th>
+                        </thead>
+                        <td>
+                            <ol id="licoes_aprendidas">
+                                <li>Unix</li>
+                                <li>Bash/Shell</li>
+                                <li>Shell Scripts</li>
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>HTML</li>
+                                <li>HTML semantico</li>
+                                <li>CSS</li>
+                                <li>Zoom</li>
+                                <li>Slack</li>
+                            </ol>
+                        </td>
+                        <td><ul id="licoes_a_aprender">
+                            <li>CSS Flexbox</li>
+                            <li>CSS GRID</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>software arctecture</li>
+                            <li>JEST</li>
+                            <li>JSON</li>
+                        </ul></td>
+                    </table>
                 </section>
             </section>
         </section>

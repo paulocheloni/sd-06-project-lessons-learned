@@ -1,13 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
   display: block;
-
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: darkgreen;
+  background-color: lightgreen;
   width: 100%;
   overflow: hidden;
   z-index: 1000;
@@ -22,14 +26,8 @@ header h1 {
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-img {
-  max-width: 300px;
-
-}
-
 nav {
   position: relative;
-  top: 400px;
   text-align: left;
 }
 
@@ -37,15 +35,59 @@ nav ul li {
   display: inline-block;
   margin-right: 50px;
   list-style-type: none;
+  z-index: 1200;
+}
+
+nav ul li a{
+  color: #000;
+  padding: 10px;
 }
 
 main {
+  clear: both;
   position: relative;
-  top: 400px;
+  top: 85px;
+  margin: 0px 5px;
+}
+
+aside {
+  display: inline-block;
+  max-width: 600px;
+  float: right;
+  background-color: lightgray;
+  z-index: 100000;
+}
+
+aside p.hero-description {
+  font-size: 12px;
+  position: relative;
+  left: 0px;
+  bottom: 20px;
+  display: inline-block;
+  max-width: 289px;
+  letter-spacing: 0.05em;
+}
+
+aside img {
+  display: inline-block;
+  max-width: 100px;
+  border-style: solid;
+  border-color: darkolivegreen;
+  border-spacing: 5px;
+  border-radius: 50% 50%;
+  margin: 5px;
+}
+
+section.section-lessons{
+  z-index: 0;
 }
 
 main h3 {
   text-align: center;
+}
+
+table td {
+  padding: 10px;
 }
 
 a {
@@ -55,11 +97,40 @@ a {
 
 footer {
   position: relative;
-  top: 400px;
+  top: 100px;
   width: 100%;
   text-align: center;
 }
 
+.lessons-header{
+  width: 100%;
+  height: 120px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.lessons-header h2{
+position: relative;
+top: 50px;
+}
+
+.lessons-body{
+  width: 100%;
+}
+
+
 .social-media-link {
   margin-right: 20px;
+}
+
+.main-description {
+  display: inline-block;
+  width: 50%;
+  clear: both;
+}
+
+.lessons-learned {
+  margin: 20px;
+  display: inline-block;
+  clear: both;
 }
