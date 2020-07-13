@@ -61,17 +61,18 @@ p {
 .tabela {
   border: 2px solid palevioletred;
 }
+
 .conteiner{
-  display: inline-block
+  display: inline-block;
 }
 
 #lado-esquerdo {
- width: 45%;
- float: left;
+  width: 45%;
+  float: left;
 }
 
 #lado-direito {
- width: 45%;
- float: right;
+  width: 45%;
+  float: right;
 }
 
