@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
+* {
+  margin: 0;
+}
+
 body {
   font-family: Rubik, sans-serif;
   background-color: rgb(253 , 251 , 251);
@@ -12,14 +16,12 @@ header {
   background-color: rgb(228 , 214 , 241);
   color: rgb(58 , 58 , 58);
   text-align: center;
-  padding: 10px 20px;
-  line-height: 35px;
-  margin: 0px;
+  line-height: 55px;
 }
 
 .container_Foto_Resumo {
   display: inline-block;
-  margin-top: 180px;
+  margin-top: 150px;
   margin-left: 150px;
   margin-bottom: 30px;
   padding: 10px;
@@ -58,29 +60,31 @@ nav a {
 }
 
 .lado-esquerdo {
+  margin-top: 50px;
   margin-left: 200px;
-  border: 1px solid rgb(248 , 212 , 242);
+  border: 2px solid rgb(248 , 212 , 242);
   width: 30%;
-  height: 400px;
+  font-weight: 400;
   float: left;
+  line-height: 2.5em;
 }
 
 .lado-direito {
+  margin-top: 50px;
   width: 30%;
-  height: 400px;
+  font-weight: 400;
   float: right;
   text-align: right;
   font-size: 25px;
   margin-right: 200px;
+  line-height: 32px;
 }
 
 .myExperience {
   font-style: italic;
   clear: both;
   text-align: center;
-  margin-top: 500px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 500px 200px 50px;
   font-size: 30px;
 }
 
@@ -118,7 +122,12 @@ footer {
   padding-top: 20px;
   text-align: center;
   font-size: 18px;
+  line-height: 40px;
   color: rgb(32 , 30 , 30);
+}
+
+.contato {
+  line-height: 75px;
 }
 
 .lsContatos {
