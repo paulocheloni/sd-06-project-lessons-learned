@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 1px;
 }
 
 body {
@@ -8,14 +8,13 @@ body {
 
 .barrasuperior {
   background-color: rgb(134 , 199 , 50);
-  height: 100px;
+  height: 80px;
 }
 
 #cabecalho {
   position: absolute;
-  top: 0px;
+  top: 1px;
   background-color: rgb(134 , 199 , 50);
-
 }
 
 #titulo {
@@ -24,7 +23,8 @@ body {
   background-color: rgb(134 , 199 , 50);
   font-family: fantasy;
 }
-nav{
+
+nav {
   background-color: rgb(134 , 199 , 50);
 }
 
