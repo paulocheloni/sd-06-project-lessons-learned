@@ -2,6 +2,8 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    color: rgb(56, 56, 56);
+    font-size: 15px;
 }
 
 #cabecalho {
@@ -12,7 +14,7 @@ body {
 #cabecalho h1 {
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30;
+    font-size: 50px;
 }
 
 #titulo {
@@ -26,8 +28,9 @@ body {
 
 .content {
     font-family: sans-serif;
-    margin-top: 150px;
+    margin-top: 200px;
     border-style: dashed;
+    padding: 10px 30px;
 }
 
 #licoes_aprendidas {
@@ -42,15 +45,14 @@ body {
     float: right;
 }
 
-.rodape-left {
-    float: left;
-    max-width: 50%;
-}
-
-.rodape-right {
-    float: right;
-}
-
 .abaixo {
-    margin-top: 300px;
+    margin-top: 250px;
+}
+
+.testimonial {
+    line-height: 20px;
+}
+
+.rodape {
+    text-align: center;
 }
