@@ -4,11 +4,16 @@
   text-emphasis: justify;
 }
 
-#cabecalho #titulo {
+,title-container {
   background-color: midnightblue;
+  color: silver;
+}
+
+#cabecalho {
   margin-top: 0px;
   font-family: cursive;
-  color: silver
+  position: fixed;
+  background-color: midnightblue;
 }
 
 #navigation ul li {
@@ -16,6 +21,7 @@
   display: inline-flex;
   text-align: left;
   margin-left: 8px;
+  margin-top: 80px;
   padding: 6px;
 }
 
