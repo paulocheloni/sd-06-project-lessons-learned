@@ -162,21 +162,20 @@ section.lessons-body{
 @media (min-width:1150px) {
   .lado-esquerdo{
     position: relative;
+    display: inline-block;
     clear: both;
-    max-width: 64%;
-    top: 200px;
+    width: 59.5%;
     left: 0;
     text-align: center;
-
   }
 
   .lado-direito {
+    position: relative;
     clear: both;
     display: inline-block;
-    max-width: 34.5%;
-    position: relative;
+    width: 39.5%;
     text-align: right;
-    left: 68%;
+    left: 0%;
 
   }
 }
