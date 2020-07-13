@@ -1,4 +1,5 @@
 body {
+  max-width: 1000px;
   background-color: rgb(253 , 251 , 251);
 }
 
@@ -56,3 +57,21 @@ p {
   padding: 5px;
   line-height: 2;
 }
+
+.tabela {
+  border: 2px solid palevioletred;
+}
+.conteiner{
+  display: inline-block
+}
+
+#lado-esquerdo {
+ width: 45%;
+ float: left;
+}
+
+#lado-direito {
+ width: 45%;
+ float: right;
+}
+
