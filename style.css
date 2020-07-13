@@ -35,11 +35,13 @@ border: 0px;
 #licoes_aprendidas{
   font-weight: bold;
   font-size: 20px;
+  clear: both;
 }
 
 #licoes_a_aprender{
   font-weight: bold;
   font-size: 20px;
+  clear: both;
 }
 
 #rodape {
@@ -52,10 +54,12 @@ border: 0px;
 font-weight: bold;
 font-size: 18px;
 line-height: 30px;
+float: left;
 }
 
 .aside{
   width: 150px;
   font-weight: bold;
   font-style: italic;
+  float: right;
 }
