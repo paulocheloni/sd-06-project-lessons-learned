@@ -1,21 +1,42 @@
+@charset "UTF-8";
 
 body {
-  background-color: rgb(253 , 251 , 251 );
+  background-color: rgb(253 , 251 , 251 );  
+  color: rgb(26, 27, 88);
+  
 } 
 #cabecalho {
   position: fixed;
   top: 0px;
-  left: 0px;
+  right: 200px;
+  background-color: rgb(240, 126, 126);
+  
+  
 }
 #titulo {
-  color: rgb(184 , 39 , 39 );
+  
 }
 p .article{
     font-family: Helvetica, sans-serif;
-    color: rgb(187, 36, 36)
+    color: rgb(187, 36, 36);
+    text-align: center;
+    text-indent: 50px;
 
+}
+#minha_foto {
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 ul { 
      font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+text-align: left;
+}
+p { 
+  font-size: larger;  
+  color: rgb(26, 27, 88);
 }
