@@ -9,11 +9,12 @@
   color: silver;
 }
 
-#cabecalho {
+#cabecalho, #titulo {
   margin-top: 0px;
   font-family: cursive;
   position: fixed;
   background-color: midnightblue;
+  color: whitesmoke;
 }
 
 #navigation ul li {
