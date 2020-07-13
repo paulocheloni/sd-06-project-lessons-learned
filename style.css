@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   border: 8px;
-  color: rgb(120,10,250);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(120, 10, 250);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: large;
   line-height: 2em;
   margin: 8px;
@@ -11,11 +11,11 @@ body {
 
 h2 {
   font-family: monospace;
-  color: rgb(50,20,80);
+  color: rgb(50, 20, 80);
 }
 
 #cabecalho {
-  background-color: rgb(55,200,120);
+  background-color: rgb(55, 200, 120);
   block-size: 100px;
   position: fixed;
   top: 0;
@@ -45,12 +45,12 @@ h2 {
 }
 
 .tabela th {
-  background-color: rgb(0,255,247);
+  background-color: rgb(0, 255, 247);
   border: 2px;
-  color: rgb(0,0,139);
+  color: rgb(0, 0, 139);
 }
 
 .tabela td {
-  background-color: rgb(172,205,204);
-  color: rgb(25,25,112);
+  background-color: rgb(172, 205, 204);
+  color: rgb(25, 25, 112);
 }
