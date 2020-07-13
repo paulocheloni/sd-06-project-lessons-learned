@@ -62,6 +62,7 @@
         .foto-perfil {
             margin-left: 30px;
             float: left;
+            margin-bottom: 10px;
         }
 
         img {
@@ -113,16 +114,15 @@
         footer {
             clear: both;
             text-align: center;
-            margin-top: 30px;
+            margin-top: 10px;
         }
 
         article, aside {
-            clear: both;
             border-radius: 70px;
             padding: 40px;
             background-color: #195D84;
             color: white;
-            margin: 10px 30px;
+            
         }
 
         p {
@@ -149,6 +149,7 @@
             background-image: linear-gradient(to right, transparent, black, transparent);
             height: 5px;
             margin-bottom: 10px;
+            margin-top: 10px;
         }
 
         table {
@@ -173,6 +174,19 @@
             font-style: italic;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: white;
+        }
+
+        .lado-esquerdo {
+            float: left;
+            max-width: 40%;
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        .lado-direito {
+            float: right;
+            max-width: 40%;
+            margin-right: 30px;
         }
 
     </style>
@@ -234,14 +248,14 @@
         </ul>
     </section>
     <hr>
-    <article>
-        <h2>Trybe experience, so far...</h2>
-        <p>Olá, meu nome é André Sartoreto e eu nunca havia tido contato com Desenvolvimento Web. Conheci a Trybe através de amigos e, confesso, que estava um pouco ou muito cético com a proposta, e promessa, de ensino deles. Hoje tenho aproximadamente quinze dias de Trybe e posso dizer que estou impressionado. Em apenas duas semanas aprendi a configurar o Unix, que nunca havia sequer instalado, já aprendi a me virar dentro do terminal, que eu nem sabia que existia, aprendi todos os caminhos que a pagina Web, que eu enxergo no meu browser, percorre até ter aquela formatação, conheci e entendi o que é Git e já tenho meu proprio  <a href="https://github.com/FIXSartoreto/" target="_blank">GitHub</a> e por fim aprendi sobre HTML & CSS e o resultado é esta belezinha de página onde vocês estão lendo meu depoimento.</p>
-    </article>
-    <hr>
-    <aside><h3>Trybe is not just about coding...</h3>
+    
+    <article class="lado-esquerdo">
+        <h2>Trybe experience, so far...</h2><p>Olá, meu nome é André Sartoreto e eu nunca havia tido contato com Desenvolvimento Web. Hoje já aprendi a me virar dentro do terminal, que eu nem sabia que existia, aprendi todos os caminhos que a pagina Web, que eu enxergo no meu browser, percorre até ter aquela formatação, conheci e entendi o que é Git e já tenho meu proprio  <a href="https://github.com/FIXSartoreto/" target="_blank">GitHub</a> e por fim aprendi sobre HTML & CSS e o resultado é esta belezinha de página onde vocês estão lendo meu depoimento.</p>
+    </article>    
+    <aside class="lado-direito"><h3>Trybe is not just about coding...</h3>
         <p>Na Trybe, já conversei com meus colegas sobre: medo, preconceitos, experiências vividas, sentimentos, empatia, autoconhecimento, entre outros. Aqui você é estimulado diariamente a se conectar com as pessoas, tanto os alunos quanto os colaboradores.</p>
     </aside>
+    
     <hr>
 
     <table>
@@ -258,6 +272,7 @@
             <td>Belo Horizonte - MG</td>
         </tr>
     </table>
+    <hr>
 
     <footer id="rodape">
         <h4>All rights reserved, André Sartoreto.</h4>
