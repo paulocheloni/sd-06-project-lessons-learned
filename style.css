@@ -76,3 +76,9 @@ th {
   font-weight: 600;
   background-color: rgb(238 , 238 , 238);
 }
+
+footer {
+  padding: 5px;
+  color: white;
+  background-color: teal;
+}
