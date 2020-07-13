@@ -16,3 +16,11 @@ body {
 #rodape {
     background-color: rgb(221, 71, 71);
 }
+#titulo {
+    font-style: italic;
+    color: white;
+}
+table {
+    background-color: silver;
+    border: 1px solid rgb(221, 71, 71);
+}
