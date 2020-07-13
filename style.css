@@ -34,9 +34,18 @@ body {
     margin-left: 30px;
     margin-top: 10px;
     padding: 30px;
-    max-width: 100%;
+    width: 550px;
     position: relative;
     float: left;
+}
+
+.lado-direito {
+    margin-top: 10px;
+    padding: 30px;
+    width: 550px;
+    line-height: 30px;
+    position: relative;
+    float: right;
 }
 
 div.primeira_lista, div.segunda_lista {
@@ -44,15 +53,6 @@ div.primeira_lista, div.segunda_lista {
     vertical-align: top;
     margin-left: 30px;
     font-weight: 600;
-}
-
-.lado-direito {
-    margin-top: 10px;
-    padding: 30px;
-    max-width: 550px;
-    line-height: 30px;
-    position: relative;
-    float: right;
 }
 
 .lado-esquerdo, .lado-direito {
