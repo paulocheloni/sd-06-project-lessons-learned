@@ -55,7 +55,7 @@ img {
   grid-row-start: 3;
   grid-row-end: 10;
   margin: 5%;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .lesson1{
@@ -369,9 +369,29 @@ a{
   color: rgb(255,255,255);
 }
 
+.about-me-info{
+  display: none;
+  grid-column-start: 3;
+  grid-column-end: 15;
+  grid-row-start: 3;
+  grid-row-end: 10;
+  background-color: teal;
 
+}
 /***********************/
 #cabecalho{
   top: 0px;
+  position: fixed;
+}
+
+#rodape{
+}
+
+.lado-direito{
+
+}
+
+.lado-esquerdo{
+
 }
 /***********************/
