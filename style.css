@@ -82,7 +82,7 @@ aside img {
   margin: 5px;
 }
 
-section.section-lessons{
+section.section-lessons {
   z-index: 0;
 }
 
@@ -95,7 +95,7 @@ table td {
   padding-right: 25px;
 }
 
-table ul li, table ol li {
+table ul li , table ol li {
   padding-bottom: 10px;
 }
 
@@ -111,18 +111,18 @@ footer {
   text-align: center;
 }
 
-section.lessons-header{
+section.lessons-header {
   width: 100%;
   height: 120px;
   line-height: 1em;
   text-align: center;
 }
 
-.lessons-header h2{
+.lessons-header h2 {
 height: 120px;
 }
 
-section.lessons-body{
+section.lessons-body {
   width: 100%;
   min-height: 200px;
 }
@@ -136,7 +136,7 @@ section.lessons-body{
   clear: both;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   position: relative;
   clear: both;
   max-width: 64%;
@@ -159,7 +159,8 @@ section.lessons-body{
   clear: both;
 }
 
-@media (min-width:1150px) {
+@media  ( min-width : 1150px ) {
+
   .lado-esquerdo{
     position: relative;
     display: inline-block;
