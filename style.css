@@ -2,8 +2,7 @@ body {
   background-color: rgb(253 , 251 , 251);
   border: 8px;
   color: rgb(120 , 10 , 250);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  /* crítica do codeclimate aspa simples sem espaço após */
+  font-family: Cambria, Cochin, Georgia, Times, serif;
   font-size: large;
   line-height: 2em;
   margin: 8px;
