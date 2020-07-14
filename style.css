@@ -1,6 +1,8 @@
+/*Requisito 1*/
 body {
   background-color: rgb(253, 251, 251);
 }
+/*Requisito 2*/
 #cabecalho {
   position: fixed;
   top: 0px;
@@ -10,6 +12,7 @@ body {
   color: whitesmoke;
   background-color: green;
 }
+/*Requisito 3*/
 #titulo {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 2000;
@@ -18,3 +21,10 @@ body {
   text-align: center;
   color: whitesmoke;
 }
+/*Requisito 4*/
+#minha_foto {
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+
