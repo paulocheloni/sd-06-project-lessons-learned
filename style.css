@@ -1,101 +1,100 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color:rgb(253, 251, 251);
-    font-family: monospace;
-    width: 1366px;
-    height: 768px;
-    margin:0;
-    padding: 200px;
+  background-color: rgb(253,251,251);
+  font-family: monospace;
+  width: 1366px;
+  height: 768px;
+  margin: 0;
+  padding: 200px;
 }
 
 header#cabecalho {
-    top: 0;
-    position: fixed;
-    margin-top: 120px;
-    margin-left: 300px;
+  top: 0;
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 300px;
 }
 
 #titulo {
-    font-size: 2em;
-    text-align: center;
+  font-size: 2em;
+  text-align: center;
 }
 
 #nav {
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-left: 120px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-left: 120px;
 }
 
-#minha_foto { 
-    border-radius: 30%;
-    border: solid 2px black;
-    float: right;
+#minha_foto {
+  border-radius: 30%;
+  border: solid 2px black;
+  float: right;
 }
 
 .lado-esquerdo {
-    background-color: rgb(235, 235, 235);
-    width: 500px;
-    height: 250px;
-    float: left;
-    margin-top: 50px;
-    margin-left: 130px;
-    padding: 20px;
-    text-align: justify;
-    line-height: 17px;
+  background-color: rgb(235,235,235);
+  width: 500px;
+  height: 250px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 130px;
+  padding: 20px;
+  text-align: justify;
+  line-height: 17px;
 }
 
 .lado-direito {
-    background-color: rgb(211, 211, 211);
-    clear: both;
-    width: 200px;
-    height: 350px;
-    float: right;
-    padding: 20px;
-    margin: 20px 10px 0px 0px;
-    line-height: 19px;
-    
+  background-color: rgb(211,211,211);
+  clear: both;
+  width: 200px;
+  height: 350px;
+  float: right;
+  padding: 20px;
+  margin: 20px 10px 0 0;
+  line-height: 19px;
 }
 
 #licoes_aprendidas {
-    float: left;
-    width: 220px;
-    height: 220px;
-    margin-left: 150px;
-    margin-top: 30px;
+  float: left;
+  width: 220px;
+  height: 220px;
+  margin-left: 150px;
+  margin-top: 30px;
 }
 
 #licoes_a_aprender {
-    float: right;
-    width: 220px;
-    height: 220px;
-    margin-right: 80px;
-    margin-top: 25px;
+  float: right;
+  width: 220px;
+  height: 220px;
+  margin-right: 80px;
+  margin-top: 25px;
 }
 
 #contato {
-    padding-top: 30px;
-    clear: both;
-    text-align: center;
-    font-size: 1.1em;
+  padding-top: 30px;
+  clear: both;
+  text-align: center;
+  font-size: 1.1em;
 }
 
 #rodape {
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 1.1em;
-    color: grey;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.1em;
+  color: grey;
 }
 
 a {
-    text-decoration: none;
-    color: green;
+  text-decoration: none;
+  color: green;
 }
 
 span {
-    font-weight: bold;
+  font-weight: 700;
 }
