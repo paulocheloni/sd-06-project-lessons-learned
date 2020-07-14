@@ -98,9 +98,14 @@ nav a:hover {
 
 .social-link-block {
   margin-left: 150px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .text {
   line-height: 2em;
+}
+
+p footer {
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
