@@ -1,77 +1,77 @@
-.background{
-    background-color: rgb(253, 251, 251);
+.background {
+ background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho {
 position: fixed;
-top: 0;
-font-family: helvetica;
+ top: 0;
+  font-family: helvetica;
 }
-#titulo{
-background-color: rgb(247, 197, 104);
+#titulo {
+  background-color: rgb(247, 197, 104);
 }
-#minha_foto{
-width: 150px;
-border-radius: 50%;  
-background-color: rgb(247, 197, 104) ; 
-padding: 2px;
-margin-left: 80px;
+#minha_foto {
+  width: 150px;
+  border-radius: 50%;  
+  background-color:rgb(247 , 197 , 104);
+  padding: 2px;
+  margin-left:80px;
+  float:right;  
 }
-#licoes_aprendidas, #licoes_a_aprender{
-max-width: 40%;
-text-align: justify;   
+#licoes_aprendidas, #licoes_a_aprender {
+  max-width:40%;
+  text-align:justify;   
 }
-#licoes_aprendidas{
-display: inline-block;
-float: right;
+#licoes_aprendidas {
+  display: inline-block;
+  float: right;
 }
-#licoes_a_aprender{
-display: inline-block;
-float: left;
+#licoes_a_aprender {
+  display: inline-block;
+  float: left;
 }
-.secao{
-padding: 20px;
-line-height: 1.5;
-font-size: medium;
+.secao {
+  padding: 20px;
+  line-height: 1.5;
+  font-size: medium;
 }
-#rodape{
-font-size: smaller;
-text-align: center;
+#rodape {
+  font-size: smaller;
+  text-align: center;
+  clear: both;
 }
-.titulo-sec{
-background-color: rgb(247, 197, 104);
-color: black;
-text-align: center;
+.titulo-sec {
+  background-color: rgb(247 , 197 , 104);
+  color: black;
+  text-align: center;
 }
-.lado-esquerdo, .lado-direito{
-max-width: 50%;
-color: gray;
-text-align: justify;
+.lado-esquerdo, .lado-direito {
+  max-width: 50%;
+  color: gray;
+  text-align: justify;
 }
-.lado-esquerdo{
-float: left;
+.lado-esquerdo {
+  float: left;
 }
-.lado-direito{
-float: right;
+.lado-direito {
+  float: right;
 }
-#lista-parceiros{
-list-style-type: none;
+#lista-parceiros {
+  list-style-type: none;
 }
-#titulo-terc{
-background-color: green;
-margin-top: 35px;
+.titulo-terc {
+  background-color: green;
+  margin-top: 35px;
 }
-div{
-float: right;  
+#parceiros{
+  clear: both;
+  text-align: center;
 }
-#secao-parc, #vivencia{
-clear:both;
-}
-#texto-exp{
+#texto-exp {
 max-width: 80%;
 margin-right: 30px;
 }
-#vivencia{
+#vivencia {
 text-align: center;
-background-color: rgb(247, 197, 104);
+background-color: rgb(247 , 197 , 104);
 margin-top: 50px;    
 }
