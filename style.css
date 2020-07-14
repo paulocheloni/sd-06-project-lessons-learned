@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
   font-family: monospace;
   width: 1366px;
   height: 768px;
@@ -13,7 +13,7 @@ body {
   padding: 200px;
 }
 
-header#cabecalho {
+#cabecalho {
   top: 0;
   position: fixed;
   margin-top: 120px;
@@ -38,7 +38,7 @@ header#cabecalho {
 }
 
 .lado-esquerdo {
-  background-color: rgb(235,235,235);
+  background-color: rgb(235 , 235 , 235);
   width: 500px;
   height: 250px;
   float: left;
@@ -50,7 +50,7 @@ header#cabecalho {
 }
 
 .lado-direito {
-  background-color: rgb(211,211,211);
+  background-color: rgb(211 , 211 , 211);
   clear: both;
   width: 200px;
   height: 350px;
