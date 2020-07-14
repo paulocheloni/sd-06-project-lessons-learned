@@ -35,7 +35,7 @@ article{
     font-style:oblique;
     float:right;
     position:relative;
-    top:0px;
+    top:200px;
     background-color:rgb(30,31,59);
     margin:10px;
     padding:5%;
@@ -55,22 +55,31 @@ ol{
   text-align:left;
   margin:10px;
   padding:20px;}
-table {
-  position:relative;
-  top:220px;}
+ 
+
+  
 footer {
   position:relative;
   bottom:0px;}
 table{
   text-align:center;
   text-indent:10px;
-  font-style:oblique;}
+  font-style:oblique;
+  position: relative;;
+  top:250px;
+  background-color: rgba(80, 47, 16, 0.123);}
+  section{
+    right: 0px
+  }
 aside{
-    position:relative;
-    top:220px;}
-section{
-  position:relative;
-    top:220px;}
+    position:absolute;
+    top:200px;
+    font-size: larger;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+  background-color: rgba(80, 47, 16, 0.123);}
+
 div.container{
       width: 100%;
       
@@ -90,6 +99,6 @@ div{
       float: right;
   }
   #rodape{
+    position: fixed;
     bottom: 5px;
   }
-  
