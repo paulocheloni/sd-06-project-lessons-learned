@@ -6,10 +6,7 @@ b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, c
   vertical-align: baseline;
 }
 
-body > *, 
-.two-columns div, 
-.learning-journey, 
-footer {
+body > *, .two-columns div, .learning-journey, footer {
   text-align: center;
 }
 
@@ -19,8 +16,7 @@ body {
   line-height: 140%;
 }
 
-main, 
-.learning-journey {
+main, .learning-journey {
   margin: 0 auto;
 }
 
@@ -42,8 +38,7 @@ header {
   border-bottom: 3px solid rgb(233 , 128 , 116);
 }
 
-header, 
-footer {
+header, footer {
   background-color: rgb(116 , 78 , 46);
 }
 
@@ -62,8 +57,7 @@ nav li {
   background-color: rgb(233 , 128 , 116);
 }
 
-footer, 
-.learning-journey {
+footer, .learning-journey {
   clear: both;
 }
 
@@ -95,11 +89,7 @@ nav a {
   color: white;
 }
 
-.footer-text, 
-.two-columns, 
-.learning-journey, 
-nav li, 
-.personal-info article {
+.footer-text, .two-columns, .learning-journey, nav li, .personal-info article {
   display: inline-block;
 }
 
