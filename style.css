@@ -26,20 +26,22 @@ p{
   color:rgb(26,27,88);
   position:relative;
   top:220px;}
-article{
+article.lado-esquerdo{
+  width: 100%;
     font-family:Helvetica, sans-serif;
-    font-size:initial;
+    font-size:larger;
     color: rgb(253,251,251); 
-    text-align: botton;
+    text-align: justify;
     text-indent:50px;
     font-style:oblique;
-    float:right;
+    float:left;
     position:relative;
-    top:200px;
+    top:240px;
+    left:0px;
     background-color:rgb(30,31,59);
-    margin:10px;
+    margin:0%;
     padding:5%;
-    border:5px}
+    border:5%}
 
 #minha_foto {
   position:fixed;
@@ -89,11 +91,12 @@ div{
       width: 100%;
       height: auto;
   }
-.esquerda{
+.lado-esquerdo{
       width: 30%;
       height: auto;
       float: left;
-  }.direita{
+  }
+  .lado-direito{
     width: 30%;
     height: 50%;
       float: right;
