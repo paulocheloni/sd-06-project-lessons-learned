@@ -25,7 +25,7 @@ footer {
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Helvetica, Arial, sans-serif;
   line-height: 140%;
 }
@@ -50,12 +50,12 @@ header {
   padding: 15px;
   top: 0;
   color: white;
-  border-bottom: 3px solid rgb(233,128,116);
+  border-bottom: 3px solid rgb(233 , 128 , 116);
 }
 
 header,
 footer {
-  background-color: rgb(116,78,46);
+  background-color: rgb(116 , 78 , 46);
 }
 
 section {
@@ -70,7 +70,7 @@ nav {
 nav li {
   padding: 5px;
   border-radius: 10%;
-  background-color: rgb(233,128,116);
+  background-color: rgb(233 , 128 , 116);
 }
 
 footer,
@@ -81,7 +81,7 @@ footer,
 footer {
   height: 100px;
   position: relative;
-  border-top: 3px solid rgb(233,128,116);
+  border-top: 3px solid rgb(233 , 128 , 116);
   color: white;
 }
 
@@ -150,7 +150,7 @@ nav li,
 
 .two-columns, .article-plus-aside, .learning-journey {
   overflow: hidden;
-  background-color: rgb(234,231,220);
+  background-color: rgb(234 , 231 , 220);
   border-radius: 5%;
 }
 
