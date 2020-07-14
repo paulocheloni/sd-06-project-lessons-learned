@@ -1,14 +1,17 @@
 .background {
   background-color: rgb(253 , 251 , 251);
 }
+
 #cabecalho {
-position: fixed;
+  position: fixed;
   top: 0;
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 #titulo {
   background-color: rgb(247 , 197 , 104);
 }
+
 #minha_foto {
   width: 150px;
   border-radius: 50%;  
@@ -17,61 +20,75 @@ position: fixed;
   margin-left: 80px;
   float: right;  
 }
-#licoes_aprendidas, #licoes_a_aprender {
+
+#licoes_aprendidas , #licoes_a_aprender {
   max-width: 40%;
   text-align: justify;   
 }
+
 #licoes_aprendidas {
   display: inline-block;
   float: right;
 }
+
 #licoes_a_aprender {
   display: inline-block;
   float: left;
 }
+
 .secao {
   padding: 20px;
   line-height: 1.5;
   font-size: medium;
 }
+
 #rodape {
   font-size: smaller;
   text-align: center;
   clear: both;
 }
+
 .titulo-sec {
   background-color: rgb(247 , 197 , 104);
   color: black;
   text-align: center;
 }
-.lado-esquerdo, .lado-direito {
+
+.lado-esquerdo , .lado-direito {
   max-width: 50%;
   color: gray;
   text-align: justify;
 }
+
 .lado-esquerdo {
   float: left;
 }
+
 .lado-direito {
   float: right;
 }
+
 #lista-parceiros {
   list-style-type: none;
 }
+
 .titulo-terc {
   background-color: green;
   margin-top: 35px;
 }
+
 #parceiros {
   clear: both;
   text-align: center;
 }
+
 #texto-exp {
-max-width: 80%;
-margin-right: 30px;
+  max-width: 80%;
+  margin-right: 30px;
 }
+
 #vivencia {
-text-align: center;
-background-color: rgb(247 , 197 , 104);
-margin-top: 50px;    
+  text-align: center;
+  background-color: rgb(247 , 197 , 104);
+  margin-top: 50px;
 }
