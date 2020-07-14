@@ -98,7 +98,8 @@ a {
 
 #div-licoes-aprendidas , #div-licoes-a-aprender {
   padding: 0;
-  margin: 5px;
+  margin: 10px;
+  text-align: center;
 }
 
 #section-licoes h2 {
@@ -113,6 +114,7 @@ a {
   font-size: 16px;
   text-align: center;
   list-style-type: none;
+  padding: 5px;
 }
 
 #div-todos-artigos {
@@ -120,38 +122,70 @@ a {
   width: 90%;
 }
 
+#div-todos-artigos h2 {
+  color: rgb(58 , 67 , 55);
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+#div-todos-artigos p {
+  color: rgb(58 , 67 , 55);
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+
 #div-todos-artigos article , #div-todos-artigos h2 , #div-todos-artigos p , #div-todos-artigos aside {
   display: inline-block;
 }
 
 .lado-esquerdo {
-  width: 50%;
+  width: 60%;
   float: left;
   margin-left: 30px;
 }
 
 .lado-direito {
-  width: 45%;
+  width: 30%;
   float: right;
 }
 
 #sec-tabela {
-  margin-top: 250px;
-  width: 30%;
+  margin-top: 280px;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#sec-tabela h2 {
+  color: rgb(58 , 67 , 55);
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 table , th , td {
   border: 1px solid rgb(181 , 146 , 109);
   border-collapse: collapse;
-  text-align: left;
+  text-align: center;
+  color: rgb(58 , 67 , 55);
+  font-size: 16px;
 }
 
 #rodape {
   background-color: rgb(58 , 67 , 55);
   margin-top: 30px;
-  width: 100%;
-  padding: 0 15px;
+  width: auto;
+  padding: 15px 15px;
   height: 50px;
+}
+
+#rodape h2 {
+  color: rgb(148 , 163 , 143);
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#rodape img {
+  width: 35px;
 }
