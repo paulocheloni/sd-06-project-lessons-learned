@@ -10,7 +10,7 @@ a:hover {
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
-    background-color: #ECDECF;
+    background-color: rgb(253, 251, 251);
 }
 
 header {
@@ -63,6 +63,7 @@ nav li {
 main {
     border: 0px solid red;
     padding-top: 10px;
+    background-color: #ECDECF;
 }
 
 .wrapper-content {
