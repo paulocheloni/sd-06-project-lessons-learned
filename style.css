@@ -121,7 +121,7 @@ table {
   margin-left: 55px;
 }
 
-.table-header, .table-content {
+.table-header , .table-content {
   color: blue;
   text-align: center;
 }
