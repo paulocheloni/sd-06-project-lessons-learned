@@ -1,25 +1,25 @@
 .background {
- background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 #cabecalho {
 position: fixed;
- top: 0;
+  top: 0;
   font-family: helvetica;
 }
 #titulo {
-  background-color: rgb(247, 197, 104);
+  background-color: rgb(247 , 197 , 104);
 }
 #minha_foto {
   width: 150px;
   border-radius: 50%;  
-  background-color:rgb(247 , 197 , 104);
+  background-color: rgb(247 , 197 , 104);
   padding: 2px;
-  margin-left:80px;
-  float:right;  
+  margin-left: 80px;
+  float: right;  
 }
 #licoes_aprendidas, #licoes_a_aprender {
-  max-width:40%;
-  text-align:justify;   
+  max-width: 40%;
+  text-align: justify;   
 }
 #licoes_aprendidas {
   display: inline-block;
@@ -62,7 +62,7 @@ position: fixed;
   background-color: green;
   margin-top: 35px;
 }
-#parceiros{
+#parceiros {
   clear: both;
   text-align: center;
 }
