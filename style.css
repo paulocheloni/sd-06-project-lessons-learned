@@ -5,7 +5,7 @@ html , body , div , span , applet , object , iframe , h1 , h2 , h3 , h4 , h5 , h
   vertical-align: baseline;
 }
 
-body > *, .two-columns div, .learning-journey, footer {
+body > * , .two-columns div , .learning-journey , footer {
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ body {
   line-height: 140%;
 }
 
-main, .learning-journey {
+main , .learning-journey {
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ header {
   border-bottom: 3px solid rgb(233 , 128 , 116);
 }
 
-header, footer {
+header , footer {
   background-color: rgb(116 , 78 , 46);
 }
 
@@ -56,7 +56,7 @@ nav li {
   background-color: rgb(233 , 128 , 116);
 }
 
-footer, .learning-journey {
+footer , .learning-journey {
   clear: both;
 }
 
@@ -71,7 +71,7 @@ th {
   font-weight: 500;
 }
 
-th, td {
+th , td {
   padding: 5px;
   border: 1px solid black;
 }
@@ -88,7 +88,7 @@ nav a {
   color: white;
 }
 
-.footer-text, .two-columns, .learning-journey, nav li, .personal-info article {
+.footer-text , .two-columns , .learning-journey , nav li , .personal-info article {
   display: inline-block;
 }
 
@@ -126,13 +126,13 @@ nav a {
   padding: 40px;
 }
 
-.two-columns, .article-plus-aside, .learning-journey {
+.two-columns , .article-plus-aside , .learning-journey {
   overflow: hidden;
   background-color: rgb(234 , 231 , 220);
   border-radius: 5%;
 }
 
-.two-columns, .article-plus-aside ul, ol {
+.two-columns , .article-plus-aside ul , ol {
   width: 50%;
 }
 
