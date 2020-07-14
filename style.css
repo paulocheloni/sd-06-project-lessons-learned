@@ -1,7 +1,8 @@
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-size: 12px;
-  color: rgb(25, 25, 25);
+  color: rgb(25 , 25 , 25);
   line-height: 1.6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -9,7 +10,7 @@ body {
 .my-header {
   position: fixed;
   top: 0;
-  background-color: rgb(4, 189, 250);
+  background-color: rgb(4 , 189 , 250);
   width: 100%;
 }
 
@@ -19,40 +20,40 @@ body {
 
 .learned-lessons ol {
   font-size: 14px;
-  color: rgb(0, 0, 200);
+  color: rgb(0 , 0 , 200);
   line-height: 1.7;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .learned-lessons h3 {
   font-size: 20px;
-  color: rgb(0, 0, 200);
+  color: rgb(0 , 0 , 200);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .lessons-to-learn ul {
   font-size: 14px;
-  color: rgb(39, 39, 39);
+  color: rgb(39 , 39 , 39);
   line-height: 1.7;
   font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
 .lessons-to-learn h3 {
   font-size: 20px;
-  color: rgb(39, 39, 39);
+  color: rgb(39 , 39 , 39);
   font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
 .my-articles-wrap p {
   font-size: 16px;
-  color: rgb(30, 30, 30);
+  color: rgb(30 , 30 , 30);
   line-height: 1.7;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .my-articles-wrap h3 {
   font-size: 20px;
-  color: rgb(30, 30, 30);
+  color: rgb(30 , 30 , 30);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -61,7 +62,7 @@ body {
   width: 45%;
   border-width: medium;
   border-style: solid;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .lado-direito {
@@ -69,22 +70,22 @@ body {
   width: 45%;
   border-width: medium;
   border-style: solid;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .my-block {
   clear: both;
   font-size: 20px;
   padding-top: 20px;
-  color: rgb(20, 20, 20);
+  color: rgb(20 , 20 , 20);
 }
 
-.my-table table, th, td {
+.my-table table , th , td {
   border: 1px solid black;
   text-align: center;
 }
 
-.my-table th, td {
+.my-table th , td {
   padding: 10px;
 }
 
@@ -92,13 +93,14 @@ body {
   border-collapse: collapse;
   margin-left: 10px;
 }
+
 .my-column {
-  color: rgb(255,255,255);
-  background: rgb(0, 0, 0);
+  color: rgb(255 , 255 , 255);
+  background: rgb(0 , 0 , 0);
 }
 
 .my-footer {
   font-size: 12px;
-  color: rgb(39, 39, 39);
+  color: rgb(39 , 39 , 39);
   font-family: Cambria, Cochin, Georgia, Times, serif;
 }
