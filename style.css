@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 body {
-  background-color:rgb(253,251,251);  
+background-color:rgb(253,251,251);  
   color:rgb(26,27,88);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  line-height:20px;} 
+line-height:20px;} 
 #cabecalho {
   position:fixed;
   top: 0px;
   width:100%;
-  background-color:rgb(30,31,59);  
+background-color:rgb(30,31,59);  
   margin:0px;
   color:rgb(253,251,251);}
 .list-title {
@@ -22,7 +22,7 @@ top:220px;}
   position:relative;
   top:220px;}
 p{
-  font-size:larger;  
+font-size:larger;  
   color:rgb(26,27,88);
   position:relative;
   top:220px;}
@@ -30,7 +30,7 @@ article.lado-esquerdo{
   width: 100%;
     font-family:Helvetica, sans-serif;
     font-size:larger;
-    color: rgb(253,251,251); 
+  color: rgb(253,251,251); 
     text-align: justify;
     text-indent:50px;
     font-style:oblique;
@@ -47,7 +47,7 @@ article.lado-esquerdo{
   position:fixed;
   top:0px;
   right:0px;}
-ul{ 
+ul{
   font-family:Arial, Helvetica, sans-serif;
   text-align:left;
   margin:10px;
@@ -57,12 +57,9 @@ ol{
   text-align:left;
   margin:10px;
   padding:20px;}
- 
-
-  
 footer {
   position:relative;
-  bottom:0px;}
+bottom:0px;}
 table{
   text-align:center;
   text-indent:10px;
@@ -88,9 +85,8 @@ div.container{
       height: auto;
   }
 div{
-      width: 100%;
-      height: auto;
-  }
+  width: 100%;
+  height: auto;}
 .lado-esquerdo{
       width: 30%;
       height: auto;
