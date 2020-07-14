@@ -65,23 +65,23 @@ a:hover , a:active , a:focus {
   width: 40%;
 }
 
-.lado_esquerdo {
-  color:black;
+.lado-esquerdo {
+  color: black;
   float: left;
   border-width: thin;
   border-style: groove;
-  background-color:rgb(165 , 163 , 163);
+  background-color: rgb(165 , 163 , 163);
   padding: 18px;
   line-height: 1.5em;
   margin: 80px;
   width: 30%;
 }
 
-.lado_direito {
-  color:black;
+.lado-direito {
+  color: black;
   border-width: thin;
   border-style: groove;
-  background-color:rgb(165 , 163 , 163);
+  background-color: rgb(165 , 163 , 163);
   padding: 18px;
   line-height: 1.5em;
   float: right;
