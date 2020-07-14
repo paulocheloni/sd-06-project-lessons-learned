@@ -14,16 +14,17 @@
 
 #minha_foto {
   width: 150px;
-  border-radius: 50%;  
+  border-radius: 50%;
+  
   background-color: rgb(247 , 197 , 104);
   padding: 2px;
   margin-left: 80px;
-  float: right;  
+  float: right;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   max-width: 40%;
-  text-align: justify;   
+  text-align: justify;
 }
 
 #licoes_aprendidas {
