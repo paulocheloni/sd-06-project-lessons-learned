@@ -9,6 +9,7 @@ body {
 
 #cabecalho {
   background-color: forestgreen;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   top: 0px;
   left: 0px;
@@ -38,7 +39,7 @@ body {
 
 #minha_foto {
   width: 15%;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 a {
@@ -66,17 +67,19 @@ a:hover, a:active, a:focus {
 
 .lado_esquerdo {
   float: left;
+  margin: 80px;
   width: 30%;
 }
 
 .lado_direito {
   float: right;
+  margin: 80px;
   width: 30%;
-  margin-right: 500px;
 }
 
 #rodape {
   margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-style: italic;
   clear: both;
