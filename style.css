@@ -109,3 +109,19 @@ p footer {
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
+.table {
+  clear: both;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+table {
+  border-style: double;
+  margin-left: 55px;
+}
+
+.table-header, .table-content {
+  color: blue;
+  text-align: center;
+}
