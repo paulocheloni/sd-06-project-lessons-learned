@@ -838,15 +838,15 @@ footer{
 }
 
 .elemento{
-  margin: 0px;
-  padding: 0px;
-  border: 0px solid red;
+  margin: 0 auto;
+  padding: 0 auto;
+  border: 1px solid red;
 }
 
 .paragrafo{
-  font-size: 0px;
-  color: white;
-  line-height: 0px;
-  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(255,255,255);
+  line-height: 1.5px;
+  font-family: monospace, sans-serif;
 }
 /**********************/
