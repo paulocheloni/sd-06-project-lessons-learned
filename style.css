@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253,251,251);
-  width: 1366px;
+  width: 100%;
   
 }
 
@@ -10,7 +10,7 @@ header {
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  color: rgb(190, 190, 190);
+  color: rgb(190,190,190);
   width: 100%;
   text-align: center;
   padding: 20px 0;
@@ -54,12 +54,26 @@ a {
   text-decoration: black;
 }
 
+.lado-esquerdo {
+  float: left;
+  width: 50%
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+}
+
 footer {
   display: flex;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  position: relative;
   justify-content: center;
   padding: 10px;
-  background-color: rgb(0, 106, 79);
-  color: rgb(250, 250, 250);
+  background-color: rgb(0,106,79);
+  color: rgb(250,250,250);
 }
 
 footer p {
