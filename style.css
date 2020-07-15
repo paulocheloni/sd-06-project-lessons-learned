@@ -47,13 +47,18 @@ body {
 
 .lado-esquerdo {   
     float: left;
-    
-    
+    width: 40%;
+    border: solid 1px;
+    border-radius:20px;
+    margin-left: 50px;    
 }
 
-.lado-direito {   
-    float: right;
-    
+.lado-direito { 
+    float: right;  
+    width: 40%;
+    border:solid 1px;
+    border-radius:0px 20px 0px 20px;
+    margin-right: 50px;
 }
  
 #separado {
