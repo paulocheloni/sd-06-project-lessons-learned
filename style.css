@@ -16,15 +16,20 @@ header {
   text-align: center;
 }
 
-nav a{
+nav a {
   background: transparent;
-  color: rgb(253 , 251 , 251);
+  color: rgb(99 , 99 , 99);
   margin: 0 20px;
   font-size: 1.3em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 header h1 , nav {
-  background-color: rgb(10 , 102 , 7 , 0.3);
+  background-color: rgb(10 , 102 , 7 , 0.5);
   color: rgb(253 , 251 , 251);
   margin: 0;
   padding: 10px;
@@ -55,7 +60,21 @@ footer h3 {
 aside {
   width: 30%;
   height: fit-content;
-  margin-top: 764px;
+  margin-top: 960px;
   padding: 0 10px;
-  border: 2px dashed rgb(15, 12, 12);
+  border: 2px dashed rgb(15 , 12 , 12);
+}
+
+article p , section p {
+  line-height: 20px;
+}
+
+ul , ol {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.lado-esquerdo {
+  border: 2px dashed rgb(15 , 12 , 12);
+  padding: 0 10px;
 }
