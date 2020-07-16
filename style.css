@@ -1,21 +1,22 @@
 * {
-    margin: 0px;
+    margin:  0px;
 }
 
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0px;
+  border: 2px solid salmon;
 }
 
 .title {
   position: fixed;
   margin-top: 0px;
   text-align: center;
-  padding: 2% 30%;
+  padding: 2% 32%;
   background-color: pink;
 }
 
-h3{
+h3 {
   text-align: center;
 }
 
@@ -23,11 +24,26 @@ h3{
   border-radius: 20%;
   margin-top: 9%;
   margin-bottom: 1%;
-
   width: 250px;
 }
 
 #footer {
   text-align: center;
   margin-top: 10%;
+}
+
+.info-container{
+  display: inline-block;
+  width: 49%;
+}
+
+.list{
+  /* width: 60%; */
+  border: 2px solid brown;
+  margin-left: 300px;
+}
+
+.article{
+  /* width: 10%; */
+  border: 2px solid yellow;
 }
