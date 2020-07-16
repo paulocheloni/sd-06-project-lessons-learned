@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251 );
 }
 
 .fundo_padrao {
     background-color: #87b2f3;
-    color: #ffffff;
+    color: #fff;
 }
 
 .listas {
@@ -23,7 +23,13 @@ body {
     display: flex;
     justify-content: right;
     width: 200px;
-   margin-left: 150px;
+    margin-left: 150px;
+}
+
+.resumo {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
 }
 
 #cabecalho {
@@ -34,7 +40,7 @@ body {
 }
 
 #menu {
-   padding: 10px;
+    padding: 10px;
 }
 
 #minha_foto {
