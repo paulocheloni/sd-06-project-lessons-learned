@@ -2,8 +2,7 @@ body {
   background-color: rgb(253,251,251);
 }
 header {
-  position: absolute;
-  background-color: rgb(53, 138, 71);
+  position: fixed
   top: 0px;
 }
 #titulo {
