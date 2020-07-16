@@ -1,15 +1,12 @@
-body 
-{
-  background-color: rgb( 253, 251, 251);
+body {
+  background-color: rgb(253 , 251 , 251);
   font-family: sans-serif;
   margin: 10px;
   padding: 2px;
   border-width: 4px;
 }
 
-#cabecalho 
-{
+#cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
-
