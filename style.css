@@ -1,5 +1,5 @@
 * {
-    margin:  0px;
+    margin: 0px;
 }
 
 body {
@@ -32,18 +32,16 @@ h3 {
   margin-top: 10%;
 }
 
-.info-container{
+.info-container {
   display: inline-block;
   width: 49%;
 }
 
-.list{
-  /* width: 60%; */
+.list {
   border: 2px solid brown;
   margin-left: 300px;
 }
 
-.article{
-  /* width: 10%; */
+.article {
   border: 2px solid yellow;
 }
