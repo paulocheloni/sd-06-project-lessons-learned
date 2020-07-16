@@ -36,7 +36,6 @@ header h1 , nav {
 }
 
 .container {
-  display: flex;
   width: 80%;
   margin: 100px;
   margin-left: auto;
@@ -49,20 +48,22 @@ header h1 , nav {
   padding-right: 10%;
 }
 
+.main-container h2 {
+  font-size: 2em;
+}
+
+.main-container a {
+  display: inline-block;
+  margin: 10px 0 0 40px;
+}
+
 footer h3 {
   width: 100%;
   padding: 10px 0;
+  margin-bottom: 0 !important;
   text-align: center;
   color: rgb(253 , 251 , 251);
   background-color: rgb(10 , 102 , 7);
-}
-
-aside {
-  width: 30%;
-  height: fit-content;
-  margin-top: 960px;
-  padding: 0 10px;
-  border: 2px dashed rgb(15 , 12 , 12);
 }
 
 article p , section p {
@@ -70,11 +71,40 @@ article p , section p {
 }
 
 ul , ol {
+  margin-top: -170px;
+  padding-top: 170px;
   line-height: 25px;
   font-size: 20px;
 }
 
+.lados {
+  display: inline-block;
+}
+
 .lado-esquerdo {
+  width: 40%;
   border: 2px dashed rgb(15 , 12 , 12);
   padding: 0 10px;
+  float: left;
+}
+
+.lado-direito {
+  width: 30%;
+  padding: 0 10px;
+  border: 2px dashed rgb(15 , 12 , 12);
+  float: right;
+}
+
+#minha_foto {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+table a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
 }
