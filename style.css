@@ -18,10 +18,7 @@ h1 , h2 , h3 {
 }
 
 td {
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 3px 7px 3px 7px;
 }
 
 .indice-divisoria {
@@ -34,7 +31,7 @@ td {
 }
 
 ol , ul {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 li {
@@ -82,7 +79,7 @@ nav {
 }
 
 .texto-rodape {
-  margin: 0px;
+  margin: 0;
   text-align: center;
   background-color: rgb(152 , 193 , 217);
   color: white;
