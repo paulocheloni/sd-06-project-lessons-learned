@@ -29,16 +29,12 @@ table a {
   text-decoration: none;
 }
 
-table a:hover {
-  text-decoration: underline;
-}
-
 .main-container a {
   display: inline-block;
   margin: 10px 0 0 40px;
 }
 
-nav a:hover {
+table a:hover , nav a:hover {
   text-decoration: underline;
 }
 
@@ -69,7 +65,7 @@ header h1 , nav {
 footer h3 {
   width: 100%;
   padding: 10px 0;
-  margin-bottom: 0 ! important;
+  margin-bottom: 0;
   text-align: center;
   color: rgb(253 , 251 , 251);
   background-color: rgb(10 , 102 , 7);
