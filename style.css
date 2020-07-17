@@ -1,56 +1,77 @@
-*{
-    margin: 0px;
-    font-family: Montserrat, sans-serif;
-}
-body {
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 80%;
     background-color: rgb(253,251,251);
-    margin: 0px;
-    @@ -10,11 +11,11 @@ body{
-        #cabecalho{
-        background-color: color: black;
-        position: fixed;
-        width: 100%;
-        width:100%;
-        margin:auto;
-        border:10px;
-        border-style: solid;
-        border-color:black;
-        border-color:white;
-        }
+    margin: 15px;
+    padding: 15px;
     }
-        #titulo {
-        @@ -46,7 +47,6 @@ body{
-        float:right;
-        text-align:center;
-        padding-right:200px;    
-        }
+    
+    .imagem{
+        border-radius: 15px;
+        border-color: black;
+        margin: 30px;
     }
-        .artigo {
-        @@ -59,17 +59,17 @@ body {
-        }
-    }
-        .links {
-        text-align:center;
-        text-align: center;
-        padding-right: 30px;
-        font-size: 20px;
-        letter-spacing: 2px;
-        text-decoration: none;
-        color: #000000;
-        color: black;
-        }
-        .media-links {
-        text-align: right;
-        padding-right: 30px; 
-        padding-right: 30px; 
-        }
-        .left-side {
-        @@ -96,4 +96,4 @@ body {
-        text-align: center;
-        padding-top: 5px;
-        font-size: 15px;
-        } 
-        }
+    
+    h1{
+        color:rgb(25, 54, 25);
+        width: auto;
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 900;
+        letter-spacing: -3px;
+        text-decoration:underline;
         
+    }
 
-}
+    p{
+        color: #475550;
+        font-size: 16px;
+        font-weight: lighter;
+        letter-spacing: -1px;
+
+    }
+    li{
+        color: #475550;
+        font-size: 13px;
+        font-weight: lighter;
+        letter-spacing: -1px;
+
+    }
+    .container{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+        margin:auto;
+    }
+
+    }
+    .trybe_vida{
+            
+            margin: auto;
+     }
+
+    .trybe_muda{
+           
+            margin: auto;
+    }
+
+    .media-links{
+        color: rgb(222, 222, 226);
+        font-size: 15px;
+        font-weight: lighter;
+        letter-spacing: -1px;
+        border-radius: 4px;
+        background-color: black;
+        border-color: black;
+        padding-top:15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration:underline;
+        margin: 300px;
+        
+    }
+    footer{
+        margin: 70px;
+        text-decoration: underline;
+    }
