@@ -1,18 +1,18 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 15px;
   border: 0;
-  padding-top: 60px;  /*espaçamento do tamanho do cabecalho*/ 
+  padding-top: 60px;
 }
 
 #cabecalho {
   background-color: green;
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 1px;
+  left: 1px;
+  right: 1px;
   height: 60px;
   color: whitesmoke;
   font-size: large;
@@ -29,21 +29,21 @@ body {
 
 #licoes-aprendidas {
   float: left;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #licoes-a-aprender {
   float: right;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #rodape {
-  font-weight: bold;
+  font-weight: 700;
   clear: both;
 }
 
 #trybe_link_ext {
-  font-weight: bold;
+  font-weight: 700;
   color: green;
 }
 
