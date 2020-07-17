@@ -44,6 +44,13 @@ body{
         margin:auto;
     }
 
+    .container_artigo{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+        margin:auto;
+    }    
+
     }
     .trybe_vida{
             
@@ -75,3 +82,5 @@ body{
         margin: 70px;
         text-decoration: underline;
     }
+
+   
