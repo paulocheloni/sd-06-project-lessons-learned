@@ -3,14 +3,14 @@ body {
 }
 
 #cabecalho {
-  top: 0;
+  top: 0px;
   left: 20px;
   right: 20px;
   background-color: seagreen;
   position: fixed;
 }
 
-#tiulo {
+#titulo {
   font-family: Arial, 'Montserrat', sans-serif;
   font-weight: 2000;
   font-style: normal;
