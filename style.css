@@ -1,0 +1,120 @@
+html, 
+    * {
+        margin: 5;
+        padding: 0;
+        background-color: rgb(253, 251, 251) ;
+    }
+
+  body {
+     font-family: "Epilogue", sans-serif;
+  }
+
+  h1 { 
+      color: rgb(253, 251, 251);
+      line-height: 55px;
+      font-weight: 600;
+      font-size: 35px;
+      background-color: rgb( 31, 89, 30);
+      margin-left: 34%;
+      margin-right: 35%;
+      width: 15em
+      }
+
+   h2 {
+     
+       font-family: 'Times New Roman', Times, serif;
+       font-style: italic;
+   }
+
+  ol {
+      font-family:'Times New Roman', Times, serif;
+      
+      font-size:23px;
+      font-style: italic;
+  }
+
+  li {
+      
+      font-size: 16px;
+  }
+
+  p1 {
+      
+      font-size: 14px;
+      font-style: italic;
+  }
+
+  a  { 
+      border-radius: 4px;
+      padding: 15px 30px;
+      color: rgb(253, 251, 251);
+      font-size: 16px;
+      line-height: 20px;
+      text-decoration: none;
+      }
+  .picture {
+      border-radius: 100%;
+      margin-left: 32%;
+      margin-right: 32%;
+  }
+  #minha_foto {
+     border-radius: 100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 190px;
+     border: 5px solid black;
+  }
+  #cabecalho {
+      background-color:  rgb( 31, 89, 30);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  #cabecalho-section {
+    background-color:  rgb( 31, 89, 30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  p2 {
+      font-style: italic;
+      background-color:  rgb( 31, 89, 30);
+      position: fixed;
+  }
+  .name {
+   margin-left: 42%;
+   margin-right: 42%;
+   width: 10em
+  }
+  #licoes_aprendidas {
+      width: 30%;
+      display: inline-block;
+      margin: 0 10px;
+      margin-left: 180px;
+      
+  }
+  #licoes_a_aprender {
+      width: 30%;
+      display: inline-block;
+      margin: 0 10px;
+      margin-left: 180px;
+      
+  }
+ 
+ .testimonial-op {
+      width: 45%;
+      display: inline-block;
+      margin: 25px;
+      padding-top: -100px;
+ }
+     .testimonial-t {
+       margin-left: 28%;
+      margin-right: 35%;
+      width: 15em
+ }
+   .testimonial-c {
+      display: flex;
+   }
