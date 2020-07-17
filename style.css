@@ -3,14 +3,14 @@ body {
 }
 
 #cabecalho {
-  top: 00px;
+  top: 01px;
   left: 20px;
   right: 20px;
   background-color: seagreen;
 }
 
 h1 {
-  font-family: Arial, "Montserrat", sans-serif;
+  font-family: Arial, 'Montserrat', sans-serif;
   font-weight: 2000;
   font-style: normal;
   font-size: 40px;
@@ -27,6 +27,7 @@ h1 {
 h3 {
   color: seagreen;
 }
+
 #primeiro-paragrafo {
   width: 50%;
   font-weight: 500;
