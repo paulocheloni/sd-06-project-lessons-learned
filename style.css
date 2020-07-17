@@ -1,6 +1,7 @@
  body {
      background-color: rgb(253, 251, 251);
  }
+
  #cabecalho {
      width: 90%;
      background-color: rgb(139, 4, 4);
@@ -9,16 +10,20 @@
      margin-left: 62px;
      position: fixed;
  }
+
  a {
      color: white;
      text-decoration: none;
  }
+
  a:hover {
      color: rgb(2, 2, 2);
  }
+
  a:active {
      color: rgb(4, 16, 122);
  }
+
  h1 {
      text-align: center;
      margin-top: 40px;
@@ -26,16 +31,19 @@
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: white;
  }
+
  h2 {
      font-size: 30px;
      font-weight: bold;
      margin-top: 3em;
      margin-bottom: 2em;
  }
+
  nav ul li {
      display: inline-block;
      margin-left: 10px;
  }
+
  header nav ul li {
      color: white;
      font-size: 20px;
@@ -43,6 +51,7 @@
      list-style-type: none;
      line-height: 25px;
  }
+
  #picture {
      text-align: center;
      background-color: rgb(230, 227, 227);
@@ -54,18 +63,22 @@
      border-radius: 10%;
      border: 3px solid rgb(0, 0, 0);
  }
+
  figure p a {
      font-size: 25px;
      font-weight: bold;
      color: red;
  }
+
  img {
      width: 200px;
      border-radius: 25%;
  }
+
  .alinhaLicoes {
      float: right;
  }
+
  .main-lists-style {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 20px;
@@ -73,12 +86,15 @@
      line-height: 26px;
      display: inline-block;
  }
+
  #main-two-lists ol li, #main-two-lists ul li {
      margin-left: 1em;
  }
+
  .main-block {
      display: inline-block;
  }
+
  .main-article {
      background-color: rgb(169, 169, 185);
      padding: 10px;
@@ -90,14 +106,17 @@
      margin-left: 61px;
      line-height: 2em;
  }
+
  .lado-esquerdo {
      float: left;
  }
+
  article h2, aside h2 {
      color: rgb(139, 4, 4);
      margin-top: 3em;
      margin-bottom: 5px;
  }
+
  .main-aside-bar {
      background-color: rgb(169, 169, 185);
      padding: 10px;
@@ -109,17 +128,21 @@
      margin-top: 0px;
      line-height: 2em;
  }
+
  .lado-direito {
      float: right;
      margin-top: 250px;
  }
+
  .footer-align {
      clear: both;
  }
+
  .main-sector-table {
      padding: 20px;
      width: 33%;
  }
+
  .main-article-my-table {
      padding: 10px;
      text-align: left;
@@ -127,6 +150,7 @@
      line-height: 20px;
      margin-left: 30px;
  }
+
  #my-table {
      color: white;
      width: 400px;
@@ -137,17 +161,21 @@
      border: 3px solid black;
      text-align: center;
  }
+
  thead {
      color: black;
      text-align: center;
  }
+
  .fundo {
      width: 10px;
      background-color: white;
  }
+
  table tbody td {
      border: 1px solid rgb(255, 255, 255);
  }
+
  footer p {
      color: white;
      padding: 40px;
@@ -157,22 +185,27 @@
      font-weight: bold;
      font-family: 'Times New Roman', Times, serif;
  }
+
  h3 {
      color: Red;
      font-size: 30px;
  }
+
  .article-h2 {
      font-size: 35 px;
      font-weight: bold;
  }
+
  #link a {
      font-weight: bold;
      font-size: 20px;
      color: black;
  }
+
  #link a:hover {
      color: rgb(236, 0, 0);
  }
+
  #link {
      margin-top: 20px;
  }
