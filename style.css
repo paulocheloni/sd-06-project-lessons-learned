@@ -68,14 +68,14 @@ html,
   #cabecalho {
       background-color:  rgb( 31, 89, 30);
       position: fixed;
-      top: 0;
+      top: 0px;
       left: 0;
       width: 100%;
   }
   #cabecalho-section {
     background-color:  rgb( 31, 89, 30);
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
 }
