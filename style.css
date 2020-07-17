@@ -50,7 +50,7 @@ p{
     font-size: 16px;
     line-height: 1.2em;
 }
-article{
+.lado-esquerdo{
     background-color: honeydew;
     border: 1px solid grey;
     border-radius: 10px;
@@ -60,7 +60,7 @@ article{
     float: left;
     /*margin-right: -30px;*/
 }
-aside{     
+.lado-direito{     
     /*position: relative;
     left: 30px;
     margin-left: -30px;*/
