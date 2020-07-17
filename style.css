@@ -7,6 +7,7 @@ body {
   left: 20px;
   right: 20px;
   background-color: seagreen;
+  position: fixed;
 }
 
 h1 {
@@ -37,4 +38,3 @@ h3 {
   color: seagreen;
   width: 30%;
 }
-
