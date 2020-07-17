@@ -1,12 +1,14 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
+
 #cabecalho {
-  top: 0px;
+  top: 00px;
   left: 20px;
   right: 20px;
-  background-color: #033;
+  background-color: seagreen;
 }
+
 h1 {
   font-family: Arial, "Montserrat", sans-serif;
   font-weight: 2000;
@@ -15,20 +17,23 @@ h1 {
   text-align: center;
   color: black;
 }
+
 #minha_foto {
-    position: relative;
-    top: 120px;
-    left: 30px;
+  position: relative;
+  top: 120px;
+  left: 30px;
 }
+
 h3 {
-  color: #18a67b;
+  color: seagreen;
 }
 #primeiro-paragrafo {
   width: 50%;
   font-weight: 500;
 }
+
 #segundo-paragrafo {
-  color: #18a67b;
+  color: seagreen;
   width: 30%;
 }
 
