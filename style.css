@@ -6,6 +6,10 @@ body{
     padding: 15px;
     }
     
+    header{
+        margin: fixed;
+    }
+    
     .imagem{
         border-radius: 15px;
         border-color: black;
