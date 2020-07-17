@@ -57,7 +57,7 @@ article{
     padding: 10px;
     padding-right: 5px;
     width: 70%;
-    /*float: left;*/ 
+    float: left;
     /*margin-right: -30px;*/
 }
 aside{     
@@ -68,17 +68,14 @@ aside{
     border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
-    /*float: right;*/
-    width: 22%;    
+    float: right;
+    width: 20%;    
 }    
 article, aside{    
-    display: inline-block;    
-    text-align: top;   
+    /*display: inline-block;    
+    text-align: top;  */ 
 }
 .container-textos{
-    /*border: 1px solid grey;
-    height: 300px;
-    margin-right: 0px;*/
 }
 #rodape{
     clear: both;    
