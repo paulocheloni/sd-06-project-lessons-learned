@@ -58,6 +58,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 30px;
 max-width: 70%;
+margin-left: 2%;
 }
 
 .lado-esquerdo{
@@ -68,6 +69,7 @@ max-width: 70%;
   width: 150px;
   font-weight: bold;
   font-style: italic;
+  margin-right: 3%;
 }
 
 .lado-direito{
@@ -80,4 +82,12 @@ max-width: 70%;
 
 .listasection{
   clear: both;
+}
+
+.linhatable{
+  font-weight: bold;
+}
+
+.table{
+  margin-left: 85px;
 }
