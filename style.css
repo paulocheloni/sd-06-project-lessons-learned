@@ -96,7 +96,7 @@ html,
       margin-left: 180px;
       
   }
-  #licoes_a_aprender {
+  #licoes_a_aprender{
       width: 30%;
       display: inline-block;
       margin: 0 10px;
@@ -118,3 +118,20 @@ html,
    .testimonial-c {
       display: flex;
    }
+   #titulo {
+    color: rgb(253, 251, 251);
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 35px;
+    background-color: rgb( 31, 89, 30);
+    margin-left: 34%;
+    margin-right: 35%;
+    width: 15em
+    }
+    #rodape {
+        background-color:  rgb( 31, 89, 30);
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+    }
