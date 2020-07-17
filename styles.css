@@ -1,0 +1,835 @@
+/***********RESET CSS***********/
+
+body{
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: monospace;
+  max-width: 1366px;
+  max-height: 768px;
+  background-color: rgb(253, 251, 251);
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**********************/
+
+/***********CSS GRID***********/
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(16, 80px);
+  grid-template-rows: repeat(12, 64px);
+  justify-content: center;
+}
+
+.about-me{
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+/*CSS Triangle*/
+  border-left: 160px solid transparent;
+  border-right: 160px solid transparent;
+  border-top: 130px solid rgb(0,0,0);
+  width: 0px;
+  height: 0px;
+}
+
+.about-me a{
+  top: 50px;
+  left: 41%;
+  position: absolute;
+  text-align: center;
+  color: rgb(16, 163, 107);
+  transform: rotate(40deg);
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.about-me a:hover{
+  color: rgb(255,255,255);
+}
+
+.lesson1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson4{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson6{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson7{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson8{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson9{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson10{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson11{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson12{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson13{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson14{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson15{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson16{
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson17{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson18{
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson19{
+  grid-column-start: 11;
+  grid-column-end: 12;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson20{
+  grid-column-start: 12;
+  grid-column-end: 13;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson21{
+  grid-column-start: 13;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson22{
+  grid-column-start: 14;
+  grid-column-end: 15;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson23{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 11;
+  grid-row-end: 10;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson24{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 10;
+  grid-row-end: 9;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson25{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 9;
+  grid-row-end: 8;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson26{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 8;
+  grid-row-end: 7;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson27{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 7;
+  grid-row-end: 6;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson28{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 6;
+  grid-row-end: 5;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson29{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 5;
+  grid-row-end: 4;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson30{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 4;
+  grid-row-end: 3;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson31{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 3;
+  grid-row-end: 2;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson32{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  background-color: rgb(16, 163, 107);
+}
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: 17;
+  grid-row-start: 12;
+  grid-row-end: 12;
+  background-color: rgb(0,0,0);
+
+}
+/***********FIM DO GRID***********/
+
+
+/***********ESTILOS DA PÁGINA***********/
+.lesson1:hover,.lesson2:hover,.lesson3:hover,.lesson4:hover,.lesson5:hover,.lesson6:hover,
+.lesson7:hover,.lesson8:hover,.lesson9:hover,.lesson10:hover,.lesson11:hover,.lesson12:hover,
+.lesson13:hover,.lesson14:hover,.lesson15:hover,.lesson16:hover,.lesson17:hover,.lesson18:hover,
+.lesson19:hover,.lesson20:hover,.lesson21:hover,.lesson22:hover,.lesson23:hover,.lesson24:hover,
+.lesson25:hover,.lesson26:hover,.lesson27:hover,.lesson28:hover,.lesson29:hover,.lesson30:hover,
+.lesson31:hover,.lesson32:hover{
+  background-color: rgb(9, 93, 61);
+}
+
+.lesson1,.lesson2,.lesson3,.lesson4,.lesson5,.lesson6,
+.lesson7,.lesson8,.lesson9,.lesson10,.lesson11,.lesson12,
+.lesson13,.lesson14,.lesson15,.lesson16,.lesson17,.lesson18,
+.lesson19,.lesson20,.lesson21,.lesson22,.lesson23,.lesson24,
+.lesson25,.lesson26,.lesson27,.lesson28,.lesson29,.lesson30,
+.lesson31,.lesson32{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-lock{
+  margin-top: 5%;
+  color: rgb(253, 251, 251);
+}
+/***********SCROLLBAR CUSTOM***********/
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  border: 5px solid transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(16, 163, 107);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(24, 189, 126);
+}
+/*************************************/
+a{
+  text-decoration: none;
+  color: rgb(253, 251, 251);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.about-me-info{
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+
+.about-me-text h2{
+  text-align: center;
+  color: rgb(65, 176, 130);
+  margin-bottom: 5%;
+}
+
+.wrapper{
+  padding-left: 5%;
+}
+
+.wrapper p{
+  line-height: 1.6;
+  text-align: right;
+  color: rgb(68, 68, 68);
+  padding-right: 5%;
+}
+
+#minha_foto{
+  float: left;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 5%;
+}
+
+.links-section{
+  grid-column-start: 9;
+  grid-column-end: 15;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  border-left: 5px dashed rgb(65, 176, 130);
+}
+
+.links-section h2{
+  text-align: center;
+  color: rgb(65, 176, 130);
+  margin-bottom: 5%;
+}
+.links-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-github,.fa-linkedin{
+  color: rgb(0,0,0);
+  font-size: 4.0rem;
+}
+
+.section-1{
+  display: none;
+  grid-column-start: 4;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+
+.section-1-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.day1-3{
+  display: inline-block;
+  width: 30%;
+}
+
+.day1-3 h2{
+  text-align: center;
+  color: rgb(65, 176, 130);
+  margin-bottom: 3%;
+}
+
+.day1-3 p{
+  color: rgb(68, 68, 68);
+  padding-left: 3%;
+}
+
+.day1-4{
+  display: inline-block;
+  width: 30%;
+  height: 290px;
+  overflow: auto;
+}
+
+.day1-4 h2{
+  text-align: center;
+  color: rgb(65, 176, 130);
+  margin-bottom: 3%;
+}
+
+.day1-4 p{
+  color:rgb(68, 68, 68);
+  padding-left: 3%;
+}
+
+.day1-4 h3{
+  margin-top: 3%;
+  color:rgb(68, 68, 68);
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#licoes_aprendidas{
+  text-align: center;
+  color:rgb(68, 68, 68);
+}
+
+.day1-5{
+  display: inline-block;
+  width: 30%;
+  height: 290px;
+  overflow: auto;
+}
+
+.day1-5 h2{
+  text-align: center;
+  color: rgb(65, 176, 130);
+  margin-bottom: 3%;  
+}
+
+.day1-5 p{
+  color:rgb(68, 68, 68);
+  padding-left: 3%;
+}
+
+/***********MEDIA QUERY***********/
+@media(max-width:1024px){
+
+.about-me{
+  grid-column-start: 8;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.about-me a{
+  left: 47%;
+}
+
+.lesson1{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson2{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson3{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson4{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson5{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson6{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson7{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson8{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson9{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson10{
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson11{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson12{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson13{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson14{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson15{
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson16{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson17{
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson18{
+  grid-column-start: 11;
+  grid-column-end: 12;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson19{
+  grid-column-start: 12;
+  grid-column-end: 13;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson20{
+  grid-column-start: 13;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson21{
+  grid-column-start: 14;
+  grid-column-end: 15;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson22{
+  grid-column-start: 15;
+  grid-column-end: 16;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson23{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 11;
+  grid-row-end: 10;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson24{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 10;
+  grid-row-end: 9;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson25{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 9;
+  grid-row-end: 8;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson26{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 8;
+  grid-row-end: 7;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson27{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 7;
+  grid-row-end: 6;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson28{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 6;
+  grid-row-end: 5;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson29{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 5;
+  grid-row-end: 4;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson30{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 4;
+  grid-row-end: 3;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson31{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 3;
+  grid-row-end: 2;
+  background-color: rgb(16, 163, 107);
+}
+
+.lesson32{
+  grid-column-start: 16;
+  grid-column-end: 17;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  background-color: rgb(16, 163, 107);
+}
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: 17;
+  grid-row-start: 12;
+  grid-row-end: 12;
+  background-color: rgb(0,0,0);
+}
+
+.about-me-info{
+  grid-column-start: 5;
+  grid-column-end: 10;
+}
+
+.links-section{
+  grid-column-start: 10;
+  grid-column-end: 15;
+}
+
+.section-1{
+  grid-column-start: 5;
+  grid-column-end: 15;
+}
+
+}
+/***********FIM DO MEDIA QUERY***********/
+
+
+
+
+
+
+/***********************/
+#cabecalho{
+  top: 0px;
+  position: fixed;
+}
+
+#rodape{
+}
+
+.lado-direito{
+
+}
+
+.lado-esquerdo{
+
+}
+/***********************/
