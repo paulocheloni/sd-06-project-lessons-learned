@@ -10,3 +10,19 @@ body {
   position: fixed;
   top: 0;
 }
+
+.lado_esquerdo {
+  float: left;
+  width: 40%;
+  border-width: thin;
+  border-style: dashed;
+  padding-left: 5px;
+}
+
+.lado_direito {
+  float: right;
+  width: 40%;
+  border-width: thin;
+  border-style: dashed;
+  padding-left: 5px;
+}
