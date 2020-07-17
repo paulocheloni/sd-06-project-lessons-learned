@@ -11,25 +11,31 @@
 <body>
     <header id="cabecalho">
 
-        <section>
+        <section id="topo">
             <h1 id="titulo">Lições Aprendidas - Trybe</h1>
         </section>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Login</li>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="https://www.betrybe.com">Login</a></li>
+                <li>|</li>
+                <li><a href="#my-table">Programação</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-
-        <figure id="picture">
-            <img id="minha_foto" src="/img/paulo-frazao.jpeg" alt="foto de Paulo Cesar Frazão Aluno Trybe" width="200px">
-            <p><a target="_blank" href="https://www.betrybe.com/">Paulo</a></p>
-        </figure>
         <section id="main-two-lists">
+            <figure id="picture" class="main-block">
+                <img id="minha_foto" src="/img/paulo-frazao.jpeg" alt="foto de Paulo Cesar Frazão Aluno Trybe">
+                <p><a target="_blank" href="https://www.betrybe.com">Paulo</a></p>
+            </figure>
+
+
+
             <section class="main-lists-style">
+
                 <h2 id="licoes">Lições</h2>
                 <ol id="licoes_aprendidas">
                     <li>Unix</li>
@@ -60,26 +66,33 @@
                 </ul>
             </section>
         </section>
+
         <article class="main-article lado-esquerdo">
             <h2 class="article-h2">Sobre os Aprendizados</h2>
 
-            <p> apesar de inicialmente as vezes os conteúdos de cara serem um pouco mais complexos e causarem grandes dúvidas, com a ajuda das aulas ao vivo, Slack e Plantões, tenho conseguido abstrair bem os conceitos e com isso sinto que o curso tem agregado
-                muito junto a conhecimentos que eu já possuía anteriormente dentro do temas. Proporcionando até presente momento uma grande sastifação ser um aluno da Trybe. Vamo que Vamo...
+            <p> apesar de inicialmente as vezes os conteúdos de cara serem um pouco mais complexos e causarem grandes
+                dúvidas, com a ajuda das aulas ao vivo, Slack e Plantões, tenho conseguido abstrair bem os conceitos e
+                com isso sinto que o curso tem agregado
+                muito junto a conhecimentos que eu já possuía anteriormente dentro do temas. Proporcionando até presente
+                momento uma grande sastifação ser um aluno da Trybe. Vamo que Vamo...
+
             </p>
 
         </article>
         <aside class="main-aside-bar lado-direito ">
 
-            <p>No inicio dos conteúdos do Shell Script e em seguida o Git confesso que bateu aquela insegurança por serem conteúdos totalmente novos, depois de muitos "faz e refaz ", hoje me sinto mais tranquilo quando faço implementações direto no terminal.
+            <p>No inicio dos conteúdos do Shell Script e em seguida o Git confesso que bateu aquela insegurança por
+                serem conteúdos totalmente novos, depois de muitos "faz e refaz ", hoje me sinto mais tranquilo quando
+                faço implementações direto no terminal.
             </p>
         </aside>
         <section id="table" class="main-sector-table  footer-align">
             <section class="main-article-my-table ">
-                <h3>Tabela </h3>
+                <h3>Programação</h3>
                 <table id="my-table">
                     <thead>
                         <tr>
-                            <th colspan="3 ">Conteúdos Estudados</th>
+                            <th colspan="3" class="fundo">Conteúdos Estudados</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -100,11 +113,15 @@
                         </tr>
                     </tbody>
                 </table>
+                <section id="link">
+                    <a href="#picture">Voltar ao topo</a>
+                </section>
             </section>
         </section>
+
     </main>
     <footer id="rodape" class="footer-align ">
-        <p>Compilado por Paulo Cesar Frazão, todos os direito Reservados</p>
+        <p>Compilado por Paulo Cesar Frazão, todos os direitos Reservados</p>
     </footer>
 </body>
 
