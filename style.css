@@ -93,13 +93,13 @@ html,
       width: 30%;
       display: inline-block;
       margin: 0 10px;
-      margin-left: 180px;
+      margin-left: 50px;
       
   }
   #licoes_a_aprender{
       width: 30%;
       display: inline-block;
-      margin: 0 10px;
+      margin: 0 20px;
       margin-left: 180px;
       font-style: italic;
   }
