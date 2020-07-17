@@ -1,10 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Helvetica, sans-serif;
-  margin:0;
-  padding:15px;
-  border:0;
-  padding-top:60px; /*espaçamento do tamanho do cabecalho*/
+  margin: 0;
+  padding: 15px;
+  border: 0;
+  padding-top: 60px;  /*espaçamento do tamanho do cabecalho*/ 
 }
 
 #cabecalho {
@@ -24,7 +24,7 @@ body {
 }
 
 #minha_foto {
-  border-radius:50%;
+  border-radius: 50%;
 }
 
 #licoes-aprendidas {
