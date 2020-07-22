@@ -30,9 +30,11 @@
             font-style: italic;
         }
     </style>
+
 </head>
 
 <body>
+
     <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
         <div class="center-content">
@@ -42,43 +44,85 @@
         </div>
     </div>
     <script>
+        //1
+
         function changeText() {
-            let mudaTexto = document.getElementsByTagName("p")[0]
-            paragraf.innerHTML = "Elisa Estudante Trybe formada e empregada"
+            let mudaTexto = document.getElementsByTagName("p")[1];
+            mudaTexto.innerHTML = "Elisa Estudante Trybe formada e empregada";
         }
 
         changeText();
-
         //Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe.
+        //2
         function ChangeYellowToGreen() {
-            let yellowGreen = document.getElementByClass("main-content")
-            style.backgroundcolor =
+            let yellowGreen = document.getElementsByClassName("main-content")[0];
+            yellowGreen.style.background = "rgb(76,164,109)";
 
 
         }
         ChangeYellowToGreen();
 
 
+        // //Crie uma função que mude a cor do quadrado vermelho para branco.
+        //3
         function changeRedtoWhite() {
-            let redWhite = document.getElementsByClassName("main-content-centercontent")
-
+            let redWhite = document.getElementsByClassName("center-content")[0];
+            redWhite.style.background = "rgb(255,255,255)";
 
         }
 
-        /*
-                Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
-                - document.getElementById()
-                - document.getElementsByClassName()
-                - document.getElementsByTagName()
-         
-         
-         Crie uma função que mude a cor do quadrado vermelho para branco.
+        changeRedtoWhite();
 
-         
-         Crie uma função que corrija o texto da tag <h1>.
-         Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-         Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-                */
+        //4
+        function h1text() {
+
+
+
+            let h1textclass = document.getElementsByClassName("h1")[0]
+
+
+            h1textclass.innerHTML = "Exercício 5.1 - JavaScript";
+
+        }
+        h1text();
+
+        //5
+
+        function modifiedTextparagraf() {
+            let modifiedp = document.getElementsByTagName("p");
+
+            for (let q = 0; q < modifiedp.length; q++) {
+
+                modifiedp[q].style.textTransform = "uppercase";
+
+            }
+
+
+
+
+        }
+        modifiedTextparagraf();
+        //6
+        //function() {
+
+        //let h1 = document.getElementsByTagName(h1);
+        // h1.innerHTML.
+        //}
+
+
+        // /*
+        //         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        //         - document.getElementById()
+        //         - document.getElementsByClassName()
+        //         - document.getElementsByTagName()
+
+
+
+
+
+        //  Crie uma função que corrija o texto da tag <h1>.
+        //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     </script>
 </body>
 
