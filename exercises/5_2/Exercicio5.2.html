@@ -123,6 +123,51 @@
 
         }
 
+        //1
+
+        var title = document.getElementsByTagName('h1')[0];
+        title.className = 'title';
+
+        //2 icione a classe description nas 3 tags h3 criadas;
+
+        var descr = document.getElementsByTagName("h3");
+        for (let i = 0; i < 3; i++) {
+            count = 1
+            descr[0] = count;
+            descr.className = "description";
+        }
+
+        //verficicar a 2.
+
+        //3 
+
+        document.querySelector(".main-content").removeChild(left);
+
+        //4 
+        let centraliza = document.getElementsByClassName("right-content")[0];
+
+
+        centraliza.style.marginRight = "auto";
+        //5   
+
+        //nao esta funcionando
+
+        const green = document.getElementsByClassName("center-content");
+
+        green.parentNode.style.background = "green";
+
+        //6 
+
+        elementUl.lastChild.remove();
+        elementUl.lastChild.remove();
+
+
+
+
+
+
+
+
 
 
 
