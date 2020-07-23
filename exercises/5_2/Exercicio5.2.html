@@ -104,6 +104,21 @@
         imagem.src = "https://picsum.photos/200";
         document.querySelector('.left-content').appendChild(imagem);
 
+        //8 
+        let lista = document.createElement("ul");
+        document.querySelector('.right-content').appendChild(lista);
+        let elementosLista = ["um", "dois", "tres", "quatro", "cinco, seis, sete, oito, nove, dez"];
+        for (let i in elementosLista) {
+
+            let elementLi = document.createElement('li');
+            elementLi.innerHTML = elementosLista[i];
+            lista.appendChild(elementLi);
+
+        }
+
+        //9 
+
+
 
 
 
