@@ -1,78 +1,76 @@
 body {
-    background-color: rgb(253, 251, 251);
-    border-left: 30px solid rgb(18, 85, 18);
-    border-right: 30px solid rgb(18, 85, 18);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
+	background-color: rgb(253, 251, 251);
+  border-left: 30px solid rgb(18, 85, 18);
+  border-right: 30px solid rgb(18, 85, 18);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    background-color: rgba(18, 85, 18, 0.5);
-    position: relative;
+	background-color: rgba(18, 85, 18, 0.5);
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+	position: relative;
+	text-shadow: 2px 2px 5px black;
 }
+
 header {
-    position: fixed;
-    background-color: rgb(145, 229, 145);
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100px;
-    
+  background-color: rgb(145, 229, 145);
+  color: rgb(0, 0, 0);
+  height: 100px;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  top: 0px;
 }
 
 nav li{
-    list-style: none;
-    display: inline;
-    padding: 7px;
-    background-color: rgb(186, 221, 223);
-
+  background-color: rgb(186, 221, 223);
+  display: inline;
+  list-style: none;
+  padding: 7px;
 }
+
 #doing{
-    background-color: rgb(145, 229, 145);
-    line-height: 50px;
-
+  background-color: rgb(145, 229, 145);
+  line-height: 50px;
 }
+
 #next {
-    background-color: rgb(145, 229, 145);
-    line-height: 50px;
+  background-color: rgb(145, 229, 145);
+  line-height: 50px;
 }
+
 #minha_foto{
-        border-radius: 40px;
-        position: absolute;
-        right: 90px;
-        bottom: -500px
+	border-radius: 40px;
+	bottom: -500px;
+	position: absolute;
+  right: 90px;
+  
+}
 
+footer {
+	background-color: rgb(145, 229, 145);
+	clear: both;
+	text-align: center;  
 }
-    footer {
-    text-align: center;
-    clear: both;
-    background-color: rgb(145, 229, 145);
-}
+
 article {
-    background-color: rgb(34, 133, 34);
-    position: relative;
-    float: left;
-    display: block;
-    width: 600px;
-    height: 300px;
+  background-color: rgb(34, 133, 34);
+	display: block;
+	float: left;
+	height: 300px;
+	position: relative;
+  width: 600px;
 }
 
-
-}
-hgroup{
-    position: relative;
-
+hgroup {
+  position: relative;
 }
 
-#principal{
-    background-color: rgb(145, 229, 145);
-    padding-top: 150px;
+#principal {
+  background-color: rgb(145, 229, 145);
+  padding-top: 150px;
 }
