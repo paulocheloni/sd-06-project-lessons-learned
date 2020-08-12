@@ -26,14 +26,14 @@ header {
   top: 0px;
 }
 
-nav li{
+nav li {
   background-color: rgb(186, 221, 223);
   display: inline;
   list-style: none;
   padding: 7px;
 }
 
-#doing{
+#doing {
   background-color: rgb(145, 229, 145);
   line-height: 50px;
 }
@@ -43,7 +43,7 @@ nav li{
   line-height: 50px;
 }
 
-#minha_foto{
+#minha_foto {
 	border-radius: 40px;
 	bottom: -500px;
 	position: absolute;
