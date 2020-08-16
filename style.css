@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
   width: 90%;
-  background-color: rgb(139, 4, 4);
+  background-color: rgb(139 , 4 , 4);
   height: 200px;
   top: 0px;
   margin-left: 62px;
@@ -17,11 +17,11 @@ a {
 }
 
 a:hover {
-  color: rgb(2, 2, 2);
+  color: rgb(2 , 2 , 2);
 }
 
 a:active {
-  color: rgb(4, 16, 122);
+  color: rgb(4 , 16 , 122);
 }
 
 h1 {
@@ -54,7 +54,7 @@ header nav ul li {
 
 #picture {
   text-align: center;
-  background-color: rgb(230, 227, 227);
+  background-color: rgb(230 , 227 , 227);
   margin-top: 15em;
   margin-left: 6em;
   width: 201px;
@@ -66,7 +66,7 @@ header nav ul li {
 footer p {
   color: white;
   padding: 40px;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(3 , 3 , 3);
   text-align: center;
   font-size: 20px;
   font-weight: 800;
@@ -96,7 +96,7 @@ img {
   display: inline-block;
 }
 
-#main-two-lists ol li, #main-two-lists ul li {
+#main-two-lists ol li , #main-two-lists ul li {
   margin-left: 1em;
 }
 
@@ -105,9 +105,9 @@ img {
 }
 
 .main-article {
-  background-color: rgb(169, 169, 185);
+  background-color: rgb(169 , 169 , 185);
   padding: 10px;
-  border: 3px dashed rgb(5, 5, 5);
+  border: 3px dashed rgb(5 , 5 , 5);
   text-align: justify;
   font-size: 20px;
   width: 40%;
@@ -119,14 +119,14 @@ img {
   float: left;
 }
 
-article h2, aside h2 {
-  color: rgb(139, 4, 4);
+article h2 , aside h2 {
+  color: rgb(139 , 4 , 4);
   margin-top: 3em;
   margin-bottom: 5px;
 }
 
 .main-aside-bar {
-  background-color: rgb(169, 169, 185);
+  background-color: rgb(169 , 169 , 185);
   padding: 10px;
   border: 3px dashed black;
   text-align: justify;
@@ -163,7 +163,7 @@ article h2, aside h2 {
   width: 400px;
   height: 200px;
   font-weight: 800;
-  background-color: rgb(139, 4, 4);
+  background-color: rgb(139 , 4 , 4);
   font-size: 20px;
   border: 3px solid black;
   text-align: center;
@@ -200,7 +200,7 @@ h3 {
 }
 
 #link a:hover {
-  color: rgb(236, 0, 0);
+  color: rgb(236 , 0 , 0);
 }
 
 #link {
