@@ -23,8 +23,6 @@ h2, h3, h4, h5 {
   color: rgb(41 , 41 , 41);
 }
 
-/* Configurações de layout */
-
 body {
   background-color: rgb(253 , 251 , 251);
 }
@@ -51,10 +49,12 @@ nav {
   position: relative;
   width: 100%;
 }
+
 .nav-icons {
   height: 30px;
   margin: 0px 5%;
 }
+
 .nav-icons {
   filter: invert(5);
 }
@@ -107,7 +107,7 @@ nav {
 }
 
 .lado-esquerdo {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   width: 60%;
   position: relative;
@@ -115,7 +115,7 @@ nav {
 }
 
 .lado-direito {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   width: 20%;
   position: relative;
