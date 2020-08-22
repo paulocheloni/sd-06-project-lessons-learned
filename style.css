@@ -57,6 +57,7 @@ nav {
 .nav-icons {
   filter: invert(5);
 }
+<<<<<<< HEAD
 
 .list-section {
   width: 100%;
@@ -92,17 +93,19 @@ nav {
 
 .list-selection-left li, .list-selection-right li{
   color: white;
+=======
+.nav-icons:hover{
+  fill: white;
+>>>>>>> parent of da0df98... Layout: Alinhando sessao superior horizontalmente
 }
 
 #minha_foto {
   border-radius: 100%;
-  width: 250px;
+  width: 400px;
 }
 
 .artigos {
   width: 100%;
-  clear: both;
-  margin-top: 10%;
 }
 
 .lado-esquerdo {
