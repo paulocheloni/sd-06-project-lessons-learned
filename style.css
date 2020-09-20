@@ -2,18 +2,15 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-family: Helvetica, sans-serif;
   margin: 0;
-  padding: 15px;
   border: 0;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 #cabecalho {
   background-color: green;
   position: fixed;
   top: 0px;
-  left: 1px;
-  right: 1px;
-  height: 60px;
+  width: 100%;
   color: whitesmoke;
   font-size: large;
   line-height: normal;
@@ -27,30 +24,27 @@ body {
   border-radius: 50%;
 }
 
+.licoes {
+  clear: both;
+}
+
 #licoes-aprendidas {
-  float: left;
   font-weight: 700;
   width: 50%;
 }
 
 #licoes-a-aprender {
-  float: right;
   font-weight: 700;
   width: 50%;
 }
 
 #rodape {
   font-weight: 700;
-  clear: both;
 }
 
 #trybe_link_ext {
   font-weight: 700;
   color: green;
-}
-
-.conteudo-curso {
-  width: 100%;
 }
 
 .lado-esquerdo {
@@ -61,5 +55,4 @@ body {
 .lado-direito {
   float: right;
   width: 50%;
-  clear: both;
 }
